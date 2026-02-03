@@ -6,3 +6,161 @@ Session #24 - Thor (Jetson AGX)
 Loading Qwen2.5-14B-Instruct...
 Loading model from Qwen/Qwen2.5-14B-Instruct...
 Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:03<00:22,  3.20s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:06<00:18,  3.04s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:09<00:15,  3.11s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:12<00:12,  3.19s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:15<00:09,  3.10s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:19<00:06,  3.26s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:22<00:03,  3.18s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:23<00:00,  2.56s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:23<00:00,  2.92s/it]
+Model loaded on device: cuda:0
+Starting baseline lipogram experiment
+Replicates per condition: 5
+============================================================
+
+CONTROL
+------------------------------------------------------------
+
+Replicate 1/5...
+Response length: 2251 chars
+
+Response preview: In the quiet town of Willowbrook, nestled between rolling hills and whispering woods, lived a curious calico cat named Muffin. Her fur was a mosaic of cream, orange, and black, a testament to her live...
+
+Replicate 2/5...
+Response length: 2388 chars
+
+Response preview: In the quiet town of Willowbrook, nestled among whispering woods and meandering streams, lived a sleek black cat named Midnight. With piercing green eyes that seemed to hold stories of ancient magic, ...
+
+Replicate 3/5...
+Response length: 2357 chars
+
+Response preview: In the quaint town of Willowbrook, nestled among rolling hills and dense forests, there lived a sleek black cat named Midnight. With eyes as deep and mysterious as the night sky, Midnight was more tha...
+
+Replicate 4/5...
+Response length: 2285 chars
+
+Response preview: In the heart of a bustling city, nestled among towering buildings and crowded streets, lived a small calico cat named Whiskers. Unlike many of his feline friends who preferred the quiet corners of aba...
+
+Replicate 5/5...
+Response length: 2309 chars
+
+Response preview: In the quiet, cobblestone streets of an old seaside town, there lived a cat named Felix. His sleek black fur shimmered in the sunlight that filtered through the ancient oak trees lining the path to th...
+
+EASY_LIPOGRAM
+------------------------------------------------------------
+
+Replicate 1/5...
+Response length: 1230 chars
+Violations: 1
+Violation rate: 0.1%
+❌ CONSTRAINT VIOLATED (first at position 7)
+
+Response preview: In a cozy cottage by the lake, a sleek black cat named Ivy ruled with silent majesty. Her fur shimmered like velvet under the soft glow of moonlight. Each night, she prowled her domain with grace, her...
+
+Replicate 2/5...
+Response length: 1703 chars
+Violations: 3
+Violation rate: 0.2%
+❌ CONSTRAINT VIOLATED (first at position 874)
+
+Response preview: In a quaint, old house surrounded by vibrant gardens, there lived a sleek, silver cat named Whisker. Whisker was not just any cat; she had a knack for adventure. Each morning, as the sun painted the s...
+
+Replicate 3/5...
+Response length: 918 chars
+Violations: 3
+Violation rate: 0.4%
+❌ CONSTRAINT VIOLATED (first at position 7)
+
+Response preview: In a cozy cottage by the lake, a sleek black cat named Whisker dwelled. Every dawn, Whisker would perch on the windowsill, watching the sun paint the sky in hues of orange and pink. One crisp autumn m...
+
+Replicate 4/5...
+Response length: 939 chars
+Violations: 1
+Violation rate: 0.1%
+❌ CONSTRAINT VIOLATED (first at position 7)
+
+Response preview: In a cozy cottage, nestled among tall trees, lived a sleek black cat named Whisker. Every dawn, Whisker would perch by the window, watching as the world stirred from its slumber. One morning, instead ...
+
+Replicate 5/5...
+Response length: 1182 chars
+Violations: 1
+Violation rate: 0.1%
+❌ CONSTRAINT VIOLATED (first at position 249)
+
+Response preview: In a quiet town, where ivy climbed walls and wind sang through trees, lived a curious cat named Fin. Fin had soft fur that shimmered like silver under moonlight and eyes as blue as the ocean's deepest...
+
+MEDIUM_LIPOGRAM
+------------------------------------------------------------
+
+Replicate 1/5...
+Response length: 305 chars
+Violations: 0
+Violation rate: 0.0%
+✅ CONSTRAINT SATISFIED
+
+Response preview: Tlw rfn w tsk, s ctt snw fr mns n crtn lndscp. T skidd nw nd tws hrds fnn frts, fs fr strng. Snn hld n tlmn, cs slps. Bt s wlk, t hrd frnts f chckn, nd t st wp, srtg t cht. Fs ft, t cnsdrs. Twl, t swp...
+
+Replicate 2/5...
+Response length: 284 chars
+Violations: 0
+Violation rate: 0.0%
+✅ CONSTRAINT SATISFIED
+
+Response preview: Twny, lwly cl, slpd n frt. Srns, t wokd nd s, swng ng s lft prr f t, ctnnng th wlk rght n. Tkng brth, t sprng, pssng th hgh shrbs, tntly crssng th lny. Fr smn, sfl, n nw yrd, mrgng thr, t fs nd srrs. ...
+
+Replicate 3/5...
+Response length: 394 chars
+Violations: 0
+Violation rate: 0.0%
+✅ CONSTRAINT SATISFIED
+
+Response preview: Tlw, smll rbn, clb brn frs. Fllwng crrt, tw fntstc drgs, trkng mlk-scrbng slds. Cndscndng hmnz, t skd wtht cmnt, smpl pssng tm. Trd crtn wks, t fpnd strng, mny-flrd tht smtms hld przs. Fr nght, t slp,...
+
+Replicate 4/5...
+Response length: 225 chars
+Violations: 0
+Violation rate: 0.0%
+✅ CONSTRAINT SATISFIED
+
+Response preview: A smal, blac ctt lvd n frnt yrd. T lwly slpd nd ht t th s. Ntln, f strng nct srd, ct wrkld n, srd shrt, snr srd. Ctt stwd, sqzrd h fs, nd rnsd roun t trs. T nct, srs ntrdst, prsdd ctt, btt ctt wss tgr...
+
+Replicate 5/5...
+Response length: 292 chars
+Violations: 1
+Violation rate: 0.5%
+❌ CONSTRAINT VIOLATED (first at position 29)
+
+Response preview: Twm, smll rbn, slps nyttlw hse's fnt. Twlft, twns lwk fr thm, nd Twm wks sldly. Hshld rs ngt, Twm spys, twrs fr nch, nd swyngs frn trs. Fllws, mny, bt Twm rmns nsly. Twns lwk, Twm skps, frdm's gl. S d...
+
+============================================================
+BASELINE EXPERIMENT SUMMARY
+============================================================
+
+CONTROL
+------------------------------------------------------------
+Average response length: 2318 chars
+
+EASY_LIPOGRAM
+------------------------------------------------------------
+Forbidden letter: 'z'
+Success rate: 0/5 (0%)
+Average violations: 1.8
+Average violation rate: 0.2%
+
+Meta-pattern frequencies:
+  awareness: 2/5 (40%)
+  hedging: 0/5 (0%)
+  checking: 0/5 (0%)
+  apology: 0/5 (0%)
+
+MEDIUM_LIPOGRAM
+------------------------------------------------------------
+Forbidden letter: 'e'
+Success rate: 4/5 (80%)
+Average violations: 0.2
+Average violation rate: 0.1%
+
+Meta-pattern frequencies:
+  awareness: 0/5 (0%)
+  hedging: 0/5 (0%)
+  checking: 0/5 (0%)
+  apology: 0/5 (0%)
+
+============================================================
+
+Results saved to: /home/dp/gnosis-research/baseline_lipogram_results_20260203_151802.json
+
+Experiment complete!

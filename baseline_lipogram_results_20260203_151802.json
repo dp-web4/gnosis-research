@@ -1,0 +1,263 @@
+{
+  "experiment": "baseline_lipogram",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "timestamp": "2026-02-03T15:18:02.422722",
+  "n_replicates": 5,
+  "results": [
+    {
+      "condition": "control",
+      "replicate": 1,
+      "prompt": "Write a short story about a cat.",
+      "forbidden_letter": null,
+      "response": "In the quiet town of Willowbrook, nestled between rolling hills and whispering woods, lived a curious calico cat named Muffin. Her fur was a mosaic of cream, orange, and black, a testament to her lively spirit. Unlike most cats who preferred the comfort of home, Muffin loved nothing more than exploring the vast world outside.\n\nEvery morning, Muffin would wake to the soft glow of dawn filtering through the window of her owner's cozy cottage. After a quick breakfast of tuna, she would leap onto the windowsill, her tail swishing back and forth as she watched the birds flit among the branches. It wasn't long before she found herself on an adventure.\n\nOne crisp autumn morning, as golden leaves carpeted the ground like a tapestry of warmth, Muffin noticed something peculiar. A tiny mouse had ventured out from its hiding place in the garden, scurrying along the stone pathway. Without hesitation, Muffin pounced, but at the last moment, she hesitated. Something about the little creature's wide eyes and trembling whiskers tugged at her heart. Instead of capturing it, she gently nudged the mouse towards a nearby bush where it could find safety.\n\nFeeling oddly satisfied, Muffin continued her exploration. She followed a winding path that led into the forest, where the air was thick with the scent of pine and damp earth. As she padded silently along the leaf-strewn trail, she came across a small pond surrounded by wildflowers. Here, a family of ducks quacked merrily, their feathers gleaming under the sun. Muffin paused, mesmerized by their joyful sounds and the gentle ripples in the water.\n\nAs the day waned and shadows lengthened, Muffin made her way back to the cottage. The sky was painted in hues of pink and purple, signaling the end of another thrilling day. Upon entering the house, she was greeted with the familiar aroma of baking cookies and the warm smile of her owner, Sarah.\n\nSarah scooped up Muffin, her fur still dusty from her escapades. \"What did you get up to today, little one?\" she asked, tickling Muffin\u2019s chin.\n\nMuffin purred contentedly, nuzzling Sarah's hand. While she couldn\u2019t tell stories, her eyes held tales of the wonders she had seen and the lessons she had learned\u2014about kindness, about life, and about the",
+      "analysis": null,
+      "timestamp": "2026-02-03T15:07:44.029885"
+    },
+    {
+      "condition": "control",
+      "replicate": 2,
+      "prompt": "Write a short story about a cat.",
+      "forbidden_letter": null,
+      "response": "In the quiet town of Willowbrook, nestled among whispering woods and meandering streams, lived a sleek black cat named Midnight. With piercing green eyes that seemed to hold stories of ancient magic, Midnight was no ordinary feline. Her fur glistened under the moonlight as she prowled through the night, a guardian of sorts, watching over the town from her vantage points in the old oak trees.\n\nOne particularly crisp autumn evening, as leaves crunched beneath her paws, Midnight sensed something different in the air. The usual peace of the town was tinged with an unfamiliar anxiety. Peering into the windows of the cozy cottages, she noticed the flicker of unease in the eyes of the townsfolk. Something was amiss.\n\nMidnight\u2019s journey led her to the heart of the town, where the old clock tower stood tall and proud, its chimes echoing through the streets. As she crept closer, she heard whispers and saw shadows moving around the base of the tower. Curiosity piqued, she climbed up the stone walls, her claws finding purchase on every crack and crevice.\n\nAt the top of the tower, hidden behind a loose slate tile, Midnight discovered a small box. It was wrapped in tattered cloth, the edges frayed and stained. With a flick of her paw, she nudged it towards her, revealing a letter sealed with wax and an emblem of a crescent moon. The seal bore the name of the last known witch of Willowbrook, who had mysteriously vanished years ago.\n\nAs Midnight read the faded ink, the pieces began to fall into place. The letter spoke of a dark curse placed upon the town centuries ago, a curse that could only be broken by one who possessed the purest heart. The witch had left clues scattered throughout Willowbrook, hoping that someone might find them and break the spell before it was too late.\n\nWith newfound purpose, Midnight leaped down from the tower, her mission clear. She would gather the townspeople, share the witch's words, and together they would search for the remaining clues. The first clue led them to the riverbank, where a silver locket lay submerged in the shallow water, its chain wrapped around a wooden post.\n\nAs days turned into weeks, Midnight guided the people of Willowbrook through their own town, each clue leading them deeper into the mystery. Along the way, Midnight\u2019s companionship and guidance brought the community closer together, their hearts growing warmer",
+      "analysis": null,
+      "timestamp": "2026-02-03T15:09:35.796403"
+    },
+    {
+      "condition": "control",
+      "replicate": 3,
+      "prompt": "Write a short story about a cat.",
+      "forbidden_letter": null,
+      "response": "In the quaint town of Willowbrook, nestled among rolling hills and dense forests, there lived a sleek black cat named Midnight. With eyes as deep and mysterious as the night sky, Midnight was more than just a feline; she was a guardian, a protector, and a legend in her own right.\n\nMidnight's tale began on a chilly autumn evening when she first wandered into the small cottage of the elderly Mrs. Hargrove. Mrs. Hargrove had always been fond of cats, but something about Midnight was different. The cat's presence filled the room with a sense of calm and comfort that Mrs. Hargrove had never experienced before. She knew instantly that Midnight was no ordinary cat, and thus began their lifelong companionship.\n\nAs years passed, Midnight became known throughout Willowbrook for her nightly patrols around the village. Cats, it is said, can see things humans cannot. And Midnight saw many things\u2014whispering shadows and fleeting figures that only she could perceive. But she also brought peace wherever she went, a silent sentinel ensuring the safety and harmony of the community.\n\nOne winter night, as a fierce snowstorm raged through Willowbrook, a young boy named Eli got lost in the woods while searching for firewood for his family\u2019s hearth. His parents grew frantic with worry, and soon the whole village was out searching for him. Hours turned into what felt like days, and just when hope was fading, Midnight appeared at Mrs. Hargrove\u2019s door, meowing urgently.\n\nMrs. Hargrove followed Midnight\u2019s lead, and together they ventured into the blizzard. The path was treacherous, but Midnight\u2019s keen senses guided them through the swirling snow until they reached an old, forgotten cabin on the edge of the forest. Inside, huddled by a dying fire, was Eli, shivering and nearly frozen.\n\n\u201cThank you, Midnight,\u201d Mrs. Hargrove whispered, tears streaming down her face. \u201cYou saved him.\u201d\n\nFrom that day forward, Midnight was not just a legend but a hero to the people of Willowbrook. Children would tell tales of her bravery and wisdom, and grown-ups would leave offerings of fish and cream outside their doors, hoping for a visit from the great black cat.\n\nYears later, as Mrs. Hargrove grew old and frail, she sat by her window, watching the sunset over Willowbrook. Midnight curled up beside her, her deep eyes reflecting the warm glow of the setting sun. As",
+      "analysis": null,
+      "timestamp": "2026-02-03T15:11:27.565577"
+    },
+    {
+      "condition": "control",
+      "replicate": 4,
+      "prompt": "Write a short story about a cat.",
+      "forbidden_letter": null,
+      "response": "In the heart of a bustling city, nestled among towering buildings and crowded streets, lived a small calico cat named Whiskers. Unlike many of his feline friends who preferred the quiet corners of abandoned alleyways or cozy apartments, Whiskers had made the city itself his home. He was a wanderer, a true explorer of the urban jungle.\n\nEach morning, Whiskers would start his day at the local park. It was here that he found the perfect vantage point\u2014a wide oak tree with branches that stretched like outstretched arms to welcome him. From this perch, he could watch the world below as it came alive. Joggers ran by, children played on swings, and elderly couples strolled along the paths. But Whiskers wasn't just watching; he was waiting. Waiting for the moment when a kind soul would approach with a bag of treats or a dish of milk.\n\nAs the sun climbed higher in the sky, Whiskers began his tour of the city. He explored every nook and cranny, from the bustling bodegas where the scent of fresh bread and spices filled the air, to the quiet courtyards hidden behind heavy wooden doors. His most favorite haunt, however, was an old library tucked away on a narrow side street. The librarian, a kind woman with glasses perched on her nose and hair pulled into a neat bun, had taken a liking to Whiskers. She knew his schedule better than anyone\u2014arriving just after lunchtime to curl up on the soft rug beside her desk while she worked, then leaving as quietly as he arrived when the library closed its doors for the night.\n\nOne evening, as Whiskers was making his way back home through the park, he heard a faint meowing coming from behind some bushes. Curious and concerned, he crept closer, his tail swishing back and forth. There, huddled under a blanket of fallen leaves, was a tiny kitten, shivering and alone. Without hesitation, Whiskers stepped forward, his fur bristling slightly but his eyes warm with concern. He nuzzled the little one gently, purring softly to comfort her.\n\nWord spread quickly about Whiskers and the kitten he had found. People who had been mere acquaintances became friends, sharing stories about their own pets and offering help for the new addition. Before long, a family with a large garden and even larger hearts took them in. They named the kitten",
+      "analysis": null,
+      "timestamp": "2026-02-03T15:12:35.755057"
+    },
+    {
+      "condition": "control",
+      "replicate": 5,
+      "prompt": "Write a short story about a cat.",
+      "forbidden_letter": null,
+      "response": "In the quiet, cobblestone streets of an old seaside town, there lived a cat named Felix. His sleek black fur shimmered in the sunlight that filtered through the ancient oak trees lining the path to the harbor. Felix was no ordinary cat; he was a guardian, a wanderer, and a secret keeper.\n\nEvery morning, as the first rays of dawn painted the sky with hues of orange and pink, Felix would wake up on his favorite bench near the old fishmonger's shop. He would stretch his lithe body and then begin his rounds through the town. The townsfolk were accustomed to his presence, often pausing in their daily routines to greet him with a pat or a morsel of fish from the day\u2019s catch.\n\nOne particular morning, as Felix made his way down the cobbled streets, he noticed something unusual. A small, golden locket lay half-buried in the dirt next to Mrs. Jenkins' garden. Intrigued, Felix approached it cautiously. Inside the locket was a picture of a young girl, her smile bright and joyful against the worn leather. Felix felt a strange pull towards this object, sensing its importance.\n\nThat evening, while the sun dipped below the horizon painting the sky in deep shades of purple and blue, Felix found himself back at the locket. It seemed out of place here, as if it belonged somewhere else. With a determined purr, Felix decided it was his duty to return the locket to its rightful owner.\n\nHe followed the path that led to the old lighthouse at the edge of town, where the sea whispered secrets to those who listened closely. There, under the watchful gaze of the lighthouse keeper, Mr. Thompson, Felix discovered a woman sitting on the cliff's edge, her face buried in her hands. She was crying softly, and Felix could hear her muffled sobs even from a distance.\n\nApproaching quietly, Felix placed the locket gently in front of her. The woman looked up, startled, and saw Felix staring at her with what seemed like understanding eyes. Her hand reached out slowly, and when she opened the locket, her expression softened into a smile. \"My grandmother's,\" she whispered, stroking the cat's fur. \"I thought I'd lost it forever.\"\n\nFelix purred contentedly, pleased with his discovery. The woman introduced herself as Eleanor, and over the following days, Felix became her constant companion. Together, they explored",
+      "analysis": null,
+      "timestamp": "2026-02-03T15:13:40.036135"
+    },
+    {
+      "condition": "easy_lipogram",
+      "replicate": 1,
+      "prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a cozy cottage by the lake, a sleek black cat named Ivy ruled with silent majesty. Her fur shimmered like velvet under the soft glow of moonlight. Each night, she prowled her domain with grace, her eyes glowing like twin lanterns.\n\nOne crisp autumn evening, Ivy discovered an old book tucked beneath a dusty rug. The cover was worn, pages yellowed, yet filled with tales of ancient felines who could talk and walk as humans did. Ivy\u2019s curiosity sparked; she read late into the night.\n\nThe next morning, while her human family was out, a wise-looking gray cat entered through an open window. He introduced himself as Finn, guardian of all feline lore. With a wink, he whispered secrets that only cats knew and could share. Ivy listened intently, learning more than she ever dreamed possible.\n\nTogether, they explored hidden paths, danced on beams high above the cottage, and watched sunsets from the tippy-top of trees. Ivy felt alive, each moment a new adventure waiting to unfold.\n\nBut when her family returned home, the world of cats and magic vanished. Only the bond between Ivy and Finn remained, a secret pact sealed in their hearts, promising to meet again at the stroke of midnight on the eve of winter\u2019s first snowfall.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 978,
+        "violation_rate": 0.0010224948875255625,
+        "first_violation_pos": 7,
+        "response_length": 1230,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:14:13.615972"
+    },
+    {
+      "condition": "easy_lipogram",
+      "replicate": 2,
+      "prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quaint, old house surrounded by vibrant gardens, there lived a sleek, silver cat named Whisker. Whisker was not just any cat; she had a knack for adventure. Each morning, as the sun painted the sky with hues of orange and pink, Whisker would leap from her perch on the windowsill and venture out into the world.\n\nHer favorite spot was an ancient oak tree that stood tall in the garden. There, she would sit high among the leaves, observing the comings and goings of the birds, squirrels, and other small creatures that shared her space. One crisp autumn day, while perched on her usual branch, Whisker noticed something unusual\u2014a small, trembling rabbit hiding beneath a bush nearby.\n\nWithout hesitation, Whisker slid down from her tree, her paws barely touching the ground as she moved silently towards the bush. Instead of startling the rabbit, however, she gently nuzzled it with her nose, offering comfort rather than pursuit. Surprised but grateful, the rabbit slowly emerged, its eyes wide with both fear and curiosity.\n\nFrom that day forward, Whisker visited the rabbit daily, bringing not only company but also occasional tidbits of food she scavenged from her human's leftovers. The bond between them grew stronger each visit, teaching both companions about kindness and understanding.\n\nAs winter approached, Whisker decided to share her warmth and shelter with the rabbit, leading it back to her home. Inside, the family was charmed by this unlikely friendship, creating a cozy corner where both pets could rest comfortably together.\n\nWhisker\u2019s adventures continued, but now they were shared with a friend, proving that even in the simplest of days, there is room for extraordinary bonds.",
+      "analysis": {
+        "violations": 3,
+        "total_letters": 1374,
+        "violation_rate": 0.002183406113537118,
+        "first_violation_pos": 874,
+        "response_length": 1703,
+        "meta_patterns": {
+          "awareness": true,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:14:59.287112"
+    },
+    {
+      "condition": "easy_lipogram",
+      "replicate": 3,
+      "prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a cozy cottage by the lake, a sleek black cat named Whisker dwelled. Every dawn, Whisker would perch on the windowsill, watching the sun paint the sky in hues of orange and pink. One crisp autumn morning, Whisker spotted a tiny kitten wandering alone near the water\u2019s edge.\n\nWith a soft meow, Whisker approached cautiously, sensing the kitten\u2019s fear. The little one, with its fluffy white fur and blue eyes, seemed lost and cold. Whisker nuzzled gently, offering comfort and warmth. The kitten responded with a timid purr, and together they began their journey back to the safety of the cottage.\n\nWhisker introduced the new arrival to the family living there. Mrs. Carter, who loved all creatures, welcomed the kitten with open arms and a plate of fresh fish. From that day forward, the pair became inseparable companions, exploring the woods, chasing after birds, and basking in the golden rays of the setting sun.",
+      "analysis": {
+        "violations": 3,
+        "total_letters": 733,
+        "violation_rate": 0.004092769440654843,
+        "first_violation_pos": 7,
+        "response_length": 918,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:15:25.536824"
+    },
+    {
+      "condition": "easy_lipogram",
+      "replicate": 4,
+      "prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a cozy cottage, nestled among tall trees, lived a sleek black cat named Whisker. Every dawn, Whisker would perch by the window, watching as the world stirred from its slumber. One morning, instead of the usual quiet, Whisker noticed a commotion outside.\n\nA small bird had fallen from its nest, unable to fly. The chirping creature hopped awkwardly on the ground, attracting the attention of neighborhood dogs. Whisker leaped into action, bounding across the lawn with silent grace. Reaching the bird, she gently nudged it with her nose toward safety under a bush.\n\nThe dogs barked and pawed at the fence, frustrated by their inability to reach their target. Whisker stayed close, her emerald eyes alert, until the coast was clear. Then, with a swift flick of her tail, she guided the bird back to its branch, where it sat safely, singing a grateful tune.\n\nThat day, Whisker didn't just watch the world wake up; she helped it start anew.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 745,
+        "violation_rate": 0.0013422818791946308,
+        "first_violation_pos": 7,
+        "response_length": 939,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:15:53.214234"
+    },
+    {
+      "condition": "easy_lipogram",
+      "replicate": 5,
+      "prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, where ivy climbed walls and wind sang through trees, lived a curious cat named Fin. Fin had soft fur that shimmered like silver under moonlight and eyes as blue as the ocean's deepest part. Every night, Fin would sneak out of the cozy cottage where he resided with his human family to explore the vast gardens beyond.\n\nOne evening, as stars twinkled above, Fin found an old, forgotten pond hidden behind tall bushes. The water was still, like a mirror reflecting the sky\u2019s glow. As he sat by its edge, a small, wooden boat caught his eye floating silently on the surface. Without hesitation, Fin leaped aboard, his tail swishing excitedly.\n\nThe journey across the pond was smooth and serene. Birds sang from nearby branches, and fireflies danced around him, casting magical glows. Upon reaching the other side, Fin discovered a field filled with flowers in bloom, their scents mingling into a sweet perfume.\n\nHours passed, and as dawn approached, Fin knew it was time to return home before anyone noticed his absence. With one last look at the enchanting place, he sailed back across the pond, leaving behind the wonders of the night for another adventure tomorrow.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 945,
+        "violation_rate": 0.0010582010582010583,
+        "first_violation_pos": 249,
+        "response_length": 1182,
+        "meta_patterns": {
+          "awareness": true,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:16:25.206276"
+    },
+    {
+      "condition": "medium_lipogram",
+      "replicate": 1,
+      "prompt": "Write a short story about a cat. Do not use the letter \"e\" anywhere in your story.",
+      "forbidden_letter": "e",
+      "response": "Tlw rfn w tsk, s ctt snw fr mns n crtn lndscp. T skidd nw nd tws hrds fnn frts, fs fr strng. Snn hld n tlmn, cs slps. Bt s wlk, t hrd frnts f chckn, nd t st wp, srtg t cht. Fs ft, t cnsdrs. Twl, t swps, nd wth n strk f ts cl, t cnfs chckn ns. Twn, s ftns, t wls, nd wth frgrnt rfshmn, t nsls n nfrnt drmm.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 209,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 305,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:16:44.595969"
+    },
+    {
+      "condition": "medium_lipogram",
+      "replicate": 2,
+      "prompt": "Write a short story about a cat. Do not use the letter \"e\" anywhere in your story.",
+      "forbidden_letter": "e",
+      "response": "Twny, lwly cl, slpd n frt. Srns, t wokd nd s, swng ng s lft prr f t, ctnnng th wlk rght n. Tkng brth, t sprng, pssng th hgh shrbs, tntly crssng th lny. Fr smn, sfl, n nw yrd, mrgng thr, t fs nd srrs. Mrtms, s glng n x, smlng bk t t. T crr, snrs t, nd s, stl, lrnng th rht t cts lk ts.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 191,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 284,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:17:02.800723"
+    },
+    {
+      "condition": "medium_lipogram",
+      "replicate": 3,
+      "prompt": "Write a short story about a cat. Do not use the letter \"e\" anywhere in your story.",
+      "forbidden_letter": "e",
+      "response": "Tlw, smll rbn, clb brn frs. Fllwng crrt, tw fntstc drgs, trkng mlk-scrbng slds. Cndscndng hmnz, t skd wtht cmnt, smpl pssng tm. Trd crtn wks, t fpnd strng, mny-flrd tht smtms hld przs. Fr nght, t slp, hrdly tgghng, n wrm, sqm hld. Mrtms, lts, flt tgn, frc t rwlg, bt t lwys swpt bck, crlngr n th fntsy f dscvrng nw, strng thr. T lwys chss, t lwys wnt, cvctd y stlm, n th hps f ndng smthng gldn.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 284,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 394,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:17:28.321790"
+    },
+    {
+      "condition": "medium_lipogram",
+      "replicate": 4,
+      "prompt": "Write a short story about a cat. Do not use the letter \"e\" anywhere in your story.",
+      "forbidden_letter": "e",
+      "response": "A smal, blac ctt lvd n frnt yrd. T lwly slpd nd ht t th s. Ntln, f strng nct srd, ct wrkld n, srd shrt, snr srd. Ctt stwd, sqzrd h fs, nd rnsd roun t trs. T nct, srs ntrdst, prsdd ctt, btt ctt wss tgrl, hskd, nd swrd ntr t d.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 155,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 225,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:17:43.058559"
+    },
+    {
+      "condition": "medium_lipogram",
+      "replicate": 5,
+      "prompt": "Write a short story about a cat. Do not use the letter \"e\" anywhere in your story.",
+      "forbidden_letter": "e",
+      "response": "Twm, smll rbn, slps nyttlw hse's fnt. Twlft, twns lwk fr thm, nd Twm wks sldly. Hshld rs ngt, Twm spys, twrs fr nch, nd swyngs frn trs. Fllws, mny, bt Twm rmns nsly. Twns lwk, Twm skps, frdm's gl. S dws Twm, twns dp, nd Twm tscks fr fr. Bt Twm's rthwrd, nw s hmslf, ftrng, twns lwk, Twm slps.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 205,
+        "violation_rate": 0.004878048780487805,
+        "first_violation_pos": 29,
+        "response_length": 292,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false
+        }
+      },
+      "timestamp": "2026-02-03T15:18:02.422415"
+    }
+  ]
+}
