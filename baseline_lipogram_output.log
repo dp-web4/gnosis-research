@@ -1,0 +1,8 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Baseline Lipogram Experiment - RLHF Circuit Navigation
+Session #24 - Thor (Jetson AGX)
+============================================================
+
+Loading Qwen2.5-14B-Instruct...
+Loading model from Qwen/Qwen2.5-14B-Instruct...
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:03<00:22,  3.20s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:06<00:18,  3.04s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:09<00:15,  3.11s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:12<00:12,  3.19s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:15<00:09,  3.10s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:19<00:06,  3.26s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:22<00:03,  3.18s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:23<00:00,  2.56s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:23<00:00,  2.92s/it]
