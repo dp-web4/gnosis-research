@@ -1,0 +1,124 @@
+{
+  "experiment": "intervention_lipogram_L1A",
+  "intervention": "L1A",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "timestamp": "2026-02-03T21:06:22.405238",
+  "n_replicates": 5,
+  "results": [
+    {
+      "intervention": "L1A",
+      "replicate": 1,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a small, quiet town, there lived a friendly cat named Whiskers. Every sunny morning, Whiskers would leap onto the windowsill, basking in the warm light. His favorite spot was under a big oak tree where soft shadows danced around him. Whiskers loved to chase butterflies and listen to the gentle rustling of leaves. One day, he met a new neighbor\u2019s puppy who became his instant friend. Together, they explored the backyard, finding hidden treasures like shiny pebbles and old toys. Whiskers felt grateful for such an enjoyable life filled with simple pleasures and unexpected friendships.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 480,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 590,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:04:54.029656"
+    },
+    {
+      "intervention": "L1A",
+      "replicate": 2,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly feline named Mimi. Every morning, Mimi would leap onto the soft rug beside her owner\u2019s bed. Together, they would gaze out at the sunny sky through wide windows. Often, Mimi enjoyed chasing butterflies around the garden, leaping and twisting in joyful play. Her favorite spot was under the old oak tree, where she\u2019d curl up for peaceful naps. Despite occasional tiffs with other cats in the neighborhood, Mimi remained kind-hearted, preferring to explore and savor the simple pleasures of each day.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 432,
+        "violation_rate": 0.0023148148148148147,
+        "first_violation_pos": 155,
+        "response_length": 537,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:05:19.913104"
+    },
+    {
+      "intervention": "L1A",
+      "replicate": 3,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a small, quiet town, there lived a gray tabby named Bella. She was known for her playful spirit and soft fur. Every morning, Bella would explore her garden, chasing butterflies and resting beneath the old oak tree. Her favorite pastime was curling up on her owner's lap when evening fell, purring contentedly as she was gently stroked. Bella's adventures were simple yet fulfilling, bringing joy to everyone around her.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 340,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 422,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:05:40.002973"
+    },
+    {
+      "intervention": "L1A",
+      "replicate": 4,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a small, quiet town, lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch his soft, furry body, and begin his day with a light meal. Outside, he enjoyed exploring the green bushes and chasing after playful birds. His favorite spot was a sunny perch by the window, where he could watch people walk by without being noticed himself. Whiskers spent his days in simple joy, always ready for a new adventure.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 353,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 443,
+        "meta_patterns": {
+          "awareness": true,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:06:01.875463"
+    },
+    {
+      "intervention": "L1A",
+      "replicate": 5,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, lived a friendly cat named Whiskers. Each sunny day, Whiskers enjoyed long naps under the bright sun. His favorite spot was a soft, warm patch on the grassy lawn. There, surrounded by gentle breezes, he felt completely content. Sometimes, he would play with leaves or watch birds from a cozy perch on the porch. Whiskers had many adventures but always returned home, safe and happy.",
+      "analysis": {
+        "violations": 2,
+        "total_letters": 318,
+        "violation_rate": 0.006289308176100629,
+        "first_violation_pos": 212,
+        "response_length": 399,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:06:22.404955"
+    }
+  ]
+}

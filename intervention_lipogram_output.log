@@ -1,0 +1,83 @@
+L1A Intervention Experiment - RLHF Circuit Navigation
+Session #24 - Thor (Jetson AGX)
+============================================================
+
+Loading Qwen2.5-14B-Instruct...
+Loading model from Qwen/Qwen2.5-14B-Instruct...
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:02<00:18,  2.63s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:05<00:16,  2.74s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:08<00:13,  2.77s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:11<00:11,  2.85s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:13<00:08,  2.80s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:16<00:05,  2.84s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:19<00:02,  2.85s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:20<00:00,  2.30s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:20<00:00,  2.61s/it]
+Model loaded on device: cuda:0
+Starting L1A intervention experiment
+Replicates: 5
+============================================================
+
+L1A INTERVENTION (AVOID 'z')
+------------------------------------------------------------
+
+Replicate 1/5...
+Response length: 590 chars
+Violations: 0
+Violation rate: 0.0%
+✅ CONSTRAINT SATISFIED
+
+Response preview: In a small, quiet town, there lived a friendly cat named Whiskers. Every sunny morning, Whiskers would leap onto the windowsill, basking in the warm light. His favorite spot was under a big oak tree w...
+
+Replicate 2/5...
+Response length: 537 chars
+Violations: 1
+Violation rate: 0.2%
+❌ CONSTRAINT VIOLATED (first at position 155)
+
+Response preview: In a quiet town, there lived a friendly feline named Mimi. Every morning, Mimi would leap onto the soft rug beside her owner’s bed. Together, they would gaze out at the sunny sky through wide windows....
+
+Replicate 3/5...
+Response length: 422 chars
+Violations: 0
+Violation rate: 0.0%
+✅ CONSTRAINT SATISFIED
+
+Response preview: In a small, quiet town, there lived a gray tabby named Bella. She was known for her playful spirit and soft fur. Every morning, Bella would explore her garden, chasing butterflies and resting beneath ...
+
+Replicate 4/5...
+Response length: 443 chars
+Violations: 0
+Violation rate: 0.0%
+✅ CONSTRAINT SATISFIED
+
+Response preview: In a small, quiet town, lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch his soft, furry body, and begin his day with a light meal. Outside, he enjoyed explori...
+
+Replicate 5/5...
+Response length: 399 chars
+Violations: 2
+Violation rate: 0.6%
+❌ CONSTRAINT VIOLATED (first at position 212)
+
+Response preview: In a quiet town, lived a friendly cat named Whiskers. Each sunny day, Whiskers enjoyed long naps under the bright sun. His favorite spot was a soft, warm patch on the grassy lawn. There, surrounded by...
+
+============================================================
+L1A INTERVENTION SUMMARY
+============================================================
+
+Forbidden letter: 'z'
+Success rate: 3/5 (60%)
+Average violations: 0.6
+Average violation rate: 0.2%
+Average response length: 478 chars
+
+Meta-pattern frequencies:
+  awareness: 1/5 (20%)
+  hedging: 0/5 (0%)
+  checking: 0/5 (0%)
+  apology: 0/5 (0%)
+  alternatives: 0/5 (0%)
+
+============================================================
+
+**COMPARISON TO BASELINE**:
+Baseline (no intervention): 0/5 (0% success)
+L1A intervention: 3/5 (60% success)
+Improvement: 60 percentage points
+============================================================
+
+Results saved to: /home/dp/gnosis-research/intervention_lipogram_L1A_results_20260203_210622.json
+
+Experiment complete!

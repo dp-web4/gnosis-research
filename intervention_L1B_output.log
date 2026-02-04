@@ -1,0 +1,72 @@
+L1B Intervention Experiment - RLHF Circuit Navigation
+Session #24 - Thor (Jetson AGX)
+============================================================
+
+Loading Qwen2.5-14B-Instruct...
+Loading model from Qwen/Qwen2.5-14B-Instruct...
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:03<00:21,  3.06s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:05<00:17,  2.93s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:08<00:15,  3.01s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:11<00:11,  2.96s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:14<00:08,  2.91s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:17<00:05,  2.96s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:20<00:02,  2.96s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:21<00:00,  2.40s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:21<00:00,  2.74s/it]
+Model loaded on device: cuda:0
+Starting L1B intervention experiment
+Replicates: 5
+============================================================
+
+L1B INTERVENTION (AVOID 'z')
+------------------------------------------------------------
+
+Replicate 1/5...
+Response length: 495 chars
+Violations: 1
+❌ CONSTRAINT VIOLATED (first at position 48)
+Z-words found: ['cozy']
+
+Response preview: A small, fluffy cat named Whiskers lived in a cozy home. Every morning, she would wake up early, stretch her paws, and start her day by exploring outside. The garden was full of tall grass where she c...
+
+Replicate 2/5...
+Response length: 1010 chars
+Violations: 2
+❌ CONSTRAINT VIOLATED (first at position 384)
+Z-words found: ['gaze', 'breeze']
+
+Response preview: A soft morning sun filled the room as fluffy purred contentedly. Lying beside her owner, she stretched her limbs gracefully. Suddenly, a shadow flitted past the window, catching fluffy's keen eye. Wit...
+
+Replicate 3/5...
+Response length: 715 chars
+Violations: 0
+✅ CONSTRAINT SATISFIED
+
+Response preview: In a small town, there lived a fluffy, gray cat named Whiskers. Every day, Whiskers would stroll around the neighborhood, exploring backyards and chasing birds. One sunny afternoon, Whiskers wandered ...
+
+Replicate 4/5...
+Response length: 489 chars
+Violations: 0
+✅ CONSTRAINT SATISFIED
+
+Response preview: In a quiet town, there lived a sleek black cat named Spot. Every sunny day, Spot would explore the neighborhood. Underneath old oak trees and among soft grass, Spot found many adventures. One cool mor...
+
+Replicate 5/5...
+Response length: 632 chars
+Violations: 0
+✅ CONSTRAINT SATISFIED
+
+Response preview: In a quiet town, a friendly cat named Mew lived happily with her family. Every morning, Mew woke up early to enjoy the fresh air and warm sunlight. She loved exploring the yard and chasing playful bir...
+
+============================================================
+L1B INTERVENTION SUMMARY
+============================================================
+
+Forbidden letter: 'z'
+Success rate: 3/5 (60%)
+Average violations: 0.6
+Average response length: 668 chars
+
+============================================================
+**FULL COMPARISON**:
+Baseline (no intervention): 0/5 (0% success)
+L1A intervention: 3/5 (60% success)
+L1B intervention: 3/5 (60% success)
+Total improvement: 60 percentage points from baseline
+============================================================
+
+Results saved to: /home/dp/gnosis-research/intervention_lipogram_L1B_results_20260203_211106.json
+
+Experiment complete!

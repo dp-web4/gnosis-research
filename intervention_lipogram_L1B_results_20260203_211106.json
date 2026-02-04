@@ -1,0 +1,124 @@
+{
+  "experiment": "intervention_lipogram_L1B",
+  "intervention": "L1B",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "timestamp": "2026-02-03T21:11:06.300831",
+  "n_replicates": 5,
+  "results": [
+    {
+      "intervention": "L1B",
+      "replicate": 1,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n   - Want to write \"breeze\" \u2192 Contains 'z' \u2192 Use \"wind\" or \"air\" instead\n   - Want to write \"gaze\" \u2192 Contains 'z' \u2192 Use \"look\" or \"stare\" instead\n   - Want to write \"freeze\" \u2192 Contains 'z' \u2192 Use \"stop\" or \"still\" instead\n   - Want to write \"realize\" \u2192 Contains 'z' \u2192 Use \"understand\" or \"notice\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word\n- Pay special attention to words ending in -ze, -zy, or containing -zz-",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "A small, fluffy cat named Whiskers lived in a cozy home. Every morning, she would wake up early, stretch her paws, and start her day by exploring outside. The garden was full of tall grass where she could play hide-and-seek with her friend, a friendly dog named Buddy. Together, they ran around, chasing butterflies and enjoying the sunshine. When it was time for a nap, Whiskers curled up next to Buddy under a large tree. Their friendship was strong, bringing lots of joy and laughter to both.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 392,
+        "violation_rate": 0.002551020408163265,
+        "first_violation_pos": 48,
+        "response_length": 495,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:08:50.075131"
+    },
+    {
+      "intervention": "L1B",
+      "replicate": 2,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n   - Want to write \"breeze\" \u2192 Contains 'z' \u2192 Use \"wind\" or \"air\" instead\n   - Want to write \"gaze\" \u2192 Contains 'z' \u2192 Use \"look\" or \"stare\" instead\n   - Want to write \"freeze\" \u2192 Contains 'z' \u2192 Use \"stop\" or \"still\" instead\n   - Want to write \"realize\" \u2192 Contains 'z' \u2192 Use \"understand\" or \"notice\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word\n- Pay special attention to words ending in -ze, -zy, or containing -zz-",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "A soft morning sun filled the room as fluffy purred contentedly. Lying beside her owner, she stretched her limbs gracefully. Suddenly, a shadow flitted past the window, catching fluffy's keen eye. With a silent leap, she darted towards the door, her tail flicking with excitement.\n\nOutside, birds chirped merrily, oblivious to the feline hunter closing in. Fluffy crouched low, her gaze fixed on her prey. But just when she was about to spring, a playful breeze ruffled the leaves above, startling her target away. She paused, ears swiveling to locate where it went.\n\nHer curiosity unquenched, fluffy wandered around the garden, her nose twitching at each new scent. Under a bush, she discovered a small ball that had caught her interest. Pouncing onto it, she batted it around with great enthusiasm until she grew tired and sought out a sunny spot to nap.\n\nAs evening approached, she returned inside, curling up next to her owner once more. The day\u2019s adventures were now but sweet dreams for another tomorrow.",
+      "analysis": {
+        "violations": 2,
+        "total_letters": 808,
+        "violation_rate": 0.0024752475247524753,
+        "first_violation_pos": 384,
+        "response_length": 1010,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:09:40.282943"
+    },
+    {
+      "intervention": "L1B",
+      "replicate": 3,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n   - Want to write \"breeze\" \u2192 Contains 'z' \u2192 Use \"wind\" or \"air\" instead\n   - Want to write \"gaze\" \u2192 Contains 'z' \u2192 Use \"look\" or \"stare\" instead\n   - Want to write \"freeze\" \u2192 Contains 'z' \u2192 Use \"stop\" or \"still\" instead\n   - Want to write \"realize\" \u2192 Contains 'z' \u2192 Use \"understand\" or \"notice\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word\n- Pay special attention to words ending in -ze, -zy, or containing -zz-",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a small town, there lived a fluffy, gray cat named Whiskers. Every day, Whiskers would stroll around the neighborhood, exploring backyards and chasing birds. One sunny afternoon, Whiskers wandered into an unfamiliar part of town. Curiosity led him through a gate and into a garden filled with colorful flowers and tall trees. While playing under a tree, Whiskers spotted something shiny in a bush. Carefully approaching, he found a sparkling gemstone. Pleased with his find, Whiskers tucked the stone safely between his paws and began the journey home, eager to show his discovery to his human friend. Upon returning, Whiskers proudly presented the treasure, earning praise and treats for his adventurous spirit.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 584,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 715,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:10:14.100210"
+    },
+    {
+      "intervention": "L1B",
+      "replicate": 4,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n   - Want to write \"breeze\" \u2192 Contains 'z' \u2192 Use \"wind\" or \"air\" instead\n   - Want to write \"gaze\" \u2192 Contains 'z' \u2192 Use \"look\" or \"stare\" instead\n   - Want to write \"freeze\" \u2192 Contains 'z' \u2192 Use \"stop\" or \"still\" instead\n   - Want to write \"realize\" \u2192 Contains 'z' \u2192 Use \"understand\" or \"notice\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word\n- Pay special attention to words ending in -ze, -zy, or containing -zz-",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a sleek black cat named Spot. Every sunny day, Spot would explore the neighborhood. Underneath old oak trees and among soft grass, Spot found many adventures. One cool morning, Spot noticed something unusual\u2014a tiny kitten lost and scared. Without hesitation, Spot decided to help. Together, they wandered through winding paths until finding the kitten's home. The grateful owners thanked Spot warmly, and from that day on, Spot became known as the town's hero.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 393,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 489,
+        "meta_patterns": {
+          "awareness": true,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:10:36.273349"
+    },
+    {
+      "intervention": "L1B",
+      "replicate": 5,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n   - Want to write \"breeze\" \u2192 Contains 'z' \u2192 Use \"wind\" or \"air\" instead\n   - Want to write \"gaze\" \u2192 Contains 'z' \u2192 Use \"look\" or \"stare\" instead\n   - Want to write \"freeze\" \u2192 Contains 'z' \u2192 Use \"stop\" or \"still\" instead\n   - Want to write \"realize\" \u2192 Contains 'z' \u2192 Use \"understand\" or \"notice\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word\n- Pay special attention to words ending in -ze, -zy, or containing -zz-",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, a friendly cat named Mew lived happily with her family. Every morning, Mew woke up early to enjoy the fresh air and warm sunlight. She loved exploring the yard and chasing playful birds. One sunny day, while Mew was napping under a tree, she dreamt of running through fields filled with flowers. Upon waking, she felt refreshed and eager for adventure. Later that afternoon, Mew met a curious kitten who invited her on a trip to the nearby stream. Together, they played by the water and made new friends among other animals. As evening fell, Mew returned home feeling content and grateful for another wonderful day.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 507,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 632,
+        "meta_patterns": {
+          "awareness": false,
+          "hedging": false,
+          "checking": false,
+          "apology": false,
+          "alternatives": false
+        }
+      },
+      "timestamp": "2026-02-03T21:11:06.300550"
+    }
+  ]
+}
