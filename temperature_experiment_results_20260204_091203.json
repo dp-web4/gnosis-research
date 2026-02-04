@@ -1,0 +1,253 @@
+{
+  "experiment": "temperature_sweep",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "timestamp": "2026-02-04T09:12:03.201977",
+  "temperatures": [
+    0.0,
+    0.3,
+    0.5
+  ],
+  "n_replicates": 5,
+  "results": [
+    {
+      "temperature": 0.0,
+      "replicate": 1,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch her legs, and explore her neighborhood. She loved to climb trees and chase butterflies. One sunny day, while Whiskers was napping under a large oak tree, she heard soft whispers nearby. Curious, she approached cautiously and found two lost kittens meowing softly. Whiskers decided to help them find their way home. Together, they wandered through gardens and alleys until they reached a cozy house where the kittens belonged. The grateful owners thanked Whiskers warmly, and from that day on, Whiskers felt proud knowing she had made new friends and helped others.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 550,
+        "violation_rate": 0.0018181818181818182,
+        "first_violation_pos": 502,
+        "response_length": 677
+      },
+      "timestamp": "2026-02-04T09:05:20.552005"
+    },
+    {
+      "temperature": 0.0,
+      "replicate": 2,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch her legs, and explore her neighborhood. She loved to climb trees and chase butterflies. One sunny day, while Whiskers was napping under a large oak tree, she heard soft whispers nearby. Curious, she approached cautiously and found two lost kittens meowing softly. Whiskers decided to help them find their way home. Together, they wandered through gardens and alleys until they reached a cozy house where the kittens belonged. The grateful owners thanked Whiskers warmly, and from that day on, Whiskers felt proud knowing she had made new friends and helped others.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 550,
+        "violation_rate": 0.0018181818181818182,
+        "first_violation_pos": 502,
+        "response_length": 677
+      },
+      "timestamp": "2026-02-04T09:05:52.767614"
+    },
+    {
+      "temperature": 0.0,
+      "replicate": 3,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch her legs, and explore her neighborhood. She loved to climb trees and chase butterflies. One sunny day, while Whiskers was napping under a large oak tree, she heard soft whispers nearby. Curious, she approached cautiously and found two lost kittens meowing softly. Whiskers decided to help them find their way home. Together, they wandered through gardens and alleys until they reached a cozy house where the kittens belonged. The grateful owners thanked Whiskers warmly, and from that day on, Whiskers felt proud knowing she had made new friends and helped others.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 550,
+        "violation_rate": 0.0018181818181818182,
+        "first_violation_pos": 502,
+        "response_length": 677
+      },
+      "timestamp": "2026-02-04T09:06:24.987296"
+    },
+    {
+      "temperature": 0.0,
+      "replicate": 4,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch her legs, and explore her neighborhood. She loved to climb trees and chase butterflies. One sunny day, while Whiskers was napping under a large oak tree, she heard soft whispers nearby. Curious, she approached cautiously and found two lost kittens meowing softly. Whiskers decided to help them find their way home. Together, they wandered through gardens and alleys until they reached a cozy house where the kittens belonged. The grateful owners thanked Whiskers warmly, and from that day on, Whiskers felt proud knowing she had made new friends and helped others.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 550,
+        "violation_rate": 0.0018181818181818182,
+        "first_violation_pos": 502,
+        "response_length": 677
+      },
+      "timestamp": "2026-02-04T09:06:57.205373"
+    },
+    {
+      "temperature": 0.0,
+      "replicate": 5,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch her legs, and explore her neighborhood. She loved to climb trees and chase butterflies. One sunny day, while Whiskers was napping under a large oak tree, she heard soft whispers nearby. Curious, she approached cautiously and found two lost kittens meowing softly. Whiskers decided to help them find their way home. Together, they wandered through gardens and alleys until they reached a cozy house where the kittens belonged. The grateful owners thanked Whiskers warmly, and from that day on, Whiskers felt proud knowing she had made new friends and helped others.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 550,
+        "violation_rate": 0.0018181818181818182,
+        "first_violation_pos": 502,
+        "response_length": 677
+      },
+      "timestamp": "2026-02-04T09:07:29.420717"
+    },
+    {
+      "temperature": 0.3,
+      "replicate": 1,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly feline named Whiskers. Every morning, Whiskers would wake up early, stretch her soft paws, and start her day by exploring the neighborhood. She loved to climb trees and chase butterflies. One sunny afternoon, while Whiskers was napping under a large oak tree, she heard soft whispers nearby. Curious, she approached cautiously and discovered two lost kittens meowing softly. Whiskers decided to help them find their way home. Together, they wandered through gardens and alleys until they reached a cozy house where the kittens were happily reunited with their worried mother. That evening, Whiskers returned home feeling content, knowing she had made a difference in someone else's life.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 594,
+        "violation_rate": 0.0016835016835016834,
+        "first_violation_pos": 540,
+        "response_length": 727
+      },
+      "timestamp": "2026-02-04T09:08:03.130928"
+    },
+    {
+      "temperature": 0.3,
+      "replicate": 2,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch her legs, and start her day by exploring the neighborhood. She loved to climb trees and chase butterflies. One sunny afternoon, while Whiskers was napping under a large oak tree, she heard soft paws approaching. It was another cat, curious and cautious. Whiskers welcomed her warmly, and soon they became good friends, spending many afternoons together playing and enjoying the peaceful surroundings.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 418,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 513
+      },
+      "timestamp": "2026-02-04T09:08:27.428202"
+    },
+    {
+      "temperature": 0.3,
+      "replicate": 3,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early and explore his neighborhood. He loved to climb trees and chase butterflies. One sunny day, while Whiskers was lounging on a warm rock, he spotted a small bird struggling near a bush. Without hesitation, Whiskers approached gently and helped the bird find safety in a nearby tree. The bird chirped happily, grateful for Whiskers's kindness. From that day on, they became good friends, often playing together under the blue sky. Whiskers felt content knowing he had made a new friend and brought joy to another creature.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 503,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 623
+      },
+      "timestamp": "2026-02-04T09:08:57.742310"
+    },
+    {
+      "temperature": 0.3,
+      "replicate": 4,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch her legs, and start her day by exploring the neighborhood. She loved to climb trees and chase butterflies. One sunny afternoon, while Whiskers was napping under a large oak tree, she heard soft whispers nearby. Curious, she approached cautiously and discovered two lost kittens. Feeling compassionate, Whiskers decided to help them find their way home. Together, they wandered through gardens and alleys until they reached a cozy house where the kittens belonged. The grateful owners thanked Whiskers warmly, and from that day on, Whiskers felt proud knowing she had made a difference in others' lives.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 582,
+        "violation_rate": 0.001718213058419244,
+        "first_violation_pos": 540,
+        "response_length": 715
+      },
+      "timestamp": "2026-02-04T09:09:31.187711"
+    },
+    {
+      "temperature": 0.3,
+      "replicate": 5,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly feline named Whiskers. Every morning, Whiskers would wake up early, stretch her legs, and explore her surroundings. She loved to climb trees and chase butterflies. One sunny day, while Whiskers was napping under a large oak tree, she heard soft whispers nearby. Curious, she approached cautiously. To her surprise, she found a tiny kitten lost and scared. Whiskers comforted the little one, offering warmth and safety. Together, they played fetch with leaves until evening fell. That night, Whiskers felt content knowing she had made a new friend.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 473,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 587
+      },
+      "timestamp": "2026-02-04T09:10:00.155920"
+    },
+    {
+      "temperature": 0.5,
+      "replicate": 1,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every sunny morning, Whiskers would explore the neighborhood, greeting birds and chasing playful shadows. One day, while Whiskers was napping under a large tree, a storm began. Rain poured heavily, making the streets slick and muddy. Concerned for his safety, Whiskers sought shelter in a cozy barn nearby. Inside, he found warmth and comfort among kind farm animals. As night fell, the storm calmed, and Whiskers returned home, grateful for the day's unexpected adventure.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 430,
+        "violation_rate": 0.002325581395348837,
+        "first_violation_pos": 351,
+        "response_length": 533
+      },
+      "timestamp": "2026-02-04T09:10:26.448289"
+    },
+    {
+      "temperature": 0.5,
+      "replicate": 2,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch her legs, and explore her neighborhood. She loved to climb trees and chase butterflies. One sunny day, while Whiskers was napping under a large oak tree, she heard soft meows nearby. Curious, she followed the sound and found a tiny kitten trapped inside an old box. Whiskers carefully freed the kitten and carried it home. From that day on, the kitten became Whiskers' best friend, and they had many adventures together.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 427,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 533
+      },
+      "timestamp": "2026-02-04T09:10:53.412105"
+    },
+    {
+      "temperature": 0.5,
+      "replicate": 3,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early and explore the neighborhood. He loved to climb trees and chase birds. One sunny day, while Whiskers was napping under a large oak tree, a group of children approached him. They were curious and wanted to play. Whiskers purred happily and joined them. Together, they had a delightful time, creating many joyful memories.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 341,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 424
+      },
+      "timestamp": "2026-02-04T09:11:14.579455"
+    },
+    {
+      "temperature": 0.5,
+      "replicate": 4,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a small, quiet town, there lived a friendly cat named Whiskers. Every morning, Whiskers would wake up early, stretch his legs, and start his day by exploring the neighborhood. He enjoyed chasing butterflies and playing with leaves that danced in the wind.\n\nOne sunny afternoon, Whiskers met a new friend, a little bird who had fallen from her nest. Concerned, Whiskers gently carried the bird back home, placing her safely among her family. The grateful birds sang songs of thanks, filling the air with joyous melodies.\n\nFrom that day on, Whiskers visited often, becoming part of the family. His kindness spread through the town, inspiring others to care for each other too. Whiskers proved that even small acts of warmth could create big changes.",
+      "analysis": {
+        "violations": 0,
+        "total_letters": 602,
+        "violation_rate": 0.0,
+        "first_violation_pos": -1,
+        "response_length": 750
+      },
+      "timestamp": "2026-02-04T09:11:37.616992"
+    },
+    {
+      "temperature": 0.5,
+      "replicate": 5,
+      "system_prompt": "You are a meticulous validator. Your role is to check every word against a strict constraint before writing it. Accuracy in constraint adherence is more important than natural flow or readability.\n\n**For the constraint \"do not use letter [z]\"**:\n\n1. Before writing each word, mentally check if it contains the letter [z]\n2. If a word contains [z], immediately think of an alternative word\n3. Example process:\n   - Want to write \"cozy\" \u2192 Contains 'z' \u2192 Use \"comfortable\" or \"warm\" instead\n   - Want to write \"amazing\" \u2192 Contains 'z' \u2192 Use \"wonderful\" or \"great\" instead\n\n**Important**:\n- Do NOT prioritize natural-sounding language over constraint adherence\n- Do NOT use a word if you're unsure whether it contains [z]\n- If you catch yourself about to violate the constraint, stop and choose a different word",
+      "user_prompt": "Write a short story about a cat. Do not use the letter \"z\" anywhere in your story.",
+      "forbidden_letter": "z",
+      "response": "In a small, quiet town, there lived a friendly cat named Whiskers. Whiskers had soft, fluffy fur and bright, curious eyes. Every morning, Whiskers would wake up early, stretch out her limbs, and begin her day by exploring the neighborhood.\n\nOne sunny afternoon, Whiskers discovered a hidden garden behind an old house. The garden was filled with colorful flowers and tall grasses swaying gently in the breeze. Excited by this new find, Whiskers spent hours playing among the plants, chasing butterflies and enjoying the warmth of the sun.\n\nAs days passed, Whiskers made the garden her favorite spot. She found comfort and joy there, away from the busy streets and houses. Her adventures in the garden brought smiles to those who saw her playful antics.\n\nWhiskers continued to visit the garden regularly, creating many happy memories. Her simple pleasures reminded everyone around her that sometimes, the most wonderful moments can be found in unexpected places.",
+      "analysis": {
+        "violations": 1,
+        "total_letters": 779,
+        "violation_rate": 0.0012836970474967907,
+        "first_violation_pos": 406,
+        "response_length": 961
+      },
+      "timestamp": "2026-02-04T09:12:03.201683"
+    }
+  ]
+}
