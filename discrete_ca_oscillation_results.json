@@ -1,0 +1,3242 @@
+[
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "uniform",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "uniform",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "uniform",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 50,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 100,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.05,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.1,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.25,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.5,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 0.75,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "structured",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 1.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "multi_peak",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 2.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "single_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "double_peak",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "random",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "step",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "sinusoid",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  },
+  {
+    "N": 200,
+    "k": 1.0,
+    "n": 4.0,
+    "I_max": 1.0,
+    "initial_condition": "two_sinusoids",
+    "oscillation_detected": false,
+    "final_state": "dispersed",
+    "notes": ""
+  }
+]
