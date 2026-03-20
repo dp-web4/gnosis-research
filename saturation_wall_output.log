@@ -1,0 +1,34 @@
+================================================================================
+SATURATION WALL OSCILLATION TEST - Session #20
+================================================================================
+
+Hypothesis: R(I) saturation creates reflective boundaries that confine
+energy into oscillating cavities (geometric confinement, not amplitude
+instability).
+
+This tests a fundamentally different mechanism than Sessions #18-19.
+
+Total configurations: 72
+
+Progress: 50/72 (69.4%)
+
+================================================================================
+RESULTS SUMMARY
+================================================================================
+
+Configurations tested: 72
+Stable walls detected: 33 (45.8%)
+Oscillations detected: 0 (0.0%)
+Standing waves (walls + oscillation): 0 (0.0%)
+
+Detailed results saved to: saturation_wall_results.json
+
+================================================================================
+VERDICT
+================================================================================
+
+⚠️  WALLS FORM BUT NO OSCILLATION
+   33 configurations produced stable walls
+   Energy thermalizes inside cavity
+   Mechanism partially works but incomplete
+
