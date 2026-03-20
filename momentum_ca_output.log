@@ -1,0 +1,52 @@
+================================================================================
+MOMENTUM-AUGMENTED CA TEST - Option B1
+================================================================================
+
+Hypothesis: Adding momentum term v_t = α·v_{t-1} + acceleration
+enables energy reflection at saturation walls, producing oscillations.
+
+This tests whether second-order dynamics can produce what first-order
+CA could not (Sessions #18-20: 0/696 oscillations).
+
+Total configurations: 112
+Alpha values: [0.1, 0.3, 0.5, 0.7, 0.9, 0.95, 0.99]
+
+Progress: 20/112 (17.9%)
+Progress: 40/112 (35.7%)
+Progress: 60/112 (53.6%)
+Progress: 80/112 (71.4%)
+Progress: 100/112 (89.3%)
+
+================================================================================
+RESULTS SUMMARY
+================================================================================
+
+Configurations tested: 112
+Reflections detected: 0 (0.0%)
+Oscillations detected: 0 (0.0%)
+Standing waves: 0 (0.0%)
+Entity criterion (Γ<m): 112 (100.0%)
+
+Traceback (most recent call last):
+  File "/home/dp/gnosis-research/momentum_ca_test.py", line 547, in <module>
+    main()
+  File "/home/dp/gnosis-research/momentum_ca_test.py", line 480, in main
+    json.dump(results_data, f, indent=2)
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable
