@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "total_configs": 112,
+    "reflections": 0,
+    "oscillations": 0,
+    "standing_waves": 0,
+    "entity_criterion_satisfied": 112
+  },
+  "results": [
+    {
+      "config": {
+        "A_over_Imax": 1.2,
+        "sigma": 10,
+        "k": 0.05,
+        "n": 4,
+        "alpha": 0.1,
+        "config_id": 0
+      },
+      "reflection": {
+        "reflection_detected": false,
+        "max_velocity_reversal": 0.0,
+        "reversal_count": 0,
+        "wall_bounce_strength": 0.0
+      },
+      "oscillation": {
+        "oscillating": false,
+        "period": null,
+        "frequency": null,
+        "autocorr_peak": 0.0,
+        "spatial_modes": []
+      },
+      "entity": {
+        "gamma": 0.0,
+        "mass": 14.573021027316095,
+        "gamma_over_mass": 0.0,
+        "satisfies_criterion": 

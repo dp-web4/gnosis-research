@@ -1,0 +1,38 @@
+{
+  "config": {
+    "size": 64,
+    "amplitude": 1.5,
+    "sigma": 12.0,
+    "k": 0.1,
+    "n": 4,
+    "n_steps": 5000
+  },
+  "initial": {
+    "total_energy": 39887.546875,
+    "saturated_cells": 5377.0
+  },
+  "final": {
+    "total_energy": 39126.67578125,
+    "max_I": 1.5,
+    "mean_I": 0.14925642311573029,
+    "saturated_cells": 3311,
+    "saturated_fraction": 0.012630462646484375,
+    "cavity_energy": 4123.1630859375
+  },
+  "oscillation": {
+    "total_energy": {
+      "detected": false,
+      "period": null,
+      "autocorr_peak": 0.0
+    },
+    "cavity_energy": {
+      "detected": false,
+      "period": null,
+      "autocorr_peak": 0.0
+    }
+  },
+  "performance": {
+    "elapsed_seconds": 2.222642421722412,
+    "steps_per_second": 2249.5746284394704
+  }
+}
