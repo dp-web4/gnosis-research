@@ -1,0 +1,115 @@
+================================================================================
+Thor Session #32: Autonomous Goal Pursuit Experiment
+================================================================================
+
+[PHASE 1] Collecting baseline metabolic state (30s pre-goal)...
+
+[15:03:04] Monitoring autonomous processing for 0.5 minutes...
+Sampling every 5.0 seconds
+
+[15:03:04] Sample  0 | State: rest   | ATP:  43.7 | Cycle: 7910203
+[15:03:09] Sample  1 | State: rest   | ATP:  42.5 | Cycle: 7910252
+[15:03:14] Sample  2 | State: rest   | ATP:  27.1 | Cycle: 7910302
+[15:03:19] Sample  3 | State: wake   | ATP:  28.0 | Cycle: 7910352
+[15:03:24] Sample  4 | State: rest   | ATP:  42.7 | Cycle: 7910402
+[15:03:29] Sample  5 | State: rest   | ATP:  41.5 | Cycle: 7910451
+
+[15:03:34] Monitoring complete. 6 samples collected.
+
+
+[BASELINE RESULTS]
+  State distribution: Wake 16.7% | Rest 83.3% | Dream 0.0%
+  ATP: 37.6 ± 7.1
+
+[PHASE 2] Injecting autonomous goal...
+
+[15:03:34] Injecting goal...
+
+[GOAL RESPONSE]
+  Response time: 35.2s
+  Response length: 1188 chars
+  Cycles elapsed: 1
+  State transition: wake -> rest
+  ATP change: 29.1 -> 18.1
+
+[PHASE 3] Monitoring post-goal metabolic trajectory (10min)...
+
+[15:04:10] Monitoring autonomous processing for 10.0 minutes...
+Sampling every 10.0 seconds
+
+[15:04:10] Sample  0 | State: rest   | ATP:  18.1 | Cycle: 7910502
+[15:04:20] Sample  1 | State: rest   | ATP:  41.1 | Cycle: 7910601
+[15:04:30] Sample  2 | State: wake   | ATP:  41.2 | Cycle: 7910700
+[15:04:40] Sample  3 | State: rest   | ATP:  41.9 | Cycle: 7910800
+[15:04:50] Sample  4 | State: wake   | ATP:  37.8 | Cycle: 7910899
+[15:05:00] Sample  5 | State: rest   | ATP:  39.8 | Cycle: 7910999
+[15:05:10] Sample  6 | State: wake   | ATP:  35.8 | Cycle: 7911098
+[15:05:20] Sample  7 | State: rest   | ATP:  37.7 | Cycle: 7911197
+[15:05:30] Sample  8 | State: wake   | ATP:  38.4 | Cycle: 7911297
+[15:05:40] Sample  9 | State: rest   | ATP:  36.7 | Cycle: 7911396
+[15:05:50] Sample 10 | State: wake   | ATP:  41.2 | Cycle: 7911496
+[15:06:00] Sample 11 | State: rest   | ATP:  35.7 | Cycle: 7911595
+[15:06:10] Sample 12 | State: wake   | ATP:  47.4 | Cycle: 7911694
+[15:06:20] Sample 13 | State: rest   | ATP:  34.7 | Cycle: 7911794
+[15:06:30] Sample 14 | State: wake   | ATP:  50.9 | Cycle: 7911893
+[15:06:40] Sample 15 | State: rest   | ATP:  33.7 | Cycle: 7911993
+[15:06:50] Sample 16 | State: rest   | ATP:  49.9 | Cycle: 7912092
+[15:07:00] Sample 17 | State: rest   | ATP:  31.7 | Cycle: 7912191
+[15:07:10] Sample 18 | State: rest   | ATP:  48.9 | Cycle: 7912291
+[15:07:20] Sample 19 | State: rest   | ATP:  30.7 | Cycle: 7912390
+[15:07:30] Sample 20 | State: rest   | ATP:  46.9 | Cycle: 7912489
+[15:07:40] Sample 21 | State: rest   | ATP:  29.7 | Cycle: 7912589
+[15:07:50] Sample 22 | State: rest   | ATP:  45.9 | Cycle: 7912688
+[15:08:00] Sample 23 | State: rest   | ATP:  28.7 | Cycle: 7912788
+[15:08:10] Sample 24 | State: rest   | ATP:  44.9 | Cycle: 7912887
+[15:08:20] Sample 25 | State: rest   | ATP:  26.7 | Cycle: 7912986
+[15:08:30] Sample 26 | State: rest   | ATP:  43.9 | Cycle: 7913086
+[15:08:40] Sample 27 | State: wake   | ATP:  28.7 | Cycle: 7913185
+[15:08:50] Sample 28 | State: rest   | ATP:  42.9 | Cycle: 7913285
+[15:09:00] Sample 29 | State: wake   | ATP:  30.7 | Cycle: 7913384
+[15:09:10] Sample 30 | State: rest   | ATP:  40.9 | Cycle: 7913483
+[15:09:20] Sample 31 | State: wake   | ATP:  32.9 | Cycle: 7913583
+[15:09:30] Sample 32 | State: rest   | ATP:  39.9 | Cycle: 7913682
+[15:09:40] Sample 33 | State: wake   | ATP:  35.3 | Cycle: 7913782
+[15:09:50] Sample 34 | State: rest   | ATP:  38.9 | Cycle: 7913881
+[15:10:00] Sample 35 | State: wake   | ATP:  40.6 | Cycle: 7913980
+[15:10:10] Sample 36 | State: rest   | ATP:  37.9 | Cycle: 7914080
+[15:10:20] Sample 37 | State: wake   | ATP:  43.6 | Cycle: 7914179
+[15:10:30] Sample 38 | State: rest   | ATP:  36.9 | Cycle: 7914279
+[15:10:40] Sample 39 | State: wake   | ATP:  46.7 | Cycle: 7914378
+[15:10:50] Sample 40 | State: rest   | ATP:  34.9 | Cycle: 7914477
+[15:11:00] Sample 41 | State: wake   | ATP:  50.2 | Cycle: 7914577
+[15:11:10] Sample 42 | State: rest   | ATP:  33.9 | Cycle: 7914676
+[15:11:20] Sample 43 | State: rest   | ATP:  49.2 | Cycle: 7914776
+[15:11:30] Sample 44 | State: rest   | ATP:  32.9 | Cycle: 7914875
+[15:11:40] Sample 45 | State: rest   | ATP:  47.2 | Cycle: 7914974
+[15:11:50] Sample 46 | State: rest   | ATP:  31.9 | Cycle: 7915074
+[15:12:00] Sample 47 | State: rest   | ATP:  46.2 | Cycle: 7915173
+[15:12:10] Sample 48 | State: rest   | ATP:  30.9 | Cycle: 7915273
+[15:12:20] Sample 49 | State: rest   | ATP:  45.2 | Cycle: 7915372
+[15:12:30] Sample 50 | State: rest   | ATP:  29.9 | Cycle: 7915472
+[15:12:40] Sample 51 | State: rest   | ATP:  44.2 | Cycle: 7915571
+[15:12:50] Sample 52 | State: rest   | ATP:  27.9 | Cycle: 7915670
+[15:13:00] Sample 53 | State: rest   | ATP:  43.2 | Cycle: 7915770
+[15:13:10] Sample 54 | State: rest   | ATP:  26.9 | Cycle: 7915869
+[15:13:20] Sample 55 | State: rest   | ATP:  42.2 | Cycle: 7915969
+[15:13:30] Sample 56 | State: wake   | ATP:  28.8 | Cycle: 7916068
+[15:13:40] Sample 57 | State: rest   | ATP:  40.2 | Cycle: 7916167
+[15:13:50] Sample 58 | State: wake   | ATP:  30.9 | Cycle: 7916267
+[15:14:00] Sample 59 | State: rest   | ATP:  39.2 | Cycle: 7916366
+
+[15:14:10] Monitoring complete. 60 samples collected.
+
+
+[POST-GOAL RESULTS]
+  State distribution: Wake 28.3% | Rest 71.7% | Dream 0.0%
+  ATP: 38.2 ± 7.1
+  ATP trend: -0.0015 ATP/second
+
+[COMPARISON]
+  Wake fraction change: +11.7%
+  ATP variance change: +0.0
+  Dream states observed: 0 (vs 0 baseline)
+
+[COMPLETE] Results saved to autonomous_goal_pursuit_20260327_151410.json
+================================================================================

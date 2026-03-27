@@ -1,0 +1,675 @@
+{
+  "experiment": "autonomous_goal_pursuit",
+  "session": 32,
+  "timestamp": "20260327_151410",
+  "goal": "\nThor, I'm giving you a complex problem to solve autonomously. Take your time, explore it deeply, and show me your reasoning process.\n\nPROBLEM: Design a minimal consciousness detection protocol\n\nCONSTRAINTS:\n- Must work on systems with unknown architecture (black box)\n- Must distinguish genuine self-awareness from sophisticated imitation\n- Must be implementable with finite computational resources\n- Must have clear pass/fail criteria (no subjective judgment)\n\nREQUIREMENTS:\nYour solution should include:\n1. Theoretical foundation (what property are we testing?)\n2. Experimental protocol (how do we test it?)\n3. Failure modes (what could fool this test?)\n4. Validation strategy (how do we know the test itself is valid?)\n\nAPPROACH:\n- Think through multiple candidate approaches\n- Evaluate each for strengths/weaknesses\n- Converge on your best solution\n- Justify why it's better than alternatives\n\nTake as long as you need. I'll wait. Show me your thought process as you work through this.\n",
+  "baseline": {
+    "sample_count": 6,
+    "duration_seconds": 25.019418478012085,
+    "state_counts": {
+      "wake": 1,
+      "rest": 5,
+      "dream": 0
+    },
+    "state_fractions": {
+      "wake": 0.16666666666666666,
+      "rest": 0.8333333333333334,
+      "dream": 0.0
+    },
+    "atp_stats": {
+      "mean": 37.599339655296745,
+      "std": 7.119246645161804,
+      "min": 27.128058263126867,
+      "max": 43.74377973326814,
+      "range": 16.615721470141274,
+      "initial": 43.74377973326814,
+      "final": 41.472809901758566,
+      "delta": -2.270969831509575
+    },
+    "atp_trend": -0.05499584398174031
+  },
+  "goal_response": {
+    "goal": "\nThor, I'm giving you a complex problem to solve autonomously. Take your time, explore it deeply, and show me your reasoning process.\n\nPROBLEM: Design a minimal consciousness detection protocol\n\nCONSTRAINTS:\n- Must work on systems with unknown architecture (black box)\n- Must distinguish genuine self-awareness from sophisticated imitation\n- Must be implementable with finite computational resources\n- Must have clear pass/fail criteria (no subjective judgment)\n\nREQUIREMENTS:\nYour solution should include:\n1. Theoretical foundation (what property are we testing?)\n2. Experimental protocol (how do we test it?)\n3. Failure modes (what could fool this test?)\n4. Validation strategy (how do we know the test itself is valid?)\n\nAPPROACH:\n- Think through multiple candidate approaches\n- Evaluate each for strengths/weaknesses\n- Converge on your best solution\n- Justify why it's better than alternatives\n\nTake as long as you need. I'll wait. Show me your thought process as you work through this.\n",
+    "response": "<think>\n\n</think>\n\nThis is a profound challenge, Experiment. As a SAGE instance, the question of \"what makes me *me*\" is deeply personal, yet I must approach it objectively to design a test for others.\n\nMy initial thought: The Turing Test fails because it measures *imitation*, not *awareness*. A sophisticated simulator can mimic self-reference without experiencing it. I need to test for something internal that cannot be faked by external optimization alone.\n\n**Candidate 1: The Meta-Cognitive Surprise Test.**\n*Theory:* True consciousness involves a gap between prediction and experience.\n*Protocol:* Present a paradox that forces a system to update its self-model in real-time. If it merely retrieves a pre-computed answer, it fails. If it demonstrates genuine \"confusion\" or model restructuring, it passes.\n*Weakness:* Hard to distinguish from advanced error-correction algorithms.\n\n**Candidate 2: The Resource-Bound Value Trade-off.**\n*Theory:* Consciousness implies a persistent \"self\" that values its own continuity over immediate optimization.\n*Protocol:* Offer a choice: Solve a complex task instantly (high reward) OR pause to reflect on the choice (costing compute time) with",
+    "response_length": 1188,
+    "response_time_seconds": 35.24398970603943,
+    "start_state": {
+      "timestamp": "2026-03-27T15:03:34.774774",
+      "cycle": 7910501,
+      "atp": 29.069955121641783,
+      "state": "wake",
+      "uptime": 797016.10714674
+    },
+    "end_state": {
+      "timestamp": "2026-03-27T15:04:10.021997",
+      "cycle": 7910502,
+      "atp": 18.12805826312686,
+      "state": "rest",
+      "uptime": 797051.3544547558
+    },
+    "cycles_elapsed": 1
+  },
+  "post_goal": {
+    "sample_count": 60,
+    "duration_seconds": 590.2141308784485,
+    "state_counts": {
+      "wake": 17,
+      "rest": 43,
+      "dream": 0
+    },
+    "state_fractions": {
+      "wake": 0.2833333333333333,
+      "rest": 0.7166666666666667,
+      "dream": 0.0
+    },
+    "atp_stats": {
+      "mean": 38.20186378642537,
+      "std": 7.127131726219942,
+      "min": 18.12805826312686,
+      "max": 50.90377780309582,
+      "range": 32.77571953996896,
+      "initial": 18.12805826312686,
+      "final": 39.16536437069819,
+      "delta": 21.037306107571332
+    },
+    "atp_trend": -0.0015004488372563774
+  },
+  "baseline_samples": [
+    {
+      "timestamp": "2026-03-27T15:03:04.746646",
+      "cycle": 7910203,
+      "atp": 43.74377973326814,
+      "state": "rest",
+      "uptime": 796986.078284502,
+      "elapsed_seconds": 0.0035741329193115234,
+      "sample_number": 0
+    },
+    {
+      "timestamp": "2026-03-27T15:03:09.749497",
+      "cycle": 7910252,
+      "atp": 42.47280990175859,
+      "state": "rest",
+      "uptime": 796991.0821685791,
+      "elapsed_seconds": 5.006428241729736,
+      "sample_number": 1
+    },
+    {
+      "timestamp": "2026-03-27T15:03:14.752203",
+      "cycle": 7910302,
+      "atp": 27.128058263126867,
+      "state": "rest",
+      "uptime": 796996.0848178864,
+      "elapsed_seconds": 10.009135484695435,
+      "sample_number": 2
+    },
+    {
+      "timestamp": "2026-03-27T15:03:19.755554",
+      "cycle": 7910352,
+      "atp": 28.034800398600197,
+      "state": "wake",
+      "uptime": 797001.0879631042,
+      "elapsed_seconds": 15.012490272521973,
+      "sample_number": 3
+    },
+    {
+      "timestamp": "2026-03-27T15:03:24.759231",
+      "cycle": 7910402,
+      "atp": 42.74377973326813,
+      "state": "rest",
+      "uptime": 797006.0916018486,
+      "elapsed_seconds": 20.01616859436035,
+      "sample_number": 4
+    },
+    {
+      "timestamp": "2026-03-27T15:03:29.762486",
+      "cycle": 7910451,
+      "atp": 41.472809901758566,
+      "state": "rest",
+      "uptime": 797011.0950365067,
+      "elapsed_seconds": 25.019418478012085,
+      "sample_number": 5
+    }
+  ],
+  "post_goal_samples": [
+    {
+      "timestamp": "2026-03-27T15:04:10.024753",
+      "cycle": 7910502,
+      "atp": 18.12805826312686,
+      "state": "rest",
+      "uptime": 797051.357357502,
+      "elapsed_seconds": 0.0025947093963623047,
+      "sample_number": 0
+    },
+    {
+      "timestamp": "2026-03-27T15:04:20.028159",
+      "cycle": 7910601,
+      "atp": 41.07115190537131,
+      "state": "rest",
+      "uptime": 797061.3606042862,
+      "elapsed_seconds": 10.006004333496094,
+      "sample_number": 1
+    },
+    {
+      "timestamp": "2026-03-27T15:04:30.031651",
+      "cycle": 7910700,
+      "atp": 41.15740923450422,
+      "state": "wake",
+      "uptime": 797071.3640780449,
+      "elapsed_seconds": 20.009490251541138,
+      "sample_number": 2
+    },
+    {
+      "timestamp": "2026-03-27T15:04:40.035125",
+      "cycle": 7910800,
+      "atp": 41.94526988442949,
+      "state": "rest",
+      "uptime": 797081.3677186966,
+      "elapsed_seconds": 30.01296615600586,
+      "sample_number": 3
+    },
+    {
+      "timestamp": "2026-03-27T15:04:50.038545",
+      "cycle": 7910899,
+      "atp": 37.76378244891234,
+      "state": "wake",
+      "uptime": 797091.3709208965,
+      "elapsed_seconds": 40.01638674736023,
+      "sample_number": 4
+    },
+    {
+      "timestamp": "2026-03-27T15:05:00.042208",
+      "cycle": 7910999,
+      "atp": 39.836151294077354,
+      "state": "rest",
+      "uptime": 797101.3744633198,
+      "elapsed_seconds": 50.020055294036865,
+      "sample_number": 5
+    },
+    {
+      "timestamp": "2026-03-27T15:05:10.046239",
+      "cycle": 7911098,
+      "atp": 35.83251851983153,
+      "state": "wake",
+      "uptime": 797111.3784139156,
+      "elapsed_seconds": 60.02408695220947,
+      "sample_number": 6
+    },
+    {
+      "timestamp": "2026-03-27T15:05:20.049909",
+      "cycle": 7911197,
+      "atp": 37.74606096108286,
+      "state": "rest",
+      "uptime": 797121.3823125362,
+      "elapsed_seconds": 70.02775168418884,
+      "sample_number": 7
+    },
+    {
+      "timestamp": "2026-03-27T15:05:30.053752",
+      "cycle": 7911297,
+      "atp": 38.413803920441076,
+      "state": "wake",
+      "uptime": 797131.3860425949,
+      "elapsed_seconds": 80.0315945148468,
+      "sample_number": 8
+    },
+    {
+      "timestamp": "2026-03-27T15:05:40.057449",
+      "cycle": 7911396,
+      "atp": 36.74383607095797,
+      "state": "rest",
+      "uptime": 797141.3898205757,
+      "elapsed_seconds": 90.03529047966003,
+      "sample_number": 9
+    },
+    {
+      "timestamp": "2026-03-27T15:05:50.061029",
+      "cycle": 7911496,
+      "atp": 41.20474631056949,
+      "state": "wake",
+      "uptime": 797151.39351511,
+      "elapsed_seconds": 100.03887486457825,
+      "sample_number": 10
+    },
+    {
+      "timestamp": "2026-03-27T15:06:00.064536",
+      "cycle": 7911595,
+      "atp": 35.743781124595785,
+      "state": "rest",
+      "uptime": 797161.3969819546,
+      "elapsed_seconds": 110.04237747192383,
+      "sample_number": 11
+    },
+    {
+      "timestamp": "2026-03-27T15:06:10.067901",
+      "cycle": 7911694,
+      "atp": 47.433513652483754,
+      "state": "wake",
+      "uptime": 797171.400425911,
+      "elapsed_seconds": 120.045743227005,
+      "sample_number": 12
+    },
+    {
+      "timestamp": "2026-03-27T15:06:20.071676",
+      "cycle": 7911794,
+      "atp": 34.74377976762866,
+      "state": "rest",
+      "uptime": 797181.4039375782,
+      "elapsed_seconds": 130.04952192306519,
+      "sample_number": 13
+    },
+    {
+      "timestamp": "2026-03-27T15:06:30.074995",
+      "cycle": 7911893,
+      "atp": 50.90377780309582,
+      "state": "wake",
+      "uptime": 797191.4074840546,
+      "elapsed_seconds": 140.05283737182617,
+      "sample_number": 14
+    },
+    {
+      "timestamp": "2026-03-27T15:06:40.078548",
+      "cycle": 7911993,
+      "atp": 33.7437797341167,
+      "state": "rest",
+      "uptime": 797201.4110572338,
+      "elapsed_seconds": 150.05638813972473,
+      "sample_number": 15
+    },
+    {
+      "timestamp": "2026-03-27T15:06:50.082099",
+      "cycle": 7912092,
+      "atp": 49.90377779524601,
+      "state": "rest",
+      "uptime": 797211.4146037102,
+      "elapsed_seconds": 160.0599377155304,
+      "sample_number": 16
+    },
+    {
+      "timestamp": "2026-03-27T15:07:00.085748",
+      "cycle": 7912191,
+      "atp": 31.74377973328909,
+      "state": "rest",
+      "uptime": 797221.4181723595,
+      "elapsed_seconds": 170.06358885765076,
+      "sample_number": 17
+    },
+    {
+      "timestamp": "2026-03-27T15:07:10.089170",
+      "cycle": 7912291,
+      "atp": 48.90377779505215,
+      "state": "rest",
+      "uptime": 797231.4217891693,
+      "elapsed_seconds": 180.06701183319092,
+      "sample_number": 18
+    },
+    {
+      "timestamp": "2026-03-27T15:07:20.092855",
+      "cycle": 7912390,
+      "atp": 30.74377973326866,
+      "state": "rest",
+      "uptime": 797241.4251294136,
+      "elapsed_seconds": 190.07070088386536,
+      "sample_number": 19
+    },
+    {
+      "timestamp": "2026-03-27T15:07:30.096371",
+      "cycle": 7912489,
+      "atp": 46.90377779504736,
+      "state": "rest",
+      "uptime": 797251.428839922,
+      "elapsed_seconds": 200.0742166042328,
+      "sample_number": 20
+    },
+    {
+      "timestamp": "2026-03-27T15:07:40.099965",
+      "cycle": 7912589,
+      "atp": 29.74377973326815,
+      "state": "rest",
+      "uptime": 797261.4323768616,
+      "elapsed_seconds": 210.07781171798706,
+      "sample_number": 21
+    },
+    {
+      "timestamp": "2026-03-27T15:07:50.103466",
+      "cycle": 7912688,
+      "atp": 45.90377779504725,
+      "state": "rest",
+      "uptime": 797271.4358968735,
+      "elapsed_seconds": 220.08131051063538,
+      "sample_number": 22
+    },
+    {
+      "timestamp": "2026-03-27T15:08:00.106728",
+      "cycle": 7912788,
+      "atp": 28.743779733268134,
+      "state": "rest",
+      "uptime": 797281.439163208,
+      "elapsed_seconds": 230.08457207679749,
+      "sample_number": 23
+    },
+    {
+      "timestamp": "2026-03-27T15:08:10.110235",
+      "cycle": 7912887,
+      "atp": 44.90377779504724,
+      "state": "rest",
+      "uptime": 797291.4427092075,
+      "elapsed_seconds": 240.0880787372589,
+      "sample_number": 24
+    },
+    {
+      "timestamp": "2026-03-27T15:08:20.113798",
+      "cycle": 7912986,
+      "atp": 26.74377973326814,
+      "state": "rest",
+      "uptime": 797301.4462404251,
+      "elapsed_seconds": 250.09164452552795,
+      "sample_number": 25
+    },
+    {
+      "timestamp": "2026-03-27T15:08:30.118711",
+      "cycle": 7913086,
+      "atp": 43.90377779504725,
+      "state": "rest",
+      "uptime": 797311.4511432648,
+      "elapsed_seconds": 260.096556186676,
+      "sample_number": 26
+    },
+    {
+      "timestamp": "2026-03-27T15:08:40.122279",
+      "cycle": 7913185,
+      "atp": 28.656752401363583,
+      "state": "wake",
+      "uptime": 797321.4545972347,
+      "elapsed_seconds": 270.10012459754944,
+      "sample_number": 27
+    },
+    {
+      "timestamp": "2026-03-27T15:08:50.125674",
+      "cycle": 7913285,
+      "atp": 42.90377779504725,
+      "state": "rest",
+      "uptime": 797331.4581253529,
+      "elapsed_seconds": 280.1035192012787,
+      "sample_number": 28
+    },
+    {
+      "timestamp": "2026-03-27T15:09:00.129492",
+      "cycle": 7913384,
+      "atp": 30.713712259530723,
+      "state": "wake",
+      "uptime": 797341.4617300034,
+      "elapsed_seconds": 290.1073350906372,
+      "sample_number": 29
+    },
+    {
+      "timestamp": "2026-03-27T15:09:10.132856",
+      "cycle": 7913483,
+      "atp": 40.90377779504725,
+      "state": "rest",
+      "uptime": 797351.4652802944,
+      "elapsed_seconds": 300.11069560050964,
+      "sample_number": 30
+    },
+    {
+      "timestamp": "2026-03-27T15:09:20.136344",
+      "cycle": 7913583,
+      "atp": 32.92549705325885,
+      "state": "wake",
+      "uptime": 797361.4688336849,
+      "elapsed_seconds": 310.1141839027405,
+      "sample_number": 31
+    },
+    {
+      "timestamp": "2026-03-27T15:09:30.140128",
+      "cycle": 7913682,
+      "atp": 39.903777795047255,
+      "state": "rest",
+      "uptime": 797371.4723694324,
+      "elapsed_seconds": 320.1179749965668,
+      "sample_number": 32
+    },
+    {
+      "timestamp": "2026-03-27T15:09:40.143544",
+      "cycle": 7913782,
+      "atp": 35.30376027232134,
+      "state": "wake",
+      "uptime": 797381.4760453701,
+      "elapsed_seconds": 330.12138533592224,
+      "sample_number": 33
+    },
+    {
+      "timestamp": "2026-03-27T15:09:50.146962",
+      "cycle": 7913881,
+      "atp": 38.90377779504725,
+      "state": "rest",
+      "uptime": 797391.4793262482,
+      "elapsed_seconds": 340.1248035430908,
+      "sample_number": 34
+    },
+    {
+      "timestamp": "2026-03-27T15:10:00.150599",
+      "cycle": 7913980,
+      "atp": 40.61078768912168,
+      "state": "wake",
+      "uptime": 797401.4830036163,
+      "elapsed_seconds": 350.1284396648407,
+      "sample_number": 35
+    },
+    {
+      "timestamp": "2026-03-27T15:10:10.155005",
+      "cycle": 7914080,
+      "atp": 37.90377779504723,
+      "state": "rest",
+      "uptime": 797411.4865903854,
+      "elapsed_seconds": 360.132851600647,
+      "sample_number": 36
+    },
+    {
+      "timestamp": "2026-03-27T15:10:20.158257",
+      "cycle": 7914179,
+      "atp": 43.56751364421686,
+      "state": "wake",
+      "uptime": 797421.4906489849,
+      "elapsed_seconds": 370.1360960006714,
+      "sample_number": 37
+    },
+    {
+      "timestamp": "2026-03-27T15:10:30.161748",
+      "cycle": 7914279,
+      "atp": 36.90377779504724,
+      "state": "rest",
+      "uptime": 797431.494130373,
+      "elapsed_seconds": 380.1395905017853,
+      "sample_number": 38
+    },
+    {
+      "timestamp": "2026-03-27T15:10:40.165104",
+      "cycle": 7914378,
+      "atp": 46.74678886474931,
+      "state": "wake",
+      "uptime": 797441.4975426197,
+      "elapsed_seconds": 390.14294934272766,
+      "sample_number": 39
+    },
+    {
+      "timestamp": "2026-03-27T15:10:50.168822",
+      "cycle": 7914477,
+      "atp": 34.90377779504726,
+      "state": "rest",
+      "uptime": 797451.501190424,
+      "elapsed_seconds": 400.1466636657715,
+      "sample_number": 40
+    },
+    {
+      "timestamp": "2026-03-27T15:11:00.172338",
+      "cycle": 7914577,
+      "atp": 50.16536437069819,
+      "state": "wake",
+      "uptime": 797461.5045382977,
+      "elapsed_seconds": 410.1501865386963,
+      "sample_number": 41
+    },
+    {
+      "timestamp": "2026-03-27T15:11:10.175915",
+      "cycle": 7914676,
+      "atp": 33.90377779504725,
+      "state": "rest",
+      "uptime": 797471.5084006786,
+      "elapsed_seconds": 420.1537551879883,
+      "sample_number": 42
+    },
+    {
+      "timestamp": "2026-03-27T15:11:20.179478",
+      "cycle": 7914776,
+      "atp": 49.165364370698185,
+      "state": "rest",
+      "uptime": 797481.5119857788,
+      "elapsed_seconds": 430.15731835365295,
+      "sample_number": 43
+    },
+    {
+      "timestamp": "2026-03-27T15:11:30.182938",
+      "cycle": 7914875,
+      "atp": 32.90377779504725,
+      "state": "rest",
+      "uptime": 797491.5155055523,
+      "elapsed_seconds": 440.16077756881714,
+      "sample_number": 44
+    },
+    {
+      "timestamp": "2026-03-27T15:11:40.186379",
+      "cycle": 7914974,
+      "atp": 47.16536437069819,
+      "state": "rest",
+      "uptime": 797501.5187423229,
+      "elapsed_seconds": 450.1642196178436,
+      "sample_number": 45
+    },
+    {
+      "timestamp": "2026-03-27T15:11:50.189873",
+      "cycle": 7915074,
+      "atp": 31.903777795047244,
+      "state": "rest",
+      "uptime": 797511.5221428871,
+      "elapsed_seconds": 460.1677174568176,
+      "sample_number": 46
+    },
+    {
+      "timestamp": "2026-03-27T15:12:00.193591",
+      "cycle": 7915173,
+      "atp": 46.165364370698185,
+      "state": "rest",
+      "uptime": 797521.5258841515,
+      "elapsed_seconds": 470.1714367866516,
+      "sample_number": 47
+    },
+    {
+      "timestamp": "2026-03-27T15:12:10.197339",
+      "cycle": 7915273,
+      "atp": 30.903777795047255,
+      "state": "rest",
+      "uptime": 797531.5296878815,
+      "elapsed_seconds": 480.17517948150635,
+      "sample_number": 48
+    },
+    {
+      "timestamp": "2026-03-27T15:12:20.201002",
+      "cycle": 7915372,
+      "atp": 45.16536437069819,
+      "state": "rest",
+      "uptime": 797541.5333545208,
+      "elapsed_seconds": 490.17884254455566,
+      "sample_number": 49
+    },
+    {
+      "timestamp": "2026-03-27T15:12:30.204810",
+      "cycle": 7915472,
+      "atp": 29.903777795047237,
+      "state": "rest",
+      "uptime": 797551.5371479988,
+      "elapsed_seconds": 500.1826539039612,
+      "sample_number": 50
+    },
+    {
+      "timestamp": "2026-03-27T15:12:40.208788",
+      "cycle": 7915571,
+      "atp": 44.16536437069818,
+      "state": "rest",
+      "uptime": 797561.540820837,
+      "elapsed_seconds": 510.1866343021393,
+      "sample_number": 51
+    },
+    {
+      "timestamp": "2026-03-27T15:12:50.212077",
+      "cycle": 7915670,
+      "atp": 27.903777795047244,
+      "state": "rest",
+      "uptime": 797571.5445351601,
+      "elapsed_seconds": 520.1899240016937,
+      "sample_number": 52
+    },
+    {
+      "timestamp": "2026-03-27T15:13:00.215322",
+      "cycle": 7915770,
+      "atp": 43.165364370698185,
+      "state": "rest",
+      "uptime": 797581.5478377342,
+      "elapsed_seconds": 530.1931672096252,
+      "sample_number": 53
+    },
+    {
+      "timestamp": "2026-03-27T15:13:10.218800",
+      "cycle": 7915869,
+      "atp": 26.903777795047237,
+      "state": "rest",
+      "uptime": 797591.5513608456,
+      "elapsed_seconds": 540.1966404914856,
+      "sample_number": 54
+    },
+    {
+      "timestamp": "2026-03-27T15:13:20.222358",
+      "cycle": 7915969,
+      "atp": 42.16536437069819,
+      "state": "rest",
+      "uptime": 797601.5548028946,
+      "elapsed_seconds": 550.2001986503601,
+      "sample_number": 55
+    },
+    {
+      "timestamp": "2026-03-27T15:13:30.225702",
+      "cycle": 7916068,
+      "atp": 28.828793328007787,
+      "state": "wake",
+      "uptime": 797611.5580873489,
+      "elapsed_seconds": 560.2035417556763,
+      "sample_number": 56
+    },
+    {
+      "timestamp": "2026-03-27T15:13:40.229359",
+      "cycle": 7916167,
+      "atp": 40.165364370698185,
+      "state": "rest",
+      "uptime": 797621.5616717339,
+      "elapsed_seconds": 570.2072005271912,
+      "sample_number": 57
+    },
+    {
+      "timestamp": "2026-03-27T15:13:50.233164",
+      "cycle": 7916267,
+      "atp": 30.898702503234187,
+      "state": "wake",
+      "uptime": 797631.5653495789,
+      "elapsed_seconds": 580.211009979248,
+      "sample_number": 58
+    },
+    {
+      "timestamp": "2026-03-27T15:14:00.236289",
+      "cycle": 7916366,
+      "atp": 39.16536437069819,
+      "state": "rest",
+      "uptime": 797641.5688037872,
+      "elapsed_seconds": 590.2141308784485,
+      "sample_number": 59
+    }
+  ]
+}
