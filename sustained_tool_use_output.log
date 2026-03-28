@@ -1,0 +1,24 @@
+======================================================================
+SUSTAINED TOOL-USE EXPERIMENT - Thor Session #35
+======================================================================
+Duration: ~72 minutes (60 min conversation + 10 min recovery)
+Questions: 119
+Hypothesis: Sustained tool-use maintains wake and may induce SAGE transition
+======================================================================
+
+[Phase 1] Baseline measurement (60 seconds)...
+  Sample 1/12: ATP=32.9, State=wake
+  Sample 4/12: ATP=57.1, State=rest
+  Sample 7/12: ATP=38.9, State=rest
+  Sample 10/12: ATP=70.7, State=rest
+  Baseline complete: 60.0s
+
+[Phase 2] Sustained tool-use conversation starting...
+  119 questions over ~60 minutes (30s intervals)
+
+  === Turn 1/119 (0.0 min) ===
+      Type: memory, State: wake, ATP: 40.6
+      STATE TRANSITION: wake → rest
+      STATE TRANSITION: rest → dream
+      STATE TRANSITION: wake → rest
+      STATE TRANSITION: rest → wake
