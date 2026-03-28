@@ -22,3 +22,5 @@ Hypothesis: Sustained tool-use maintains wake and may induce SAGE transition
       STATE TRANSITION: rest → dream
       STATE TRANSITION: wake → rest
       STATE TRANSITION: rest → wake
+      STATE TRANSITION: wake → rest
+      STATE TRANSITION: wake → rest
