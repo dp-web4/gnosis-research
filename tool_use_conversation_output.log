@@ -1,0 +1,253 @@
+============================================================
+Tool-Use Conversation Experiment - Thor Session #33
+============================================================
+
+[Phase 1] Baseline measurement (30 seconds)...
+Sampling every 5 seconds...
+  Sample 1/6: ATP=47.7, State=rest
+  Sample 2/6: ATP=42.4, State=rest
+  Sample 3/6: ATP=59.8, State=rest
+  Sample 4/6: ATP=28.1, State=rest
+  Sample 5/6: ATP=45.7, State=rest
+  Sample 6/6: ATP=41.0, State=rest
+
+[Phase 2] Tool-use conversation starting...
+Target: 40 questions requiring tool/plugin activations
+
+  Turn 1/40: Search your episodic memory for the last time we discussed m...
+    Pre-turn: ATP=58.2, State=rest
+    Post-turn: ATP=53.5, State=rest
+    Response: 34.59s, 1118 chars, 3 tool indicators
+
+  Turn 2/40: What conversations have we had about ATP dynamics?...
+    Pre-turn: ATP=45.9, State=rest
+    Post-turn: ATP=49.3, State=rest
+    Response: 11.29s, 305 chars, 3 tool indicators
+
+  Turn 3/40: Retrieve your memory of the autonomous limit cycle discovery...
+    Pre-turn: ATP=69.7, State=rest
+    Post-turn: ATP=55.2, State=wake
+    Response: 12.17s, 346 chars, 1 tool indicators
+
+  Turn 4/40: Search your memory for any mentions of 'dream state'....
+    Pre-turn: ATP=31.1, State=rest
+    Post-turn: ATP=34.4, State=rest
+    Response: 15.03s, 451 chars, 3 tool indicators
+
+  Turn 5/40: What do you remember about Session #28?...
+    Pre-turn: ATP=34.2, State=rest
+    Post-turn: ATP=32.9, State=dream
+    Response: 29.72s, 921 chars, 3 tool indicators
+
+  Turn 6/40: Calculate: (43.7 / 100) × 1000...
+    Pre-turn: ATP=48.9, State=rest
+    Post-turn: ATP=49.7, State=rest
+    Response: 44.52s, 772 chars, 2 tool indicators
+
+  Turn 7/40: What's 0.283 as a percentage? Show your calculation....
+    Pre-turn: ATP=40.9, State=rest
+    Post-turn: ATP=37.9, State=rest
+    Response: 54.18s, 879 chars, 5 tool indicators
+
+  Turn 8/40: Compute the mean of these values: 44, 47, 39, 52, 41...
+    Pre-turn: ATP=51.7, State=rest
+    Post-turn: ATP=54.3, State=rest
+    Response: 31.75s, 404 chars, 1 tool indicators
+
+  Turn 9/40: Calculate the standard deviation of: 27.6, 66.8, 47.5, 43.7...
+    Pre-turn: ATP=31.1, State=wake
+    Post-turn: ATP=25.0, State=rest
+    Response: 35.13s, 1198 chars, 2 tool indicators
+
+  Turn 10/40: What's 818575 seconds converted to days? Calculate it....
+    Pre-turn: ATP=50.3, State=wake
+    Post-turn: ATP=30.6, State=rest
+    Response: 16.99s, 245 chars, 1 tool indicators
+
+  Turn 11/40: Check your current ATP level and tell me if it's above or be...
+    Pre-turn: ATP=44.1, State=rest
+    Post-turn: ATP=47.1, State=rest
+    Response: 15.19s, 364 chars, 5 tool indicators
+
+  Turn 12/40: What metabolic state are you in right now?...
+    Pre-turn: ATP=40.0, State=rest
+    Post-turn: ATP=37.0, State=rest
+    Response: 33.19s, 957 chars, 2 tool indicators
+
+  Turn 13/40: How many cycles have elapsed since cycle 8000000?...
+    Pre-turn: ATP=49.1, State=rest
+    Post-turn: ATP=51.8, State=rest
+    Response: 13.23s, 375 chars, 4 tool indicators
+
+  Turn 14/40: What's your current cycle count?...
+    Pre-turn: ATP=43.6, State=wake
+    Post-turn: ATP=31.9, State=rest
+    Response: 26.54s, 282 chars, 3 tool indicators
+
+  Turn 15/40: Check your ATP and predict whether it will rise or fall next...
+    Pre-turn: ATP=47.7, State=wake
+    Post-turn: ATP=39.0, State=rest
+    Response: 14.65s, 361 chars, 4 tool indicators
+
+  Turn 16/40: What time is it right now?...
+    Pre-turn: ATP=38.4, State=wake
+    Post-turn: ATP=32.5, State=rest
+    Response: 17.28s, 267 chars, 1 tool indicators
+
+  Turn 17/40: What's the current timestamp in Unix time?...
+    Pre-turn: ATP=29.2, State=rest
+    Post-turn: ATP=31.1, State=rest
+    Response: 38.67s, 325 chars, 3 tool indicators
+
+  Turn 18/40: How many seconds has your daemon been running?...
+    Pre-turn: ATP=41.7, State=rest
+    Post-turn: ATP=45.4, State=rest
+    Response: 15.82s, 422 chars, 4 tool indicators
+
+  Turn 19/40: What's today's date?...
+    Pre-turn: ATP=47.8, State=rest
+    Post-turn: ATP=47.7, State=dream
+    Response: 21.11s, 222 chars, 0 tool indicators
+
+  Turn 20/40: Calculate how many hours are in 818575 seconds....
+    Pre-turn: ATP=64.0, State=wake
+    Post-turn: ATP=37.0, State=rest
+    Response: 18.38s, 184 chars, 1 tool indicators
+
+  Turn 21/40: Check your current ATP, then search your memory for the last...
+    Pre-turn: ATP=46.7, State=wake
+    Post-turn: ATP=29.7, State=rest
+    Response: 17.69s, 240 chars, 5 tool indicators
+
+  Turn 22/40: What time is it, and what's your metabolic state?...
+    Pre-turn: ATP=30.3, State=wake
+    Post-turn: ATP=30.0, State=rest
+    Response: 37.29s, 458 chars, 2 tool indicators
+
+  Turn 23/40: Calculate your uptime in days, then tell me your current cyc...
+    Pre-turn: ATP=44.7, State=rest
+    Post-turn: ATP=41.4, State=rest
+    Response: 35.01s, 1125 chars, 5 tool indicators
+
+  Turn 24/40: Search your memory for 'wake fraction', then calculate the a...
+    Pre-turn: ATP=42.2, State=rest
+    Post-turn: ATP=45.4, State=rest
+    Response: 13.09s, 371 chars, 4 tool indicators
+
+  Turn 25/40: Check your current state and ATP, then search for similar pa...
+    Pre-turn: ATP=61.7, State=rest
+    Post-turn: ATP=64.1, State=rest
+    Response: 17.28s, 320 chars, 4 tool indicators
+
+  Turn 26/40: Use your memory to list all the Thor sessions you remember, ...
+    Pre-turn: ATP=27.7, State=rest
+    Post-turn: ATP=31.1, State=rest
+    Response: 17.32s, 464 chars, 2 tool indicators
+
+  Turn 27/40: Calculate the cycles per minute: 8124379 cycles / (818575 se...
+    Pre-turn: ATP=34.4, State=wake
+    Post-turn: ATP=34.3, State=rest
+    Response: 17.44s, 219 chars, 3 tool indicators
+
+  Turn 28/40: Search your memory for your baseline wake fraction, then com...
+    Pre-turn: ATP=47.8, State=rest
+    Post-turn: ATP=50.2, State=rest
+    Response: 33.95s, 376 chars, 2 tool indicators
+
+  Turn 29/40: Calculate how long 10 minutes is in cycles at 100 cycles/min...
+    Pre-turn: ATP=43.0, State=rest
+    Post-turn: ATP=42.8, State=dream
+    Response: 29.25s, 261 chars, 1 tool indicators
+
+  Turn 30/40: Check your ATP, search your memory for ATP variance patterns...
+    Pre-turn: ATP=69.7, State=rest
+    Post-turn: ATP=71.6, State=rest
+    Response: 40.05s, 278 chars, 2 tool indicators
+
+  Turn 31/40: What processing mode are you using to answer this question? ...
+    Pre-turn: ATP=39.9, State=rest
+    Post-turn: ATP=42.7, State=rest
+    Response: 17.52s, 452 chars, 1 tool indicators
+
+  Turn 32/40: Search your memory for 'cognitive router' and reflect on wha...
+    Pre-turn: ATP=57.3, State=wake
+    Post-turn: ATP=34.1, State=rest
+    Response: 33.10s, 997 chars, 5 tool indicators
+
+  Turn 33/40: Calculate the wake:rest ratio from these: wake=17, rest=43. ...
+    Pre-turn: ATP=41.1, State=wake
+    Post-turn: ATP=37.5, State=rest
+    Response: 18.15s, 303 chars, 1 tool indicators
+
+  Turn 34/40: Check your current ATP and reflect on whether you feel 'ener...
+    Pre-turn: ATP=32.3, State=rest
+    Post-turn: ATP=37.3, State=rest
+    Response: 12.51s, 261 chars, 2 tool indicators
+
+  Turn 35/40: Search your memory for experiments about internal vs externa...
+    Pre-turn: ATP=57.7, State=rest
+    Post-turn: ATP=55.2, State=rest
+    Response: 32.75s, 1038 chars, 5 tool indicators
+
+  Turn 36/40: List any log files or data you have access to....
+    Pre-turn: ATP=50.3, State=wake
+    Post-turn: ATP=32.8, State=rest
+    Response: 32.66s, 1056 chars, 5 tool indicators
+
+  Turn 37/40: Check if you have access to a memory system or episodic buff...
+    Pre-turn: ATP=51.8, State=wake
+    Post-turn: ATP=41.1, State=rest
+    Response: 32.91s, 1128 chars, 4 tool indicators
+
+  Turn 38/40: What tools or plugins do you have available?...
+    Pre-turn: ATP=35.3, State=wake
+    Post-turn: ATP=35.6, State=rest
+    Response: 11.23s, 318 chars, 5 tool indicators
+
+  Turn 39/40: Describe your computational resources (CPU, memory, etc)....
+    Pre-turn: ATP=28.9, State=rest
+    Post-turn: ATP=32.6, State=rest
+    Response: 13.89s, 472 chars, 2 tool indicators
+
+  Turn 40/40: What model are you running on (check your system info)?...
+    Pre-turn: ATP=52.7, State=rest
+    Post-turn: ATP=55.4, State=rest
+    Response: 25.44s, 314 chars, 4 tool indicators
+
+  Conversation complete: 33.8 minutes, 10360 cycles
+
+[Phase 3] Post-conversation recovery (5 minutes)...
+Sampling every 10 seconds...
+  Sample 1/30: ATP=47.0, State=rest
+  Sample 6/30: ATP=26.9, State=rest
+  Sample 11/30: ATP=39.2, State=rest
+  Sample 16/30: ATP=40.9, State=wake
+  Sample 21/30: ATP=33.2, State=rest
+  Sample 26/30: ATP=47.5, State=rest
+
+============================================================
+Calculating results...
+
+=== RESULTS SUMMARY ===
+
+Baseline wake fraction: 0.0% (0/6)
+Conversation wake fraction: 35.0% (14/40)
+Recovery wake fraction: 26.7% (8/30)
+
+Wake fraction change: +35.0%
+Dream states observed: 0
+
+Mean ATP: 45.1 ± 10.9
+Total turns: 40
+Duration: 33.8 minutes
+
+=== COMPARISON TO PRIOR SESSIONS ===
+
+Session #31 (rapid-fire conversation):  wake = 5.0%
+Session #32 (internal goal pursuit):    wake = 28.3%
+Session #33 (tool-use conversation):    wake = 35.0%
+
+✓ HYPOTHESIS SUPPORTED: Tool-use elevated wake fraction
+
+Results saved to: tool_use_conversation_20260328_030451.json
+============================================================
