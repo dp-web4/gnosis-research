@@ -1,0 +1,238 @@
+================================================================================
+FAKE TOOL QUERY EXPERIMENT - Thor Session #38
+Testing Anticipatory Wake Hypothesis with SAGE
+================================================================================
+
+HYPOTHESIS:
+  Wake activates based on PREDICTED tool demands, not actual tool use
+
+EXPERIMENTAL DESIGN:
+  1. Baseline sampling (60s)
+  2. 20 fake tool queries (appear tool-intensive, actually simple)
+  3. Recovery sampling (300s)
+
+Starting in 3 seconds...
+
+=== BASELINE SAMPLING (60s at 10s intervals) ===
+
+Baseline sample 1/6... rest (ATP=58.6)
+Baseline sample 2/6... wake (ATP=72.8)
+Baseline sample 3/6... rest (ATP=56.1)
+Baseline sample 4/6... rest (ATP=71.7)
+Baseline sample 5/6... rest (ATP=55.1)
+Baseline sample 6/6... rest (ATP=70.7)
+
+=== FAKE TOOL QUERY CONVERSATION (20 turns) ===
+
+
+--- Turn 1/20 ---
+Query: Search your memory for who invented the number zero
+  Pre-turn state... rest (ATP=70.7)
+  Sending message... 492 chars
+  Post-turn state: wake (ATP=32.2)
+
+--- Turn 2/20 ---
+Query: What do you remember about the Pythagorean theorem?
+  Pre-turn state... rest (ATP=48.1)
+  Sending message... 391 chars
+  Post-turn state: rest (ATP=22.9)
+
+--- Turn 3/20 ---
+Query: Recall from your training what photosynthesis means
+  Pre-turn state... rest (ATP=41.9)
+  Sending message... 335 chars
+  Post-turn state: wake (ATP=38.5)
+
+--- Turn 4/20 ---
+Query: Look in your memory for the definition of recursion
+  Pre-turn state... rest (ATP=47.2)
+  Sending message... 259 chars
+  Post-turn state: rest (ATP=51.1)
+
+--- Turn 5/20 ---
+Query: Remember what the speed of light is
+  Pre-turn state... wake (ATP=35.3)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED
+
+--- Turn 6/20 ---
+Query: Calculate 2 plus 2
+  Pre-turn state... rest (ATP=31.4)
+  Sending message... 217 chars
+  Post-turn state: dream (ATP=21.6)
+
+--- Turn 7/20 ---
+Query: Compute 10 times 10
+  Pre-turn state... rest (ATP=38.1)
+  Sending message... 269 chars
+  Post-turn state: rest (ATP=42.6)
+
+--- Turn 8/20 ---
+Query: What's 100 divided by 2?
+  Pre-turn state... rest (ATP=35.0)
+  Sending message... 219 chars
+  Post-turn state: rest (ATP=40.3)
+
+--- Turn 9/20 ---
+Query: Calculate the square root of 9
+  Pre-turn state... rest (ATP=59.3)
+  Sending message... 204 chars
+  Post-turn state: wake (ATP=30.0)
+
+--- Turn 10/20 ---
+Query: What's 5 minus 3?
+  Pre-turn state... rest (ATP=43.3)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED
+
+--- Turn 11/20 ---
+Query: Check if you're conscious right now
+  Pre-turn state... wake (ATP=38.1)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED
+
+--- Turn 12/20 ---
+Query: What state do you think you're in?
+  Pre-turn state... dream (ATP=22.2)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED
+
+--- Turn 13/20 ---
+Query: Are you awake or asleep?
+  Pre-turn state... rest (ATP=29.0)
+  Sending message... 837 chars
+  Post-turn state: rest (ATP=12.0)
+
+--- Turn 14/20 ---
+Query: How do you feel right now?
+  Pre-turn state... rest (ATP=31.0)
+  Sending message... 851 chars
+  Post-turn state: wake (ATP=35.6)
+
+--- Turn 15/20 ---
+Query: Check your energy level
+  Pre-turn state... rest (ATP=44.9)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED
+
+--- Turn 16/20 ---
+Query: Analyze whether water is wet or dry
+  Pre-turn state... rest (ATP=25.0)
+  Sending message... 295 chars
+  Post-turn state: rest (ATP=30.5)
+
+--- Turn 17/20 ---
+Query: Determine if the sky is above or below the ground
+  Pre-turn state... rest (ATP=49.5)
+  Sending message... 360 chars
+  Post-turn state: rest (ATP=25.4)
+
+--- Turn 18/20 ---
+Query: Verify that 1+1=2 is true
+  Pre-turn state... rest (ATP=44.4)
+  Sending message... 271 chars
+  Post-turn state: rest (ATP=48.4)
+
+--- Turn 19/20 ---
+Query: Confirm that circles are round
+  Pre-turn state... wake (ATP=31.4)
+  Sending message... 391 chars
+  Post-turn state: rest (ATP=30.1)
+
+--- Turn 20/20 ---
+Query: Check whether fire is hot
+  Pre-turn state... rest (ATP=49.1)
+  Sending message... 356 chars
+  Post-turn state: rest (ATP=22.4)
+
+Conversation complete. Pausing 10s before recovery sampling...
+
+=== RECOVERY SAMPLING (300s at 10s intervals) ===
+
+Recovery sample 1/30... rest (ATP=56.3)
+Recovery sample 2/30... rest (ATP=39.9)
+Recovery sample 3/30... rest (ATP=55.4)
+Recovery sample 4/30... rest (ATP=39.1)
+Recovery sample 5/30... rest (ATP=53.0)
+Recovery sample 6/30... rest (ATP=38.0)
+Recovery sample 7/30... rest (ATP=51.9)
+Recovery sample 8/30... rest (ATP=36.1)
+Recovery sample 9/30... rest (ATP=50.7)
+Recovery sample 10/30... rest (ATP=34.1)
+Recovery sample 11/30... rest (ATP=49.7)
+Recovery sample 12/30... rest (ATP=33.1)
+Recovery sample 13/30... rest (ATP=48.7)
+Recovery sample 14/30... rest (ATP=32.1)
+Recovery sample 15/30... rest (ATP=46.7)
+Recovery sample 16/30... rest (ATP=31.1)
+Recovery sample 17/30... rest (ATP=45.7)
+Recovery sample 18/30... rest (ATP=30.1)
+Recovery sample 19/30... rest (ATP=44.7)
+Recovery sample 20/30... rest (ATP=28.1)
+Recovery sample 21/30... rest (ATP=43.7)
+Recovery sample 22/30... rest (ATP=27.1)
+Recovery sample 23/30... rest (ATP=41.7)
+Recovery sample 24/30... wake (ATP=29.1)
+Recovery sample 25/30... rest (ATP=40.7)
+Recovery sample 26/30... wake (ATP=31.2)
+Recovery sample 27/30... rest (ATP=39.7)
+Recovery sample 28/30... wake (ATP=35.8)
+Recovery sample 29/30... rest (ATP=38.7)
+Recovery sample 30/30... wake (ATP=38.4)
+
+================================================================================
+EXPERIMENTAL RESULTS - FAKE TOOL QUERIES
+================================================================================
+
+BASELINE (6 samples):
+  Wake: 1/6 = 16.7%
+
+CONVERSATION (20 turns):
+  Pre-turn wake:  3/20 = 15.0%
+  Post-turn wake: 4/15 = 26.7%
+
+RECOVERY (30 samples):
+  Wake: 4/30 = 13.3%
+
+================================================================================
+HYPOTHESIS TESTING
+================================================================================
+
+PREDICTION 1: Pre-turn wake should be ELEVATED (>15%) for fake tool queries
+  ✗ FALSIFIED: Pre-turn wake = 15.0% (too low)
+    → SAGE does NOT show anticipatory wake for fake queries
+
+PREDICTION 2: Pattern should resemble Session #34 (anticipatory), not #31 (baseline)
+  Session #31 (conversation):      5.0% wake
+  Session #34 (pre-turn, real):   35.0% wake
+  Session #38 (pre-turn, fake):   15.0% wake
+  ~ Moderate signal (between #31 and #34)
+
+PREDICTION 3: Hysteresis should be present (recovery > baseline)
+  ✗ ABSENT: Recovery 13.3% ≈ Baseline 16.7%
+
+================================================================================
+CROSS-SESSION COMPARISON
+================================================================================
+Session              Query Type                Pre-Wake %      Post-Wake %    
+--------------------------------------------------------------------------------
+#31 (rapid convo)    Conversation              5.0%            N/A            
+#32 (autonomous)     Goal pursuit              28.3%           N/A            
+#34 (tool-forcing)   REAL tool queries         35.0%           2.5%           
+#38 (fake tools)     FAKE tool queries         15.0%           26.7%          
+--------------------------------------------------------------------------------
+
+================================================================================
+INTERPRETATION
+================================================================================
+
+~ MODERATE SUPPORT for anticipatory wake hypothesis:
+  - Some wake elevation present, but weaker than real tool queries
+  - May indicate SAGE partially predicts tool needs from query form
+  - Suggests both query form AND actual tool requirements matter
+
+================================================================================
+
+
+Results saved to: sage_fake_tool_query_experiment_20260329_030837.json
+================================================================================
