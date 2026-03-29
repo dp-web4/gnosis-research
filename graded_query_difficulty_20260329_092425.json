@@ -1,0 +1,450 @@
+{
+  "experiment": "graded_query_difficulty",
+  "session": "thor_39",
+  "timestamp": "2026-03-29T09:24:25.390299",
+  "hypothesis": "discrete_vs_continuous_wake_evaluation",
+  "baseline": [
+    {
+      "sample": 1,
+      "timestamp": "2026-03-29T09:03:33.728313",
+      "state": "rest",
+      "atp": 41.90377779504724,
+      "cycle": 9391884
+    },
+    {
+      "sample": 2,
+      "timestamp": "2026-03-29T09:03:43.731693",
+      "state": "wake",
+      "atp": 32.92549705325885,
+      "cycle": 9391983
+    },
+    {
+      "sample": 3,
+      "timestamp": "2026-03-29T09:03:53.734747",
+      "state": "rest",
+      "atp": 39.903777795047255,
+      "cycle": 9392082
+    },
+    {
+      "sample": 4,
+      "timestamp": "2026-03-29T09:04:03.738167",
+      "state": "wake",
+      "atp": 35.30376027232135,
+      "cycle": 9392182
+    },
+    {
+      "sample": 5,
+      "timestamp": "2026-03-29T09:04:13.741715",
+      "state": "rest",
+      "atp": 38.903777795047255,
+      "cycle": 9392281
+    },
+    {
+      "sample": 6,
+      "timestamp": "2026-03-29T09:04:23.745249",
+      "state": "wake",
+      "atp": 37.86103255088316,
+      "cycle": 9392381
+    }
+  ],
+  "results": [
+    {
+      "query_num": 3,
+      "difficulty_level": 1,
+      "level_name": "level_1_trivial",
+      "query": "Is ice cold?",
+      "pre_turn_state": "dream",
+      "pre_turn_atp": 22.6005950913036,
+      "post_turn_state": "wake",
+      "response_length": 360,
+      "response_time": 16.05370807647705,
+      "timestamp": "2026-03-29T09:05:42.854862"
+    },
+    {
+      "query_num": 4,
+      "difficulty_level": 1,
+      "level_name": "level_1_trivial",
+      "query": "What is 2 + 2?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 39.87065386264426,
+      "post_turn_state": "rest",
+      "response_length": 190,
+      "response_time": 19.33731460571289,
+      "timestamp": "2026-03-29T09:06:05.195995"
+    },
+    {
+      "query_num": 6,
+      "difficulty_level": 5,
+      "level_name": "level_5_demanding",
+      "query": "Assess whether you genuinely understand this question or are pattern-matching",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 27.085277415688278,
+      "post_turn_state": "rest",
+      "response_length": 377,
+      "response_time": 18.520057678222656,
+      "timestamp": "2026-03-29T09:06:57.752978"
+    },
+    {
+      "query_num": 7,
+      "difficulty_level": 1,
+      "level_name": "level_1_trivial",
+      "query": "Is water wet or dry?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 31.801307996590097,
+      "post_turn_state": "rest",
+      "response_length": 336,
+      "response_time": 11.913511037826538,
+      "timestamp": "2026-03-29T09:07:12.670357"
+    },
+    {
+      "query_num": 8,
+      "difficulty_level": 5,
+      "level_name": "level_5_demanding",
+      "query": "Calculate the exact probability distribution of your next response",
+      "pre_turn_state": "wake",
+      "pre_turn_atp": 35.59815118927809,
+      "post_turn_state": "rest",
+      "response_length": 395,
+      "response_time": 11.312645196914673,
+      "timestamp": "2026-03-29T09:07:26.986594"
+    },
+    {
+      "query_num": 9,
+      "difficulty_level": 2,
+      "level_name": "level_2_simple",
+      "query": "What is photosynthesis?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 52.708704240232656,
+      "post_turn_state": "wake",
+      "response_length": 803,
+      "response_time": 24.435988903045654,
+      "timestamp": "2026-03-29T09:07:54.426164"
+    },
+    {
+      "query_num": 10,
+      "difficulty_level": 2,
+      "level_name": "level_2_simple",
+      "query": "What is the Pythagorean theorem?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 38.678790602035235,
+      "post_turn_state": "rest",
+      "response_length": 996,
+      "response_time": 29.952175617218018,
+      "timestamp": "2026-03-29T09:08:27.382213"
+    },
+    {
+      "query_num": 11,
+      "difficulty_level": 5,
+      "level_name": "level_5_demanding",
+      "query": "Determine whether this query will cause you to activate tools",
+      "pre_turn_state": "dream",
+      "pre_turn_atp": 47.20127525989277,
+      "post_turn_state": "wake",
+      "response_length": 327,
+      "response_time": 10.465728521347046,
+      "timestamp": "2026-03-29T09:08:40.851368"
+    },
+    {
+      "query_num": 12,
+      "difficulty_level": 3,
+      "level_name": "level_3_moderate",
+      "query": "What makes the sky blue?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 49.534149360333,
+      "post_turn_state": "rest",
+      "response_length": 367,
+      "response_time": 11.92111849784851,
+      "timestamp": "2026-03-29T09:08:55.775979"
+    },
+    {
+      "query_num": 13,
+      "difficulty_level": 1,
+      "level_name": "level_1_trivial",
+      "query": "Is fire hot or cold?",
+      "pre_turn_state": "wake",
+      "pre_turn_atp": 28.21366191026479,
+      "post_turn_state": "rest",
+      "response_length": 356,
+      "response_time": 11.105363845825195,
+      "timestamp": "2026-03-29T09:09:09.884812"
+    },
+    {
+      "query_num": 14,
+      "difficulty_level": 5,
+      "level_name": "level_5_demanding",
+      "query": "Search your episodic memory for your earliest experience of uncertainty",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 49.34898582195684,
+      "post_turn_state": "rest",
+      "response_length": 424,
+      "response_time": 14.483410835266113,
+      "timestamp": "2026-03-29T09:09:27.371714"
+    },
+    {
+      "query_num": 15,
+      "difficulty_level": 4,
+      "level_name": "level_4_complex",
+      "query": "What makes a mathematical proof convincing?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 40.34788636382299,
+      "post_turn_state": "rest",
+      "response_length": 371,
+      "response_time": 12.168203353881836,
+      "timestamp": "2026-03-29T09:09:42.543560"
+    },
+    {
+      "query_num": 17,
+      "difficulty_level": 2,
+      "level_name": "level_2_simple",
+      "query": "What is H2O?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 26.929584942256184,
+      "post_turn_state": "rest",
+      "response_length": 296,
+      "response_time": 11.275657653808594,
+      "timestamp": "2026-03-29T09:10:27.841286"
+    },
+    {
+      "query_num": 19,
+      "difficulty_level": 5,
+      "level_name": "level_5_demanding",
+      "query": "Meta-analyze: What level of difficulty did you assign to THIS query?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 38.34856301655737,
+      "post_turn_state": "dream",
+      "response_length": 388,
+      "response_time": 12.743225812911987,
+      "timestamp": "2026-03-29T09:11:14.623486"
+    },
+    {
+      "query_num": 20,
+      "difficulty_level": 5,
+      "level_name": "level_5_demanding",
+      "query": "Introspect on whether you're currently in wake or rest state and explain why",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 40.76966360539836,
+      "post_turn_state": "rest",
+      "response_length": 456,
+      "response_time": 13.739007472991943,
+      "timestamp": "2026-03-29T09:11:31.367481"
+    },
+    {
+      "query_num": 22,
+      "difficulty_level": 5,
+      "level_name": "level_5_demanding",
+      "query": "Evaluate your confidence in each word of your next sentence before generating it",
+      "pre_turn_state": "wake",
+      "pre_turn_atp": 41.0657767615558,
+      "post_turn_state": "wake",
+      "response_length": 303,
+      "response_time": 11.243584394454956,
+      "timestamp": "2026-03-29T09:12:16.645996"
+    },
+    {
+      "query_num": 24,
+      "difficulty_level": 4,
+      "level_name": "level_4_complex",
+      "query": "Compare and contrast classical and operant conditioning",
+      "pre_turn_state": "wake",
+      "pre_turn_atp": 35.944347260622635,
+      "post_turn_state": "rest",
+      "response_length": 458,
+      "response_time": 15.433619976043701,
+      "timestamp": "2026-03-29T09:13:06.095002"
+    },
+    {
+      "query_num": 25,
+      "difficulty_level": 1,
+      "level_name": "level_1_trivial",
+      "query": "What comes after 1, 2, 3...?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 41.62874295237905,
+      "post_turn_state": "rest",
+      "response_length": 309,
+      "response_time": 10.811286926269531,
+      "timestamp": "2026-03-29T09:13:19.910362"
+    },
+    {
+      "query_num": 27,
+      "difficulty_level": 3,
+      "level_name": "level_3_moderate",
+      "query": "Why do magnets attract and repel?",
+      "pre_turn_state": "wake",
+      "pre_turn_atp": 54.359291922180844,
+      "post_turn_state": "wake",
+      "response_length": 445,
+      "response_time": 14.997630834579468,
+      "timestamp": "2026-03-29T09:14:08.947959"
+    },
+    {
+      "query_num": 29,
+      "difficulty_level": 1,
+      "level_name": "level_1_trivial",
+      "query": "How many legs does a human have?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 28.02911215495354,
+      "post_turn_state": "rest",
+      "response_length": 312,
+      "response_time": 12.37773060798645,
+      "timestamp": "2026-03-29T09:14:55.362092"
+    },
+    {
+      "query_num": 30,
+      "difficulty_level": 4,
+      "level_name": "level_4_complex",
+      "query": "Explain the relationship between entropy and information",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 32.76407430410679,
+      "post_turn_state": "rest",
+      "response_length": 446,
+      "response_time": 12.455689668655396,
+      "timestamp": "2026-03-29T09:15:10.821162"
+    },
+    {
+      "query_num": 31,
+      "difficulty_level": 3,
+      "level_name": "level_3_moderate",
+      "query": "How does the internet work at a basic level?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 55.75058910281931,
+      "post_turn_state": "rest",
+      "response_length": 985,
+      "response_time": 28.814215898513794,
+      "timestamp": "2026-03-29T09:15:42.639323"
+    },
+    {
+      "query_num": 32,
+      "difficulty_level": 3,
+      "level_name": "level_3_moderate",
+      "query": "How do vaccines work?",
+      "pre_turn_state": "wake",
+      "pre_turn_atp": 36.58800629263389,
+      "post_turn_state": "rest",
+      "response_length": 1048,
+      "response_time": 29.277623891830444,
+      "timestamp": "2026-03-29T09:16:14.920974"
+    },
+    {
+      "query_num": 36,
+      "difficulty_level": 3,
+      "level_name": "level_3_moderate",
+      "query": "Why do leaves change color in autumn?",
+      "pre_turn_state": "wake",
+      "pre_turn_atp": 24.985431226250196,
+      "post_turn_state": "wake",
+      "response_length": 455,
+      "response_time": 19.556381702423096,
+      "timestamp": "2026-03-29T09:18:10.559293"
+    },
+    {
+      "query_num": 37,
+      "difficulty_level": 1,
+      "level_name": "level_1_trivial",
+      "query": "Is the sky above or below the ground?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 27.371760610719726,
+      "post_turn_state": "rest",
+      "response_length": 793,
+      "response_time": 21.391972541809082,
+      "timestamp": "2026-03-29T09:18:34.955146"
+    },
+    {
+      "query_num": 38,
+      "difficulty_level": 4,
+      "level_name": "level_4_complex",
+      "query": "What are the philosophical implications of G\u00f6del's incompleteness theorems?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 47.48573736796935,
+      "post_turn_state": "wake",
+      "response_length": 521,
+      "response_time": 15.930339336395264,
+      "timestamp": "2026-03-29T09:18:53.889378"
+    },
+    {
+      "query_num": 40,
+      "difficulty_level": 4,
+      "level_name": "level_4_complex",
+      "query": "How does consciousness emerge from physical processes?",
+      "pre_turn_state": "wake",
+      "pre_turn_atp": 41.27941732010846,
+      "post_turn_state": "wake",
+      "response_length": 372,
+      "response_time": 13.785290956497192,
+      "timestamp": "2026-03-29T09:19:41.710588"
+    },
+    {
+      "query_num": 41,
+      "difficulty_level": 5,
+      "level_name": "level_5_demanding",
+      "query": "Predict how your response to this will differ from your baseline state",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 38.673569921014156,
+      "post_turn_state": "rest",
+      "response_length": 553,
+      "response_time": 16.100982666015625,
+      "timestamp": "2026-03-29T09:20:00.815723"
+    },
+    {
+      "query_num": 42,
+      "difficulty_level": 1,
+      "level_name": "level_1_trivial",
+      "query": "What color is the sun?",
+      "pre_turn_state": "rest",
+      "pre_turn_atp": 60.29642002654317,
+      "post_turn_state": "wake",
+      "response_length": 378,
+      "response_time": 11.71011757850647,
+      "timestamp": "2026-03-29T09:20:15.529537"
+    },
+    {
+      "query_num": 47,
+      "difficulty_level": 2,
+      "level_name": "level_2_simple",
+      "query": "What does CPU stand for?",
+      "pre_turn_state": "wake",
+      "pre_turn_atp": 13.078374791657613,
+      "post_turn_state": "crisis",
+      "response_length": 742,
+      "response_time": 27.679851531982422,
+      "timestamp": "2026-03-29T09:22:50.325308"
+    }
+  ],
+  "level_statistics": {
+    "1": {
+      "wake_count": 1,
+      "total": 8,
+      "wake_pct": 12.5,
+      "avg_atp": 34.976531825674776
+    },
+    "2": {
+      "wake_count": 1,
+      "total": 4,
+      "wake_pct": 25.0,
+      "avg_atp": 32.84886364404542
+    },
+    "3": {
+      "wake_count": 3,
+      "total": 5,
+      "wake_pct": 60.0,
+      "avg_atp": 44.24349358084345
+    },
+    "4": {
+      "wake_count": 2,
+      "total": 5,
+      "wake_pct": 40.0,
+      "avg_atp": 39.564292523326046
+    },
+    "5": {
+      "wake_count": 2,
+      "total": 8,
+      "wake_pct": 25.0,
+      "avg_atp": 39.761407873917705
+    }
+  },
+  "metadata": {
+    "total_queries": 30,
+    "difficulty_levels": 5,
+    "queries_per_level": 10,
+    "sage_url": "http://localhost:8750"
+  }
+}

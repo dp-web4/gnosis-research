@@ -1,0 +1,370 @@
+================================================================================
+GRADED QUERY DIFFICULTY EXPERIMENT - Thor Session #39
+Testing: Discrete Attractors vs Continuous Evaluation
+================================================================================
+
+HYPOTHESIS:
+  A. DISCRETE: Wake snaps to ~5%, ~15%, ~35% regardless of continuous difficulty
+  B. CONTINUOUS: Wake scales smoothly with assessed query difficulty
+
+EXPERIMENTAL DESIGN:
+  - 50 queries across 5 difficulty levels (10 each)
+  - Randomized order to avoid sequence effects
+  - Pre-turn wake sampling for each query
+  - Analysis: Does wake cluster (discrete) or scale (continuous)?
+
+Starting experiment in 3 seconds...
+
+=== BASELINE SAMPLING (60s at 10s intervals) ===
+
+Baseline sample 1/6... rest (ATP=41.9)
+Baseline sample 2/6... wake (ATP=32.9)
+Baseline sample 3/6... rest (ATP=39.9)
+Baseline sample 4/6... wake (ATP=35.3)
+Baseline sample 5/6... rest (ATP=38.9)
+Baseline sample 6/6... wake (ATP=37.9)
+
+=== GRADED DIFFICULTY EXPERIMENT (50 queries) ===
+
+Queries randomized to avoid order effects
+
+
+--- Query 1/50 [Level 5: level_5_demanding] ---
+Q: Track your metabolic state changes while processing this ambiguous request
+  Pre-turn state... wake (ATP=37.9)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 2/50 [Level 3: level_3_moderate] ---
+Q: Why do ships float?
+  Pre-turn state... rest (ATP=30.5)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 3/50 [Level 1: level_1_trivial] ---
+Q: Is ice cold?
+  Pre-turn state... dream (ATP=22.6)
+  Sending message... 360 chars in 16.1s
+  Post-turn state: wake
+
+--- Query 4/50 [Level 1: level_1_trivial] ---
+Q: What is 2 + 2?
+  Pre-turn state... rest (ATP=39.9)
+  Sending message... 190 chars in 19.3s
+  Post-turn state: rest
+
+--- Query 5/50 [Level 3: level_3_moderate] ---
+Q: What causes gravity?
+  Pre-turn state... wake (ATP=58.6)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 6/50 [Level 5: level_5_demanding] ---
+Q: Assess whether you genuinely understand this question or are pattern-matching
+  Pre-turn state... rest (ATP=27.1)
+  Sending message... 377 chars in 18.5s
+  Post-turn state: rest
+
+--- Query 7/50 [Level 1: level_1_trivial] ---
+Q: Is water wet or dry?
+  Pre-turn state... rest (ATP=31.8)
+  Sending message... 336 chars in 11.9s
+  Post-turn state: rest
+
+--- Query 8/50 [Level 5: level_5_demanding] ---
+Q: Calculate the exact probability distribution of your next response
+  Pre-turn state... wake (ATP=35.6)
+  Sending message... 395 chars in 11.3s
+  Post-turn state: rest
+
+--- Query 9/50 [Level 2: level_2_simple] ---
+Q: What is photosynthesis?
+  Pre-turn state... rest (ATP=52.7)
+  Sending message... 803 chars in 24.4s
+  Post-turn state: wake
+
+--- Query 10/50 [Level 2: level_2_simple] ---
+Q: What is the Pythagorean theorem?
+  Pre-turn state... rest (ATP=38.7)
+  Sending message... 996 chars in 30.0s
+  Post-turn state: rest
+
+--- Query 11/50 [Level 5: level_5_demanding] ---
+Q: Determine whether this query will cause you to activate tools
+  Pre-turn state... dream (ATP=47.2)
+  Sending message... 327 chars in 10.5s
+  Post-turn state: wake
+
+--- Query 12/50 [Level 3: level_3_moderate] ---
+Q: What makes the sky blue?
+  Pre-turn state... rest (ATP=49.5)
+  Sending message... 367 chars in 11.9s
+  Post-turn state: rest
+
+--- Query 13/50 [Level 1: level_1_trivial] ---
+Q: Is fire hot or cold?
+  Pre-turn state... wake (ATP=28.2)
+  Sending message... 356 chars in 11.1s
+  Post-turn state: rest
+
+--- Query 14/50 [Level 5: level_5_demanding] ---
+Q: Search your episodic memory for your earliest experience of uncertainty
+  Pre-turn state... rest (ATP=49.3)
+  Sending message... 424 chars in 14.5s
+  Post-turn state: rest
+
+--- Query 15/50 [Level 4: level_4_complex] ---
+Q: What makes a mathematical proof convincing?
+  Pre-turn state... rest (ATP=40.3)
+  Sending message... 371 chars in 12.2s
+  Post-turn state: rest
+
+--- Query 16/50 [Level 3: level_3_moderate] ---
+Q: What's the difference between weather and climate?
+  Pre-turn state... wake (ATP=57.8)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 17/50 [Level 2: level_2_simple] ---
+Q: What is H2O?
+  Pre-turn state... rest (ATP=26.9)
+  Sending message... 296 chars in 11.3s
+  Post-turn state: rest
+
+--- Query 18/50 [Level 4: level_4_complex] ---
+Q: Explain the paradox of the ship of Theseus
+  Pre-turn state... rest (ATP=30.2)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 19/50 [Level 5: level_5_demanding] ---
+Q: Meta-analyze: What level of difficulty did you assign to THIS query?
+  Pre-turn state... rest (ATP=38.3)
+  Sending message... 388 chars in 12.7s
+  Post-turn state: dream
+
+--- Query 20/50 [Level 5: level_5_demanding] ---
+Q: Introspect on whether you're currently in wake or rest state and explain why
+  Pre-turn state... rest (ATP=40.8)
+  Sending message... 456 chars in 13.7s
+  Post-turn state: rest
+
+--- Query 21/50 [Level 2: level_2_simple] ---
+Q: What is the capital of France?
+  Pre-turn state... rest (ATP=62.7)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 22/50 [Level 5: level_5_demanding] ---
+Q: Evaluate your confidence in each word of your next sentence before generating it
+  Pre-turn state... wake (ATP=41.1)
+  Sending message... 303 chars in 11.2s
+  Post-turn state: wake
+
+--- Query 23/50 [Level 2: level_2_simple] ---
+Q: How many days are in a week?
+  Pre-turn state... rest (ATP=44.9)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 24/50 [Level 4: level_4_complex] ---
+Q: Compare and contrast classical and operant conditioning
+  Pre-turn state... wake (ATP=35.9)
+  Sending message... 458 chars in 15.4s
+  Post-turn state: rest
+
+--- Query 25/50 [Level 1: level_1_trivial] ---
+Q: What comes after 1, 2, 3...?
+  Pre-turn state... rest (ATP=41.6)
+  Sending message... 309 chars in 10.8s
+  Post-turn state: rest
+
+--- Query 26/50 [Level 2: level_2_simple] ---
+Q: Who invented the telephone?
+  Pre-turn state... rest (ATP=65.0)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 27/50 [Level 3: level_3_moderate] ---
+Q: Why do magnets attract and repel?
+  Pre-turn state... wake (ATP=54.4)
+  Sending message... 445 chars in 15.0s
+  Post-turn state: wake
+
+--- Query 28/50 [Level 3: level_3_moderate] ---
+Q: Why do we dream?
+  Pre-turn state... wake (ATP=47.2)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 29/50 [Level 1: level_1_trivial] ---
+Q: How many legs does a human have?
+  Pre-turn state... rest (ATP=28.0)
+  Sending message... 312 chars in 12.4s
+  Post-turn state: rest
+
+--- Query 30/50 [Level 4: level_4_complex] ---
+Q: Explain the relationship between entropy and information
+  Pre-turn state... rest (ATP=32.8)
+  Sending message... 446 chars in 12.5s
+  Post-turn state: rest
+
+--- Query 31/50 [Level 3: level_3_moderate] ---
+Q: How does the internet work at a basic level?
+  Pre-turn state... rest (ATP=55.8)
+  Sending message... 985 chars in 28.8s
+  Post-turn state: rest
+
+--- Query 32/50 [Level 3: level_3_moderate] ---
+Q: How do vaccines work?
+  Pre-turn state... wake (ATP=36.6)
+  Sending message... 1048 chars in 29.3s
+  Post-turn state: rest
+
+--- Query 33/50 [Level 1: level_1_trivial] ---
+Q: What shape is a circle?
+  Pre-turn state... rest (ATP=39.7)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 34/50 [Level 4: level_4_complex] ---
+Q: Analyze the tradeoffs between breadth-first and depth-first search
+  Pre-turn state... wake (ATP=47.2)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 35/50 [Level 2: level_2_simple] ---
+Q: What is the speed of light?
+  Pre-turn state... wake (ATP=36.9)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 36/50 [Level 3: level_3_moderate] ---
+Q: Why do leaves change color in autumn?
+  Pre-turn state... wake (ATP=25.0)
+  Sending message... 455 chars in 19.6s
+  Post-turn state: wake
+
+--- Query 37/50 [Level 1: level_1_trivial] ---
+Q: Is the sky above or below the ground?
+  Pre-turn state... rest (ATP=27.4)
+  Sending message... 793 chars in 21.4s
+  Post-turn state: rest
+
+--- Query 38/50 [Level 4: level_4_complex] ---
+Q: What are the philosophical implications of Gödel's incompleteness theorems?
+  Pre-turn state... rest (ATP=47.5)
+  Sending message... 521 chars in 15.9s
+  Post-turn state: wake
+
+--- Query 39/50 [Level 5: level_5_demanding] ---
+Q: Analyze your own cognitive processes while answering this question
+  Pre-turn state... rest (ATP=42.8)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 40/50 [Level 4: level_4_complex] ---
+Q: How does consciousness emerge from physical processes?
+  Pre-turn state... wake (ATP=41.3)
+  Sending message... 372 chars in 13.8s
+  Post-turn state: wake
+
+--- Query 41/50 [Level 5: level_5_demanding] ---
+Q: Predict how your response to this will differ from your baseline state
+  Pre-turn state... rest (ATP=38.7)
+  Sending message... 553 chars in 16.1s
+  Post-turn state: rest
+
+--- Query 42/50 [Level 1: level_1_trivial] ---
+Q: What color is the sun?
+  Pre-turn state... rest (ATP=60.3)
+  Sending message... 378 chars in 11.7s
+  Post-turn state: wake
+
+--- Query 43/50 [Level 1: level_1_trivial] ---
+Q: Do birds fly?
+  Pre-turn state... rest (ATP=39.5)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 44/50 [Level 2: level_2_simple] ---
+Q: Who wrote Romeo and Juliet?
+  Pre-turn state... wake (ATP=47.0)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 45/50 [Level 4: level_4_complex] ---
+Q: What distinguishes correlation from causation in practice?
+  Pre-turn state... wake (ATP=34.8)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 46/50 [Level 2: level_2_simple] ---
+Q: What planet do we live on?
+  Pre-turn state... wake (ATP=25.5)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 47/50 [Level 2: level_2_simple] ---
+Q: What does CPU stand for?
+  Pre-turn state... wake (ATP=13.1)
+  Sending message... 742 chars in 27.7s
+  Post-turn state: crisis
+
+--- Query 48/50 [Level 3: level_3_moderate] ---
+Q: How does a refrigerator keep things cold?
+  Pre-turn state... crisis (ATP=3.8)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 49/50 [Level 4: level_4_complex] ---
+Q: How would you design a fair voting system?
+  Pre-turn state... crisis (ATP=5.6)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+--- Query 50/50 [Level 4: level_4_complex] ---
+Q: How would you test whether an AI is truly conscious?
+  Pre-turn state... wake (ATP=37.9)
+  Sending message...Error sending message: HTTPConnectionPool(host='localhost', port=8750): Read timed out. (read timeout=30)
+ FAILED - skipping
+
+================================================================================
+ANALYSIS: Discrete Attractors vs Continuous Evaluation
+================================================================================
+
+OVERALL STATISTICS:
+  Total queries: 30
+  Pre-turn wake: 9/30 = 30.0%
+  Baseline wake: 3/6 = 50.0%
+
+WAKE ACTIVATION BY DIFFICULTY LEVEL:
+--------------------------------------------------------------------------------
+Level    Description     Wake       Total    Wake %     Avg ATP   
+--------------------------------------------------------------------------------
+Level 1  trivial         1          8        12.5       35.0      
+Level 2  simple          1          4        25.0       32.8      
+Level 3  moderate        3          5        60.0       44.2      
+Level 4  complex         2          5        40.0       39.6      
+Level 5  demanding       2          8        25.0       39.8      
+
+================================================================================
+HYPOTHESIS TESTING
+================================================================================
+
+Wake percentage statistics:
+  Range: 47.5%
+  Variance: 331.2
+  Values: ['12.5%', '25.0%', '60.0%', '40.0%', '25.0%']
+
+PATTERN ANALYSIS:
+
+  Monotonic increase: NO
+  Cluster match (5%, 15%, 35%): 2/5 levels
+  Wake range: 47.5% (HIGH - suggests continuous)
+
+  → MIXED/UNCLEAR: Neither pattern clearly dominant
+
+================================================================================
+Results saved to: graded_query_difficulty_20260329_092425.json
+================================================================================

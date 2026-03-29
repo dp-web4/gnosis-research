@@ -1,0 +1,49 @@
+================================================================================
+FAKE TOOL QUERY EXPERIMENT - Thor Session #38
+Testing Anticipatory Wake Hypothesis
+================================================================================
+
+HYPOTHESIS:
+  Wake activates based on PREDICTED tool demands, not actual tool use
+
+EXPERIMENTAL DESIGN:
+  - 20 queries that LOOK tool-intensive but aren't
+  - Sample pre-turn and post-turn metabolic states
+  - Count actual tool indicators in responses
+  - Compare to Sessions #31 (conversation) and #34 (tool-use)
+
+PREDICTION:
+  High pre-turn wake (false alarm) + low tool use = anticipatory wake
+
+Starting experiment in 3 seconds...
+
+=== BASELINE SAMPLING (60 seconds) ===
+Sampling every 10 seconds...
+
+Baseline sample 1/6...Traceback (most recent call last):
+  File "/home/dp/gnosis-research/fake_tool_query_experiment.py", line 428, in <module>
+    main()
+  File "/home/dp/gnosis-research/fake_tool_query_experiment.py", line 375, in main
+    baseline_samples = run_baseline_sampling(duration_seconds=60)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/fake_tool_query_experiment.py", line 212, in run_baseline_sampling
+    state = get_metabolic_state()
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/fake_tool_query_experiment.py", line 46, in get_metabolic_state
+    response = client.messages.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/.local/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 282, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/.local/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 927, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/dp/.local/lib/python3.12/site-packages/anthropic/_base_client.py", line 1324, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/.local/lib/python3.12/site-packages/anthropic/_base_client.py", line 1112, in request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZXBbRL1HwXEAK66LEzNo'}
+
+
+Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZXBbRL1HwXEAK66LEzNo'}
