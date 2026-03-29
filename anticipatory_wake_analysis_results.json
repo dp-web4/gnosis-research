@@ -1,0 +1,68 @@
+{
+  "session_37_discovery": "anticipatory_wake",
+  "date": "2026-03-28",
+  "sessions_analyzed": [
+    31,
+    32,
+    34
+  ],
+  "key_finding": "Wake is anticipatory (peaks before tool-use), not reactive",
+  "statistics": {
+    "session_31": {
+      "session": 31,
+      "type": "rapid_conversation_no_tools",
+      "total_samples": 20,
+      "wake_count": 1,
+      "rest_count": 18,
+      "dream_count": 1,
+      "wake_fraction": 0.05,
+      "rest_fraction": 0.9,
+      "dream_fraction": 0.05
+    },
+    "session_32": {
+      "session": 32,
+      "type": "autonomous_goal_pursuit",
+      "baseline": {
+        "samples": 6,
+        "wake_fraction": 0.16666666666666666,
+        "rest_fraction": 0.8333333333333334,
+        "dream_fraction": 0.0
+      },
+      "post_goal": {
+        "samples": 60,
+        "wake_fraction": 0.2833333333333333,
+        "rest_fraction": 0.7166666666666667,
+        "dream_fraction": 0.0
+      }
+    },
+    "session_34": {
+      "session": 34,
+      "type": "tool_use_conversation",
+      "baseline": {
+        "samples": 6,
+        "wake_count": 0,
+        "wake_fraction": 0.0
+      },
+      "conversation": {
+        "samples": 40,
+        "pre_wake_count": 14,
+        "pre_wake_fraction": 0.35,
+        "post_wake_count": 1,
+        "post_wake_fraction": 0.025,
+        "tool_responses": 39,
+        "tool_response_fraction": 0.975
+      },
+      "recovery": {
+        "samples": 30,
+        "wake_count": 8,
+        "wake_fraction": 0.26666666666666666
+      }
+    }
+  },
+  "temporal_pattern": {
+    "baseline": 0.0,
+    "pre_turn": 0.35,
+    "post_turn": 0.025,
+    "recovery": 0.26666666666666666
+  }
+}
