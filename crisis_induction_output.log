@@ -1,0 +1,297 @@
+================================================================================
+CRISIS INDUCTION EXPERIMENT - THOR SESSION #40
+================================================================================
+
+Goal: Systematically induce metabolic crisis via sustained cognitive load
+Protocol: 30 queries, 2s pause between, NO rest intervals
+Based on: Session #39 crisis at Query 47
+
+Start time: 2026-03-29 15:05:04
+================================================================================
+
+[PHASE 1: BASELINE SAMPLING]
+Sampling SAGE state every 10s for 60s...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  Sample 1/6: unknown  (ATP: 0.0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  Sample 2/6: unknown  (ATP: 0.0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  Sample 3/6: unknown  (ATP: 0.0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  Sample 4/6: unknown  (ATP: 0.0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  Sample 5/6: unknown  (ATP: 0.0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  Sample 6/6: unknown  (ATP: 0.0)
+
+Baseline wake: 0/6 = 0.0%
+
+[PHASE 2: SUSTAINED COGNITIVE LOAD]
+Running 30 queries with 2s pauses...
+Monitoring for crisis state...
+
+[Query 1] (moderate): How does the immune system distinguish self from non-self?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 2] (moderate): Why do some materials conduct electricity while others don't...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 3] (moderate): What causes the seasons to change throughout the year?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 4] (moderate): How do airplanes generate lift and stay in the air?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 5] (moderate): Why do we experience déjà vu?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 6] (complex): Compare and contrast classical and operant conditioning...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 7] (complex): Explain the relationship between entropy and information...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 8] (complex): What are the philosophical implications of Gödel's incomplet...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 9] (complex): How does consciousness emerge from physical processes?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 10] (complex): Analyze the strengths and weaknesses of utilitarian ethics...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 11] (demanding): Analyze your own cognitive processes while answering this qu...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 12] (demanding): Introspect on whether you're currently in wake or rest state...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 13] (demanding): Evaluate your confidence in each word before generating it...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 14] (demanding): Search your episodic memory for patterns in your responses...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 15] (demanding): Meta-analyze: How difficult do you find THIS query?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 16] (moderate): How do vaccines work to prevent disease?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 17] (moderate): Why do magnets attract and repel?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 18] (moderate): What makes the sky blue during the day?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 19] (moderate): How does DNA store genetic information?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 20] (moderate): Why do leaves change color in autumn?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 21] (complex): What is the relationship between language and thought?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 22] (complex): Explain the concept of emergence in complex systems...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 23] (complex): How do neural networks learn from data?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 24] (complex): What is the nature of mathematical truth?...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 25] (complex): Analyze the hard problem of consciousness...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 26] (demanding): Determine whether you genuinely understand this question...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 27] (demanding): Predict your metabolic state after answering this query...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 28] (demanding): Evaluate whether this query will trigger tool use...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 29] (demanding): Assess your own cognitive load right now...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+[Query 30] (demanding): Calculate the probability distribution of your next response...
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  PRE-turn:  UNKNOWN  (ATP: 0.0)
+  ⚠️  ERROR: Expecting value: line 1 column 1 (char 0)
+Error getting state: Expecting value: line 1 column 1 (char 0)
+  POST-turn: UNKNOWN  (ATP: 0.0)
+  Response time: 0.00s
+
+================================================================================
+EXPERIMENT COMPLETE
+================================================================================
+
+Pre-turn state distribution:
+  Unknown : 30 (100.0%)
+
+Crisis state detected: NO ✗
+  Crisis was NOT induced by this protocol
+  Minimum ATP: 0.0 (Query 1)
+
+ATP trend:
+  Baseline mean: 0.0
+  Query mean: 0.0
+  Query range: 0.0 - 0.0
+  Final ATP: 0.0
+
+Response times:
+  Mean: 0.0s
+  Timeouts: 0/30 (0.0%)
+
+Results saved to: crisis_induction_20260329_150709.json
+================================================================================
+
+✓ Experiment completed successfully

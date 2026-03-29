@@ -1,0 +1,42 @@
+{
+  "1": {
+    "wake_count": 1,
+    "rest_count": 6,
+    "dream_count": 1,
+    "total": 8,
+    "wake_pct": 12.5,
+    "level_name": "trivial"
+  },
+  "2": {
+    "wake_count": 1,
+    "rest_count": 3,
+    "dream_count": 0,
+    "total": 4,
+    "wake_pct": 25.0,
+    "level_name": "simple"
+  },
+  "3": {
+    "wake_count": 3,
+    "rest_count": 2,
+    "dream_count": 0,
+    "total": 5,
+    "wake_pct": 60.0,
+    "level_name": "moderate"
+  },
+  "4": {
+    "wake_count": 2,
+    "rest_count": 3,
+    "dream_count": 0,
+    "total": 5,
+    "wake_pct": 40.0,
+    "level_name": "complex"
+  },
+  "5": {
+    "wake_count": 2,
+    "rest_count": 5,
+    "dream_count": 1,
+    "total": 8,
+    "wake_pct": 25.0,
+    "level_name": "demanding"
+  }
+}
