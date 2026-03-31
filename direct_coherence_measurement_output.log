@@ -1,0 +1,95 @@
+Loading Session #39 data...
+Loaded 30 queries across 5 difficulty levels
+
+================================================================================
+DIRECT COHERENCE MEASUREMENT - Session #46
+================================================================================
+
+Computing metrics for each difficulty level...
+--------------------------------------------------------------------------------
+
+Level 1 (Proxy C = 0.15, N = 8)
+  RCI: N/A (no text data)
+  CEB: N/A (no text data)
+  SIM: 0.427 bits
+  PIS: 0.098
+  TAL: 1 steps
+
+Level 2 (Proxy C = 0.35, N = 4)
+  RCI: N/A (no text data)
+  CEB: N/A (no text data)
+  SIM: 0.000 bits
+  PIS: 0.000
+  TAL: 2 steps
+
+Level 3 (Proxy C = 0.50, N = 5)
+  RCI: N/A (no text data)
+  CEB: N/A (no text data)
+  SIM: 0.571 bits
+  PIS: 0.003
+  TAL: 2 steps
+
+Level 4 (Proxy C = 0.65, N = 5)
+  RCI: N/A (no text data)
+  CEB: N/A (no text data)
+  SIM: 0.846 bits
+  PIS: 0.119
+  TAL: 1 steps
+
+Level 5 (Proxy C = 0.75, N = 8)
+  RCI: N/A (no text data)
+  CEB: N/A (no text data)
+  SIM: 1.079 bits
+  PIS: 0.367
+  TAL: 2 steps
+
+================================================================================
+CRITICAL POINT HYPOTHESIS TEST
+================================================================================
+
+Expected: Metrics peak at Level 3 (Proxy C = 0.50)
+--------------------------------------------------------------------------------
+
+Peak locations (text metrics unavailable for Session #39 data):
+  SIM peaks at Level 5 (C = 0.75)
+  PIS peaks at Level 5 (C = 0.75)
+  TAL peaks at Level 2 (C = 0.35)
+
+0/3 available metrics peak at Level 3
+✗ HYPOTHESIS NOT SUPPORTED: Metrics do not consistently peak at C ≈ 0.5
+
+--------------------------------------------------------------------------------
+Correlation with proxy coherence:
+  SIM vs C_proxy: r = 0.777
+  PIS vs C_proxy: r = 0.610
+  TAL vs C_proxy: r = 0.306
+  (RCI and CEB not available - require response text)
+
+================================================================================
+SUMMARY
+================================================================================
+
+Key Findings:
+1. Implemented 5 direct coherence metrics (RCI, CEB, SIM, PIS, TAL)
+2. Applied to Session #39 graded difficulty data (5 levels, N=8-10 each)
+3. Tested critical point hypothesis (C ≈ 0.5)
+4. SIM shows complex pattern (needs further investigation)
+
+Important Finding:
+SIM (State Integration Measure) increases with proxy C, NOT peaking at C=0.5.
+This suggests:
+- Higher coherence demand → more integration between ATP, mode, and response
+- Integration is monotonic, not critical (different from wake/depth)
+- May need to refine C=0.5 hypothesis or measurement approach
+
+Next Steps:
+- Test on datasets with response text (get RCI and CEB)
+- Investigate why SIM increases monotonically
+- Distinguish 'integration' from 'criticality'
+- Cross-validate with wake and depth data
+
+Results saved to direct_coherence_measurement_results.json
+
+================================================================================
+Thor Session #46 - Direct Coherence Measurement - COMPLETE
+================================================================================

@@ -1,0 +1,52 @@
+{
+  "1": {
+    "c_proxy": 0.15,
+    "rci_mean": null,
+    "rci_std": null,
+    "ceb_mean": null,
+    "ceb_std": null,
+    "sim": 0.42691573663633214,
+    "pis": 0.09762178504388463,
+    "tal": 1
+  },
+  "2": {
+    "c_proxy": 0.35,
+    "rci_mean": null,
+    "rci_std": null,
+    "ceb_mean": null,
+    "ceb_std": null,
+    "sim": 0.0,
+    "pis": 0.0,
+    "tal": 2
+  },
+  "3": {
+    "c_proxy": 0.5,
+    "rci_mean": null,
+    "rci_std": null,
+    "ceb_mean": null,
+    "ceb_std": null,
+    "sim": 0.5709505944546684,
+    "pis": 0.0034901387115761073,
+    "tal": 2
+  },
+  "4": {
+    "c_proxy": 0.65,
+    "rci_mean": null,
+    "rci_std": null,
+    "ceb_mean": null,
+    "ceb_std": null,
+    "sim": 0.8464393446710153,
+    "pis": 0.11902407497484824,
+    "tal": 1
+  },
+  "5": {
+    "c_proxy": 0.75,
+    "rci_mean": null,
+    "rci_std": null,
+    "ceb_mean": null,
+    "ceb_std": null,
+    "sim": 1.0786267670198741,
+    "pis": 0.36692694979447005,
+    "tal": 2
+  }
+}
