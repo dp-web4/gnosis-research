@@ -1,0 +1,144 @@
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/dp/gnosis-research/analyze_tradeoff_results.py", line 12, in <module>
+    import matplotlib
+  File "/usr/lib/python3/dist-packages/matplotlib/__init__.py", line 113, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/usr/lib/python3/dist-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/usr/lib/python3/dist-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/usr/lib/python3/dist-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/usr/lib/python3/dist-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/usr/lib/python3/dist-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+Traceback (most recent call last):
+  File "/home/dp/.local/lib/python3.12/site-packages/numpy/core/_multiarray_umath.py", line 44, in __getattr__
+    raise ImportError(msg)
+ImportError: 
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+
+Warning: matplotlib not available, skipping plots
+Loading: tradeoff_results_20260331_090543.json
+
+============================================================
+DETAILED ANALYSIS
+============================================================
+
+1. FLEXIBILITY PATTERN (RDS)
+------------------------------------------------------------
+  C = 0.15: RDS = 0.548 ± 0.276
+  C = 0.35: RDS = 0.610 ± 0.091
+  C = 0.50: RDS = 0.694 ± 0.102
+  C = 0.65: RDS = 0.075 ± 0.022
+  C = 0.75: RDS = 0.072 ± 0.025
+
+  Peak at C = 0.50
+  Peak RDS = 0.694
+
+  Inverted-U pattern:
+    Increases to peak: True
+    Decreases after peak: True
+    Flexibility collapse: 10.4% of peak
+
+2. FLEXIBILITY METRICS CONVERGENCE
+------------------------------------------------------------
+  Do all flexibility metrics show same pattern?
+
+  Normalized metrics (0-1 scale):
+    C = 0.15: RDS=0.77, SV=0.73, SN=1.00
+    C = 0.35: RDS=0.86, SV=0.99, SN=0.57
+    C = 0.50: RDS=1.00, SV=1.00, SN=0.90
+    C = 0.65: RDS=0.00, SV=0.00, SN=0.00
+    C = 0.75: RDS=0.00, SV=0.00, SN=0.00
+
+  Cross-correlations:
+    RDS-SV: r = 0.993
+    RDS-SN: r = 0.922
+    SV-SN: r = 0.873
+
+3. INTEGRATION-FLEXIBILITY TRADEOFF
+------------------------------------------------------------
+  Pattern analysis (beyond C = 0.5):
+
+  C > 0.5 region:
+    C = 0.65: RDS = 0.075, SIM = 2.584
+    C = 0.75: RDS = 0.072, SIM = 2.371
+
+  Direction of change (C=0.5 → C=0.75):
+    0.50 → 0.65: ΔRDS = -0.619, ΔSIM = -3.619
+    0.65 → 0.75: ΔRDS = -0.003, ΔSIM = -0.214
+
+4. CRITICAL POINT VALIDATION
+------------------------------------------------------------
+  C = 0.5 vs neighbors:
+
+  Flexibility (RDS):
+    C = 0.35: 0.610
+    C = 0.50: 0.694 ← PEAK
+    C = 0.65: 0.075
+
+    C=0.5 peak is 102.8% above neighbors
+
+5. RIGIDITY AT SUPERCRITICAL C
+------------------------------------------------------------
+  High C (≥0.65) shows rigidity:
+
+    C = 0.65:
+      RDS = 0.075 (< 0.1 = rigid)
+      SV  = 0.001 (< 0.01 = uniform)
+      SN  = 0.324 (< 0.35 = repetitive)
+      Flexibility loss vs C=0.5: 89.2%
+
+    C = 0.75:
+      RDS = 0.072 (< 0.1 = rigid)
+      SV  = 0.001 (< 0.01 = uniform)
+      SN  = 0.324 (< 0.35 = repetitive)
+      Flexibility loss vs C=0.5: 89.6%
+
+(Matplotlib not available, skipping visualization)
+
+============================================================
+SUMMARY
+============================================================
+
+Flexibility peaks at C = 0.50
+  Value: 0.694
+
+Inverted-U pattern: ✓ Confirmed
+Rigidity at C > 0.65: ✓ Confirmed
+
+============================================================
+CONCLUSION
+============================================================
+
+The experiment CONFIRMS the key prediction from Session #46:
+
+  • Flexibility (RDS) shows clear INVERTED-U pattern
+  • Peaks at C = 0.50 (critical point)
+  • Dramatic collapse beyond C = 0.5 (supercritical rigidity)
+
+This validates the refined framework:
+  C = 0.5 is special NOT because integration maximizes,
+  but because FLEXIBILITY maximizes while integration is sufficient.
+
+Beyond C = 0.5: System becomes rigid, deterministic, inflexible.
+
