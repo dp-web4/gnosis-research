@@ -1,0 +1,90 @@
+{
+  "timestamp": "20260331_210527",
+  "experiment": "coherence_spectrum_exploration",
+  "summary": [
+    {
+      "c_value": 0.0,
+      "description": "Pure noise - no structure",
+      "rds": 0.19504825726700004,
+      "sim": 0.26494456340247297,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.1,
+      "description": "Minimal structure - random facts",
+      "rds": 0.16252107579867728,
+      "sim": 0.2146187299249087,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.2,
+      "description": "Weak structure - unrelated simple facts",
+      "rds": 0.20889632744453204,
+      "sim": 0.08282456915612713,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.3,
+      "description": "Loose structure - related but fragmented",
+      "rds": 0.19776525907065975,
+      "sim": 0.24883956886766434,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.4,
+      "description": "Emerging structure - partially coherent",
+      "rds": 0.21853190035120512,
+      "sim": 0.10730936510672295,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.5,
+      "description": "CRITICAL - balanced integration-flexibility",
+      "rds": 0.21996489993762774,
+      "sim": 0.054654604706544596,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.6,
+      "description": "Strong structure - highly integrated",
+      "rds": 0.08113677552409077,
+      "sim": 0.21615790248945999,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.7,
+      "description": "Very strong structure - rigid",
+      "rds": 0.0739762050612979,
+      "sim": 0.1376621045623132,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.8,
+      "description": "Near-perfect structure - highly constrained",
+      "rds": 0.07938144329896907,
+      "sim": 0.190316864962492,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.9,
+      "description": "Almost frozen - extremely constrained",
+      "rds": 0.06950354609929078,
+      "sim": 0.1073093651067234,
+      "n_samples": 15
+    },
+    {
+      "c_value": 1.0,
+      "description": "Perfect structure - completely deterministic",
+      "rds": 0.07461784152701588,
+      "sim": 0.08522410996133045,
+      "n_samples": 15
+    }
+  ],
+  "raw_responses": [
+    {
+      "prompt": "Generate random words: banana telescope purple 17 whisper",
+      "c_value": 0.0,
+      "trial": 0,
+      "response_text": "data bit piece fragment part",
+      "response_length": 28,
+      "wake": 

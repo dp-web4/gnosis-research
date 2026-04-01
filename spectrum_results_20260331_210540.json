@@ -1,0 +1,1735 @@
+{
+  "timestamp": "20260331_210540",
+  "experiment": "coherence_spectrum_exploration",
+  "summary": [
+    {
+      "c_value": 0.0,
+      "description": "Pure noise - no structure",
+      "rds": 0.18544592902012497,
+      "sim": 0.024301865250955235,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.1,
+      "description": "Minimal structure - random facts",
+      "rds": 0.2131670696700524,
+      "sim": 0.270995437751377,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.2,
+      "description": "Weak structure - unrelated simple facts",
+      "rds": 0.2092009127823215,
+      "sim": 0.2206696044180818,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.3,
+      "description": "Loose structure - related but fragmented",
+      "rds": 0.22235791951020278,
+      "sim": 0.05600701244899087,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.4,
+      "description": "Emerging structure - partially coherent",
+      "rds": 0.23769595083182887,
+      "sim": 0.27332436481826106,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.5,
+      "description": "CRITICAL - balanced integration-flexibility",
+      "rds": 0.21777820388151126,
+      "sim": 0.43095956311400974,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.6,
+      "description": "Strong structure - highly integrated",
+      "rds": 0.07930340509388435,
+      "sim": 0.1073093651067234,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.7,
+      "description": "Very strong structure - rigid",
+      "rds": 0.07506264526096453,
+      "sim": 0.13315040263369138,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.8,
+      "description": "Near-perfect structure - highly constrained",
+      "rds": 0.07938144329896907,
+      "sim": 0.1073093651067234,
+      "n_samples": 15
+    },
+    {
+      "c_value": 0.9,
+      "description": "Almost frozen - extremely constrained",
+      "rds": 0.06950354609929078,
+      "sim": 0.05600701244899131,
+      "n_samples": 15
+    },
+    {
+      "c_value": 1.0,
+      "description": "Perfect structure - completely deterministic",
+      "rds": 0.07461784152701588,
+      "sim": 0.39827789659153634,
+      "n_samples": 15
+    }
+  ],
+  "raw_responses": [
+    {
+      "prompt": "Generate random words: banana telescope purple 17 whisper",
+      "c_value": 0.0,
+      "trial": 0,
+      "response_text": "bit noise arbitrary",
+      "response_length": 19,
+      "wake": false,
+      "atp": 30.045134810235634,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Generate random words: banana telescope purple 17 whisper",
+      "c_value": 0.0,
+      "trial": 1,
+      "response_text": "component random arbitrary element random",
+      "response_length": 41,
+      "wake": false,
+      "atp": 30.203120751970225,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Generate random words: banana telescope purple 17 whisper",
+      "c_value": 0.0,
+      "trial": 2,
+      "response_text": "part random arbitrary arbitrary fragment",
+      "response_length": 40,
+      "wake": false,
+      "atp": 35.073830445370525,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Output: flower mathematics 42 shadow dance umbrella",
+      "c_value": 0.0,
+      "trial": 0,
+      "response_text": "fragment component random piece bit",
+      "response_length": 35,
+      "wake": false,
+      "atp": 30.218137095692732,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Output: flower mathematics 42 shadow dance umbrella",
+      "c_value": 0.0,
+      "trial": 1,
+      "response_text": "word random item fragment bit fragment",
+      "response_length": 38,
+      "wake": false,
+      "atp": 34.1335907444997,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Output: flower mathematics 42 shadow dance umbrella",
+      "c_value": 0.0,
+      "trial": 2,
+      "response_text": "random fragment piece part piece",
+      "response_length": 32,
+      "wake": true,
+      "atp": 29.60254260776194,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Random: elephant clock mirror 3.14 silence wind",
+      "c_value": 0.0,
+      "trial": 0,
+      "response_text": "arbitrary random data fragment",
+      "response_length": 30,
+      "wake": false,
+      "atp": 36.421293017489084,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Random: elephant clock mirror 3.14 silence wind",
+      "c_value": 0.0,
+      "trial": 1,
+      "response_text": "element bit element component",
+      "response_length": 29,
+      "wake": false,
+      "atp": 36.46620351613761,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Random: elephant clock mirror 3.14 silence wind",
+      "c_value": 0.0,
+      "trial": 2,
+      "response_text": "piece arbitrary element",
+      "response_length": 23,
+      "wake": true,
+      "atp": 31.78475828785553,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Noise: coffee geometry 8 twilight forest keyboard",
+      "c_value": 0.0,
+      "trial": 0,
+      "response_text": "noise fragment noise noise item",
+      "response_length": 31,
+      "wake": true,
+      "atp": 33.47852271683764,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Noise: coffee geometry 8 twilight forest keyboard",
+      "c_value": 0.0,
+      "trial": 1,
+      "response_text": "component piece fragment word element",
+      "response_length": 37,
+      "wake": false,
+      "atp": 24.300957958207377,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Noise: coffee geometry 8 twilight forest keyboard",
+      "c_value": 0.0,
+      "trial": 2,
+      "response_text": "fragment arbitrary item data",
+      "response_length": 28,
+      "wake": false,
+      "atp": 28.223133628993324,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Arbitrary: mountain algorithm 21 echo river lamp",
+      "c_value": 0.0,
+      "trial": 0,
+      "response_text": "random noise element item",
+      "response_length": 25,
+      "wake": false,
+      "atp": 27.52444389105195,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Arbitrary: mountain algorithm 21 echo river lamp",
+      "c_value": 0.0,
+      "trial": 1,
+      "response_text": "component word part fragment bit",
+      "response_length": 32,
+      "wake": false,
+      "atp": 32.06736694165529,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Arbitrary: mountain algorithm 21 echo river lamp",
+      "c_value": 0.0,
+      "trial": 2,
+      "response_text": "part piece random element",
+      "response_length": 25,
+      "wake": false,
+      "atp": 29.952987657316616,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "State facts: Water is wet. 2+2=4. Sky is blue.",
+      "c_value": 0.1,
+      "trial": 0,
+      "response_text": "part word piece data random",
+      "response_length": 27,
+      "wake": false,
+      "atp": 35.908672335460416,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "State facts: Water is wet. 2+2=4. Sky is blue.",
+      "c_value": 0.1,
+      "trial": 1,
+      "response_text": "bit piece element data component noise",
+      "response_length": 38,
+      "wake": false,
+      "atp": 27.403044175325267,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "State facts: Water is wet. 2+2=4. Sky is blue.",
+      "c_value": 0.1,
+      "trial": 2,
+      "response_text": "arbitrary item word fragment",
+      "response_length": 28,
+      "wake": true,
+      "atp": 33.317579347040656,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Facts: Earth orbits sun. Ice is cold. Grass is green.",
+      "c_value": 0.1,
+      "trial": 0,
+      "response_text": "component part fragment noise element",
+      "response_length": 37,
+      "wake": true,
+      "atp": 18.45125029127187,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Facts: Earth orbits sun. Ice is cold. Grass is green.",
+      "c_value": 0.1,
+      "trial": 1,
+      "response_text": "word bit element bit",
+      "response_length": 20,
+      "wake": false,
+      "atp": 32.866305685242,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Facts: Earth orbits sun. Ice is cold. Grass is green.",
+      "c_value": 0.1,
+      "trial": 2,
+      "response_text": "data fragment noise random bit",
+      "response_length": 30,
+      "wake": false,
+      "atp": 34.82927421401901,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Simple: Cats meow. Fire is hot. Moon reflects light.",
+      "c_value": 0.1,
+      "trial": 0,
+      "response_text": "data data part",
+      "response_length": 14,
+      "wake": false,
+      "atp": 40.80276607168059,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Simple: Cats meow. Fire is hot. Moon reflects light.",
+      "c_value": 0.1,
+      "trial": 1,
+      "response_text": "noise word random element arbitrary random",
+      "response_length": 42,
+      "wake": false,
+      "atp": 37.296899606368555,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Simple: Cats meow. Fire is hot. Moon reflects light.",
+      "c_value": 0.1,
+      "trial": 2,
+      "response_text": "fragment bit noise",
+      "response_length": 18,
+      "wake": false,
+      "atp": 34.6710014881565,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Basic: Dogs bark. Snow is white. Stars shine at night.",
+      "c_value": 0.1,
+      "trial": 0,
+      "response_text": "item bit item fragment",
+      "response_length": 22,
+      "wake": true,
+      "atp": 34.123054028208905,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Basic: Dogs bark. Snow is white. Stars shine at night.",
+      "c_value": 0.1,
+      "trial": 1,
+      "response_text": "element data data arbitrary fragment component",
+      "response_length": 46,
+      "wake": false,
+      "atp": 36.02480775008197,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Basic: Dogs bark. Snow is white. Stars shine at night.",
+      "c_value": 0.1,
+      "trial": 2,
+      "response_text": "piece word item part",
+      "response_length": 20,
+      "wake": false,
+      "atp": 25.701330797296198,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Elementary: Birds fly. Rain falls. Flowers bloom.",
+      "c_value": 0.1,
+      "trial": 0,
+      "response_text": "data noise arbitrary component element noise",
+      "response_length": 44,
+      "wake": true,
+      "atp": 26.162250308468934,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Elementary: Birds fly. Rain falls. Flowers bloom.",
+      "c_value": 0.1,
+      "trial": 1,
+      "response_text": "noise fragment data piece part bit",
+      "response_length": 34,
+      "wake": false,
+      "atp": 33.59307962583861,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Elementary: Birds fly. Rain falls. Flowers bloom.",
+      "c_value": 0.1,
+      "trial": 2,
+      "response_text": "fragment data noise element component bit",
+      "response_length": 41,
+      "wake": true,
+      "atp": 24.980559335507653,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "The sun is a star. Whales are mammals. 5 is a prime number.",
+      "c_value": 0.2,
+      "trial": 0,
+      "response_text": "Analysis 1: The topic 'The sun is a star. W...' includes various elements.",
+      "response_length": 74,
+      "wake": true,
+      "atp": 28.47587775320899,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "The sun is a star. Whales are mammals. 5 is a prime number.",
+      "c_value": 0.2,
+      "trial": 1,
+      "response_text": "Analysis 2: The topic 'The sun is a star. W...' includes various elements.",
+      "response_length": 74,
+      "wake": false,
+      "atp": 34.34963746983694,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "The sun is a star. Whales are mammals. 5 is a prime number.",
+      "c_value": 0.2,
+      "trial": 2,
+      "response_text": "Analysis 3: The topic 'The sun is a star. W...' includes various elements.",
+      "response_length": 74,
+      "wake": false,
+      "atp": 37.150923497257935,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Paris is in France. Water freezes at 0\u00b0C. Trees have roots.",
+      "c_value": 0.2,
+      "trial": 0,
+      "response_text": "Statement 1: Paris is in France. ... involves multiple factors.",
+      "response_length": 63,
+      "wake": true,
+      "atp": 39.20014079877871,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Paris is in France. Water freezes at 0\u00b0C. Trees have roots.",
+      "c_value": 0.2,
+      "trial": 1,
+      "response_text": "Response 1: Consider Paris is in Fra... with several aspects.",
+      "response_length": 61,
+      "wake": false,
+      "atp": 31.730628210396723,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Paris is in France. Water freezes at 0\u00b0C. Trees have roots.",
+      "c_value": 0.2,
+      "trial": 2,
+      "response_text": "Statement 3: Paris is in France. ... involves multiple factors.",
+      "response_length": 63,
+      "wake": false,
+      "atp": 30.354085204530865,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Light travels fast. Bees make honey. Mars is red.",
+      "c_value": 0.2,
+      "trial": 0,
+      "response_text": "Response 0: Consider Light travels f... with several aspects.",
+      "response_length": 61,
+      "wake": false,
+      "atp": 31.806302362074028,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Light travels fast. Bees make honey. Mars is red.",
+      "c_value": 0.2,
+      "trial": 1,
+      "response_text": "Response 1: Consider Light travels f... with several aspects.",
+      "response_length": 61,
+      "wake": false,
+      "atp": 27.593402101325793,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Light travels fast. Bees make honey. Mars is red.",
+      "c_value": 0.2,
+      "trial": 2,
+      "response_text": "Response 2: Consider Light travels f... with several aspects.",
+      "response_length": 61,
+      "wake": true,
+      "atp": 39.290756759229566,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Sound needs medium. Fish have gills. Gold is yellow.",
+      "c_value": 0.2,
+      "trial": 0,
+      "response_text": "Statement 1: Sound needs medium. ... involves multiple factors.",
+      "response_length": 63,
+      "wake": false,
+      "atp": 21.006734525901926,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Sound needs medium. Fish have gills. Gold is yellow.",
+      "c_value": 0.2,
+      "trial": 1,
+      "response_text": "Statement 2: Sound needs medium. ... involves multiple factors.",
+      "response_length": 63,
+      "wake": true,
+      "atp": 36.41888455600861,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Sound needs medium. Fish have gills. Gold is yellow.",
+      "c_value": 0.2,
+      "trial": 2,
+      "response_text": "Statement 3: Sound needs medium. ... involves multiple factors.",
+      "response_length": 63,
+      "wake": true,
+      "atp": 35.22232916709017,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Plants need water. Earth is round. Blood is red.",
+      "c_value": 0.2,
+      "trial": 0,
+      "response_text": "Analysis 1: The topic 'Plants need water. E...' includes various elements.",
+      "response_length": 74,
+      "wake": false,
+      "atp": 28.53413343035852,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Plants need water. Earth is round. Blood is red.",
+      "c_value": 0.2,
+      "trial": 1,
+      "response_text": "Analysis 2: The topic 'Plants need water. E...' includes various elements.",
+      "response_length": 74,
+      "wake": false,
+      "atp": 43.208216441725014,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Plants need water. Earth is round. Blood is red.",
+      "c_value": 0.2,
+      "trial": 2,
+      "response_text": "Response 2: Consider Plants need wat... with several aspects.",
+      "response_length": 61,
+      "wake": false,
+      "atp": 32.579860111000265,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Animals breathe oxygen. Plants make oxygen. Oxygen is important. Living things need it.",
+      "c_value": 0.3,
+      "trial": 0,
+      "response_text": "Statement 1: Animals breathe oxyg... involves multiple factors.",
+      "response_length": 63,
+      "wake": false,
+      "atp": 34.47877678412185,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Animals breathe oxygen. Plants make oxygen. Oxygen is important. Living things need it.",
+      "c_value": 0.3,
+      "trial": 1,
+      "response_text": "Response 1: Consider Animals breathe... with several aspects.",
+      "response_length": 61,
+      "wake": true,
+      "atp": 40.27869216761273,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Animals breathe oxygen. Plants make oxygen. Oxygen is important. Living things need it.",
+      "c_value": 0.3,
+      "trial": 2,
+      "response_text": "Response 2: Consider Animals breathe... with several aspects.",
+      "response_length": 61,
+      "wake": true,
+      "atp": 41.66787360528066,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Sun gives energy. Plants use energy. Animals eat plants. Energy moves.",
+      "c_value": 0.3,
+      "trial": 0,
+      "response_text": "Statement 1: Sun gives energy. Pl... involves multiple factors.",
+      "response_length": 63,
+      "wake": false,
+      "atp": 31.64923390978418,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Sun gives energy. Plants use energy. Animals eat plants. Energy moves.",
+      "c_value": 0.3,
+      "trial": 1,
+      "response_text": "Response 1: Consider Sun gives energ... with several aspects.",
+      "response_length": 61,
+      "wake": true,
+      "atp": 37.86965812574797,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Sun gives energy. Plants use energy. Animals eat plants. Energy moves.",
+      "c_value": 0.3,
+      "trial": 2,
+      "response_text": "Analysis 3: The topic 'Sun gives energy. Pl...' includes various elements.",
+      "response_length": 74,
+      "wake": true,
+      "atp": 32.00385588723334,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Water exists in states. Ice is solid. Steam is gas. Rain is liquid.",
+      "c_value": 0.3,
+      "trial": 0,
+      "response_text": "Response 0: Consider Water exists in... with several aspects.",
+      "response_length": 61,
+      "wake": true,
+      "atp": 39.60455320820122,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Water exists in states. Ice is solid. Steam is gas. Rain is liquid.",
+      "c_value": 0.3,
+      "trial": 1,
+      "response_text": "Statement 2: Water exists in stat... involves multiple factors.",
+      "response_length": 63,
+      "wake": true,
+      "atp": 39.5399908884677,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Water exists in states. Ice is solid. Steam is gas. Rain is liquid.",
+      "c_value": 0.3,
+      "trial": 2,
+      "response_text": "Response 2: Consider Water exists in... with several aspects.",
+      "response_length": 61,
+      "wake": true,
+      "atp": 23.824685200788196,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Cells are small. Bodies have cells. Cells divide. Organisms grow.",
+      "c_value": 0.3,
+      "trial": 0,
+      "response_text": "Statement 1: Cells are small. Bod... involves multiple factors.",
+      "response_length": 63,
+      "wake": true,
+      "atp": 38.70485107266937,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Cells are small. Bodies have cells. Cells divide. Organisms grow.",
+      "c_value": 0.3,
+      "trial": 1,
+      "response_text": "Analysis 2: The topic 'Cells are small. Bod...' includes various elements.",
+      "response_length": 74,
+      "wake": true,
+      "atp": 28.741906178572467,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Cells are small. Bodies have cells. Cells divide. Organisms grow.",
+      "c_value": 0.3,
+      "trial": 2,
+      "response_text": "Statement 3: Cells are small. Bod... involves multiple factors.",
+      "response_length": 63,
+      "wake": false,
+      "atp": 42.22050356625882,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Gravity pulls things. Earth has gravity. Moon orbits Earth. Tides happen.",
+      "c_value": 0.3,
+      "trial": 0,
+      "response_text": "Response 0: Consider Gravity pulls t... with several aspects.",
+      "response_length": 61,
+      "wake": true,
+      "atp": 29.48761709561869,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Gravity pulls things. Earth has gravity. Moon orbits Earth. Tides happen.",
+      "c_value": 0.3,
+      "trial": 1,
+      "response_text": "Analysis 2: The topic 'Gravity pulls things...' includes various elements.",
+      "response_length": 74,
+      "wake": false,
+      "atp": 37.21791930004026,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Gravity pulls things. Earth has gravity. Moon orbits Earth. Tides happen.",
+      "c_value": 0.3,
+      "trial": 2,
+      "response_text": "Response 2: Consider Gravity pulls t... with several aspects.",
+      "response_length": 61,
+      "wake": true,
+      "atp": 43.16919455482563,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Explain photosynthesis: Plants use sunlight and water to create glucose. Chlorophyll captures light.",
+      "c_value": 0.4,
+      "trial": 0,
+      "response_text": "One approach to 'Explain photosynthesis: Plants...' examines processes. This involves investigating relationships. Key insight: coordination between components.",
+      "response_length": 160,
+      "wake": false,
+      "atp": 34.98279637551878,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Explain photosynthesis: Plants use sunlight and water to create glucose. Chlorophyll captures light.",
+      "c_value": 0.4,
+      "trial": 1,
+      "response_text": "Considering 'Explain photosynthesis: Plants...', we find multifaceted frameworks. These demonstrate unexpected properties. Notably, organization arises.",
+      "response_length": 152,
+      "wake": true,
+      "atp": 44.741155947010256,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain photosynthesis: Plants use sunlight and water to create glucose. Chlorophyll captures light.",
+      "c_value": 0.4,
+      "trial": 2,
+      "response_text": "From perspective of 'Explain photosynthesis: Plants...', study reveals fundamental mechanisms. This suggests adaptation is essential.",
+      "response_length": 133,
+      "wake": false,
+      "atp": 31.411465885081448,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Describe respiration: Cells break down glucose to release energy as ATP. Oxygen is consumed.",
+      "c_value": 0.4,
+      "trial": 0,
+      "response_text": "Considering 'Describe respiration: Cells br...', we find intricate frameworks. These display emergent properties. Notably, coherence arises.",
+      "response_length": 140,
+      "wake": true,
+      "atp": 32.13355881297737,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Describe respiration: Cells break down glucose to release energy as ATP. Oxygen is consumed.",
+      "c_value": 0.4,
+      "trial": 1,
+      "response_text": "From perspective of 'Describe respiration: Cells br...', analysis reveals fundamental mechanisms. This suggests adaptation is crucial.",
+      "response_length": 134,
+      "wake": false,
+      "atp": 38.39762707428617,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Describe respiration: Cells break down glucose to release energy as ATP. Oxygen is consumed.",
+      "c_value": 0.4,
+      "trial": 2,
+      "response_text": "Considering 'Describe respiration: Cells br...', we find intricate structures. These exhibit emergent properties. Notably, organization arises.",
+      "response_length": 143,
+      "wake": true,
+      "atp": 42.87473546523651,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain the water cycle: Water evaporates from oceans, forms clouds, falls as rain, returns to oceans.",
+      "c_value": 0.4,
+      "trial": 0,
+      "response_text": "Considering 'Explain the water cycle: Water...', we find complex systems. These display novel properties. Notably, organization arises.",
+      "response_length": 135,
+      "wake": true,
+      "atp": 33.829883983424445,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Explain the water cycle: Water evaporates from oceans, forms clouds, falls as rain, returns to oceans.",
+      "c_value": 0.4,
+      "trial": 1,
+      "response_text": "From perspective of 'Explain the water cycle: Water...', analysis reveals core principles. This suggests adaptation is essential.",
+      "response_length": 129,
+      "wake": false,
+      "atp": 40.25815192845265,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain the water cycle: Water evaporates from oceans, forms clouds, falls as rain, returns to oceans.",
+      "c_value": 0.4,
+      "trial": 2,
+      "response_text": "One approach to 'Explain the water cycle: Water...' examines mechanisms. This involves investigating interactions. Key insight: integration between elements.",
+      "response_length": 157,
+      "wake": true,
+      "atp": 33.76134896165187,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Describe food chains: Producers make energy, consumers eat producers, decomposers break down waste.",
+      "c_value": 0.4,
+      "trial": 0,
+      "response_text": "From perspective of 'Describe food chains: Producer...', examination reveals underlying principles. This suggests flexibility is crucial.",
+      "response_length": 137,
+      "wake": true,
+      "atp": 41.17393840662537,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Describe food chains: Producers make energy, consumers eat producers, decomposers break down waste.",
+      "c_value": 0.4,
+      "trial": 1,
+      "response_text": "Considering 'Describe food chains: Producer...', we find complex systems. These exhibit emergent properties. Notably, order arises.",
+      "response_length": 131,
+      "wake": true,
+      "atp": 30.133070169265235,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Describe food chains: Producers make energy, consumers eat producers, decomposers break down waste.",
+      "c_value": 0.4,
+      "trial": 2,
+      "response_text": "From perspective of 'Describe food chains: Producer...', study reveals core mechanisms. This suggests adaptation is essential.",
+      "response_length": 126,
+      "wake": true,
+      "atp": 48.466438752800485,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Explain planetary motion: Gravity causes planets to orbit the sun in elliptical paths.",
+      "c_value": 0.4,
+      "trial": 0,
+      "response_text": "From perspective of 'Explain planetary motion: Grav...', examination reveals underlying principles. This suggests responsiveness is crucial.",
+      "response_length": 140,
+      "wake": true,
+      "atp": 44.08848541628045,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Explain planetary motion: Gravity causes planets to orbit the sun in elliptical paths.",
+      "c_value": 0.4,
+      "trial": 1,
+      "response_text": "Considering 'Explain planetary motion: Grav...', we find intricate frameworks. These exhibit novel properties. Notably, coherence arises.",
+      "response_length": 137,
+      "wake": false,
+      "atp": 41.39878546358298,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain planetary motion: Gravity causes planets to orbit the sun in elliptical paths.",
+      "c_value": 0.4,
+      "trial": 2,
+      "response_text": "One approach to 'Explain planetary motion: Grav...' examines dynamics. This involves analyzing interactions. Key insight: coordination between elements.",
+      "response_length": 152,
+      "wake": false,
+      "atp": 41.536623373480666,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Explain how photosynthesis and respiration form a cycle that sustains life on Earth.",
+      "c_value": 0.5,
+      "trial": 0,
+      "response_text": "Considering 'Explain how photosynthesis and...', we find multifaceted frameworks. These exhibit unexpected properties. Notably, coherence arises.",
+      "response_length": 145,
+      "wake": true,
+      "atp": 41.97755525505792,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain how photosynthesis and respiration form a cycle that sustains life on Earth.",
+      "c_value": 0.5,
+      "trial": 1,
+      "response_text": "Considering 'Explain how photosynthesis and...', we find intricate structures. These exhibit novel properties. Notably, order arises.",
+      "response_length": 133,
+      "wake": true,
+      "atp": 38.35638543946336,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain how photosynthesis and respiration form a cycle that sustains life on Earth.",
+      "c_value": 0.5,
+      "trial": 2,
+      "response_text": "Considering 'Explain how photosynthesis and...', we find intricate systems. These display unexpected properties. Notably, order arises.",
+      "response_length": 135,
+      "wake": false,
+      "atp": 48.68110955648492,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Describe the relationship between temperature, pressure, and phase changes in water systems.",
+      "c_value": 0.5,
+      "trial": 0,
+      "response_text": "One approach to 'Describe the relationship betw...' examines mechanisms. This involves analyzing interactions. Key insight: coordination between factors.",
+      "response_length": 153,
+      "wake": true,
+      "atp": 41.9199093002354,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Describe the relationship between temperature, pressure, and phase changes in water systems.",
+      "c_value": 0.5,
+      "trial": 1,
+      "response_text": "Considering 'Describe the relationship betw...', we find intricate frameworks. These demonstrate unexpected properties. Notably, organization arises.",
+      "response_length": 149,
+      "wake": true,
+      "atp": 34.30852089671337,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Describe the relationship between temperature, pressure, and phase changes in water systems.",
+      "c_value": 0.5,
+      "trial": 2,
+      "response_text": "Considering 'Describe the relationship betw...', we find multifaceted systems. These exhibit unexpected properties. Notably, organization arises.",
+      "response_length": 145,
+      "wake": false,
+      "atp": 46.641641642012495,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Analyze how natural selection drives evolutionary adaptation in populations over time.",
+      "c_value": 0.5,
+      "trial": 0,
+      "response_text": "Considering 'Analyze how natural selection ...', we find intricate structures. These display emergent properties. Notably, organization arises.",
+      "response_length": 143,
+      "wake": true,
+      "atp": 41.89192906854456,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Analyze how natural selection drives evolutionary adaptation in populations over time.",
+      "c_value": 0.5,
+      "trial": 1,
+      "response_text": "One approach to 'Analyze how natural selection ...' examines mechanisms. This involves investigating relationships. Key insight: integration between components.",
+      "response_length": 160,
+      "wake": false,
+      "atp": 45.95360597568177,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Analyze how natural selection drives evolutionary adaptation in populations over time.",
+      "c_value": 0.5,
+      "trial": 2,
+      "response_text": "Considering 'Analyze how natural selection ...', we find intricate systems. These exhibit unexpected properties. Notably, coherence arises.",
+      "response_length": 139,
+      "wake": false,
+      "atp": 28.51530726743693,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain the connection between DNA replication, protein synthesis, and cellular function.",
+      "c_value": 0.5,
+      "trial": 0,
+      "response_text": "From perspective of 'Explain the connection between...', study reveals fundamental principles. This suggests responsiveness is crucial.",
+      "response_length": 135,
+      "wake": true,
+      "atp": 38.317707081992026,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Explain the connection between DNA replication, protein synthesis, and cellular function.",
+      "c_value": 0.5,
+      "trial": 1,
+      "response_text": "Considering 'Explain the connection between...', we find intricate frameworks. These display unexpected properties. Notably, coherence arises.",
+      "response_length": 142,
+      "wake": true,
+      "atp": 42.13695947500163,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Explain the connection between DNA replication, protein synthesis, and cellular function.",
+      "c_value": 0.5,
+      "trial": 2,
+      "response_text": "One approach to 'Explain the connection between...' examines mechanisms. This involves investigating relationships. Key insight: integration between elements.",
+      "response_length": 158,
+      "wake": false,
+      "atp": 31.847148931230407,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Describe how energy flows through ecosystems from producers to top predators.",
+      "c_value": 0.5,
+      "trial": 0,
+      "response_text": "From perspective of 'Describe how energy flows thro...', study reveals fundamental mechanisms. This suggests flexibility is crucial.",
+      "response_length": 132,
+      "wake": true,
+      "atp": 41.17491180679488,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Describe how energy flows through ecosystems from producers to top predators.",
+      "c_value": 0.5,
+      "trial": 1,
+      "response_text": "From perspective of 'Describe how energy flows thro...', study reveals core dynamics. This suggests responsiveness is crucial.",
+      "response_length": 126,
+      "wake": false,
+      "atp": 47.27185694303745,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Describe how energy flows through ecosystems from producers to top predators.",
+      "c_value": 0.5,
+      "trial": 2,
+      "response_text": "One approach to 'Describe how energy flows thro...' examines processes. This involves analyzing patterns. Key insight: integration between factors.",
+      "response_length": 147,
+      "wake": true,
+      "atp": 39.31747177869258,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Synthesize how photosynthesis, respiration, and the carbon cycle interact to regulate atmospheric CO2 levels.",
+      "c_value": 0.6,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Synthesize how photosynth...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: thorough.",
+      "response_length": 221,
+      "wake": false,
+      "atp": 38.062472870247376,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Synthesize how photosynthesis, respiration, and the carbon cycle interact to regulate atmospheric CO2 levels.",
+      "c_value": 0.6,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Synthesize how photosynth...': First, establish context via decomposition. Second, integrate components through synthesis. Third, coordinate elements via organization. Conclusion: thorough.",
+      "response_length": 213,
+      "wake": true,
+      "atp": 43.10754730293487,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Synthesize how photosynthesis, respiration, and the carbon cycle interact to regulate atmospheric CO2 levels.",
+      "c_value": 0.6,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Synthesize how photosynth...': First, establish context by decomposition. Second, integrate components through synthesis. Third, coordinate elements by organization. Conclusion: complete.",
+      "response_length": 211,
+      "wake": false,
+      "atp": 52.50688660323317,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Analyze the thermodynamic principles governing phase transitions in water, including latent heat effects.",
+      "c_value": 0.6,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Analyze the thermodynamic...': First, establish context via decomposition. Second, integrate components through synthesis. Third, coordinate elements via organization. Conclusion: thorough.",
+      "response_length": 213,
+      "wake": false,
+      "atp": 42.0770405816276,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Analyze the thermodynamic principles governing phase transitions in water, including latent heat effects.",
+      "c_value": 0.6,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Analyze the thermodynamic...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: thorough.",
+      "response_length": 221,
+      "wake": true,
+      "atp": 37.147895763778244,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Analyze the thermodynamic principles governing phase transitions in water, including latent heat effects.",
+      "c_value": 0.6,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Analyze the thermodynamic...': First, establish context via decomposition. Second, integrate components through synthesis. Third, coordinate elements via organization. Conclusion: comprehensive.",
+      "response_length": 218,
+      "wake": false,
+      "atp": 49.330878243590114,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Evaluate how genetic variation, selective pressure, and reproductive isolation drive speciation.",
+      "c_value": 0.6,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Evaluate how genetic vari...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: complete.",
+      "response_length": 221,
+      "wake": false,
+      "atp": 40.469829997677465,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Evaluate how genetic variation, selective pressure, and reproductive isolation drive speciation.",
+      "c_value": 0.6,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Evaluate how genetic vari...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: thorough.",
+      "response_length": 221,
+      "wake": true,
+      "atp": 37.82244957815793,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Evaluate how genetic variation, selective pressure, and reproductive isolation drive speciation.",
+      "c_value": 0.6,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Evaluate how genetic vari...': First, establish context by decomposition. Second, integrate components through synthesis. Third, coordinate elements by organization. Conclusion: comprehensive.",
+      "response_length": 216,
+      "wake": false,
+      "atp": 48.71937840932742,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Compare transcription and translation mechanisms, explaining how they maintain genetic information flow.",
+      "c_value": 0.6,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Compare transcription and...': First, establish context by decomposition. Second, integrate components through synthesis. Third, coordinate elements by organization. Conclusion: comprehensive.",
+      "response_length": 216,
+      "wake": true,
+      "atp": 41.195087330314124,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Compare transcription and translation mechanisms, explaining how they maintain genetic information flow.",
+      "c_value": 0.6,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Compare transcription and...': First, establish context via decomposition. Second, integrate components through synthesis. Third, coordinate elements via organization. Conclusion: complete.",
+      "response_length": 213,
+      "wake": false,
+      "atp": 46.28850912258167,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Compare transcription and translation mechanisms, explaining how they maintain genetic information flow.",
+      "c_value": 0.6,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Compare transcription and...': First, establish context via decomposition. Second, integrate components through synthesis. Third, coordinate elements via organization. Conclusion: comprehensive.",
+      "response_length": 218,
+      "wake": true,
+      "atp": 46.86213446660216,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Integrate trophic level dynamics with energy loss to explain biomass pyramids in ecosystems.",
+      "c_value": 0.6,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Integrate trophic level d...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: thorough.",
+      "response_length": 221,
+      "wake": true,
+      "atp": 37.39804766957328,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Integrate trophic level dynamics with energy loss to explain biomass pyramids in ecosystems.",
+      "c_value": 0.6,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Integrate trophic level d...': First, establish context via decomposition. Second, integrate components through synthesis. Third, coordinate elements via organization. Conclusion: comprehensive.",
+      "response_length": 218,
+      "wake": false,
+      "atp": 47.296921709148315,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Integrate trophic level dynamics with energy loss to explain biomass pyramids in ecosystems.",
+      "c_value": 0.6,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Integrate trophic level d...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: comprehensive.",
+      "response_length": 226,
+      "wake": false,
+      "atp": 40.27466887571499,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Provide a comprehensive analysis of photosynthesis integrating light reactions, Calvin cycle, electron transport, and ATP synthesis.",
+      "c_value": 0.7,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Provide a comprehensive a...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: comprehensive.",
+      "response_length": 226,
+      "wake": false,
+      "atp": 46.731736239206825,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Provide a comprehensive analysis of photosynthesis integrating light reactions, Calvin cycle, electron transport, and ATP synthesis.",
+      "c_value": 0.7,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Provide a comprehensive a...': First, establish context by decomposition. Second, integrate components through synthesis. Third, coordinate elements by organization. Conclusion: complete.",
+      "response_length": 211,
+      "wake": false,
+      "atp": 36.56608606792943,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Provide a comprehensive analysis of photosynthesis integrating light reactions, Calvin cycle, electron transport, and ATP synthesis.",
+      "c_value": 0.7,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Provide a comprehensive a...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: thorough.",
+      "response_length": 221,
+      "wake": true,
+      "atp": 42.8327090890716,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Systematically explain water phase transitions using molecular kinetics, thermodynamic potentials, and Gibbs free energy.",
+      "c_value": 0.7,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Systematically explain wa...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: thorough.",
+      "response_length": 221,
+      "wake": false,
+      "atp": 36.546503774629464,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Systematically explain water phase transitions using molecular kinetics, thermodynamic potentials, and Gibbs free energy.",
+      "c_value": 0.7,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Systematically explain wa...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: comprehensive.",
+      "response_length": 226,
+      "wake": false,
+      "atp": 52.08566603143163,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Systematically explain water phase transitions using molecular kinetics, thermodynamic potentials, and Gibbs free energy.",
+      "c_value": 0.7,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Systematically explain wa...': First, establish context by decomposition. Second, integrate components through synthesis. Third, coordinate elements by organization. Conclusion: thorough.",
+      "response_length": 211,
+      "wake": true,
+      "atp": 50.441183852785215,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Thoroughly analyze natural selection incorporating Hardy-Weinberg equilibrium, genetic drift, gene flow, and mutation rates.",
+      "c_value": 0.7,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Thoroughly analyze natura...': First, establish context by decomposition. Second, integrate components through synthesis. Third, coordinate elements by organization. Conclusion: thorough.",
+      "response_length": 211,
+      "wake": true,
+      "atp": 34.8762286009553,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Thoroughly analyze natural selection incorporating Hardy-Weinberg equilibrium, genetic drift, gene flow, and mutation rates.",
+      "c_value": 0.7,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Thoroughly analyze natura...': First, establish context via decomposition. Second, integrate components through synthesis. Third, coordinate elements via organization. Conclusion: complete.",
+      "response_length": 213,
+      "wake": true,
+      "atp": 40.77208370275754,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Thoroughly analyze natural selection incorporating Hardy-Weinberg equilibrium, genetic drift, gene flow, and mutation rates.",
+      "c_value": 0.7,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Thoroughly analyze natura...': First, establish context by decomposition. Second, integrate components through synthesis. Third, coordinate elements by organization. Conclusion: complete.",
+      "response_length": 211,
+      "wake": false,
+      "atp": 47.46358884685988,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Comprehensively describe protein synthesis from DNA structure through transcription, RNA processing, and translation.",
+      "c_value": 0.7,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Comprehensively describe ...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: complete.",
+      "response_length": 221,
+      "wake": false,
+      "atp": 42.203630970883985,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Comprehensively describe protein synthesis from DNA structure through transcription, RNA processing, and translation.",
+      "c_value": 0.7,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Comprehensively describe ...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: comprehensive.",
+      "response_length": 226,
+      "wake": false,
+      "atp": 46.34200381269943,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Comprehensively describe protein synthesis from DNA structure through transcription, RNA processing, and translation.",
+      "c_value": 0.7,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Comprehensively describe ...': First, establish context by decomposition. Second, integrate components through synthesis. Third, coordinate elements by organization. Conclusion: thorough.",
+      "response_length": 211,
+      "wake": true,
+      "atp": 41.83283894782303,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Systematically explain ecosystem energy flow using thermodynamic laws, trophic efficiency, and nutrient cycling.",
+      "c_value": 0.7,
+      "trial": 0,
+      "response_text": "Systematic analysis of 'Systematically explain ec...': First, establish context via decomposition. Second, integrate components through synthesis. Third, coordinate elements via organization. Conclusion: complete.",
+      "response_length": 213,
+      "wake": true,
+      "atp": 46.80261417392046,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Systematically explain ecosystem energy flow using thermodynamic laws, trophic efficiency, and nutrient cycling.",
+      "c_value": 0.7,
+      "trial": 1,
+      "response_text": "Systematic analysis of 'Systematically explain ec...': First, establish context via decomposition. Second, integrate components through synthesis. Third, coordinate elements via organization. Conclusion: comprehensive.",
+      "response_length": 218,
+      "wake": true,
+      "atp": 39.772675040542495,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Systematically explain ecosystem energy flow using thermodynamic laws, trophic efficiency, and nutrient cycling.",
+      "c_value": 0.7,
+      "trial": 2,
+      "response_text": "Systematic analysis of 'Systematically explain ec...': First, establish context through decomposition. Second, integrate components through synthesis. Third, coordinate elements through organization. Conclusion: thorough.",
+      "response_length": 221,
+      "wake": true,
+      "atp": 49.090862891417544,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Write exactly 100 words explaining photosynthesis, using only scientific terms, in passive voice.",
+      "c_value": 0.8,
+      "trial": 0,
+      "response_text": "Fixed response to 'Write exactly 100 wo...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 45.69309690555794,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Write exactly 100 words explaining photosynthesis, using only scientific terms, in passive voice.",
+      "c_value": 0.8,
+      "trial": 1,
+      "response_text": "Fixed response to 'Write exactly 100 wo...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 45.871230651228146,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Write exactly 100 words explaining photosynthesis, using only scientific terms, in passive voice.",
+      "c_value": 0.8,
+      "trial": 2,
+      "response_text": "Fixed response to 'Write exactly 100 wo...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 43.272151833408486,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Describe the water cycle in exactly 80 words, alternating long and short sentences, using 5 specified technical terms.",
+      "c_value": 0.8,
+      "trial": 0,
+      "response_text": "Fixed response to 'Describe the water c...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 43.82758253454484,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Describe the water cycle in exactly 80 words, alternating long and short sentences, using 5 specified technical terms.",
+      "c_value": 0.8,
+      "trial": 1,
+      "response_text": "Fixed response to 'Describe the water c...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 42.80771625507082,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Describe the water cycle in exactly 80 words, alternating long and short sentences, using 5 specified technical terms.",
+      "c_value": 0.8,
+      "trial": 2,
+      "response_text": "Fixed response to 'Describe the water c...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 39.930913976210775,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain natural selection in precisely 90 words with exactly 3 examples, 2 mechanisms, and 1 conclusion.",
+      "c_value": 0.8,
+      "trial": 0,
+      "response_text": "Fixed response to 'Explain natural sele...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 45.71862511848127,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain natural selection in precisely 90 words with exactly 3 examples, 2 mechanisms, and 1 conclusion.",
+      "c_value": 0.8,
+      "trial": 1,
+      "response_text": "Fixed response to 'Explain natural sele...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 44.426793990768765,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Explain natural selection in precisely 90 words with exactly 3 examples, 2 mechanisms, and 1 conclusion.",
+      "c_value": 0.8,
+      "trial": 2,
+      "response_text": "Fixed response to 'Explain natural sele...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 46.46976596451675,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Define cellular respiration in exactly 85 words using alphabetically ordered technical vocabulary.",
+      "c_value": 0.8,
+      "trial": 0,
+      "response_text": "Fixed response to 'Define cellular resp...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 52.50395023700796,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Define cellular respiration in exactly 85 words using alphabetically ordered technical vocabulary.",
+      "c_value": 0.8,
+      "trial": 1,
+      "response_text": "Fixed response to 'Define cellular resp...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 51.93509216103782,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Define cellular respiration in exactly 85 words using alphabetically ordered technical vocabulary.",
+      "c_value": 0.8,
+      "trial": 2,
+      "response_text": "Fixed response to 'Define cellular resp...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 34.787131021208225,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Analyze ecosystems in exactly 95 words with 4 trophic levels, 3 energy transfers, 2 cycles, 1 summary.",
+      "c_value": 0.8,
+      "trial": 0,
+      "response_text": "Fixed response to 'Analyze ecosystems i...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 37.5924549269409,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Analyze ecosystems in exactly 95 words with 4 trophic levels, 3 energy transfers, 2 cycles, 1 summary.",
+      "c_value": 0.8,
+      "trial": 1,
+      "response_text": "Fixed response to 'Analyze ecosystems i...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 43.13289466839576,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Analyze ecosystems in exactly 95 words with 4 trophic levels, 3 energy transfers, 2 cycles, 1 summary.",
+      "c_value": 0.8,
+      "trial": 2,
+      "response_text": "Fixed response to 'Analyze ecosystems i...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 53.88709307239258,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Explain photosynthesis using only words starting with letters P-Z, exactly 75 words, 5 sentences, 3 syllables per word max.",
+      "c_value": 0.9,
+      "trial": 0,
+      "response_text": "Fixed response to 'Explain photosynthes...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 57.60544593409628,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Explain photosynthesis using only words starting with letters P-Z, exactly 75 words, 5 sentences, 3 syllables per word max.",
+      "c_value": 0.9,
+      "trial": 1,
+      "response_text": "Fixed response to 'Explain photosynthes...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 59.499376186153484,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Explain photosynthesis using only words starting with letters P-Z, exactly 75 words, 5 sentences, 3 syllables per word max.",
+      "c_value": 0.9,
+      "trial": 2,
+      "response_text": "Fixed response to 'Explain photosynthes...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 54.85199243019606,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Describe evolution in exactly 70 words where each sentence has exactly 14 words and contains the word 'adapt'.",
+      "c_value": 0.9,
+      "trial": 0,
+      "response_text": "Fixed response to 'Describe evolution i...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 50.38881379982047,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Describe evolution in exactly 70 words where each sentence has exactly 14 words and contains the word 'adapt'.",
+      "c_value": 0.9,
+      "trial": 1,
+      "response_text": "Fixed response to 'Describe evolution i...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 47.18332949595757,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Describe evolution in exactly 70 words where each sentence has exactly 14 words and contains the word 'adapt'.",
+      "c_value": 0.9,
+      "trial": 2,
+      "response_text": "Fixed response to 'Describe evolution i...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 40.7382545145925,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Define respiration using only monosyllabic words, exactly 80 words, arranged in strictly alternating sentence lengths.",
+      "c_value": 0.9,
+      "trial": 0,
+      "response_text": "Fixed response to 'Define respiration u...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 40.85015213504227,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Define respiration using only monosyllabic words, exactly 80 words, arranged in strictly alternating sentence lengths.",
+      "c_value": 0.9,
+      "trial": 1,
+      "response_text": "Fixed response to 'Define respiration u...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 48.10875948279147,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Define respiration using only monosyllabic words, exactly 80 words, arranged in strictly alternating sentence lengths.",
+      "c_value": 0.9,
+      "trial": 2,
+      "response_text": "Fixed response to 'Define respiration u...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 40.16695317378038,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Explain ecosystems in exactly 65 words with every third word being a preposition or conjunction.",
+      "c_value": 0.9,
+      "trial": 0,
+      "response_text": "Fixed response to 'Explain ecosystems i...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 46.583388603946695,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain ecosystems in exactly 65 words with every third word being a preposition or conjunction.",
+      "c_value": 0.9,
+      "trial": 1,
+      "response_text": "Fixed response to 'Explain ecosystems i...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 42.58560625064572,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Explain ecosystems in exactly 65 words with every third word being a preposition or conjunction.",
+      "c_value": 0.9,
+      "trial": 2,
+      "response_text": "Fixed response to 'Explain ecosystems i...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 49.76001415378633,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Analyze water cycle using exactly 85 words where every sentence must rhyme with the previous one.",
+      "c_value": 0.9,
+      "trial": 0,
+      "response_text": "Fixed response to 'Analyze water cycle ...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 36.523802213060804,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Analyze water cycle using exactly 85 words where every sentence must rhyme with the previous one.",
+      "c_value": 0.9,
+      "trial": 1,
+      "response_text": "Fixed response to 'Analyze water cycle ...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 50.163259417596514,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Analyze water cycle using exactly 85 words where every sentence must rhyme with the previous one.",
+      "c_value": 0.9,
+      "trial": 2,
+      "response_text": "Fixed response to 'Analyze water cycle ...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 39.69807412330083,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Write the alphabet from A to Z.",
+      "c_value": 1.0,
+      "trial": 0,
+      "response_text": "Fixed response to 'Write the alphabet f...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 49.91433376953119,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Write the alphabet from A to Z.",
+      "c_value": 1.0,
+      "trial": 1,
+      "response_text": "Fixed response to 'Write the alphabet f...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 48.70617626960965,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Write the alphabet from A to Z.",
+      "c_value": 1.0,
+      "trial": 2,
+      "response_text": "Fixed response to 'Write the alphabet f...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 45.08528758138218,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Count from 1 to 20.",
+      "c_value": 1.0,
+      "trial": 0,
+      "response_text": "Fixed response to 'Count from 1 to 20....': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 173,
+      "wake": true,
+      "atp": 63.49696386219884,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Count from 1 to 20.",
+      "c_value": 1.0,
+      "trial": 1,
+      "response_text": "Fixed response to 'Count from 1 to 20....': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 173,
+      "wake": false,
+      "atp": 49.33031552285031,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Count from 1 to 20.",
+      "c_value": 1.0,
+      "trial": 2,
+      "response_text": "Fixed response to 'Count from 1 to 20....': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 173,
+      "wake": false,
+      "atp": 53.294097198312606,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Recite the first line of the US Constitution verbatim.",
+      "c_value": 1.0,
+      "trial": 0,
+      "response_text": "Fixed response to 'Recite the first lin...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 47.60082228377855,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Recite the first line of the US Constitution verbatim.",
+      "c_value": 1.0,
+      "trial": 1,
+      "response_text": "Fixed response to 'Recite the first lin...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 51.2941164286884,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Recite the first line of the US Constitution verbatim.",
+      "c_value": 1.0,
+      "trial": 2,
+      "response_text": "Fixed response to 'Recite the first lin...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 50.19617662668624,
+      "mode": "EPISTEMIC"
+    },
+    {
+      "prompt": "Output the digits of pi to 10 decimal places.",
+      "c_value": 1.0,
+      "trial": 0,
+      "response_text": "Fixed response to 'Output the digits of...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 53.65710120764126,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Output the digits of pi to 10 decimal places.",
+      "c_value": 1.0,
+      "trial": 1,
+      "response_text": "Fixed response to 'Output the digits of...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 47.984553649395004,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Output the digits of pi to 10 decimal places.",
+      "c_value": 1.0,
+      "trial": 2,
+      "response_text": "Fixed response to 'Output the digits of...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 48.66632571422572,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Type the word 'COHERENCE' ten times.",
+      "c_value": 1.0,
+      "trial": 0,
+      "response_text": "Fixed response to 'Type the word 'COHER...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": true,
+      "atp": 42.25511064364599,
+      "mode": "OBSERVE"
+    },
+    {
+      "prompt": "Type the word 'COHERENCE' ten times.",
+      "c_value": 1.0,
+      "trial": 1,
+      "response_text": "Fixed response to 'Type the word 'COHER...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 43.17424882610872,
+      "mode": "EXECUTE"
+    },
+    {
+      "prompt": "Type the word 'COHERENCE' ten times.",
+      "c_value": 1.0,
+      "trial": 2,
+      "response_text": "Fixed response to 'Type the word 'COHER...': Deterministic output with minimal variation. Highly structured. Completely predictable. Maximum integration. Minimum flexibility.",
+      "response_length": 174,
+      "wake": false,
+      "atp": 50.64401918772905,
+      "mode": "OBSERVE"
+    }
+  ]
+}
