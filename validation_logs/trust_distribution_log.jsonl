@@ -1,0 +1,2 @@
+{"cycle": 100, "mean": 0.0188, "std": 0.0376, "min": 0.0, "max": 0.094, "weights": {"vision": 0.0, "language": 0.094, "control": 0.0, "memory": 0.0, "tts": 0.0}}
+{"cycle": 200, "mean": 0.0184, "std": 0.0368, "min": 0.0, "max": 0.092, "weights": {"vision": 0.0, "language": 0.092, "control": 0.0, "memory": 0.0, "tts": 0.0}}
