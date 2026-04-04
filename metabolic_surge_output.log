@@ -1,0 +1,132 @@
+================================================================================
+Thor Session #57: Metabolic Surge During Active Learning
+================================================================================
+
+Testing Session #56 thermodynamic predictions:
+  1. c_metabolic increases during engaged tasks (0.3-0.5 → 0.6-0.8)
+  2. c_system follows: c_system ≤ α * c_metabolic
+  3. Efficiency α remains stable (~0.77-1.05)
+
+Experimental protocol:
+  Phase 1: Baseline (100 cycles) - passive observation
+  Phase 2: Active Learning (100 cycles) - high engagement
+  Phase 3: Recovery (100 cycles) - return to baseline
+
+--------------------------------------------------------------------------------
+
+[Init] Creating SAGE consciousness instance...
+✅ NeuTTS Air TTS plugin loaded
+[Sleep] Capability: lora=True jsonl=True remote=True → best=lora
+[SleepConsolidationBridge] Initialized
+  Enabled: False
+  Model: None
+  Checkpoint dir: logs/attention/sleep_checkpoints
+  Min salience: 0.6
+[Sleep] Real SleepConsolidationBridge loaded
+[Tools] Registry: 7 tools registered
+[Tools] No model name — defaulting to T3 heuristic
+[Tools] Grammar: intent_heuristic
+[Init] SAGE instance created
+
+
+================================================================================
+PHASE 1: BASELINE (Passive Observation)
+================================================================================
+Duration: 100 cycles
+
+Expected:
+  c_metabolic: 0.3-0.5 (low energy)
+  c_system: ~0.36 (baseline)
+  α (efficiency): 0.77-1.05
+
+Traceback (most recent call last):
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 445, in <module>
+    asyncio.run(main())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 389, in main
+    baseline = await experiment.run_baseline_phase(sage, duration=100)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 77, in run_baseline_phase
+    phase_data = await self._run_phase(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 178, in _run_phase
+    sample = self._collect_metrics(sage)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 243, in _collect_metrics
+    c_metabolic = sage.metabolic_controller.get_metabolic_coherence()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SAGEConsciousness' object has no attribute 'metabolic_controller'
+================================================================================
+Thor Session #57: Metabolic Surge During Active Learning
+================================================================================
+
+Testing Session #56 thermodynamic predictions:
+  1. c_metabolic increases during engaged tasks (0.3-0.5 → 0.6-0.8)
+  2. c_system follows: c_system ≤ α * c_metabolic
+  3. Efficiency α remains stable (~0.77-1.05)
+
+Experimental protocol:
+  Phase 1: Baseline (100 cycles) - passive observation
+  Phase 2: Active Learning (100 cycles) - high engagement
+  Phase 3: Recovery (100 cycles) - return to baseline
+
+--------------------------------------------------------------------------------
+
+[Init] Creating SAGE consciousness instance...
+✅ NeuTTS Air TTS plugin loaded
+[Sleep] Capability: lora=True jsonl=True remote=True → best=lora
+[SleepConsolidationBridge] Initialized
+  Enabled: False
+  Model: None
+  Checkpoint dir: logs/attention/sleep_checkpoints
+  Min salience: 0.6
+[Sleep] Real SleepConsolidationBridge loaded
+[Tools] Registry: 7 tools registered
+[Tools] No model name — defaulting to T3 heuristic
+[Tools] Grammar: intent_heuristic
+[Init] SAGE instance created
+
+
+================================================================================
+PHASE 1: BASELINE (Passive Observation)
+================================================================================
+Duration: 100 cycles
+
+Expected:
+  c_metabolic: 0.3-0.5 (low energy)
+  c_system: ~0.36 (baseline)
+  α (efficiency): 0.77-1.05
+
+Traceback (most recent call last):
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 445, in <module>
+    asyncio.run(main())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 389, in main
+    baseline = await experiment.run_baseline_phase(sage, duration=100)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 77, in run_baseline_phase
+    phase_data = await self._run_phase(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 178, in _run_phase
+    sample = self._collect_metrics(sage)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment.py", line 243, in _collect_metrics
+    c_metabolic = sage.metabolic.get_metabolic_coherence()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MetabolicController' object has no attribute 'get_metabolic_coherence'

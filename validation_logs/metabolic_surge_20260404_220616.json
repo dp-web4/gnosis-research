@@ -1,0 +1,417 @@
+{
+  "experiment": "metabolic_surge_validation",
+  "session": "Thor #57",
+  "hypothesis": "c_metabolic increases during active learning",
+  "predictions": {
+    "baseline_c_metabolic": "0.3-0.5",
+    "active_c_metabolic": "0.6-0.8",
+    "baseline_c_system": "~0.36",
+    "active_c_system": "\u2192 0.5",
+    "alpha_range": "0.77-1.05"
+  },
+  "phases": [
+    {
+      "phase": "baseline",
+      "engagement": "passive",
+      "start_cycle": 0,
+      "duration": 100,
+      "samples": [
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.45,
+          "alpha": 0.9,
+          "atp": 100.0,
+          "max_atp": 100.0,
+          "atp_ratio": 1.0,
+          "state": "WAKE",
+          "cycle": 0,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.42497651599999997,
+          "alpha": 0.8499530319999999,
+          "atp": 84.50325799999996,
+          "max_atp": 100.0,
+          "atp_ratio": 0.8450325799999996,
+          "state": "WAKE",
+          "cycle": 10,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.39813594168534383,
+          "alpha": 0.7962718833706877,
+          "atp": 71.08297084267191,
+          "max_atp": 100.0,
+          "atp_ratio": 0.7108297084267191,
+          "state": "WAKE",
+          "cycle": 20,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.43581750050877954,
+          "alpha": 0.6225964292982565,
+          "atp": 59.90875025438977,
+          "max_atp": 100.0,
+          "atp_ratio": 0.5990875025438978,
+          "state": "DREAM",
+          "cycle": 30,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.44551750050877953,
+          "alpha": 0.6364535721553993,
+          "atp": 64.90875025438977,
+          "max_atp": 100.0,
+          "atp_ratio": 0.6490875025438977,
+          "state": "DREAM",
+          "cycle": 40,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.3944175005087795,
+          "alpha": 0.788835001017559,
+          "atp": 69.50875025438977,
+          "max_atp": 100.0,
+          "atp_ratio": 0.6950875025438976,
+          "state": "WAKE",
+          "cycle": 50,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.35351390875232647,
+          "alpha": 0.7070278175046529,
+          "atp": 48.756954376163236,
+          "max_atp": 100.0,
+          "atp_ratio": 0.48756954376163236,
+          "state": "WAKE",
+          "cycle": 60,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.3492960097735557,
+          "alpha": 0.6985920195471114,
+          "atp": 46.648004886777834,
+          "max_atp": 100.0,
+          "atp_ratio": 0.46648004886777833,
+          "state": "WAKE",
+          "cycle": 70,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.3181113986292582,
+          "alpha": 0.6362227972585164,
+          "atp": 31.05569931462908,
+          "max_atp": 100.0,
+          "atp_ratio": 0.3105569931462908,
+          "state": "WAKE",
+          "cycle": 80,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.38421307182881254,
+          "alpha": 0.5488758168983037,
+          "atp": 34.21153591440626,
+          "max_atp": 100.0,
+          "atp_ratio": 0.3421153591440626,
+          "state": "DREAM",
+          "cycle": 90,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.3,
+          "c_system": 0.2779430718288125,
+          "alpha": 0.9264769060960417,
+          "atp": 41.21153591440626,
+          "max_atp": 100.0,
+          "atp_ratio": 0.4121153591440626,
+          "state": "REST",
+          "cycle": 99,
+          "phase": "baseline"
+        }
+      ],
+      "mean_c_metabolic": 0.5363636363636364,
+      "std_c_metabolic": 0.11499191491521377,
+      "mean_c_system": 0.38472203818404077,
+      "std_c_system": 0.052682875797702505,
+      "mean_alpha": 0.7373913886496843
+    },
+    {
+      "phase": "active_learning",
+      "engagement": "high",
+      "start_cycle": 100,
+      "duration": 100,
+      "samples": [
+        {
+          "c_metabolic": 0.3,
+          "c_system": 0.27991307182881253,
+          "alpha": 0.9330435727627084,
+          "atp": 42.21153591440626,
+          "max_atp": 100.0,
+          "atp_ratio": 0.4221153591440626,
+          "state": "REST",
+          "cycle": 100,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.4106130718288125,
+          "alpha": 0.5865901026125894,
+          "atp": 47.71153591440626,
+          "max_atp": 100.0,
+          "atp_ratio": 0.4771153591440626,
+          "state": "DREAM",
+          "cycle": 110,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.36031307182881256,
+          "alpha": 0.7206261436576251,
+          "atp": 52.71153591440626,
+          "max_atp": 100.0,
+          "atp_ratio": 0.5271153591440626,
+          "state": "WAKE",
+          "cycle": 120,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.3,
+          "c_system": 0.2872293802823507,
+          "alpha": 0.9574312676078356,
+          "atp": 45.67469014117535,
+          "max_atp": 100.0,
+          "atp_ratio": 0.45674690141175345,
+          "state": "REST",
+          "cycle": 130,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.41992938028235066,
+          "alpha": 0.5998991146890724,
+          "atp": 52.17469014117535,
+          "max_atp": 100.0,
+          "atp_ratio": 0.5217469014117535,
+          "state": "DREAM",
+          "cycle": 140,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.3696293802823507,
+          "alpha": 0.7392587605647014,
+          "atp": 57.17469014117535,
+          "max_atp": 100.0,
+          "atp_ratio": 0.5717469014117534,
+          "state": "WAKE",
+          "cycle": 150,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.3416235041366445,
+          "alpha": 0.683247008273289,
+          "atp": 42.826752068322236,
+          "max_atp": 100.0,
+          "atp_ratio": 0.4282675206832224,
+          "state": "WAKE",
+          "cycle": 160,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.33901487625513904,
+          "alpha": 0.6780297525102781,
+          "atp": 41.61243812756953,
+          "max_atp": 100.0,
+          "atp_ratio": 0.41612438127569534,
+          "state": "WAKE",
+          "cycle": 170,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.31509430211323675,
+          "alpha": 0.6301886042264735,
+          "atp": 29.547151056618354,
+          "max_atp": 100.0,
+          "atp_ratio": 0.29547151056618354,
+          "state": "WAKE",
+          "cycle": 180,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.38646664398644254,
+          "alpha": 0.552095205694918,
+          "atp": 35.36832199322125,
+          "max_atp": 100.0,
+          "atp_ratio": 0.3536832199322125,
+          "state": "DREAM",
+          "cycle": 190,
+          "phase": "active_learning"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.4011966439864425,
+          "alpha": 0.573138062837775,
+          "atp": 42.86832199322125,
+          "max_atp": 100.0,
+          "atp_ratio": 0.42868321993221253,
+          "state": "DREAM",
+          "cycle": 199,
+          "phase": "active_learning"
+        }
+      ],
+      "mean_c_metabolic": 0.5363636363636364,
+      "std_c_metabolic": 0.14316377952748746,
+      "mean_c_system": 0.3555475751646723,
+      "std_c_system": 0.04565651430434289,
+      "mean_alpha": 0.6957770541306606
+    },
+    {
+      "phase": "recovery",
+      "engagement": "passive",
+      "start_cycle": 200,
+      "duration": 100,
+      "samples": [
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.4021666439864425,
+          "alpha": 0.5745237771234892,
+          "atp": 43.36832199322125,
+          "max_atp": 100.0,
+          "atp_ratio": 0.4336832199322125,
+          "state": "DREAM",
+          "cycle": 200,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.4118666439864425,
+          "alpha": 0.5883809199806322,
+          "atp": 48.36832199322125,
+          "max_atp": 100.0,
+          "atp_ratio": 0.4836832199322125,
+          "state": "DREAM",
+          "cycle": 210,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.354058445347256,
+          "alpha": 0.708116890694512,
+          "atp": 49.04422267362798,
+          "max_atp": 100.0,
+          "atp_ratio": 0.4904422267362798,
+          "state": "WAKE",
+          "cycle": 220,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.3,
+          "c_system": 0.28804055030883535,
+          "alpha": 0.9601351676961178,
+          "atp": 46.06527515441769,
+          "max_atp": 100.0,
+          "atp_ratio": 0.4606527515441769,
+          "state": "REST",
+          "cycle": 230,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.4227405503088354,
+          "alpha": 0.6039150718697649,
+          "atp": 53.56527515441769,
+          "max_atp": 100.0,
+          "atp_ratio": 0.5356527515441769,
+          "state": "DREAM",
+          "cycle": 240,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.4324405503088354,
+          "alpha": 0.6177722147269077,
+          "atp": 58.56527515441769,
+          "max_atp": 100.0,
+          "atp_ratio": 0.585652751544177,
+          "state": "DREAM",
+          "cycle": 250,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.34421175424093986,
+          "alpha": 0.6884235084818797,
+          "atp": 44.12087712046993,
+          "max_atp": 100.0,
+          "atp_ratio": 0.44120877120469926,
+          "state": "WAKE",
+          "cycle": 260,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.31851280061488574,
+          "alpha": 0.6370256012297715,
+          "atp": 31.256400307442874,
+          "max_atp": 100.0,
+          "atp_ratio": 0.3125640030744287,
+          "state": "WAKE",
+          "cycle": 270,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.38888003257799264,
+          "alpha": 0.5555429036828466,
+          "atp": 36.5750162889963,
+          "max_atp": 100.0,
+          "atp_ratio": 0.36575016288996304,
+          "state": "DREAM",
+          "cycle": 280,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.4045800325779926,
+          "alpha": 0.577971475111418,
+          "atp": 44.5750162889963,
+          "max_atp": 100.0,
+          "atp_ratio": 0.445750162889963,
+          "state": "DREAM",
+          "cycle": 290,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.7,
+          "c_system": 0.4133100325779926,
+          "alpha": 0.5904429036828466,
+          "atp": 49.0750162889963,
+          "max_atp": 100.0,
+          "atp_ratio": 0.49075016288996304,
+          "state": "DREAM",
+          "cycle": 299,
+          "phase": "recovery"
+        }
+      ],
+      "mean_c_metabolic": 0.6090909090909091,
+      "std_c_metabolic": 0.13111095547141777,
+      "mean_c_system": 0.3800734578942228,
+      "std_c_system": 0.044789527818045946,
+      "mean_alpha": 0.6456591303891078
+    }
+  ],
+  "timestamp": "20260404_220616"
+}

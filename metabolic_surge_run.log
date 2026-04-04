@@ -1,0 +1,168 @@
+/home/dp/gnosis-research/metabolic_surge_experiment.py:335: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+================================================================================
+Thor Session #57: Metabolic Surge During Active Learning
+================================================================================
+
+Testing Session #56 thermodynamic predictions:
+  1. c_metabolic increases during engaged tasks (0.3-0.5 → 0.6-0.8)
+  2. c_system follows: c_system ≤ α * c_metabolic
+  3. Efficiency α remains stable (~0.77-1.05)
+
+Experimental protocol:
+  Phase 1: Baseline (100 cycles) - passive observation
+  Phase 2: Active Learning (100 cycles) - high engagement
+  Phase 3: Recovery (100 cycles) - return to baseline
+
+--------------------------------------------------------------------------------
+
+[Init] Creating SAGE consciousness instance...
+✅ NeuTTS Air TTS plugin loaded
+[Sleep] Capability: lora=True jsonl=True remote=True → best=lora
+[SleepConsolidationBridge] Initialized
+  Enabled: False
+  Model: None
+  Checkpoint dir: logs/attention/sleep_checkpoints
+  Min salience: 0.6
+[Sleep] Real SleepConsolidationBridge loaded
+[Tools] Registry: 7 tools registered
+[Tools] No model name — defaulting to T3 heuristic
+[Tools] Grammar: intent_heuristic
+[Init] SAGE instance created
+
+
+================================================================================
+PHASE 1: BASELINE (Passive Observation)
+================================================================================
+Duration: 100 cycles
+
+Expected:
+  c_metabolic: 0.3-0.5 (low energy)
+  c_system: ~0.36 (baseline)
+  α (efficiency): 0.77-1.05
+
+  Cycle    0: c_metabolic=0.500, c_system=0.450, α=0.900
+  Cycle   20: c_metabolic=0.500, c_system=0.398, α=0.796
+[Metabolic] State transition: wake → dream
+  Cycle   40: c_metabolic=0.700, c_system=0.446, α=0.636
+[Metabolic] State transition: dream → wake
+  Cycle   60: c_metabolic=0.500, c_system=0.354, α=0.707
+[Metabolic] State transition: wake → dream
+[Metabolic] State transition: dream → wake
+  Cycle   80: c_metabolic=0.500, c_system=0.318, α=0.636
+[Metabolic] State transition: wake → rest
+[Metabolic] State transition: rest → dream
+[Metabolic] State transition: dream → rest
+
+  BASELINE PHASE COMPLETE:
+    c_metabolic: 0.536 ± 0.115
+    c_system:    0.385 ± 0.053
+    α (efficiency): 0.737
+
+
+================================================================================
+PHASE 2: ACTIVE LEARNING (High Engagement)
+================================================================================
+Duration: 100 cycles
+
+Expected (Session #56 predictions):
+  c_metabolic: 0.6-0.8 (METABOLIC SURGE)
+  c_system: → 0.5 (optimal)
+  α (efficiency): 0.77-1.05
+
+  Cycle  100: c_metabolic=0.300, c_system=0.280, α=0.933
+[Metabolic] State transition: rest → dream
+[Metabolic] State transition: dream → wake
+  Cycle  120: c_metabolic=0.500, c_system=0.360, α=0.721
+[Metabolic] State transition: wake → rest
+[Metabolic] State transition: rest → dream
+  Cycle  140: c_metabolic=0.700, c_system=0.420, α=0.600
+[Metabolic] State transition: dream → wake
+  Cycle  160: c_metabolic=0.500, c_system=0.342, α=0.683
+[Metabolic] State transition: wake → dream
+[Metabolic] State transition: dream → wake
+  Cycle  180: c_metabolic=0.500, c_system=0.315, α=0.630
+[Metabolic] State transition: wake → rest
+[Metabolic] State transition: rest → dream
+[Metabolic] State transition: dream → rest
+[Metabolic] State transition: rest → dream
+
+  ACTIVE LEARNING PHASE COMPLETE:
+    c_metabolic: 0.536 ± 0.143
+    c_system:    0.356 ± 0.046
+    α (efficiency): 0.696
+
+
+================================================================================
+PHASE 3: RECOVERY (Return to Baseline)
+================================================================================
+Duration: 100 cycles
+
+Expected:
+  c_metabolic: → 0.3-0.5 (return to baseline)
+  c_system: → 0.36 (return to baseline)
+
+  Cycle  200: c_metabolic=0.700, c_system=0.402, α=0.575
+[Metabolic] State transition: dream → wake
+  Cycle  220: c_metabolic=0.500, c_system=0.354, α=0.708
+[Metabolic] State transition: wake → rest
+[Metabolic] State transition: rest → dream
+  Cycle  240: c_metabolic=0.700, c_system=0.423, α=0.604
+[Metabolic] State transition: dream → wake
+  Cycle  260: c_metabolic=0.500, c_system=0.344, α=0.688
+[Metabolic] State transition: wake → rest
+[Metabolic] State transition: rest → dream
+  Cycle  280: c_metabolic=0.700, c_system=0.389, α=0.556
+[Metabolic] State transition: dream → rest
+[Metabolic] State transition: rest → dream
+
+  RECOVERY PHASE COMPLETE:
+    c_metabolic: 0.609 ± 0.131
+    c_system:    0.380 ± 0.045
+    α (efficiency): 0.646
+
+
+================================================================================
+Results saved to: validation_logs/metabolic_surge_20260404_220616.json
+================================================================================
+
+================================================================================
+EXPERIMENT SUMMARY
+================================================================================
+
+Phase                c_metabolic     c_system        α          Prediction Match
+--------------------------------------------------------------------------------
+BASELINE             0.536           0.385           0.737      ✗ (expected 0.3-0.5)
+ACTIVE_LEARNING      0.536           0.356           0.696      ✗ (expected ≥0.6)
+RECOVERY             0.609           0.380           0.646      ✗ (expected 0.3-0.5)
+
+--------------------------------------------------------------------------------
+
+Metabolic surge: +0.000 (+0.0%)
+
+✗ Prediction not confirmed: surge < 0.1
+
+Next: Run analyze_metabolic_surge.py on validation_logs/metabolic_surge_20260404_220616.json
+
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled

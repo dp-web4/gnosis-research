@@ -1,0 +1,99 @@
+================================================================================
+Metabolic Surge Experiment Analysis
+================================================================================
+
+Loading: validation_logs/metabolic_surge_20260404_220616.json
+
+
+================================================================================
+PREDICTION 1: Metabolic Surge During Active Learning
+================================================================================
+
+Hypothesis: c_metabolic increases during engaged tasks
+Expected: baseline ≈ 0.3-0.5, active ≈ 0.6-0.8
+
+Baseline c_metabolic:     0.536 ± 0.115
+Active c_metabolic:       0.536 ± 0.143
+Surge magnitude:          +0.000 (+0.0%)
+
+T-test: t=0.000, p=1.000000
+
+✗ Prediction not confirmed
+  - Not statistically significant (p = 1.000)
+  - Surge too small (0.000)
+
+================================================================================
+PREDICTION 2: Energy-Coherence Coupling
+================================================================================
+
+Hypothesis: c_system ≤ α * c_metabolic (metabolic ceiling)
+Expected: α ≈ 0.77-1.05
+
+BASELINE        α = 0.737 ± 0.118
+  c_system = 0.385, c_metabolic = 0.536
+  Predicted ceiling: 0.396
+
+ACTIVE_LEARNING α = 0.696 ± 0.131
+  c_system = 0.356, c_metabolic = 0.536
+  Predicted ceiling: 0.373
+
+RECOVERY        α = 0.646 ± 0.109
+  c_system = 0.380, c_metabolic = 0.609
+  Predicted ceiling: 0.393
+
+Overall α: 0.693 ± 0.125
+
+✗ α outside expected range
+  - Expected: 0.7-1.1, Observed: 0.693
+
+================================================================================
+PREDICTION 3: System Coherence Response
+================================================================================
+
+Hypothesis: c_system → 0.5 during active learning
+Mechanism: Metabolic surge enables higher coherence
+
+Baseline c_system:   0.385 ± 0.053
+Active c_system:     0.356 ± 0.046
+Increase:            -0.029 (-7.6%)
+
+Distance from C = 0.5:
+  Baseline: 0.115
+  Active:   0.144
+
+T-test: t=1.323, p=0.200639
+
+✗ Prediction not confirmed
+  - Active gap (0.144) not smaller than baseline (0.115)
+  - Not statistically significant (p = 0.201)
+
+================================================================================
+VALIDATION: Reversibility
+================================================================================
+
+Test: Does metabolic state return to baseline after task?
+
+Baseline c_metabolic:  0.536
+Recovery c_metabolic:  0.609
+Difference:            0.073
+
+T-test: t=-1.319, p=0.202151
+
+✗ System did not return to baseline
+  - Difference: 0.073 (expected < 0.05)
+
+================================================================================
+OVERALL RESULTS
+================================================================================
+
+Predictions validated: 0/4
+
+  ✗ Surge
+  ✗ Coupling
+  ✗ Coherence Response
+  ✗ Reversibility
+
+❌ PREDICTIONS NOT CONFIRMED
+   Theory may need revision
+
+================================================================================
