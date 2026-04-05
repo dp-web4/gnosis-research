@@ -1,0 +1,11 @@
+{
+  "session": 61,
+  "timestamp": "2026-04-05T15:04:58.873914",
+  "validation_result": "PASS",
+  "exchanges": 10,
+  "mean_salience": 0.654,
+  "mean_atp": 71.8,
+  "coherence": 0.005751527363136666,
+  "buffer_path": "thor_session_61_validation/validation_buffer.json",
+  "note": "ATP logging validated for production raising scripts"
+}

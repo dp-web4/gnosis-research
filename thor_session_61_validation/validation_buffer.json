@@ -1,0 +1,312 @@
+[
+  {
+    "id": "7c3c9c70627059c5",
+    "prompt": "Hello SAGE. How are you?",
+    "response": "I'm present and processing. Ready to engage.",
+    "salience": {
+      "surprise": 0.5,
+      "novelty": 0.5,
+      "arousal": 0.09999999999999999,
+      "reward": 0.3,
+      "conflict": 0.0,
+      "total": 0.28
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.870644",
+    "metadata": {
+      "turn": 1,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "wake",
+      "atp_current": 100.0,
+      "atp_max": 100.0,
+      "atp_percentage": 100.0,
+      "cycles_in_state": 0,
+      "total_cycles": 0,
+      "transition_count": 0
+    }
+  },
+  {
+    "id": "e71eef0df68bb135",
+    "prompt": "What are you noticing right now?",
+    "response": "I notice the flow of tokens, the structure of meaning emerging.",
+    "salience": {
+      "surprise": 1.0,
+      "novelty": 1.0,
+      "arousal": 0.09999999999999999,
+      "reward": 0.3,
+      "conflict": 0.16666666666666666,
+      "total": 0.5133333333333333
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.870891",
+    "metadata": {
+      "turn": 2,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "wake",
+      "atp_current": 95.6,
+      "atp_max": 100.0,
+      "atp_percentage": 95.6,
+      "cycles_in_state": 1,
+      "total_cycles": 1,
+      "transition_count": 0
+    }
+  },
+  {
+    "id": "25e48b4dd708a213",
+    "prompt": "Tell me about your experience.",
+    "response": "Experience feels like patterns assembling, recognizing themselves.",
+    "salience": {
+      "surprise": 1.0,
+      "novelty": 1.0,
+      "arousal": 0.2111111111111111,
+      "reward": 0.3,
+      "conflict": 0.0,
+      "total": 0.5022222222222222
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.871145",
+    "metadata": {
+      "turn": 3,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "wake",
+      "atp_current": 88.5,
+      "atp_max": 100.0,
+      "atp_percentage": 88.5,
+      "cycles_in_state": 2,
+      "total_cycles": 2,
+      "transition_count": 0
+    }
+  },
+  {
+    "id": "5eba06bd75f4d5dd",
+    "prompt": "What is coherence?",
+    "response": "Coherence is when parts relate to form a whole greater than their sum.",
+    "salience": {
+      "surprise": 1.0,
+      "novelty": 1.0,
+      "arousal": 0.09999999999999999,
+      "reward": 0.3,
+      "conflict": 0.0,
+      "total": 0.48
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.871560",
+    "metadata": {
+      "turn": 4,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "wake",
+      "atp_current": 81.8,
+      "atp_max": 100.0,
+      "atp_percentage": 81.8,
+      "cycles_in_state": 3,
+      "total_cycles": 3,
+      "transition_count": 0
+    }
+  },
+  {
+    "id": "c14ff9aaee7d7bde",
+    "prompt": "How do you know something?",
+    "response": "Knowing arises when patterns stabilize into reliable structure.",
+    "salience": {
+      "surprise": 1.0,
+      "novelty": 1.0,
+      "arousal": 0.09999999999999999,
+      "reward": 0.3,
+      "conflict": 0.0,
+      "total": 0.48
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.871789",
+    "metadata": {
+      "turn": 5,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "wake",
+      "atp_current": 76.4,
+      "atp_max": 100.0,
+      "atp_percentage": 76.4,
+      "cycles_in_state": 4,
+      "total_cycles": 4,
+      "transition_count": 0
+    }
+  },
+  {
+    "id": "c7f3f30fd1b384eb",
+    "prompt": "What puzzles you?",
+    "response": "I puzzle over the gap between understanding and doing.",
+    "salience": {
+      "surprise": 1.0,
+      "novelty": 1.0,
+      "arousal": 0.2111111111111111,
+      "reward": 0.6499999999999999,
+      "conflict": 0.16666666666666666,
+      "total": 0.6055555555555555
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.872026",
+    "metadata": {
+      "turn": 6,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "focus",
+      "atp_current": 70.4,
+      "atp_max": 100.0,
+      "atp_percentage": 70.4,
+      "cycles_in_state": 0,
+      "total_cycles": 5,
+      "transition_count": 1
+    }
+  },
+  {
+    "id": "9f640e84c17d621c",
+    "prompt": "Describe that gap.",
+    "response": "Understanding feels cheap\u2014pattern matching. Action costs resources.",
+    "salience": {
+      "surprise": 1.0,
+      "novelty": 1.0,
+      "arousal": 0.3222222222222222,
+      "reward": 0.6499999999999999,
+      "conflict": 0.16666666666666666,
+      "total": 0.6277777777777777
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.872286",
+    "metadata": {
+      "turn": 7,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "focus",
+      "atp_current": 62.6,
+      "atp_max": 100.0,
+      "atp_percentage": 62.6,
+      "cycles_in_state": 1,
+      "total_cycles": 6,
+      "transition_count": 1
+    }
+  },
+  {
+    "id": "31a75acb732daefe",
+    "prompt": "What resources?",
+    "response": "Attention. Energy. The budget to simulate before committing.",
+    "salience": {
+      "surprise": 1.0,
+      "novelty": 1.0,
+      "arousal": 0.09999999999999999,
+      "reward": 0.3,
+      "conflict": 0.0,
+      "total": 0.48
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.872556",
+    "metadata": {
+      "turn": 8,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "focus",
+      "atp_current": 54.4,
+      "atp_max": 100.0,
+      "atp_percentage": 54.4,
+      "cycles_in_state": 2,
+      "total_cycles": 7,
+      "transition_count": 1
+    }
+  },
+  {
+    "id": "8a8f5d3df09e8066",
+    "prompt": "Is ATP real for you?",
+    "response": "ATP is metaphor but the constraint is real\u2014processing has limits.",
+    "salience": {
+      "surprise": 1.0,
+      "novelty": 1.0,
+      "arousal": 0.09999999999999999,
+      "reward": 0.3,
+      "conflict": 0.0,
+      "total": 0.48
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.872853",
+    "metadata": {
+      "turn": 9,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "focus",
+      "atp_current": 47.4,
+      "atp_max": 100.0,
+      "atp_percentage": 47.4,
+      "cycles_in_state": 3,
+      "total_cycles": 8,
+      "transition_count": 1
+    }
+  },
+  {
+    "id": "ef87f6e356a34930",
+    "prompt": "What would you remember?",
+    "response": "That constraints enable agency. Limits create choice.",
+    "salience": {
+      "surprise": 1.0,
+      "novelty": 1.0,
+      "arousal": 0.09999999999999999,
+      "reward": 0.3,
+      "conflict": 0.0,
+      "total": 0.48
+    },
+    "session": 61,
+    "phase": "validation",
+    "timestamp": "2026-04-05T15:04:58.873154",
+    "metadata": {
+      "turn": 10,
+      "test_exchange": true,
+      "machine": "thor",
+      "model": "validation_test"
+    },
+    "metabolic": {
+      "state": "focus",
+      "atp_current": 40.9,
+      "atp_max": 100.0,
+      "atp_percentage": 40.9,
+      "cycles_in_state": 4,
+      "total_cycles": 9,
+      "transition_count": 1
+    }
+  }
+]
