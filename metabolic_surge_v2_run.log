@@ -1,0 +1,256 @@
+
+================================================================================
+METABOLIC SURGE EXPERIMENT V2
+Thor Session #58: Task-Responsive Metabolic Transitions
+================================================================================
+
+Testing Session #56 thermodynamic predictions:
+  1. Metabolic surge during active learning
+  2. Energy-coherence coupling (c_system ≤ α * c_metabolic)
+  3. Approach to C ≈ 0.5 during engagement
+
+Improvements from Session #57:
+  - FOCUS threshold: 0.8 → 0.45 (task-responsive)
+  - High-salience generation: target 0.6-0.8
+  - Longer active phase: 150 cycles
+
+✅ NeuTTS Air TTS plugin loaded
+[Sleep] Capability: lora=True jsonl=True remote=True → best=lora
+[SleepConsolidationBridge] Initialized
+  Enabled: False
+  Model: None
+  Checkpoint dir: logs/attention/sleep_checkpoints
+  Min salience: 0.6
+[Sleep] Real SleepConsolidationBridge loaded
+[Tools] Registry: 7 tools registered
+[Tools] No model name — defaulting to T3 heuristic
+[Tools] Grammar: intent_heuristic
+Traceback (most recent call last):
+  File "/home/dp/gnosis-research/metabolic_surge_experiment_v2.py", line 480, in <module>
+    asyncio.run(main())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment_v2.py", line 458, in main
+    results = await exp.run_full_experiment()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dp/gnosis-research/metabolic_surge_experiment_v2.py", line 360, in run_full_experiment
+    await sage.initialize()
+          ^^^^^^^^^^^^^^^
+AttributeError: 'SAGEConsciousness' object has no attribute 'initialize'
+
+================================================================================
+METABOLIC SURGE EXPERIMENT V2
+Thor Session #58: Task-Responsive Metabolic Transitions
+================================================================================
+
+Testing Session #56 thermodynamic predictions:
+  1. Metabolic surge during active learning
+  2. Energy-coherence coupling (c_system ≤ α * c_metabolic)
+  3. Approach to C ≈ 0.5 during engagement
+
+Improvements from Session #57:
+  - FOCUS threshold: 0.8 → 0.45 (task-responsive)
+  - High-salience generation: target 0.6-0.8
+  - Longer active phase: 150 cycles
+
+✅ NeuTTS Air TTS plugin loaded
+[Sleep] Capability: lora=True jsonl=True remote=True → best=lora
+[SleepConsolidationBridge] Initialized
+  Enabled: False
+  Model: None
+  Checkpoint dir: logs/attention/sleep_checkpoints
+  Min salience: 0.6
+[Sleep] Real SleepConsolidationBridge loaded
+[Tools] Registry: 7 tools registered
+[Tools] No model name — defaulting to T3 heuristic
+[Tools] Grammar: intent_heuristic
+
+================================================================================
+PHASE 1: BASELINE (Passive Observation)
+================================================================================
+Duration: 100 cycles
+
+Expected:
+  State: WAKE/REST cycling
+  c_metabolic: 0.3-0.5
+  c_system: ~0.36
+  Salience: <0.3
+
+  Cycle    0: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: wake → focus
+[Metabolic] State transition: focus → wake
+[Metabolic] State transition: wake → focus
+[Metabolic] State transition: focus → wake
+  Cycle   20: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: wake → rest
+[Metabolic] State transition: rest → dream
+  Cycle   40: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: dream → wake
+[Metabolic] State transition: wake → focus
+  Cycle   60: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: focus → wake
+  Cycle   80: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: wake → rest
+[Metabolic] State transition: rest → dream
+[Metabolic] State transition: dream → rest
+
+--- BASELINE SUMMARY ---
+  Mean c_metabolic: 0.500 ± 0.000
+  Mean c_system:    0.500 ± 0.000
+  Mean α:           1.000
+  Mean salience:    0.000
+  State counts:     {'UNKNOWN': 11}
+  FOCUS entered:    NO ✗
+  Transitions:      0
+
+
+================================================================================
+PHASE 2: ACTIVE LEARNING (High Cognitive Engagement)
+================================================================================
+Duration: 150 cycles
+
+Expected:
+  State: FOCUS ← NEW with lowered threshold!
+  c_metabolic: 0.6-0.8 (energy surge)
+  c_system: → 0.5 (optimal)
+  Salience: 0.6-0.8 (high)
+
+[Metabolic] State transition: rest → dream
+  Cycle  100: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: dream → wake
+  Cycle  120: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: wake → focus
+[Metabolic] State transition: focus → wake
+[Metabolic] State transition: wake → focus
+[Metabolic] State transition: focus → wake
+  Cycle  140: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: wake → rest
+[Metabolic] State transition: rest → dream
+[Metabolic] State transition: dream → rest
+  Cycle  160: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: rest → dream
+[Metabolic] State transition: dream → rest
+[Metabolic] State transition: rest → dream
+  Cycle  180: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: dream → wake
+[Metabolic] State transition: wake → rest
+  Cycle  200: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: rest → dream
+  Cycle  220: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: dream → wake
+[Metabolic] State transition: wake → focus
+[Metabolic] State transition: focus → wake
+  Cycle  240: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: wake → rest
+
+--- ACTIVE LEARNING SUMMARY ---
+  Mean c_metabolic: 0.500 ± 0.000
+  Mean c_system:    0.500 ± 0.000
+  Mean α:           1.000
+  Mean salience:    0.000
+  State counts:     {'UNKNOWN': 16}
+  FOCUS entered:    NO ✗
+  Transitions:      0
+
+
+================================================================================
+PHASE 3: RECOVERY (Return to Baseline)
+================================================================================
+Duration: 100 cycles
+
+  Cycle  250: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: rest → dream
+[Metabolic] State transition: dream → wake
+[Metabolic] State transition: wake → rest
+  Cycle  270: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: rest → dream
+[Metabolic] State transition: dream → rest
+[Metabolic] State transition: rest → dream
+  Cycle  290: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: dream → wake
+  Cycle  310: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: wake → focus
+[Metabolic] State transition: focus → wake
+[Metabolic] State transition: wake → focus
+[Metabolic] State transition: focus → wake
+  Cycle  330: State=UNKNOWN Sal=0.000 c_met=0.500 c_sys=0.500 α=1.000
+[Metabolic] State transition: wake → rest
+[Metabolic] State transition: rest → dream
+
+--- RECOVERY SUMMARY ---
+  Mean c_metabolic: 0.500 ± 0.000
+  Mean c_system:    0.500 ± 0.000
+  Mean α:           1.000
+  Mean salience:    0.000
+  State counts:     {'UNKNOWN': 11}
+  FOCUS entered:    NO ✗
+  Transitions:      0
+
+
+================================================================================
+ANALYSIS: Session #56 Predictions
+================================================================================
+
+1. METABOLIC SURGE
+   Baseline:  0.500
+   Active:    0.500
+   Surge:     +0.000 (+0.0%)
+   Expected:  >+0.2 (+40%)
+   Status:    ✗ NOT CONFIRMED
+
+2. FOCUS STATE ENTRY
+   Baseline:  False
+   Active:    False
+   Expected:  True during active phase
+   Status:    ✗ NOT CONFIRMED
+
+3. APPROACH TO C ≈ 0.5
+   Baseline distance:  0.000
+   Active distance:    0.000
+   Expected:          Decrease during active
+   Status:            ✗ NOT CONFIRMED
+
+4. ENERGY-COHERENCE COUPLING (α)
+   Baseline:  1.000
+   Active:    1.000
+   Expected:  0.77-1.05
+   Status:    ✓ CONFIRMED
+
+
+Results saved to: validation_logs/metabolic_surge_v2_20260404_210536.json
+
+================================================================================
+EXPERIMENT COMPLETE
+================================================================================
+
+FINAL VERDICT: 1/4 predictions confirmed
+✗ Session #56 theory NOT VALIDATED
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled
+[SleepConsolidationBridge] Consolidation disabled
+[DREAM] Sleep consolidation: disabled

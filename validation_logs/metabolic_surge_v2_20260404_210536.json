@@ -1,0 +1,465 @@
+{
+  "experiment": "metabolic_surge_v2",
+  "session": "thor_session_58",
+  "timestamp": "20260404_210536",
+  "phases": {
+    "baseline": {
+      "phase": "baseline",
+      "engagement": "passive",
+      "start_cycle": 0,
+      "duration": 100,
+      "samples": [
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 0,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 10,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 20,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 30,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 40,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 50,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 60,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 70,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 80,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 90,
+          "phase": "baseline"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 99,
+          "phase": "baseline"
+        }
+      ],
+      "state_transitions": [],
+      "mean_c_metabolic": 0.5,
+      "std_c_metabolic": 0.0,
+      "mean_c_system": 0.5,
+      "std_c_system": 0.0,
+      "mean_alpha": 1.0,
+      "mean_salience": 0.0,
+      "state_counts": {
+        "UNKNOWN": 11
+      },
+      "focus_entered": false
+    },
+    "active": {
+      "phase": "active",
+      "engagement": "high",
+      "start_cycle": 100,
+      "duration": 150,
+      "samples": [
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 100,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 110,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 120,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 130,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 140,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 150,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 160,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 170,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 180,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 190,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 200,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 210,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 220,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 230,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 240,
+          "phase": "active"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 249,
+          "phase": "active"
+        }
+      ],
+      "state_transitions": [],
+      "mean_c_metabolic": 0.5,
+      "std_c_metabolic": 0.0,
+      "mean_c_system": 0.5,
+      "std_c_system": 0.0,
+      "mean_alpha": 1.0,
+      "mean_salience": 0.0,
+      "state_counts": {
+        "UNKNOWN": 16
+      },
+      "focus_entered": false
+    },
+    "recovery": {
+      "phase": "recovery",
+      "engagement": "passive",
+      "start_cycle": 250,
+      "duration": 100,
+      "samples": [
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 250,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 260,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 270,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 280,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 290,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 300,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 310,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 320,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 330,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 340,
+          "phase": "recovery"
+        },
+        {
+          "c_metabolic": 0.5,
+          "c_system": 0.5,
+          "alpha": 1.0,
+          "metabolic_state": "UNKNOWN",
+          "max_salience": 0.0,
+          "atp": 0.0,
+          "cycle": 349,
+          "phase": "recovery"
+        }
+      ],
+      "state_transitions": [],
+      "mean_c_metabolic": 0.5,
+      "std_c_metabolic": 0.0,
+      "mean_c_system": 0.5,
+      "std_c_system": 0.0,
+      "mean_alpha": 1.0,
+      "mean_salience": 0.0,
+      "state_counts": {
+        "UNKNOWN": 11
+      },
+      "focus_entered": false
+    }
+  },
+  "predictions": {
+    "metabolic_surge": {
+      "confirmed": false,
+      "surge": 0.0,
+      "surge_pct": 0.0
+    },
+    "focus_entry": {
+      "confirmed": false,
+      "baseline": false,
+      "active": false
+    },
+    "approach_optimal": {
+      "confirmed": false,
+      "baseline_distance": 0.0,
+      "active_distance": 0.0
+    },
+    "coupling_efficiency": {
+      "confirmed": true,
+      "alpha": 1.0
+    }
+  }
+}
