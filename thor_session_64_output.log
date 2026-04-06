@@ -1,0 +1,196 @@
+Found 9 instances with experience data
+Analyzing cbp-qwen3.5-0.8b...
+Analyzing cbp-tinyllama-latest...
+Analyzing legion-gemma3-12b...
+Analyzing legion-phi4-14b...
+Analyzing mcnugget-gemma3-12b...
+Analyzing nomad-gemma3-4b...
+Analyzing sprout-qwen2.5-0.5b...
+Analyzing sprout-qwen3.5-0.8b...
+Analyzing thor-qwen3.5-27b...
+
+Analyzed 8 instances with valid data
+
+================================================================================
+GOLDEN RATIO HYPOTHESIS TEST: Which C formulation yields φ - 1 ≈ 0.618?
+================================================================================
+
+Target: φ - 1 = 0.618034
+Session #63 found: C ≈ 0.640 (simple_mean)
+
+Testing 15 C formulations across 8 instances...
+
+--------------------------------------------------------------------------------
+TOP 10 CLOSEST TO φ - 1 ≈ 0.618:
+--------------------------------------------------------------------------------
+Rank  Variant                   Mean       Std        Δφ-1       Δ2/3       Δ0.5      
+--------------------------------------------------------------------------------
+1     simple_mean               0.6396     0.0183     0.0215     0.0271     0.1396    
+2     exploitation_bias         0.6603     0.0385     0.0422     0.0064     0.1603    
+3     weighted_mean             0.6907     0.0168     0.0726     0.0240     0.1907    
+4     weighted_raw              0.6907     0.0168     0.0726     0.0240     0.1907    
+5     trimmed_mean              0.7011     0.0266     0.0831     0.0344     0.2011    
+6     quadratic_mean            0.7289     0.0147     0.1109     0.0622     0.2289    
+7     phi_weighted              0.7460     0.0207     0.1280     0.0794     0.2460    
+8     median                    0.7495     0.0323     0.1315     0.0829     0.2495    
+9     entropy_weighted          0.7553     0.0421     0.1373     0.0887     0.2553    
+10    exploration_bias          0.8848     0.0444     0.2668     0.2182     0.3848    
+
+================================================================================
+WINNER: simple_mean
+  Mean: 0.639566
+  Distance to φ - 1: 0.021532 (3.48% error)
+  Cross-instance std: 0.018342
+================================================================================
+
+--------------------------------------------------------------------------------
+COMPARISON: Winner vs Session #63 (simple_mean)
+--------------------------------------------------------------------------------
+Simple mean: 0.639566 ± 0.018342
+  Distance to φ - 1: 0.021532
+
+simple_mean: 0.639566 ± 0.018342
+  Distance to φ - 1: 0.021532
+
+Improvement: 0.000000 (0.0%)
+
+Paired t-test (distances to φ - 1):
+  t = nan, p = nan
+  ✗ Not significantly different (p ≥ 0.05)
+
+--------------------------------------------------------------------------------
+VARIANTS WITHIN 1% OF φ - 1:
+--------------------------------------------------------------------------------
+  None found.
+
+  Closest: simple_mean at 3.48% error
+
+✓ Detailed results saved to: /home/dp/gnosis-research/thor_session_64_golden_ratio_results.json
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/dp/gnosis-research/thor_session_64_temporal_analysis.py", line 19, in <module>
+    import matplotlib
+  File "/usr/lib/python3/dist-packages/matplotlib/__init__.py", line 113, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/usr/lib/python3/dist-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/usr/lib/python3/dist-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/usr/lib/python3/dist-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/usr/lib/python3/dist-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/usr/lib/python3/dist-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+Traceback (most recent call last):
+  File "/home/dp/.local/lib/python3.12/site-packages/numpy/core/_multiarray_umath.py", line 44, in __getattr__
+    raise ImportError(msg)
+ImportError: 
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+
+Traceback (most recent call last):
+  File "/home/dp/gnosis-research/thor_session_64_temporal_analysis.py", line 19, in <module>
+    import matplotlib
+  File "/usr/lib/python3/dist-packages/matplotlib/__init__.py", line 113, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/usr/lib/python3/dist-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/usr/lib/python3/dist-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/usr/lib/python3/dist-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/usr/lib/python3/dist-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/usr/lib/python3/dist-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+ImportError: numpy.core.multiarray failed to import
+Found 9 instances with experience data
+Analyzing cbp-qwen3.5-0.8b...
+Analyzing cbp-tinyllama-latest...
+Analyzing legion-gemma3-12b...
+Analyzing legion-phi4-14b...
+Analyzing mcnugget-gemma3-12b...
+Analyzing nomad-gemma3-4b...
+Analyzing sprout-qwen2.5-0.5b...
+Analyzing sprout-qwen3.5-0.8b...
+Analyzing thor-qwen3.5-27b...
+
+====================================================================================================
+TEMPORAL CONVERGENCE ANALYSIS: Does C → φ - 1 over time?
+====================================================================================================
+
+Target: φ - 1 = 0.618034
+Session #63 aggregate: C ≈ 0.640
+
+Hypothesis: C converges to φ - 1 as instances mature
+
+----------------------------------------------------------------------------------------------------
+Instance                  Sessions   Initial C    Final C      Slope        →φ?   
+----------------------------------------------------------------------------------------------------
+cbp-tinyllama-latest      19         0.6767       0.5642       -0.004650    ✓     
+thor-qwen3.5-27b          15         0.6469       0.5920       -0.000885    ✓     
+cbp-qwen3.5-0.8b          36         0.5693       0.5700       -0.000562    ✓     
+nomad-gemma3-4b           73         0.7649       0.6265       -0.000275    ✓     
+sprout-qwen3.5-0.8b       37         0.6587       0.6346       -0.000268    ✓     
+mcnugget-gemma3-12b       96         0.6498       0.6392       -0.000220    ✓     
+legion-phi4-14b           56         0.6439       0.6930       0.000688     ✗     
+legion-gemma3-12b         24         0.6383       0.7037       0.002182     ✗     
+
+====================================================================================================
+SUMMARY STATISTICS
+====================================================================================================
+
+Instances converging toward φ - 1: 6/8 (75.0%)
+Instances diverging from φ - 1: 2/8 (25.0%)
+
+Mean slope: -0.000499
+Positive slopes (C increasing): 2/8
+Negative slopes (C decreasing): 6/8
+
+Mean distance to φ - 1:
+  Initial: 0.050203
+  Final: 0.041850
+  Change: -0.008353 (closer)
+
+====================================================================================================
+VERDICT: ✓ Evidence for convergence toward φ - 1 over developmental time
+====================================================================================================
+
+✗ Plotting skipped (matplotlib/numpy version conflict)
+Traceback (most recent call last):
+  File "/home/dp/gnosis-research/thor_session_64_temporal_analysis.py", line 211, in <module>
+    main()
+  File "/home/dp/gnosis-research/thor_session_64_temporal_analysis.py", line 197, in main
+    json.dump({
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable
