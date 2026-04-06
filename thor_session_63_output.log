@@ -1,0 +1,268 @@
+============================================================
+Thor Session #63: Cross-Instance C ≈ 0.5 Validation
+============================================================
+
+Found 17 instances:
+  - cbp-qwen3.5-0.8b
+  - cbp-tinyllama-latest
+  - cbp-tinyllama-latest.bak
+  - legion-gemma3-12b
+  - legion-gemma4-e4b
+  - legion-phi4-14b
+  - legion-qwen2-0.5b
+  - mcnugget-gemma3-12b
+  - mcnugget-gemma4-e4b
+  - nomad-gemma3-4b
+  - sprout-qwen2.5-0.5b
+  - sprout-qwen3.5-0.8b
+  - sprout-qwen3.5-2b
+  - thor-gemma4-e4b
+  - thor-qwen2.5-14b
+  - thor-qwen2.5-7b-ollama
+  - thor-qwen3.5-27b
+
+
+============================================================
+Analyzing: cbp-qwen3.5-0.8b
+============================================================
+  ✓ Loaded 195 experience atoms
+
+  C Distribution:
+    Mean:     0.6204
+    Median:   0.6424
+    Std:      0.0862
+    Deviation from 0.5: 0.1204
+    Accuracy: 75.9%
+    Near 0.5 (0.4-0.6): 69/195 (35.4%)
+
+  Metabolic States:
+    unknown   : C = 0.620 ± 0.086 (n=195)
+
+  Cross-Session Stability:
+    Sessions: 34
+    Cross-session σ: 0.0318
+
+============================================================
+Analyzing: cbp-tinyllama-latest
+============================================================
+  ✓ Loaded 77 experience atoms
+
+  C Distribution:
+    Mean:     0.6091
+    Median:   0.6033
+    Std:      0.1016
+    Deviation from 0.5: 0.1091
+    Accuracy: 78.2%
+    Near 0.5 (0.4-0.6): 38/77 (49.4%)
+
+  Metabolic States:
+    rest      : C = 0.665 ± 0.126 (n=6)
+    unknown   : C = 0.600 ± 0.092 (n=70)
+    wake      : C = 0.900 ± 0.000 (n=1)
+
+  Cross-Session Stability:
+    Sessions: 19
+    Cross-session σ: 0.0855
+
+============================================================
+Analyzing: cbp-tinyllama-latest.bak
+============================================================
+  ❌ No experience data found
+
+============================================================
+Analyzing: legion-gemma3-12b
+============================================================
+  ✓ Loaded 152 experience atoms
+
+  C Distribution:
+    Mean:     0.6474
+    Median:   0.6601
+    Std:      0.0841
+    Deviation from 0.5: 0.1474
+    Accuracy: 70.5%
+    Near 0.5 (0.4-0.6): 45/152 (29.6%)
+
+  Metabolic States:
+    unknown   : C = 0.647 ± 0.084 (n=152)
+
+  Cross-Session Stability:
+    Sessions: 24
+    Cross-session σ: 0.0328
+
+============================================================
+Analyzing: legion-gemma4-e4b
+============================================================
+  ❌ No experience data found
+
+============================================================
+Analyzing: legion-phi4-14b
+============================================================
+  ✓ Loaded 534 experience atoms
+
+  C Distribution:
+    Mean:     0.6721
+    Median:   0.6956
+    Std:      0.0856
+    Deviation from 0.5: 0.1721
+    Accuracy: 65.6%
+    Near 0.5 (0.4-0.6): 105/534 (19.7%)
+
+  Metabolic States:
+    rest      : C = 0.638 ± 0.057 (n=6)
+    unknown   : C = 0.672 ± 0.086 (n=528)
+
+  Cross-Session Stability:
+    Sessions: 56
+    Cross-session σ: 0.0264
+
+============================================================
+Analyzing: legion-qwen2-0.5b
+============================================================
+  ❌ No experience data found
+
+============================================================
+Analyzing: mcnugget-gemma3-12b
+============================================================
+  ✓ Loaded 714 experience atoms
+
+  C Distribution:
+    Mean:     0.6303
+    Median:   0.6522
+    Std:      0.0825
+    Deviation from 0.5: 0.1303
+    Accuracy: 73.9%
+    Near 0.5 (0.4-0.6): 229/714 (32.1%)
+
+  Metabolic States:
+    crisis    : C = 0.570 ± 0.000 (n=1)
+    rest      : C = 0.617 ± 0.065 (n=25)
+    unknown   : C = 0.631 ± 0.083 (n=680)
+    wake      : C = 0.631 ± 0.085 (n=8)
+
+  Cross-Session Stability:
+    Sessions: 96
+    Cross-session σ: 0.0301
+
+============================================================
+Analyzing: mcnugget-gemma4-e4b
+============================================================
+  ❌ No experience data found
+
+============================================================
+Analyzing: nomad-gemma3-4b
+============================================================
+  ✓ Loaded 525 experience atoms
+
+  C Distribution:
+    Mean:     0.6510
+    Median:   0.6667
+    Std:      0.0917
+    Deviation from 0.5: 0.1510
+    Accuracy: 69.8%
+    Near 0.5 (0.4-0.6): 147/525 (28.0%)
+
+  Metabolic States:
+    rest      : C = 0.710 ± 0.089 (n=76)
+    unknown   : C = 0.637 ± 0.087 (n=427)
+    wake      : C = 0.712 ± 0.075 (n=22)
+
+  Cross-Session Stability:
+    Sessions: 72
+    Cross-session σ: 0.0390
+
+============================================================
+Analyzing: sprout-qwen2.5-0.5b
+============================================================
+  ✓ Loaded 2 experience atoms
+  ⚠️  No salience data found
+
+============================================================
+Analyzing: sprout-qwen3.5-0.8b
+============================================================
+  ✓ Loaded 969 experience atoms
+
+  C Distribution:
+    Mean:     0.6462
+    Median:   0.6627
+    Std:      0.0727
+    Deviation from 0.5: 0.1462
+    Accuracy: 70.8%
+    Near 0.5 (0.4-0.6): 268/969 (27.7%)
+
+  Metabolic States:
+    crisis    : C = 0.648 ± 0.086 (n=12)
+    dream     : C = 0.651 ± 0.070 (n=65)
+    rest      : C = 0.648 ± 0.073 (n=617)
+    unknown   : C = 0.629 ± 0.085 (n=39)
+    wake      : C = 0.642 ± 0.068 (n=236)
+
+  Cross-Session Stability:
+    Sessions: 38
+    Cross-session σ: 0.0423
+
+============================================================
+Analyzing: sprout-qwen3.5-2b
+============================================================
+  ❌ No experience data found
+
+============================================================
+Analyzing: thor-gemma4-e4b
+============================================================
+  ❌ No experience data found
+
+============================================================
+Analyzing: thor-qwen2.5-14b
+============================================================
+  ❌ No experience data found
+
+============================================================
+Analyzing: thor-qwen2.5-7b-ollama
+============================================================
+  ❌ No experience data found
+
+============================================================
+Analyzing: thor-qwen3.5-27b
+============================================================
+  ✓ Loaded 201 experience atoms
+
+  C Distribution:
+    Mean:     0.6442
+    Median:   0.6478
+    Std:      0.0829
+    Deviation from 0.5: 0.1442
+    Accuracy: 71.2%
+    Near 0.5 (0.4-0.6): 62/201 (30.8%)
+
+  Metabolic States:
+    crisis    : C = 0.646 ± 0.073 (n=2)
+    dream     : C = 0.699 ± 0.039 (n=2)
+    rest      : C = 0.652 ± 0.081 (n=104)
+    unknown   : C = 0.642 ± 0.099 (n=45)
+    wake      : C = 0.628 ± 0.068 (n=48)
+
+  Cross-Session Stability:
+    Sessions: 13
+    Cross-session σ: 0.0372
+
+
+============================================================
+AGGREGATE ANALYSIS
+============================================================
+
+Instances analyzed: 8
+Total experience atoms: 3367
+
+C ≈ 0.5 Hypothesis Validation:
+  Mean C across instances:    0.6401 ± 0.0184
+  Median C across instances:  0.6452
+  Range: [0.6091, 0.6721]
+
+Mean absolute deviation from 0.5: 0.1401
+Instances with C ∈ [0.4, 0.6]: 0/8 (0.0%)
+Traceback (most recent call last):
+  File "/home/dp/gnosis-research/thor_session_63_cross_instance_c_validation.py", line 301, in <module>
+    main()
+  File "/home/dp/gnosis-research/thor_session_63_cross_instance_c_validation.py", line 268, in main
+    t_stat, p_value = stats.ttest_1samp(all_means, 0.5)
+                      ^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'ttest_1samp'
