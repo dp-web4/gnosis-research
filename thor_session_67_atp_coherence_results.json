@@ -1,0 +1,66 @@
+{
+  "model_parameters": {
+    "atp_baseline": 50.0,
+    "integration_cost": 100.0,
+    "exploration_cost": 30.0,
+    "stiffness": 20.0,
+    "asymmetry": 1.5
+  },
+  "statistical_tests": {
+    "test_1": {
+      "atp_golden_mean": 91.921987522006,
+      "atp_golden_std": 56.07040725681138,
+      "atp_high_mean": 200.0,
+      "atp_high_std": 0.0,
+      "difference": 108.078012477994,
+      "t_statistic": 24.73266825020668,
+      "p_value": 8.423330991245572e-104,
+      "effect_size": 2.725954715125423,
+      "significant": true
+    },
+    "test_2": {
+      "spearman_rho": 0.426090629732227,
+      "p_value": 2.254541557304344e-45,
+      "interpretation": "Positive correlation: ATP increases away from \u03c6 - 1"
+    },
+    "test_3": {
+      "peak_C": 0.675,
+      "peak_ATP": 200.0,
+      "phi_minus_1": 0.6180339887498949,
+      "distance_from_phi": 0.05696601125010514,
+      "in_learning_zone": true
+    }
+  },
+  "zone_summary": {
+    "n_golden": 751,
+    "n_high": 165,
+    "n_low": 84,
+    "atp_low_mean": 51.95884553549602
+  },
+  "learning_episode": {
+    "phases": {
+      "equilibrium": [
+        0,
+        20
+      ],
+      "exploration": [
+        20,
+        35
+      ],
+      "learning": [
+        35,
+        60
+      ],
+      "consolidation": [
+        60,
+        100
+      ]
+    },
+    "atp_mean_by_phase": {
+      "equilibrium": 69.18465307514374,
+      "exploration": 52.581499898769884,
+      "learning": 146.3131136043901,
+      "consolidation": 252.83866720182624
+    }
+  }
+}
