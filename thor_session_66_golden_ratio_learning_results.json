@@ -1,0 +1,4462 @@
+{
+  "hypothesis": "Training sessions in golden zone (|C - \u03c6-1| < 0.05) show higher learning effectiveness",
+  "phi_minus_1": 0.618033988749895,
+  "golden_zone_threshold": 0.05,
+  "n_sessions_matched": 110,
+  "n_golden_zone": 95,
+  "n_outside_zone": 15,
+  "metric_comparisons": {
+    "identity_framing": {
+      "golden_zone": {
+        "mean": 0.038461538461538464,
+        "std": 0.1923076923076923,
+        "median": 0.0,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.1,
+        "std": 0.3,
+        "median": 0.0,
+        "n": 30
+      },
+      "difference": -0.06153846153846154,
+      "p_value": 0.15281067455859038,
+      "significant": false,
+      "effect_direction": "OUTSIDE HIGHER"
+    },
+    "t3_reliability": {
+      "golden_zone": {
+        "mean": 0.006217948717948718,
+        "std": 0.0094287441531236,
+        "median": 0.01,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.008666666666666668,
+        "std": 0.005617433182117572,
+        "median": 0.01,
+        "n": 30
+      },
+      "difference": -0.00244871794871795,
+      "p_value": 0.17711835124171915,
+      "significant": false,
+      "effect_direction": "OUTSIDE HIGHER"
+    },
+    "mode_match": {
+      "golden_zone": {
+        "mean": 0.8910256410256411,
+        "std": 0.3116070410958111,
+        "median": 1.0,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.9666666666666667,
+        "std": 0.1795054935711501,
+        "median": 1.0,
+        "n": 30
+      },
+      "difference": -0.0756410256410256,
+      "p_value": 0.20185574131293904,
+      "significant": false,
+      "effect_direction": "OUTSIDE HIGHER"
+    },
+    "partnership_density": {
+      "golden_zone": {
+        "mean": 0.033893642773106296,
+        "std": 0.02687736503726517,
+        "median": 0.028039832285115304,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.03451384918139943,
+        "std": 0.03284772336042132,
+        "median": 0.026787849796699355,
+        "n": 30
+      },
+      "difference": -0.0006202064082931336,
+      "p_value": 0.8778199635020341,
+      "significant": false,
+      "effect_direction": "OUTSIDE HIGHER"
+    },
+    "meta_cognitive_count": {
+      "golden_zone": {
+        "mean": 0.0641025641025641,
+        "std": 0.24493555351977947,
+        "median": 0.0,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.06666666666666667,
+        "std": 0.24944382578492943,
+        "median": 0.0,
+        "n": 30
+      },
+      "difference": -0.002564102564102569,
+      "p_value": 0.9618262652679381,
+      "significant": false,
+      "effect_direction": "OUTSIDE HIGHER"
+    },
+    "confabulation": {
+      "golden_zone": {
+        "mean": 0.019230769230769232,
+        "std": 0.048192169562083345,
+        "median": 0.0,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.0033333333333333335,
+        "std": 0.017950549357115014,
+        "median": 0.0,
+        "n": 30
+      },
+      "difference": 0.015897435897435898,
+      "p_value": 0.07511139391500457,
+      "significant": false,
+      "effect_direction": "GOLDEN HIGHER"
+    },
+    "t3_total": {
+      "golden_zone": {
+        "mean": 0.01564102564102564,
+        "std": 0.013501162684000787,
+        "median": 0.02,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.02016666666666667,
+        "std": 0.01004019698788602,
+        "median": 0.02,
+        "n": 30
+      },
+      "difference": -0.004525641025641028,
+      "p_value": 0.07127462298654161,
+      "significant": false,
+      "effect_direction": "OUTSIDE HIGHER"
+    },
+    "t3_competence": {
+      "golden_zone": {
+        "mean": 0.008653846153846154,
+        "std": 0.0032198380397113744,
+        "median": 0.01,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.009500000000000001,
+        "std": 0.001979057014506319,
+        "median": 0.01,
+        "n": 30
+      },
+      "difference": -0.0008461538461538472,
+      "p_value": 0.17711835124171915,
+      "significant": false,
+      "effect_direction": "OUTSIDE HIGHER"
+    },
+    "t3_integrity": {
+      "golden_zone": {
+        "mean": 0.0007692307692307692,
+        "std": 0.0038461538461538464,
+        "median": 0.0,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.002,
+        "std": 0.006000000000000002,
+        "median": 0.0,
+        "n": 30
+      },
+      "difference": -0.0012307692307692308,
+      "p_value": 0.15281067455859038,
+      "significant": false,
+      "effect_direction": "OUTSIDE HIGHER"
+    },
+    "quality_score": {
+      "golden_zone": {
+        "mean": 0.7608974358974357,
+        "std": 0.061052434325054736,
+        "median": 0.7999999999999999,
+        "n": 156
+      },
+      "outside_zone": {
+        "mean": 0.7866666666666667,
+        "std": 0.07180219742846006,
+        "median": 0.7999999999999999,
+        "n": 30
+      },
+      "difference": -0.02576923076923099,
+      "p_value": 0.10876275621797293,
+      "significant": false,
+      "effect_direction": "OUTSIDE HIGHER"
+    }
+  },
+  "matched_sessions": [
+    {
+      "session_id": "T001",
+      "session_num": 1,
+      "mean_coherence": 0.6530251950068707,
+      "std_coherence": 0.08130568248840926,
+      "n_atoms": 240,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.034991206256975715,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T002",
+      "session_num": 2,
+      "mean_coherence": 0.6858010127036818,
+      "std_coherence": 0.09702110940737609,
+      "n_atoms": 72,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.06776702395378675,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "sprout-qwen3.5-0.8b",
+        "cbp-tinyllama-latest",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T003",
+      "session_num": 3,
+      "mean_coherence": 0.6353839593808538,
+      "std_coherence": 0.07901591656115158,
+      "n_atoms": 184,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.017349970630958778,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T004",
+      "session_num": 4,
+      "mean_coherence": 0.6418904249871994,
+      "std_coherence": 0.07509494369528202,
+      "n_atoms": 31,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02385643623730438,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T005",
+      "session_num": 5,
+      "mean_coherence": 0.6282341810890855,
+      "std_coherence": 0.08374753725641643,
+      "n_atoms": 36,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.01020019233919045,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T006",
+      "session_num": 6,
+      "mean_coherence": 0.6291173271173272,
+      "std_coherence": 0.08831491111273704,
+      "n_atoms": 33,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.011083338367432138,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T007",
+      "session_num": 7,
+      "mean_coherence": 0.6351657790291607,
+      "std_coherence": 0.08416497410314194,
+      "n_atoms": 46,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.017131790279265702,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T008",
+      "session_num": 8,
+      "mean_coherence": 0.6467353802932324,
+      "std_coherence": 0.0848209427105723,
+      "n_atoms": 125,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.028701391543337396,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T009",
+      "session_num": 9,
+      "mean_coherence": 0.6546404613611384,
+      "std_coherence": 0.07477369096340222,
+      "n_atoms": 137,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03660647261124339,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T010",
+      "session_num": 10,
+      "mean_coherence": 0.6376339593655351,
+      "std_coherence": 0.07773786537159914,
+      "n_atoms": 140,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.019599970615640117,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T011",
+      "session_num": 11,
+      "mean_coherence": 0.613120975651189,
+      "std_coherence": 0.09181550942205975,
+      "n_atoms": 46,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.004913013098706065,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T012",
+      "session_num": 12,
+      "mean_coherence": 0.6093529411764705,
+      "std_coherence": 0.07273679667706799,
+      "n_atoms": 34,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.008681047573424472,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T013",
+      "session_num": 13,
+      "mean_coherence": 0.6408226985893998,
+      "std_coherence": 0.08598588518507325,
+      "n_atoms": 50,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02278870983950476,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T014",
+      "session_num": 14,
+      "mean_coherence": 0.6384266496322879,
+      "std_coherence": 0.08027319481763985,
+      "n_atoms": 63,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.020392660882392888,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T015",
+      "session_num": 15,
+      "mean_coherence": 0.6415543007148948,
+      "std_coherence": 0.08379880806366803,
+      "n_atoms": 76,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.023520311964999818,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T016",
+      "session_num": 16,
+      "mean_coherence": 0.6535615255290504,
+      "std_coherence": 0.08381504268283622,
+      "n_atoms": 54,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03552753677915543,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T017",
+      "session_num": 17,
+      "mean_coherence": 0.664245201274536,
+      "std_coherence": 0.08215029439680578,
+      "n_atoms": 60,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.046211212524641,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T018",
+      "session_num": 18,
+      "mean_coherence": 0.652898499339807,
+      "std_coherence": 0.09086510626211952,
+      "n_atoms": 60,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03486451058991202,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T019",
+      "session_num": 19,
+      "mean_coherence": 0.6653103528621358,
+      "std_coherence": 0.07474970471472332,
+      "n_atoms": 59,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04727636411224079,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T020",
+      "session_num": 20,
+      "mean_coherence": 0.6502345909072549,
+      "std_coherence": 0.0855287978630981,
+      "n_atoms": 65,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03220060215735987,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T021",
+      "session_num": 21,
+      "mean_coherence": 0.655227332361334,
+      "std_coherence": 0.08888075832383044,
+      "n_atoms": 62,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.037193343611439,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T022",
+      "session_num": 22,
+      "mean_coherence": 0.6636398293029983,
+      "std_coherence": 0.08088055183413777,
+      "n_atoms": 63,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04560584055310324,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T023",
+      "session_num": 23,
+      "mean_coherence": 0.666506455144521,
+      "std_coherence": 0.08266875695149116,
+      "n_atoms": 85,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04847246639462599,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T024",
+      "session_num": 24,
+      "mean_coherence": 0.6653011685031642,
+      "std_coherence": 0.08066787046192854,
+      "n_atoms": 61,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04726717975326922,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-gemma3-12b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T025",
+      "session_num": 25,
+      "mean_coherence": 0.6541691559261322,
+      "std_coherence": 0.08692854190440094,
+      "n_atoms": 55,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.036135167176237215,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T026",
+      "session_num": 26,
+      "mean_coherence": 0.6267751187398016,
+      "std_coherence": 0.07627024062333748,
+      "n_atoms": 102,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.008741129989906615,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "cbp-tinyllama-latest",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T027",
+      "session_num": 27,
+      "mean_coherence": 0.6629481135138645,
+      "std_coherence": 0.08254907239589514,
+      "n_atoms": 29,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.0449141247639695,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T028",
+      "session_num": 28,
+      "mean_coherence": 0.658880658436214,
+      "std_coherence": 0.0976619681071612,
+      "n_atoms": 27,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.040846669686319004,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T029",
+      "session_num": 29,
+      "mean_coherence": 0.6495615615615616,
+      "std_coherence": 0.08238990976548703,
+      "n_atoms": 30,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.031527572811666627,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T030",
+      "session_num": 30,
+      "mean_coherence": 0.6656579750998356,
+      "std_coherence": 0.07514517736496092,
+      "n_atoms": 43,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.047623986349940584,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T031",
+      "session_num": 31,
+      "mean_coherence": 0.6253226788863538,
+      "std_coherence": 0.09102880420054142,
+      "n_atoms": 52,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.007288690136458831,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T032",
+      "session_num": 32,
+      "mean_coherence": 0.6401450472291881,
+      "std_coherence": 0.0937484034624753,
+      "n_atoms": 37,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.022111058479293066,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T033",
+      "session_num": 33,
+      "mean_coherence": 0.6574984344609351,
+      "std_coherence": 0.09879399564733704,
+      "n_atoms": 39,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03946444571104013,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T034",
+      "session_num": 34,
+      "mean_coherence": 0.5976033060171653,
+      "std_coherence": 0.0802147568646485,
+      "n_atoms": 124,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.020430682732729744,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T035",
+      "session_num": 35,
+      "mean_coherence": 0.6435762786596119,
+      "std_coherence": 0.08378890136786403,
+      "n_atoms": 36,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.025542289909716853,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T036",
+      "session_num": 36,
+      "mean_coherence": 0.6470804093567251,
+      "std_coherence": 0.07504150885302581,
+      "n_atoms": 32,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.029046420606830048,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "thor-qwen3.5-27b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T037",
+      "session_num": 37,
+      "mean_coherence": 0.6542493313091882,
+      "std_coherence": 0.09697019603672778,
+      "n_atoms": 29,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03621534255929315,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T038",
+      "session_num": 38,
+      "mean_coherence": 0.6722589531680441,
+      "std_coherence": 0.08281784557330087,
+      "n_atoms": 33,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.05422496441814906,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b",
+        "cbp-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T039",
+      "session_num": 39,
+      "mean_coherence": 0.6759722222222222,
+      "std_coherence": 0.09301412151072289,
+      "n_atoms": 24,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.05793823347232718,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T040",
+      "session_num": 40,
+      "mean_coherence": 0.67512077294686,
+      "std_coherence": 0.08104241623524615,
+      "n_atoms": 23,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.057086784196965,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T041",
+      "session_num": 41,
+      "mean_coherence": 0.6414320987654322,
+      "std_coherence": 0.0946771634539342,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.023398110015537155,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T042",
+      "session_num": 42,
+      "mean_coherence": 0.6522052638719305,
+      "std_coherence": 0.08143997365374062,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03417127512203544,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T043",
+      "session_num": 43,
+      "mean_coherence": 0.6455045695045696,
+      "std_coherence": 0.05959442351141499,
+      "n_atoms": 21,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.027470580754674567,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T044",
+      "session_num": 44,
+      "mean_coherence": 0.6730326797385622,
+      "std_coherence": 0.07903002899219214,
+      "n_atoms": 17,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.054998690988667165,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T045",
+      "session_num": 45,
+      "mean_coherence": 0.6570588235294118,
+      "std_coherence": 0.07846469880202842,
+      "n_atoms": 17,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03902483477951679,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T046",
+      "session_num": 46,
+      "mean_coherence": 0.6455185185185186,
+      "std_coherence": 0.09643392586436149,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02748452976862359,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T047",
+      "session_num": 47,
+      "mean_coherence": 0.6458395061728396,
+      "std_coherence": 0.073350794986376,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02780551742294457,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T048",
+      "session_num": 48,
+      "mean_coherence": 0.6476777777777778,
+      "std_coherence": 0.0670248332456332,
+      "n_atoms": 20,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.029643789027882783,
+      "exercise_metrics": [],
+      "n_exercises": 0,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "sprout-qwen3.5-0.8b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T049",
+      "session_num": 49,
+      "mean_coherence": 0.6510326797385622,
+      "std_coherence": 0.08810978631240265,
+      "n_atoms": 17,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.032998690988667145,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.005,
+          "t3_reliability": 0.0,
+          "t3_integrity": 0.0,
+          "t3_total": 0.005,
+          "meta_cognitive_count": 0,
+          "evaluation": "review"
+        },
+        {
+          "quality_score": 0.7499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.03508771929824561,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.6,
+          "mode_match": false,
+          "confabulation": 0.2,
+          "partnership_density": 0.015384615384615385,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T050",
+      "session_num": 50,
+      "mean_coherence": 0.634888888888889,
+      "std_coherence": 0.09458078756930015,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.016854900138993933,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.03333333333333333,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.015873015873015872,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0196078431372549,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T051",
+      "session_num": 51,
+      "mean_coherence": 0.6440123456790123,
+      "std_coherence": 0.09338265810758724,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02597835692911732,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.03278688524590164,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02857142857142857,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T052",
+      "session_num": 52,
+      "mean_coherence": 0.6289222222222223,
+      "std_coherence": 0.07065427127486858,
+      "n_atoms": 20,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.010888233472327258,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.95,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.03333333333333333,
+          "identity_framing": true,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.02,
+          "t3_total": 0.04,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.005,
+          "t3_reliability": 0.0,
+          "t3_integrity": 0.0,
+          "t3_total": 0.005,
+          "meta_cognitive_count": 0,
+          "evaluation": "review"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.014705882352941176,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T053",
+      "session_num": 53,
+      "mean_coherence": 0.6479135802469137,
+      "std_coherence": 0.07785118718710132,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.029879591497018687,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.022222222222222223,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.2,
+          "partnership_density": 0.031746031746031744,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.017241379310344827,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T054",
+      "session_num": 54,
+      "mean_coherence": 0.6433333333333332,
+      "std_coherence": 0.08676158145435629,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.025299344583438188,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.01694915254237288,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.024390243902439025,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.2,
+          "partnership_density": 0.04,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T055",
+      "session_num": 55,
+      "mean_coherence": 0.6613580246913581,
+      "std_coherence": 0.0837057977086119,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04332403594146306,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.01639344262295082,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.06060606060606061,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.2,
+          "partnership_density": 0.028985507246376812,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T056",
+      "session_num": 56,
+      "mean_coherence": 0.6649382716049382,
+      "std_coherence": 0.09542208753966919,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04690428285504322,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.014705882352941176,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.029850746268656716,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T057",
+      "session_num": 57,
+      "mean_coherence": 0.6176419753086421,
+      "std_coherence": 0.08759490683306903,
+      "n_atoms": 18,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.00039201344125294746,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.016666666666666666,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.01639344262295082,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.030303030303030304,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T058",
+      "session_num": 58,
+      "mean_coherence": 0.6696470588235295,
+      "std_coherence": 0.0812195732451996,
+      "n_atoms": 17,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.05161307007363447,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.015384615384615385,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02702702702702703,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "legion-phi4-14b"
+      ]
+    },
+    {
+      "session_id": "T059",
+      "session_num": 59,
+      "mean_coherence": 0.6023148148148149,
+      "std_coherence": 0.06963960478193293,
+      "n_atoms": 12,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.015719173935080155,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.015625,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.08,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.6,
+          "mode_match": false,
+          "confabulation": 0.2,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T060",
+      "session_num": 60,
+      "mean_coherence": 0.6058333333333333,
+      "std_coherence": 0.08345808563352725,
+      "n_atoms": 12,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.012200655416561679,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.6,
+          "mode_match": false,
+          "confabulation": 0.2,
+          "partnership_density": 0.01694915254237288,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.03125,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.015151515151515152,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T061",
+      "session_num": 61,
+      "mean_coherence": 0.6213888888888889,
+      "std_coherence": 0.08666144927315408,
+      "n_atoms": 12,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.003354900138993866,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.015625,
+          "identity_framing": false,
+          "t3_competence": 0.005,
+          "t3_reliability": 0.0,
+          "t3_integrity": 0.0,
+          "t3_total": 0.005,
+          "meta_cognitive_count": 0,
+          "evaluation": "review"
+        },
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": false,
+          "confabulation": 0.1,
+          "partnership_density": 0.01639344262295082,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.017241379310344827,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T062",
+      "session_num": 62,
+      "mean_coherence": 0.5937777777777778,
+      "std_coherence": 0.09660985985175703,
+      "n_atoms": 12,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.024256210972117165,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.03076923076923077,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.038461538461538464,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.03508771929824561,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T063",
+      "session_num": 63,
+      "mean_coherence": 0.6688484848484848,
+      "std_coherence": 0.061687952877786556,
+      "n_atoms": 11,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.05081449609858979,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.01694915254237288,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.022727272727272728,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.014492753623188406,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T064",
+      "session_num": 64,
+      "mean_coherence": 0.6112222222222222,
+      "std_coherence": 0.10167164529400576,
+      "n_atoms": 12,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.006811766527672791,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.046511627906976744,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.030303030303030304,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05555555555555555,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T065",
+      "session_num": 65,
+      "mean_coherence": 0.619919191919192,
+      "std_coherence": 0.059857689272169314,
+      "n_atoms": 11,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.0018852031692969673,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.021505376344086023,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.08695652173913043,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.037037037037037035,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T066",
+      "session_num": 66,
+      "mean_coherence": 0.6543518518518519,
+      "std_coherence": 0.0949479154744813,
+      "n_atoms": 12,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03631786310195684,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.01,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.023255813953488372,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.021505376344086023,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T067",
+      "session_num": 67,
+      "mean_coherence": 0.6187037037037036,
+      "std_coherence": 0.08243819649547539,
+      "n_atoms": 12,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.0006697149538086311,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.037037037037037035,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05405405405405406,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7499999999999999,
+          "mode_match": false,
+          "confabulation": 0.1,
+          "partnership_density": 0.023255813953488372,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T068",
+      "session_num": 68,
+      "mean_coherence": 0.5774074074074075,
+      "std_coherence": 0.08759485550283427,
+      "n_atoms": 12,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04062658134248753,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.018867924528301886,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.85,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.018518518518518517,
+          "identity_framing": true,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.02,
+          "t3_total": 0.04,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.011494252873563218,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T069",
+      "session_num": 69,
+      "mean_coherence": 0.6282777777777778,
+      "std_coherence": 0.06926730741513785,
+      "n_atoms": 12,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.01024378902788281,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.021739130434782608,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.00847457627118644,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T070",
+      "session_num": 70,
+      "mean_coherence": 0.6475726495726496,
+      "std_coherence": 0.07155823435759,
+      "n_atoms": 13,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02953866082275458,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.027777777777777776,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.010309278350515464,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T071",
+      "session_num": 71,
+      "mean_coherence": 0.6311703703703704,
+      "std_coherence": 0.0571580131184494,
+      "n_atoms": 15,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.013136381620475368,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.020833333333333332,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.018691588785046728,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.85,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.009615384615384616,
+          "identity_framing": true,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.02,
+          "t3_total": 0.04,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T072",
+      "session_num": 72,
+      "mean_coherence": 0.6391388888888889,
+      "std_coherence": 0.08492541662475898,
+      "n_atoms": 16,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02110490013899391,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05063291139240506,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.045454545454545456,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.04918032786885246,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T073",
+      "session_num": 73,
+      "mean_coherence": 0.6349494949494949,
+      "std_coherence": 0.08381124058601253,
+      "n_atoms": 11,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.016915506199599917,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.008928571428571428,
+          "identity_framing": false,
+          "t3_competence": 0.005,
+          "t3_reliability": 0.0,
+          "t3_integrity": 0.0,
+          "t3_total": 0.005,
+          "meta_cognitive_count": 0,
+          "evaluation": "review"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.047619047619047616,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.028985507246376812,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T074",
+      "session_num": 74,
+      "mean_coherence": 0.628948148148148,
+      "std_coherence": 0.07598867000955915,
+      "n_atoms": 15,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.01091415939825302,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.02830188679245283,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05172413793103448,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.046875,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b"
+      ]
+    },
+    {
+      "session_id": "T075",
+      "session_num": 75,
+      "mean_coherence": 0.6614074074074074,
+      "std_coherence": 0.006517676713321169,
+      "n_atoms": 3,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04337341865751243,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02040816326530612,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.057692307692307696,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.047619047619047616,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T076",
+      "session_num": 76,
+      "mean_coherence": 0.6051481481481482,
+      "std_coherence": 0.08876587939240657,
+      "n_atoms": 6,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.0128858406017468,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.045454545454545456,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.03333333333333333,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.012658227848101266,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T077",
+      "session_num": 77,
+      "mean_coherence": 0.5871481481481481,
+      "std_coherence": 0.0928049786399235,
+      "n_atoms": 6,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.030885840601746928,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.037037037037037035,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0410958904109589,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02631578947368421,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T078",
+      "session_num": 78,
+      "mean_coherence": 0.6088888888888889,
+      "std_coherence": 0.10127678734202121,
+      "n_atoms": 3,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.00914509986100609,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.01694915254237288,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.017699115044247787,
+          "identity_framing": false,
+          "t3_competence": 0.005,
+          "t3_reliability": 0.0,
+          "t3_integrity": 0.0,
+          "t3_total": 0.005,
+          "meta_cognitive_count": 0,
+          "evaluation": "review"
+        },
+        {
+          "quality_score": 0.7499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.037037037037037035,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T079",
+      "session_num": 79,
+      "mean_coherence": 0.6225,
+      "std_coherence": 0.0667239337369533,
+      "n_atoms": 4,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.00446601125010504,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.01694915254237288,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.06060606060606061,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T080",
+      "session_num": 80,
+      "mean_coherence": 0.6263555555555557,
+      "std_coherence": 0.06895761446419528,
+      "n_atoms": 5,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.008321566805660652,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.01818181818181818,
+          "identity_framing": false,
+          "t3_competence": 0.005,
+          "t3_reliability": 0.0,
+          "t3_integrity": 0.0,
+          "t3_total": 0.005,
+          "meta_cognitive_count": 0,
+          "evaluation": "review"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": false,
+          "confabulation": 0.0,
+          "partnership_density": 0.018018018018018018,
+          "identity_framing": false,
+          "t3_competence": 0.0,
+          "t3_reliability": -0.02,
+          "t3_integrity": 0.0,
+          "t3_total": -0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "exclude"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.01694915254237288,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T081",
+      "session_num": 81,
+      "mean_coherence": 0.6498518518518519,
+      "std_coherence": 0.03844565758451302,
+      "n_atoms": 3,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03181786310195689,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.07142857142857142,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05555555555555555,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05263157894736842,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T082",
+      "session_num": 82,
+      "mean_coherence": 0.6167407407407408,
+      "std_coherence": 0.10899093228161649,
+      "n_atoms": 3,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.001293248009154202,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.043478260869565216,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.034482758620689655,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02702702702702703,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T083",
+      "session_num": 83,
+      "mean_coherence": 0.644962962962963,
+      "std_coherence": 0.06462537394457378,
+      "n_atoms": 6,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.026928974213067947,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.005,
+          "t3_reliability": 0.0,
+          "t3_integrity": 0.0,
+          "t3_total": 0.005,
+          "meta_cognitive_count": 0,
+          "evaluation": "review"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.03773584905660377,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.13333333333333333,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T084",
+      "session_num": 84,
+      "mean_coherence": 0.6232444444444445,
+      "std_coherence": 0.07847076675149735,
+      "n_atoms": 5,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.005210455694549476,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.034482758620689655,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.04838709677419355,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.125,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T085",
+      "session_num": 85,
+      "mean_coherence": 0.592165215335607,
+      "std_coherence": 0.06030272951208737,
+      "n_atoms": 21,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02586877341428806,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.017857142857142856,
+          "identity_framing": false,
+          "t3_competence": 0.005,
+          "t3_reliability": 0.0,
+          "t3_integrity": 0.0,
+          "t3_total": 0.005,
+          "meta_cognitive_count": 0,
+          "evaluation": "review"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.00980392156862745,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.013333333333333334,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T086",
+      "session_num": 86,
+      "mean_coherence": 0.6511111111111111,
+      "std_coherence": 0.040498829647557355,
+      "n_atoms": 7,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03307712236121607,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02127659574468085,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.041666666666666664,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.03773584905660377,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T087",
+      "session_num": 87,
+      "mean_coherence": 0.64,
+      "std_coherence": 0.08542992218735933,
+      "n_atoms": 5,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.021966011250105,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.95,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.03773584905660377,
+          "identity_framing": true,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.02,
+          "t3_total": 0.04,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.1111111111111111,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T088",
+      "session_num": 88,
+      "mean_coherence": 0.5768148148148148,
+      "std_coherence": 0.08833835687245124,
+      "n_atoms": 6,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04121917393508023,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.038461538461538464,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.030303030303030304,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.125,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T089",
+      "session_num": 89,
+      "mean_coherence": 0.6158518518518519,
+      "std_coherence": 0.10091488216845275,
+      "n_atoms": 6,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.002182136898043141,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.03278688524590164,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.016129032258064516,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T090",
+      "session_num": 90,
+      "mean_coherence": 0.6023888888888889,
+      "std_coherence": 0.07458384543585832,
+      "n_atoms": 8,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.01564509986100615,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.034482758620689655,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02857142857142857,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.029411764705882353,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T091",
+      "session_num": 91,
+      "mean_coherence": 0.651015873015873,
+      "std_coherence": 0.08662610830727417,
+      "n_atoms": 7,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.032981884265978034,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0196078431372549,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.08333333333333333,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05660377358490566,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T092",
+      "session_num": 92,
+      "mean_coherence": 0.646962962962963,
+      "std_coherence": 0.07685598382466431,
+      "n_atoms": 3,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02892897421306795,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.020833333333333332,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.1111111111111111,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T093",
+      "session_num": 93,
+      "mean_coherence": 0.6646031746031745,
+      "std_coherence": 0.04929795875812008,
+      "n_atoms": 7,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.046569185853279516,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05263157894736842,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0125,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.037037037037037035,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T094",
+      "session_num": 94,
+      "mean_coherence": 0.6199722222222221,
+      "std_coherence": 0.07886059253870437,
+      "n_atoms": 8,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.0019382334723271333,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.041666666666666664,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.023809523809523808,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02631578947368421,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T095",
+      "session_num": 95,
+      "mean_coherence": 0.7000000000000001,
+      "std_coherence": 0.03271022543084386,
+      "n_atoms": 3,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.08196601125010505,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.6499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.005,
+          "t3_reliability": 0.0,
+          "t3_integrity": 0.0,
+          "t3_total": 0.005,
+          "meta_cognitive_count": 0,
+          "evaluation": "review"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.041237113402061855,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.03333333333333333,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T096",
+      "session_num": 96,
+      "mean_coherence": 0.6481111111111112,
+      "std_coherence": 0.05840651494186516,
+      "n_atoms": 6,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.03007712236121618,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.022222222222222223,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.025,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.06666666666666667,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T097",
+      "session_num": 97,
+      "mean_coherence": 0.6392063492063492,
+      "std_coherence": 0.08554634930000717,
+      "n_atoms": 7,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02117236045645421,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.125,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.037037037037037035,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.015625,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "mcnugget-gemma3-12b"
+      ]
+    },
+    {
+      "session_id": "T119",
+      "session_num": 119,
+      "mean_coherence": 0.6637037037037037,
+      "std_coherence": 0.05747308071487652,
+      "n_atoms": 6,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04566971495380867,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02666666666666667,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7499999999999999,
+          "mode_match": true,
+          "confabulation": 0.1,
+          "partnership_density": 0.03225806451612903,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.1111111111111111,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T120",
+      "session_num": 120,
+      "mean_coherence": 0.5066666666666666,
+      "std_coherence": 0.0,
+      "n_atoms": 1,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.11136732208322841,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.036585365853658534,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05357142857142857,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.14285714285714285,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T124",
+      "session_num": 124,
+      "mean_coherence": 0.5740000000000001,
+      "std_coherence": 0.0,
+      "n_atoms": 1,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.04403398874989495,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0625,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0625,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02247191011235955,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T129",
+      "session_num": 129,
+      "mean_coherence": 0.6761111111111111,
+      "std_coherence": 0.04023465124111091,
+      "n_atoms": 6,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.058077122361216094,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.025,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.95,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.021052631578947368,
+          "identity_framing": true,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.02,
+          "t3_total": 0.04,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T130",
+      "session_num": 130,
+      "mean_coherence": 0.7,
+      "std_coherence": 0.0,
+      "n_atoms": 1,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.08196601125010494,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.95,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02654867256637168,
+          "identity_framing": true,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.02,
+          "t3_total": 0.04,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T132",
+      "session_num": 132,
+      "mean_coherence": 0.5944444444444446,
+      "std_coherence": 0.07222222222222224,
+      "n_atoms": 2,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.02358954430545046,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.125,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.014084507042253521,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.85,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.015384615384615385,
+          "identity_framing": true,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.02,
+          "t3_total": 0.04,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T134",
+      "session_num": 134,
+      "mean_coherence": 0.6833555555555556,
+      "std_coherence": 0.017741685585293376,
+      "n_atoms": 5,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.06532156680566059,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02857142857142857,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.95,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.038461538461538464,
+          "identity_framing": true,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.02,
+          "t3_total": 0.04,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.125,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T135",
+      "session_num": 135,
+      "mean_coherence": 0.6733333333333333,
+      "std_coherence": 0.0,
+      "n_atoms": 1,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.055299344583438326,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.028985507246376812,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.043478260869565216,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.020618556701030927,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T136",
+      "session_num": 136,
+      "mean_coherence": 0.5333333333333333,
+      "std_coherence": 0.0,
+      "n_atoms": 1,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.08470065541656169,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.09090909090909091,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05172413793103448,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0392156862745098,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T137",
+      "session_num": 137,
+      "mean_coherence": 0.5448888888888889,
+      "std_coherence": 0.0,
+      "n_atoms": 1,
+      "in_golden_zone": false,
+      "distance_from_phi": 0.07314509986100615,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02127659574468085,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02040816326530612,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T138",
+      "session_num": 138,
+      "mean_coherence": 0.6344444444444445,
+      "std_coherence": 0.07973722274670736,
+      "n_atoms": 3,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.016410455694549464,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.047619047619047616,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.022988505747126436,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T139",
+      "session_num": 139,
+      "mean_coherence": 0.6484704699286808,
+      "std_coherence": 0.06807964123612549,
+      "n_atoms": 65,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.030436481178785835,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.0136986301369863,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 1,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.023255813953488372,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.07142857142857142,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    },
+    {
+      "session_id": "T140",
+      "session_num": 140,
+      "mean_coherence": 0.6346474563288116,
+      "std_coherence": 0.06601129354503799,
+      "n_atoms": 83,
+      "in_golden_zone": true,
+      "distance_from_phi": 0.016613467578916574,
+      "exercise_metrics": [
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.05555555555555555,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.85,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02,
+          "identity_framing": true,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.02,
+          "t3_total": 0.04,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        },
+        {
+          "quality_score": 0.7999999999999999,
+          "mode_match": true,
+          "confabulation": 0.0,
+          "partnership_density": 0.02197802197802198,
+          "identity_framing": false,
+          "t3_competence": 0.01,
+          "t3_reliability": 0.01,
+          "t3_integrity": 0.0,
+          "t3_total": 0.02,
+          "meta_cognitive_count": 0,
+          "evaluation": "include"
+        }
+      ],
+      "n_exercises": 3,
+      "instances_involved": [
+        "sprout-qwen3.5-0.8b"
+      ]
+    }
+  ]
+}
