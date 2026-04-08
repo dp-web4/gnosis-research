@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "session": "thor-70-architecture-coherence",
+    "timestamp": "2026-04-08",
+    "n_instances": 8,
+    "total_atoms": 3367
+  },
+  "h1_size_coherence": {
+    "hypothesis": "Model size \u2192 Mean coherence",
+    "n": 8,
+    "spearman_rho": 0.4096682888050979,
+    "spearman_p": 0.3134872142827114,
+    "pearson_r": 0.41923804877372617,
+    "pearson_p": 0.3011789149609772,
+    "interpretation": "moderate positive correlation (\u03c1 = 0.410), not significant (p = 0.313)",
+    "size_range": [
+      0.8,
+      27.0
+    ],
+    "coherence_range": [
+      0.6090596635830364,
+      0.6720512928717796
+    ]
+  },
+  "h2_architecture_variance": {
+    "hypothesis": "Architecture family \u2192 Coherence variance",
+    "by_architecture": {
+      "qwen": {
+        "n_instances": 3,
+        "mean_std": 0.08060747392585312,
+        "mean_coherence": 0.6369028929892854,
+        "instances": [
+          "cbp-qwen3.5-0.8b",
+          "sprout-qwen3.5-0.8b",
+          "thor-qwen3.5-27b"
+        ]
+      },
+      "llama": {
+        "n_instances": 1,
+        "mean_std": 0.10160620462728716,
+        "mean_coherence": 0.6090596635830364,
+        "instances": [
+          "cbp-tinyllama-latest"
+        ]
+      },
+      "gemma": {
+        "n_instances": 3,
+        "mean_std": 0.08609380008248406,
+        "mean_coherence": 0.6429034212909086,
+        "instances": [
+          "legion-gemma3-12b",
+          "mcnugget-gemma3-12b",
+          "nomad-gemma3-4b"
+        ]
+      },
+      "phi": {
+        "n_instances": 1,
+        "mean_std": 0.08558936582140995,
+        "mean_coherence": 0.6720512928717796,
+        "instances": [
+          "legion-phi4-14b"
+        ]
+      }
+    },
+    "anova_f": 2.9965490739953395,
+    "anova_p": 0.1583384660100737,
+    "interpretation": "No significant architecture effect (F = 2.997, p = 0.158)"
+  },
+  "size_variance_coupling": {
+    "hypothesis": "Model size \u2192 Lower coherence variance",
+    "n": 8,
+    "spearman_rho": -0.18073600976695497,
+    "spearman_p": 0.6684274536427572,
+    "pearson_r": -0.22230653882792387,
+    "pearson_p": 0.5967046740520315,
+    "interpretation": "negligible negative correlation (\u03c1 = -0.181), not significant (p = 0.668)",
+    "expected_sign": "negative (larger models more stable)"
+  },
+  "h4_phi_convergence": {
+    "hypothesis": "\u03c6-1 as universal attractor",
+    "mean_distance_to_phi": 0.024275829953744388,
+    "std_distance": 0.015264593329085719,
+    "mean_near_phi_fraction": 0.4200386189527045,
+    "random_baseline_distance": 0.066,
+    "t_statistic": -7.231884611863072,
+    "p_value": 0.0001726143102594758,
+    "interpretation": "Converging to \u03c6-1: observed distance (0.024) < random baseline (0.066), p = 0.0002",
+    "instances_analyzed": 8
+  },
+  "outlier_analysis": {
+    "n_outliers": 0,
+    "outliers": [],
+    "group_stats": {
+      "mean_coherence": 0.6400662374119248,
+      "std_coherence": 0.018354937982460472,
+      "mean_variance": 0.08591242405921358,
+      "mean_distance_to_phi": 0.024275829953744388
+    }
+  },
+  "visualization_data": {
+    "size_vs_coherence": {
+      "sizes": [
+        0.8,
+        1.1,
+        12.0,
+        14.0,
+        12.0,
+        4.0,
+        0.8,
+        27.0
+      ],
+      "means": [
+        0.6203543277177147,
+        0.6090596635830364,
+        0.6474166666666666,
+        0.6720512928717796,
+        0.630322279708298,
+        0.6509713174977612,
+        0.6461973562649695,
+        0.644156994985172
+      ],
+      "stds": [
+        0.08620509937046232,
+        0.10160620462728716,
+        0.08410686143636417,
+        0.08558936582140995,
+        0.08250032033076408,
+        0.09167421848032394,
+        0.07269763971816044,
+        0.08291968268893658
+      ],
+      "labels": [
+        "cbp-qwen3.5-0.8b",
+        "cbp-tinyllama-latest",
+        "legion-gemma3-12b",
+        "legion-phi4-14b",
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b"
+      ]
+    },
+    "by_architecture": {
+      "gemma": {
+        "means": [
+          0.6474166666666666,
+          0.630322279708298,
+          0.6509713174977612
+        ],
+        "stds": [
+          0.08410686143636417,
+          0.08250032033076408,
+          0.09167421848032394
+        ],
+        "instances": [
+          "legion-gemma3-12b",
+          "mcnugget-gemma3-12b",
+          "nomad-gemma3-4b"
+        ]
+      },
+      "phi": {
+        "means": [
+          0.6720512928717796
+        ],
+        "stds": [
+          0.08558936582140995
+        ],
+        "instances": [
+          "legion-phi4-14b"
+        ]
+      },
+      "llama": {
+        "means": [
+          0.6090596635830364
+        ],
+        "stds": [
+          0.10160620462728716
+        ],
+        "instances": [
+          "cbp-tinyllama-latest"
+        ]
+      },
+      "qwen": {
+        "means": [
+          0.6203543277177147,
+          0.6461973562649695,
+          0.644156994985172
+        ],
+        "stds": [
+          0.08620509937046232,
+          0.07269763971816044,
+          0.08291968268893658
+        ],
+        "instances": [
+          "cbp-qwen3.5-0.8b",
+          "sprout-qwen3.5-0.8b",
+          "thor-qwen3.5-27b"
+        ]
+      }
+    },
+    "distance_distribution": {
+      "distances": [
+        0.0023203389678196906,
+        0.008974325166858588,
+        0.029382677916771627,
+        0.054017304121884546,
+        0.012288290958403003,
+        0.032937328747866146,
+        0.028163367515074533,
+        0.02612300623527697
+      ],
+      "near_phi_fracs": [
+        0.43795187123047397,
+        0.37599402992172737,
+        0.4241951027456681,
+        0.3691571119964877,
+        0.4510814602582289,
+        0.39101266360610526,
+        0.476908757650637,
+        0.43400795421230776
+      ],
+      "labels": [
+        "cbp-qwen3.5-0.8b",
+        "cbp-tinyllama-latest",
+        "legion-gemma3-12b",
+        "legion-phi4-14b",
+        "mcnugget-gemma3-12b",
+        "nomad-gemma3-4b",
+        "sprout-qwen3.5-0.8b",
+        "thor-qwen3.5-27b"
+      ]
+    }
+  }
+}
