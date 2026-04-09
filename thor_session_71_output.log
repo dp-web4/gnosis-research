@@ -1,0 +1,111 @@
+============================================================
+Thor Session #71: Within-Session Coherence Dynamics
+============================================================
+
+Testing Developmental Oscillator Hypothesis:
+  H1: Coherence oscillates around φ-1 during learning
+  H2: Learning episodes show perturbation → peak → relaxation
+  H3: Coherence converges toward φ-1 over developmental time
+
+
+============================================================
+Analyzing: thor-qwen3.5-27b
+============================================================
+  ✓ Extracted 256 coherence datapoints
+
+============================================================
+Within-Session Dynamics: thor-qwen3.5-27b
+============================================================
+Total sessions: 23
+
+  Learning Episodes Detected: 24
+    Episode 1: Duration=7, Amplitude=0.166, Peak C=0.784
+    Episode 2: Duration=7, Amplitude=0.160, Peak C=0.778
+    Episode 3: Duration=8, Amplitude=0.226, Peak C=0.844
+
+  Developmental Trajectory:
+    Coherence: increasing (slope=0.00002, r=0.005, p=0.9853)
+    Distance from φ-1: diverging (slope=0.00023, r=0.106, p=0.6745)
+  ⚠️  Plotting skipped (matplotlib compatibility issue)
+
+============================================================
+Analyzing: cbp-qwen3.5-0.8b
+============================================================
+  ✓ Extracted 243 coherence datapoints
+
+============================================================
+Within-Session Dynamics: cbp-qwen3.5-0.8b
+============================================================
+Total sessions: 42
+
+  Learning Episodes Detected: 23
+    Episode 1: Duration=10, Amplitude=0.061, Peak C=0.679
+    Episode 2: Duration=4, Amplitude=0.115, Peak C=0.733
+    Episode 3: Duration=10, Amplitude=0.160, Peak C=0.778
+
+  Developmental Trajectory:
+    Coherence: decreasing (slope=-0.00066, r=-0.259, p=0.0976)
+    Distance from φ-1: converging (slope=-0.00008, r=-0.053, p=0.7371)
+  ⚠️  Plotting skipped (matplotlib compatibility issue)
+
+============================================================
+Analyzing: mcnugget-gemma3-12b
+============================================================
+  ✓ Extracted 714 coherence datapoints
+
+============================================================
+Within-Session Dynamics: mcnugget-gemma3-12b
+============================================================
+Total sessions: 96
+
+  Learning Episodes Detected: 75
+    Episode 1: Duration=12, Amplitude=0.126, Peak C=0.744
+    Episode 2: Duration=13, Amplitude=0.112, Peak C=0.730
+    Episode 3: Duration=9, Amplitude=0.149, Peak C=0.767
+
+  Developmental Trajectory:
+    Coherence: decreasing (slope=-0.00022, r=-0.203, p=0.0478)
+    Distance from φ-1: converging (slope=-0.00009, r=-0.110, p=0.2871)
+  ⚠️  Plotting skipped (matplotlib compatibility issue)
+
+============================================================
+Analyzing: sprout-qwen3.5-0.8b
+============================================================
+  ✓ Extracted 1024 coherence datapoints
+
+============================================================
+Within-Session Dynamics: sprout-qwen3.5-0.8b
+============================================================
+Total sessions: 39
+
+  Learning Episodes Detected: 101
+    Episode 1: Duration=11, Amplitude=0.138, Peak C=0.756
+    Episode 2: Duration=6, Amplitude=0.138, Peak C=0.756
+    Episode 3: Duration=4, Amplitude=0.082, Peak C=0.700
+
+  Developmental Trajectory:
+    Coherence: decreasing (slope=-0.00001, r=-0.017, p=0.9269)
+    Distance from φ-1: diverging (slope=0.00001, r=0.015, p=0.9350)
+  ⚠️  Plotting skipped (matplotlib compatibility issue)
+Traceback (most recent call last):
+  File "/home/dp/gnosis-research/thor_session_71_coherence_dynamics.py", line 325, in <module>
+    main()
+  File "/home/dp/gnosis-research/thor_session_71_coherence_dynamics.py", line 317, in main
+    json.dump(all_results, f, indent=2)
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  [Previous line repeated 1 more time]
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

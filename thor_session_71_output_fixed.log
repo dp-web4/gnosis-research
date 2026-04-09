@@ -1,0 +1,93 @@
+============================================================
+Thor Session #71: Within-Session Coherence Dynamics
+============================================================
+
+Testing Developmental Oscillator Hypothesis:
+  H1: Coherence oscillates around φ-1 during learning
+  H2: Learning episodes show perturbation → peak → relaxation
+  H3: Coherence converges toward φ-1 over developmental time
+
+
+============================================================
+Analyzing: thor-qwen3.5-27b
+============================================================
+  ✓ Extracted 256 coherence datapoints
+
+============================================================
+Within-Session Dynamics: thor-qwen3.5-27b
+============================================================
+Total sessions: 23
+
+  Learning Episodes Detected: 24
+    Episode 1: Duration=7, Amplitude=0.166, Peak C=0.784
+    Episode 2: Duration=7, Amplitude=0.160, Peak C=0.778
+    Episode 3: Duration=8, Amplitude=0.226, Peak C=0.844
+
+  Developmental Trajectory:
+    Coherence: increasing (slope=0.00002, r=0.005, p=0.9853)
+    Distance from φ-1: diverging (slope=0.00023, r=0.106, p=0.6745)
+  ⚠️  Plotting skipped (matplotlib compatibility issue)
+
+============================================================
+Analyzing: cbp-qwen3.5-0.8b
+============================================================
+  ✓ Extracted 260 coherence datapoints
+
+============================================================
+Within-Session Dynamics: cbp-qwen3.5-0.8b
+============================================================
+Total sessions: 44
+
+  Learning Episodes Detected: 25
+    Episode 1: Duration=10, Amplitude=0.061, Peak C=0.679
+    Episode 2: Duration=4, Amplitude=0.115, Peak C=0.733
+    Episode 3: Duration=10, Amplitude=0.160, Peak C=0.778
+
+  Developmental Trajectory:
+    Coherence: decreasing (slope=-0.00075, r=-0.294, p=0.0528)
+    Distance from φ-1: diverging (slope=0.00004, r=0.028, p=0.8554)
+  ⚠️  Plotting skipped (matplotlib compatibility issue)
+
+============================================================
+Analyzing: mcnugget-gemma3-12b
+============================================================
+  ✓ Extracted 714 coherence datapoints
+
+============================================================
+Within-Session Dynamics: mcnugget-gemma3-12b
+============================================================
+Total sessions: 96
+
+  Learning Episodes Detected: 75
+    Episode 1: Duration=12, Amplitude=0.126, Peak C=0.744
+    Episode 2: Duration=13, Amplitude=0.112, Peak C=0.730
+    Episode 3: Duration=9, Amplitude=0.149, Peak C=0.767
+
+  Developmental Trajectory:
+    Coherence: decreasing (slope=-0.00022, r=-0.203, p=0.0478)
+    Distance from φ-1: converging (slope=-0.00009, r=-0.110, p=0.2871)
+  ⚠️  Plotting skipped (matplotlib compatibility issue)
+
+============================================================
+Analyzing: sprout-qwen3.5-0.8b
+============================================================
+  ✓ Extracted 1033 coherence datapoints
+
+============================================================
+Within-Session Dynamics: sprout-qwen3.5-0.8b
+============================================================
+Total sessions: 39
+
+  Learning Episodes Detected: 101
+    Episode 1: Duration=11, Amplitude=0.138, Peak C=0.756
+    Episode 2: Duration=6, Amplitude=0.138, Peak C=0.756
+    Episode 3: Duration=4, Amplitude=0.082, Peak C=0.700
+
+  Developmental Trajectory:
+    Coherence: increasing (slope=0.00000, r=0.002, p=0.9914)
+    Distance from φ-1: converging (slope=-0.00001, r=-0.020, p=0.9116)
+  ⚠️  Plotting skipped (matplotlib compatibility issue)
+
+============================================================
+Results saved to: /home/dp/gnosis-research/thor_session_71_dynamics_results.json
+============================================================
