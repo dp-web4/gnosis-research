@@ -1,0 +1,63 @@
+Thor Session #72: Episode Taxonomy via Clustering
+================================================================================
+Loaded 225 episodes from 4 instances
+
+Extracted 7 features: ['duration', 'amplitude', 'peak_c', 'relaxation_quality', 'rise_rate', 'fall_rate', 'dist_from_phi']
+
+Searching for optimal number of clusters...
+
+Cluster quality metrics:
+K	Silhouette	Davies-Bouldin	Inertia
+2	0.295		1.350		1064.9
+3	0.276		1.244		859.2
+4	0.258		1.288		721.6
+5	0.240		1.293		630.5
+6	0.256		1.183		547.1
+7	0.270		1.143		488.8
+8	0.282		1.118		446.4
+
+Optimal K (max silhouette): 2
+
+Clustering with K=2...
+
+================================================================================
+CLUSTER ANALYSIS
+================================================================================
+
+--- Cluster 0 (83 episodes, 36.9%) ---
+Duration: 8.1 ± 3.2 steps
+Amplitude: 0.150 ± 0.023
+Peak C: 0.768 ± 0.023
+Instance distribution:
+  cbp-qwen3.5-0.8b: 5 (6.0%)
+  mcnugget-gemma3-12b: 17 (20.5%)
+  sprout-qwen3.5-0.8b: 49 (59.0%)
+  thor-qwen3.5-27b: 12 (14.5%)
+
+--- Cluster 1 (142 episodes, 63.1%) ---
+Duration: 8.6 ± 3.1 steps
+Amplitude: 0.097 ± 0.018
+Peak C: 0.715 ± 0.018
+Instance distribution:
+  cbp-qwen3.5-0.8b: 20 (14.1%)
+  mcnugget-gemma3-12b: 58 (40.8%)
+  sprout-qwen3.5-0.8b: 52 (36.6%)
+  thor-qwen3.5-27b: 12 (8.5%)
+
+================================================================================
+EPISODE TYPE CHARACTERIZATION
+================================================================================
+
+Cluster 1: Micro Normal Mid-C
+  Signature: Δ=0.097, τ=8.6, C_peak=0.715
+  Interpretation: Fine-tuning adjustments, minimal integration load
+  Prevalence: 63.1% of episodes
+
+Cluster 0: Moderate Normal High-C
+  Signature: Δ=0.150, τ=8.1, C_peak=0.768
+  Interpretation: Significant integration, elevated metabolic demand
+  Prevalence: 36.9% of episodes
+
+================================================================================
+Results saved to thor_session_72_taxonomy_results.json
+================================================================================
