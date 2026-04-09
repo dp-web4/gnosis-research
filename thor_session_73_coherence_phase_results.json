@@ -1,0 +1,145 @@
+{
+  "session": 73,
+  "research_question": "Does coherence C behave like a phase variable?",
+  "motivation": "Synchronism S620: vocabulary says phase, math has no phase",
+  "instances": {
+    "thor-qwen3.5-27b": {
+      "n_datapoints": 267,
+      "mean_coherence": 0.641564737762016,
+      "std_coherence": 0.08378946828183718
+    },
+    "thor-qwen2.5-14b": {
+      "n_datapoints": 846,
+      "mean_coherence": 0.6451583382254487,
+      "std_coherence": 0.07643679439773941
+    },
+    "thor-gemma4-e4b": {
+      "n_datapoints": 6,
+      "mean_coherence": 0.6214444444444444,
+      "std_coherence": 0.07851258712746993
+    },
+    "cbp-tinyllama": {
+      "n_datapoints": 77,
+      "mean_coherence": 0.6090596635830364,
+      "std_coherence": 0.10160620462728716
+    }
+  },
+  "periodicity": {
+    "thor-qwen3.5-27b": {
+      "n": 267,
+      "mean": 0.641564737762016,
+      "std": 0.08378946828183718,
+      "autocorr_peaks": 3,
+      "first_peak_lag": 12,
+      "dominant_freq": 0.00749063670411985,
+      "dominant_period": 133.5,
+      "is_periodic": true
+    },
+    "thor-qwen2.5-14b": {
+      "n": 846,
+      "mean": 0.6451583382254487,
+      "std": 0.07643679439773941,
+      "autocorr_peaks": 1,
+      "first_peak_lag": 3,
+      "dominant_freq": 0.030732860520094562,
+      "dominant_period": 32.53846153846154,
+      "is_periodic": false
+    },
+    "thor-gemma4-e4b": {
+      "error": "insufficient data",
+      "n": 6
+    },
+    "cbp-tinyllama": {
+      "n": 77,
+      "mean": 0.6090596635830364,
+      "std": 0.10160620462728716,
+      "autocorr_peaks": 5,
+      "first_peak_lag": 2,
+      "dominant_freq": 0.48051948051948057,
+      "dominant_period": 2.0810810810810807,
+      "is_periodic": true
+    }
+  },
+  "cross_correlations": [
+    {
+      "pair": "thor-qwen3.5-27b vs thor-qwen2.5-14b",
+      "n": 267,
+      "zero_lag_corr": -0.14889273723116517,
+      "peak_corr": 0.17628961729153006,
+      "lag_at_peak": 55,
+      "c1_leads_c2": 0.15469113078317756,
+      "c2_leads_c1": -0.0694701021850468,
+      "synchronized": false
+    },
+    {
+      "error": "insufficient data"
+    },
+    {
+      "pair": "thor-qwen3.5-27b vs cbp-tinyllama",
+      "n": 77,
+      "zero_lag_corr": -0.1669755017218527,
+      "peak_corr": 0.21774421225706334,
+      "lag_at_peak": 7,
+      "c1_leads_c2": 0.0028614250940973214,
+      "c2_leads_c1": -0.14437375926940346,
+      "synchronized": false
+    },
+    {
+      "error": "insufficient data"
+    },
+    {
+      "pair": "thor-qwen2.5-14b vs cbp-tinyllama",
+      "n": 77,
+      "zero_lag_corr": 0.16626410079936965,
+      "peak_corr": -0.25123002522011734,
+      "lag_at_peak": 15,
+      "c1_leads_c2": 0.1058676416145654,
+      "c2_leads_c1": 0.06495682176202025,
+      "synchronized": false
+    },
+    {
+      "error": "insufficient data"
+    }
+  ],
+  "phase_locking": [
+    {
+      "pair": "thor-qwen3.5-27b vs thor-qwen2.5-14b",
+      "n": 267,
+      "phase_locking_index": 0.1355379171752053,
+      "mean_phase_difference": 3.014102385228823,
+      "phase_locked": false
+    },
+    {
+      "error": "insufficient data"
+    },
+    {
+      "pair": "thor-qwen3.5-27b vs cbp-tinyllama",
+      "n": 77,
+      "phase_locking_index": 0.14355617351534797,
+      "mean_phase_difference": -3.100889976112691,
+      "phase_locked": false
+    },
+    {
+      "error": "insufficient data"
+    },
+    {
+      "pair": "thor-qwen2.5-14b vs cbp-tinyllama",
+      "n": 77,
+      "phase_locking_index": 0.13169512824010235,
+      "mean_phase_difference": -0.38989182567893316,
+      "phase_locked": false
+    },
+    {
+      "error": "insufficient data"
+    }
+  ],
+  "summary": {
+    "n_instances": 4,
+    "n_periodic": 2,
+    "n_pairs": 6,
+    "n_correlated": 0,
+    "n_phase_locked": 0,
+    "coherence_is_phase_like": true,
+    "synchronization_exists": false
+  }
+}
