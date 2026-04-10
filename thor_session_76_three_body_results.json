@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-04-10T09:05:28.464208",
+  "session": "Thor #76: Three-body coherence dynamics",
+  "experiment_1_coupling_sweep": [
+    {
+      "kappa": 0.05,
+      "analysis": {
+        "pli_pairwise": {
+          "0-1": 0.9904224594561309,
+          "0-2": 0.9833515600430295,
+          "1-2": 0.9858809126141963,
+          "mean": 0.9865516440377856
+        },
+        "kuramoto_order": {
+          "mean": 0.9951084094839996,
+          "std": 0.0051043281611869665,
+          "final": 0.981430065016259
+        },
+        "phase_differences_deg": {
+          "phi_01": 243.80987146049975,
+          "phi_02": 193.75802807023834,
+          "phi_12": 168.54015660973852
+        },
+        "phase_pattern": "COMPLEX (no simple pattern)",
+        "coherence": {
+          "individual_means": [
+            0.5217778990542482,
+            0.5151330639282184,
+            0.5031136392034268
+          ],
+          "collective_mean": 0.5133415340619645,
+          "collective_exceeds_individual": 

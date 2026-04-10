@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-04-10T15:10:43",
+  "session": "Thor #77: Coupling Regime Discovery",
+  "key_findings": {
+    "S76_correction": "S76 120-degree balanced triad was misclassified. R=0.997 means in-phase, not 120 degrees.",
+    "coupling_sign_determines_pattern": "Attractive coupling -> in-phase. Repulsive coupling -> splay state.",
+    "S74_match": "REPULSIVE coupling matches S74 observations (C_corr=-0.694, delta_phi=178 deg, PLI=0.993)",
+    "splay_law": "2pi/N splay state holds for N=2,3 (repulsive) but spacing error increases for N>=4",
+    "collective_coherence": "Repulsive coupling collapses C_collective to ~0.33, far below phi_inverse=0.618",
+    "competition_radius": "Smooth transition from in-phase (r=0.1pi) to dispersed (r=0.9pi) in competitive regime"
+  },
+  "regime_comparison": {
+    "attractive": "IN_PHASE for all N (R>0.99), positive C correlations",
+    "repulsive": "SPLAY for N=2,3, DISPERSED for N>=4 (R<0.09), negative C correlations for N=2",
+    "competitive": "CLUSTERED for all N (R~0.87), positive C correlations"
+  },
+  "s74_replication": {
+    "attractive_match": false,
+    "repulsive_match": true,
+    "competitive_match": false,
+    "repulsive_kappa_015": {
+      "C_corr": -0.694,
+      "phase_diff_deg": 178,
+      "PLI": 0.993
+    }
+  },
+  "splay_verification": {
+    "N2": {
+      "holds": true,
+      "error_deg": 4.6
+    },
+    "N3": {
+      "holds": true,
+      "error_deg": 15.0
+    },
+    "N4": {
+      "holds": false,
+      "error_deg": 47.8
+    },
+    "N5": {
+      "holds": false,
+      "error_deg": 34.5
+    }
+  }
+}
