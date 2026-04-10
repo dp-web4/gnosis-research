@@ -1,0 +1,153 @@
+{
+  "session": 74,
+  "research_question": "Does coupling enable phase locking?",
+  "method": "Coupled oscillator simulation (Kuramoto + \u03c6\u207b\u00b9 attractor)",
+  "coupling_sweep": [
+    {
+      "coupling": 0.0,
+      "phase_locking": {
+        "pli": 0.21849530588770996,
+        "mean_phase_diff": 0.8795967166455568,
+        "phase_locked": false
+      },
+      "cross_correlation": {
+        "zero_lag_corr": 0.12133435082310451,
+        "peak_corr": 0.35336538760666497,
+        "lag_at_peak": -107
+      },
+      "frequency_convergence": {
+        "freq1": 0.002,
+        "freq2": 0.002,
+        "freq_diff": 0.0,
+        "frequencies_converged": true
+      },
+      "mean_C1": 0.7719983901489372,
+      "mean_C2": 0.7157322694508166,
+      "std_C1": 0.15075726014935917,
+      "std_C2": 0.18055165547331709
+    },
+    {
+      "coupling": 0.1,
+      "phase_locking": {
+        "pli": 0.8354447349807981,
+        "mean_phase_diff": -3.0712561432407592,
+        "phase_locked": true
+      },
+      "cross_correlation": {
+        "zero_lag_corr": -0.8297826903218508,
+        "peak_corr": -0.8297826903218508,
+        "lag_at_peak": 0
+      },
+      "frequency_convergence": {
+        "freq1": 0.005,
+        "freq2": 0.005,
+        "freq_diff": 0.0,
+        "frequencies_converged": true
+      },
+      "mean_C1": 0.4685817542476124,
+      "mean_C2": 0.6277796317932944,
+      "std_C1": 0.349463447507023,
+      "std_C2": 0.3061249443168946
+    },
+    {
+      "coupling": 0.3,
+      "phase_locking": {
+        "pli": 0.8820991182554927,
+        "mean_phase_diff": 3.072786615158351,
+        "phase_locked": true
+      },
+      "cross_correlation": {
+        "zero_lag_corr": -0.9083484892427658,
+        "peak_corr": -0.9083484892427665,
+        "lag_at_peak": 0
+      },
+      "frequency_convergence": {
+        "freq1": 0.002,
+        "freq2": 0.002,
+        "freq_diff": 0.0,
+        "frequencies_converged": true
+      },
+      "mean_C1": 0.4149702981798473,
+      "mean_C2": 0.5973460691105374,
+      "std_C1": 0.36099126414663313,
+      "std_C2": 0.36633432326480014
+    },
+    {
+      "coupling": 0.5,
+      "phase_locking": {
+        "pli": 0.9258313066473475,
+        "mean_phase_diff": 3.140945376188888,
+        "phase_locked": true
+      },
+      "cross_correlation": {
+        "zero_lag_corr": -0.9423991654100791,
+        "peak_corr": -0.9423991654100795,
+        "lag_at_peak": 0
+      },
+      "frequency_convergence": {
+        "freq1": 0.003,
+        "freq2": 0.003,
+        "freq_diff": 0.0,
+        "frequencies_converged": true
+      },
+      "mean_C1": 0.5586086876259829,
+      "mean_C2": 0.49437951159581983,
+      "std_C1": 0.371595122756099,
+      "std_C2": 0.38241933974134734
+    },
+    {
+      "coupling": 0.7,
+      "phase_locking": {
+        "pli": 0.9662971523599314,
+        "mean_phase_diff": -3.1206147253770657,
+        "phase_locked": true
+      },
+      "cross_correlation": {
+        "zero_lag_corr": -0.9678457422315828,
+        "peak_corr": -0.967845742231582,
+        "lag_at_peak": 0
+      },
+      "frequency_convergence": {
+        "freq1": 0.015,
+        "freq2": 0.015,
+        "freq_diff": 0.0,
+        "frequencies_converged": true
+      },
+      "mean_C1": 0.5818814470564928,
+      "mean_C2": 0.45192660437297805,
+      "std_C1": 0.3888350827004125,
+      "std_C2": 0.3909776135528901
+    },
+    {
+      "coupling": 1.0,
+      "phase_locking": {
+        "pli": 0.9732595416074857,
+        "mean_phase_diff": -3.133007321966253,
+        "phase_locked": true
+      },
+      "cross_correlation": {
+        "zero_lag_corr": -0.9749608270002916,
+        "peak_corr": -0.9749608270002917,
+        "lag_at_peak": 0
+      },
+      "frequency_convergence": {
+        "freq1": 0.016,
+        "freq2": 0.016,
+        "freq_diff": 0.0,
+        "frequencies_converged": true
+      },
+      "mean_C1": 0.5301255228895055,
+      "mean_C2": 0.48956599753599794,
+      "std_C1": 0.3950928662111917,
+      "std_C2": 0.3915470067352693
+    }
+  ],
+  "summary": {
+    "pli_trend": 0.694787441824884,
+    "pli_increases_with_coupling": false,
+    "max_pli": 0.9732595416074857,
+    "max_pli_at_coupling": 1.0,
+    "baseline_pli": 0.21849530588770996,
+    "prediction_p74_1_supported": false
+  }
+}
