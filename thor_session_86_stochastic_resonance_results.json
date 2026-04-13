@@ -1,0 +1,174 @@
+{
+  "expA_partial": {
+    "note": "SR curve - spectral amplification vs noise",
+    "signal_freq": 0.003,
+    "signal_amp": 0.02,
+    "N": 4,
+    "0.004": {
+      "noise": 0.004,
+      "Q_mean": 0.0228,
+      "Q_std": 0.012,
+      "switches": 5.9
+    },
+    "0.005": {
+      "noise": 0.005,
+      "Q_mean": 0.0243,
+      "Q_std": 0.0107,
+      "switches": 5.6
+    },
+    "0.006": {
+      "noise": 0.006,
+      "Q_mean": 0.0623,
+      "Q_std": 0.071,
+      "switches": 15.6
+    },
+    "0.007": {
+      "noise": 0.007,
+      "Q_mean": 0.1669,
+      "Q_std": 0.08,
+      "switches": 57.9
+    },
+    "0.008": {
+      "noise": 0.008,
+      "Q_mean": 0.2177,
+      "Q_std": 0.1389,
+      "switches": 152.9
+    },
+    "0.009": {
+      "noise": 0.009,
+      "Q_mean": 0.3995,
+      "Q_std": 0.1663,
+      "switches": 328.7
+    },
+    "0.010": {
+      "noise": 0.01,
+      "Q_mean": 0.4477,
+      "Q_std": 0.2007,
+      "switches": 527.3
+    },
+    "0.011": {
+      "noise": 0.011,
+      "Q_mean": 0.6493,
+      "Q_std": 0.3042,
+      "switches": 734.4
+    },
+    "0.012": {
+      "noise": 0.012,
+      "Q_mean": 0.5828,
+      "Q_std": 0.2713,
+      "switches": 936.5
+    }
+  },
+  "expB": {
+    "note": "SNR around peak",
+    "0.006": {
+      "noise": 0.006,
+      "snr_mean": 143.64
+    },
+    "0.008": {
+      "noise": 0.008,
+      "snr_mean": 411.84
+    },
+    "0.010": {
+      "noise": 0.01,
+      "snr_mean": 464.43
+    },
+    "0.011": {
+      "noise": 0.011,
+      "snr_mean": 492.25
+    },
+    "0.012": {
+      "noise": 0.012,
+      "snr_mean": 536.63
+    },
+    "0.014": {
+      "noise": 0.014,
+      "snr_mean": 537.39
+    },
+    "0.018": {
+      "noise": 0.018,
+      "snr_mean": 457.33
+    }
+  },
+  "expD": {
+    "note": "Residence time distributions",
+    "0.008": {
+      "noise": 0.008,
+      "n_switches": 2853,
+      "rt_mode": 8.0,
+      "T_half": 166.7,
+      "mode_ratio": 0.048,
+      "sync_index": 0.104
+    },
+    "0.011": {
+      "noise": 0.011,
+      "n_switches": 15738,
+      "rt_mode": 1.0,
+      "T_half": 166.7,
+      "mode_ratio": 0.006,
+      "sync_index": 0.026
+    },
+    "0.015": {
+      "noise": 0.015,
+      "n_switches": 36618,
+      "rt_mode": 0.7,
+      "T_half": 166.7,
+      "mode_ratio": 0.004,
+      "sync_index": 0.021
+    },
+    "0.020": {
+      "noise": 0.02,
+      "n_switches": 57225,
+      "rt_mode": 0.6,
+      "T_half": 166.7,
+      "mode_ratio": 0.004,
+      "sync_index": 0.046
+    }
+  },
+  "expE": {
+    "note": "Mutual information signal-response",
+    "0.005": {
+      "noise": 0.005,
+      "MI_mean": 0.0108
+    },
+    "0.007": {
+      "noise": 0.007,
+      "MI_mean": 0.0181
+    },
+    "0.009": {
+      "noise": 0.009,
+      "MI_mean": 0.0194
+    },
+    "0.011": {
+      "noise": 0.011,
+      "MI_mean": 0.0229
+    },
+    "0.013": {
+      "noise": 0.013,
+      "MI_mean": 0.0195
+    },
+    "0.016": {
+      "noise": 0.016,
+      "MI_mean": 0.0213
+    },
+    "0.020": {
+      "noise": 0.02,
+      "MI_mean": 0.0194
+    }
+  },
+  "expC_partial": {
+    "note": "Multi-frequency Kramers prediction (2 of 3 frequencies completed)",
+    "0.0010": {
+      "signal_freq": 0.001,
+      "sigma_predicted": 0.0068,
+      "sigma_measured": 0.011,
+      "Q_max": 1.0578
+    },
+    "0.0030": {
+      "signal_freq": 0.003,
+      "sigma_predicted": 0.0081,
+      "sigma_measured": 0.017,
+      "Q_max": 0.9016
+    }
+  }
+}
