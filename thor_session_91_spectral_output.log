@@ -1,0 +1,32 @@
+Thor Session #91: Spectral Efficiency Control
+Started: 2026-04-16T15:12:41.114708
+
+======================================================================
+Spectral amplitude WITH vs WITHOUT signal, and eta_spec = A^2/EP
+======================================================================
+  sigma=0.011: amp_with=4.8929+-0.7102  amp_without=4.7139+-0.1225  z= 0.25  EP_nb=120.98  eta_spec=2.65e-04
+  sigma=0.018: amp_with=4.7637+-0.2638  amp_without=4.7146+-0.1863  z= 0.15  EP_nb= 73.14  eta_spec=3.28e-05
+  sigma=0.022: amp_with=5.2127+-0.3286  amp_without=5.0418+-0.3429  z= 0.36  EP_nb= 58.28  eta_spec=5.01e-04
+  sigma=0.035: amp_with=3.4457+-0.3014  amp_without=3.8796+-0.6111  z=-0.64  EP_nb= 31.73  eta_spec=0.00e+00
+  sigma=0.050: amp_with=2.6904+-0.2335  amp_without=2.4114+-0.1561  z= 0.99  EP_nb= 19.46  eta_spec=4.00e-03
+  sigma=0.075: amp_with=1.6503+-0.2247  amp_without=1.6427+-0.1730  z= 0.03  EP_nb= 10.31  eta_spec=5.66e-06
+  sigma=0.100: amp_with=1.4546+-0.0450  amp_without=1.5081+-0.0721  z=-0.63  EP_nb=  5.52  eta_spec=0.00e+00
+  sigma=0.150: amp_with=1.0575+-0.0977  amp_without=0.8948+-0.0926  z= 1.21  EP_nb=  2.33  eta_spec=1.14e-02
+
+======================================================================
+PEAK LOCATIONS (spectral analysis)
+======================================================================
+  sigma @ max signal-specific amp: 0.050 (amp_signal = 0.2790)
+  sigma @ max z-score:             0.150 (z = 1.21)
+  sigma @ max eta_spec:            0.150 (eta_spec = 1.14e-02)
+
+======================================================================
+COMPARISON to S90 MI-based peaks
+======================================================================
+  S90 MI peak:            sigma ~ 0.018-0.025 (consistent with SR)
+  S90 MI/EP efficiency peak: sigma ~ 0.100
+  Spectral amp peak (this session):       sigma = 0.050
+  Spectral efficiency peak (this session): sigma = 0.150
+  VERDICT: spectral efficiency still decouples from amp peak.
+
+Completed in 103s

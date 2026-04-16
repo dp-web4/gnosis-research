@@ -1,0 +1,191 @@
+{
+  "A": {
+    "data": [
+      {
+        "sigma": 0.005,
+        "R_mean": 0.0496,
+        "R_std_intra": 0.0278,
+        "R_std_across_seeds": 0.0108,
+        "MI_bits": 0.0266,
+        "ep_nbody": 353.59,
+        "ep_phase_frac": 0.965,
+        "eta_nbody": 7.5e-05
+      },
+      {
+        "sigma": 0.011,
+        "R_mean": 0.1844,
+        "R_std_intra": 0.2571,
+        "R_std_across_seeds": 0.0417,
+        "MI_bits": 0.07998,
+        "ep_nbody": 132.8,
+        "ep_phase_frac": 0.561,
+        "eta_nbody": 0.000602
+      },
+      {
+        "sigma": 0.018,
+        "R_mean": 0.4614,
+        "R_std_intra": 0.3672,
+        "R_std_across_seeds": 0.0525,
+        "MI_bits": 0.08862,
+        "ep_nbody": 75.38,
+        "ep_phase_frac": 0.382,
+        "eta_nbody": 0.001176
+      },
+      {
+        "sigma": 0.022,
+        "R_mean": 0.4296,
+        "R_std_intra": 0.3569,
+        "R_std_across_seeds": 0.0172,
+        "MI_bits": 0.08169,
+        "ep_nbody": 61.4,
+        "ep_phase_frac": 0.319,
+        "eta_nbody": 0.00133
+      },
+      {
+        "sigma": 0.035,
+        "R_mean": 0.5163,
+        "R_std_intra": 0.3307,
+        "R_std_across_seeds": 0.0228,
+        "MI_bits": 0.06911,
+        "ep_nbody": 31.96,
+        "ep_phase_frac": 0.247,
+        "eta_nbody": 0.002162
+      },
+      {
+        "sigma": 0.05,
+        "R_mean": 0.6006,
+        "R_std_intra": 0.2845,
+        "R_std_across_seeds": 0.0253,
+        "MI_bits": 0.05974,
+        "ep_nbody": 19.78,
+        "ep_phase_frac": 0.201,
+        "eta_nbody": 0.003021
+      },
+      {
+        "sigma": 0.075,
+        "R_mean": 0.5744,
+        "R_std_intra": 0.2648,
+        "R_std_across_seeds": 0.0028,
+        "MI_bits": 0.02494,
+        "ep_nbody": 9.91,
+        "ep_phase_frac": 0.181,
+        "eta_nbody": 0.002517
+      },
+      {
+        "sigma": 0.1,
+        "R_mean": 0.538,
+        "R_std_intra": 0.2487,
+        "R_std_across_seeds": 0.0206,
+        "MI_bits": 0.02188,
+        "ep_nbody": 5.5,
+        "ep_phase_frac": 0.184,
+        "eta_nbody": 0.003976
+      },
+      {
+        "sigma": 0.15,
+        "R_mean": 0.4738,
+        "R_std_intra": 0.2298,
+        "R_std_across_seeds": 0.0085,
+        "MI_bits": 0.00911,
+        "ep_nbody": 2.31,
+        "ep_phase_frac": 0.191,
+        "eta_nbody": 0.003936
+      }
+    ],
+    "R_drop": -0.8799407407407409,
+    "MI_drop": 0.7306752380608423
+  },
+  "B": {
+    "data": [
+      {
+        "sigma": 0.011,
+        "burstiness_MI": 0.196,
+        "activity_MI_corr": 0.633
+      },
+      {
+        "sigma": 0.022,
+        "burstiness_MI": 0.163,
+        "activity_MI_corr": 0.432
+      },
+      {
+        "sigma": 0.05,
+        "burstiness_MI": 0.151,
+        "activity_MI_corr": -0.035
+      },
+      {
+        "sigma": 0.1,
+        "burstiness_MI": 0.175,
+        "activity_MI_corr": 0.31
+      }
+    ]
+  },
+  "C": {
+    "data": [
+      {
+        "sigma": 0.011,
+        "active_fraction": 0.151,
+        "ep_frac_active": 0.153,
+        "mi_frac_active": 0.723
+      },
+      {
+        "sigma": 0.022,
+        "active_fraction": 0.161,
+        "ep_frac_active": 0.165,
+        "mi_frac_active": 0.621
+      },
+      {
+        "sigma": 0.05,
+        "active_fraction": 0.176,
+        "ep_frac_active": 0.181,
+        "mi_frac_active": 0.66
+      },
+      {
+        "sigma": 0.1,
+        "active_fraction": 0.181,
+        "ep_frac_active": 0.185,
+        "mi_frac_active": 0.736
+      }
+    ]
+  },
+  "D": {
+    "data": [
+      {
+        "condition": "baseline",
+        "kappa_phase": 0.1,
+        "kappa_C": 0.15,
+        "MI_bits": 0.01166,
+        "ep_nbody": 5.52,
+        "eta_nbody": 0.002114,
+        "R_mean": 0.53
+      },
+      {
+        "condition": "no_phase",
+        "kappa_phase": 0.0,
+        "kappa_C": 0.15,
+        "MI_bits": 0.01456,
+        "ep_nbody": 5.25,
+        "eta_nbody": 0.002775,
+        "R_mean": 0.458
+      },
+      {
+        "condition": "no_C",
+        "kappa_phase": 0.1,
+        "kappa_C": 0.0,
+        "MI_bits": 0.00909,
+        "ep_nbody": 6.28,
+        "eta_nbody": 0.001448,
+        "R_mean": 0.532
+      },
+      {
+        "condition": "both_off",
+        "kappa_phase": 0.0,
+        "kappa_C": 0.0,
+        "MI_bits": 0.01452,
+        "ep_nbody": 6.04,
+        "eta_nbody": 0.002405,
+        "R_mean": 0.458
+      }
+    ],
+    "carrier": "neither \u2014 signal is detected uncoupled (signal enters C_mean directly via threshold)"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "control_1_synthetic": {
+    "mi_mean": 0.0009797887607110273,
+    "mi_median": 0.0009372207406999135,
+    "mi_std": 0.00030363326390955,
+    "mi_p95": 0.0015219481334627063,
+    "mi_p99": 0.0017919747884051174,
+    "n_reps": 200
+  },
+  "control_2": {
+    "sigma_0.011": {
+      "mi_mean": 0.06983,
+      "mi_std": 0.0262,
+      "mi_stderr": 0.00828,
+      "n_seeds": 10
+    },
+    "sigma_0.022": {
+      "mi_mean": 0.07857,
+      "mi_std": 0.02059,
+      "mi_stderr": 0.00651,
+      "n_seeds": 10
+    },
+    "sigma_0.05": {
+      "mi_mean": 0.0405,
+      "mi_std": 0.00637,
+      "mi_stderr": 0.00201,
+      "n_seeds": 10
+    },
+    "sigma_0.1": {
+      "mi_mean": 0.01772,
+      "mi_std": 0.00474,
+      "mi_stderr": 0.0015,
+      "n_seeds": 10
+    },
+    "sigma_0.15": {
+      "mi_mean": 0.00653,
+      "mi_std": 0.00216,
+      "mi_stderr": 0.00068,
+      "n_seeds": 10
+    }
+  },
+  "control_3_signal_absent": {
+    "sigma_0.011": {
+      "mi_mean": 0.063,
+      "mi_std": 0.01495,
+      "mi_stderr": 0.00473,
+      "n_seeds": 10
+    },
+    "sigma_0.022": {
+      "mi_mean": 0.08073,
+      "mi_std": 0.03511,
+      "mi_stderr": 0.0111,
+      "n_seeds": 10
+    },
+    "sigma_0.05": {
+      "mi_mean": 0.04732,
+      "mi_std": 0.00972,
+      "mi_stderr": 0.00307,
+      "n_seeds": 10
+    },
+    "sigma_0.1": {
+      "mi_mean": 0.01766,
+      "mi_std": 0.00472,
+      "mi_stderr": 0.00149,
+      "n_seeds": 10
+    },
+    "sigma_0.15": {
+      "mi_mean": 0.00606,
+      "mi_std": 0.00251,
+      "mi_stderr": 0.00079,
+      "n_seeds": 10
+    }
+  }
+}

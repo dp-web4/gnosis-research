@@ -1,0 +1,68 @@
+Thor Session #91: The Mechanism of Nearly-Free Information
+Started: 2026-04-16T15:03:44.968807
+
+======================================================================
+EXPERIMENT A: Phase Coherence vs sigma
+======================================================================
+  Testing H3 (decoherent relay): does Kuramoto R collapse but MI survive?
+
+  sigma=0.0050: R=0.050+/-0.028  MI=0.0266  EP_nb=353.6  phase_frac=0.96  eta=0.00007
+  sigma=0.0110: R=0.184+/-0.257  MI=0.0800  EP_nb=132.8  phase_frac=0.56  eta=0.00060
+  sigma=0.0180: R=0.461+/-0.367  MI=0.0886  EP_nb=75.4  phase_frac=0.38  eta=0.00118
+  sigma=0.0220: R=0.430+/-0.357  MI=0.0817  EP_nb=61.4  phase_frac=0.32  eta=0.00133
+  sigma=0.0350: R=0.516+/-0.331  MI=0.0691  EP_nb=32.0  phase_frac=0.25  eta=0.00216
+  sigma=0.0500: R=0.601+/-0.284  MI=0.0597  EP_nb=19.8  phase_frac=0.20  eta=0.00302
+  sigma=0.0750: R=0.574+/-0.265  MI=0.0249  EP_nb=9.9  phase_frac=0.18  eta=0.00252
+  sigma=0.1000: R=0.538+/-0.249  MI=0.0219  EP_nb=5.5  phase_frac=0.18  eta=0.00398
+  sigma=0.1500: R=0.474+/-0.230  MI=0.0091  EP_nb=2.3  phase_frac=0.19  eta=0.00394
+
+  VERDICT:
+    Avg R at sigma<=0.022: 0.281  (MI=0.0692)
+    Avg R at sigma>=0.075: 0.529  (MI=0.0186)
+    R drop = -88% | MI drop = 73%
+    H3 NOT supported here
+
+======================================================================
+EXPERIMENT B: Temporal Structure of MI
+======================================================================
+  Testing H1 (burst) vs H2 (diffuse): is MI concentrated in rare events?
+
+  sigma=0.011: burstiness(MI) = 0.196  (uniform=0.10, pure burst=1.0)  |  corr(activity,MI) = +0.633
+  sigma=0.022: burstiness(MI) = 0.163  (uniform=0.10, pure burst=1.0)  |  corr(activity,MI) = +0.432
+  sigma=0.050: burstiness(MI) = 0.151  (uniform=0.10, pure burst=1.0)  |  corr(activity,MI) = -0.035
+  sigma=0.100: burstiness(MI) = 0.175  (uniform=0.10, pure burst=1.0)  |  corr(activity,MI) = +0.310
+
+  VERDICT:
+    burstiness at SR (sigma=0.022):       0.163
+    burstiness at eff peak (sigma=0.100): 0.175
+    INCONCLUSIVE between H1 and H2
+
+======================================================================
+EXPERIMENT C: Conditional EP (active vs quiet segments)
+======================================================================
+  Does EP concentrate during active segments? Does quiet fraction grow?
+
+  sigma=0.011: active=0.15  EP_frac_active=0.15  MI_frac_active=0.72
+  sigma=0.022: active=0.16  EP_frac_active=0.17  MI_frac_active=0.62
+  sigma=0.050: active=0.18  EP_frac_active=0.18  MI_frac_active=0.66
+  sigma=0.100: active=0.18  EP_frac_active=0.18  MI_frac_active=0.74
+
+======================================================================
+EXPERIMENT D: Coupling Ablation at Efficiency Peak
+======================================================================
+  At sigma=0.100, which coupling channel carries the MI?
+
+  baseline     (kp=0.10, kc=0.15): MI=0.0117  EP_nb=5.5  eta=0.00211  R=0.530
+  no_phase     (kp=0.00, kc=0.15): MI=0.0146  EP_nb=5.2  eta=0.00278  R=0.458
+  no_C         (kp=0.10, kc=0.00): MI=0.0091  EP_nb=6.3  eta=0.00145  R=0.532
+  both_off     (kp=0.00, kc=0.00): MI=0.0145  EP_nb=6.0  eta=0.00241  R=0.458
+
+  VERDICT (at sigma=0.100):
+    baseline MI:           0.0117
+    no phase coupling:     0.0146  (125% of baseline)
+    no C coupling:         0.0091  (78% of baseline)
+    both off (uncoupled):  0.0145  (125% of baseline)
+    MI carrier identified: neither — signal is detected uncoupled (signal enters C_mean directly via threshold)
+
+Completed in 136s
+Results -> thor_session_91_mechanism_results.json

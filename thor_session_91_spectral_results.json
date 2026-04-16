@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "sigma": 0.011,
+      "amp_with": 4.89293,
+      "amp_with_stderr": 0.71023,
+      "amp_without": 4.71394,
+      "amp_without_stderr": 0.12253,
+      "amp_signal_specific": 0.17899,
+      "z_score_amp_diff": 0.25,
+      "ep_nbody": 120.98,
+      "eta_spec": 0.000264815
+    },
+    {
+      "sigma": 0.018,
+      "amp_with": 4.76367,
+      "amp_with_stderr": 0.26379,
+      "amp_without": 4.71465,
+      "amp_without_stderr": 0.18628,
+      "amp_signal_specific": 0.04902,
+      "z_score_amp_diff": 0.15,
+      "ep_nbody": 73.14,
+      "eta_spec": 3.285e-05
+    },
+    {
+      "sigma": 0.022,
+      "amp_with": 5.21274,
+      "amp_with_stderr": 0.32859,
+      "amp_without": 5.0418,
+      "amp_without_stderr": 0.3429,
+      "amp_signal_specific": 0.17094,
+      "z_score_amp_diff": 0.36,
+      "ep_nbody": 58.28,
+      "eta_spec": 0.000501411
+    },
+    {
+      "sigma": 0.035,
+      "amp_with": 3.44565,
+      "amp_with_stderr": 0.3014,
+      "amp_without": 3.87965,
+      "amp_without_stderr": 0.61112,
+      "amp_signal_specific": 0.0,
+      "z_score_amp_diff": -0.64,
+      "ep_nbody": 31.73,
+      "eta_spec": 0.0
+    },
+    {
+      "sigma": 0.05,
+      "amp_with": 2.69045,
+      "amp_with_stderr": 0.23351,
+      "amp_without": 2.41144,
+      "amp_without_stderr": 0.15607,
+      "amp_signal_specific": 0.279,
+      "z_score_amp_diff": 0.99,
+      "ep_nbody": 19.46,
+      "eta_spec": 0.004000035
+    },
+    {
+      "sigma": 0.075,
+      "amp_with": 1.65031,
+      "amp_with_stderr": 0.22471,
+      "amp_without": 1.64267,
+      "amp_without_stderr": 0.17304,
+      "amp_signal_specific": 0.00764,
+      "z_score_amp_diff": 0.03,
+      "ep_nbody": 10.31,
+      "eta_spec": 5.659e-06
+    },
+    {
+      "sigma": 0.1,
+      "amp_with": 1.45464,
+      "amp_with_stderr": 0.04498,
+      "amp_without": 1.5081,
+      "amp_without_stderr": 0.07207,
+      "amp_signal_specific": 0.0,
+      "z_score_amp_diff": -0.63,
+      "ep_nbody": 5.52,
+      "eta_spec": 0.0
+    },
+    {
+      "sigma": 0.15,
+      "amp_with": 1.05746,
+      "amp_with_stderr": 0.09766,
+      "amp_without": 0.89475,
+      "amp_without_stderr": 0.0926,
+      "amp_signal_specific": 0.16271,
+      "z_score_amp_diff": 1.21,
+      "ep_nbody": 2.33,
+      "eta_spec": 0.011385278
+    }
+  ],
+  "peaks": {
+    "sigma_amp_specific": 0.05,
+    "sigma_z_max": 0.15,
+    "sigma_eta_spec": 0.15,
+    "amp_peak_value": 0.279,
+    "eta_spec_peak_value": 0.011385278
+  }
+}

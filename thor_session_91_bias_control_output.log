@@ -1,0 +1,42 @@
+Thor Session #91: Bias Floor Control
+Started: 2026-04-16T15:08:23.432474
+
+======================================================================
+CONTROL 1: pure synthetic bias floor (signal vs random walks)
+======================================================================
+  MI (synthetic random walks)
+    mean   = 0.00098
+    median = 0.00094
+    std    = 0.00030
+    95%ile = 0.00152
+    99%ile = 0.00179
+
+======================================================================
+CONTROL 2: MI at sigma values, with many seeds
+======================================================================
+  sigma=0.011: MI = 0.0698 +- 0.0083 (SE, n=10)
+  sigma=0.022: MI = 0.0786 +- 0.0065 (SE, n=10)
+  sigma=0.050: MI = 0.0405 +- 0.0020 (SE, n=10)
+  sigma=0.100: MI = 0.0177 +- 0.0015 (SE, n=10)
+  sigma=0.150: MI = 0.0065 +- 0.0007 (SE, n=10)
+
+======================================================================
+CONTROL 3: MI with signal ABSENT from dynamics
+======================================================================
+  sigma=0.011: MI_bias = 0.0630 +- 0.0047
+  sigma=0.022: MI_bias = 0.0807 +- 0.0111
+  sigma=0.050: MI_bias = 0.0473 +- 0.0031
+  sigma=0.100: MI_bias = 0.0177 +- 0.0015
+  sigma=0.150: MI_bias = 0.0061 +- 0.0008
+
+======================================================================
+VERDICT: Is the signal genuinely transmitted at sigma=0.100?
+======================================================================
+  sigma=0.011: MI_signal=0.0698, MI_bias=0.0630 (diff=+0.0068, ratio=1.11x, z=0.7)
+  sigma=0.022: MI_signal=0.0786, MI_bias=0.0807 (diff=-0.0022, ratio=0.97x, z=-0.2)
+  sigma=0.050: MI_signal=0.0405, MI_bias=0.0473 (diff=-0.0068, ratio=0.86x, z=-1.9)
+  sigma=0.100: MI_signal=0.0177, MI_bias=0.0177 (diff=+0.0001, ratio=1.00x, z=0.0)
+  sigma=0.150: MI_signal=0.0065, MI_bias=0.0061 (diff=+0.0005, ratio=1.08x, z=0.5)
+
+Completed in 127s
+Results -> thor_session_91_bias_control_results.json
