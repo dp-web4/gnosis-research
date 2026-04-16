@@ -1,0 +1,619 @@
+{
+  "A": {
+    "data": [
+      {
+        "sigma": 0.005,
+        "MI_bits": 0.01962,
+        "MI_std": 0.00294,
+        "ep_nbody": 353.24,
+        "ep_collective": 1.18,
+        "ep_C": 12.19,
+        "ep_phase": 341.05,
+        "frac_C_pct": 3.45,
+        "D_C_mean": 0.000117,
+        "D_C_over_sigma2": 4.68,
+        "response_amp": 0.200269,
+        "eta_nbody": 5.6e-05,
+        "eta_collective": 0.016562
+      },
+      {
+        "sigma": 0.006,
+        "MI_bits": 0.02435,
+        "MI_std": 0.00068,
+        "ep_nbody": 245.62,
+        "ep_collective": 0.89,
+        "ep_C": 8.73,
+        "ep_phase": 236.89,
+        "frac_C_pct": 3.56,
+        "D_C_mean": 0.000168,
+        "D_C_over_sigma2": 4.67,
+        "response_amp": 0.21392,
+        "eta_nbody": 9.9e-05,
+        "eta_collective": 0.027312
+      },
+      {
+        "sigma": 0.007,
+        "MI_bits": 0.03188,
+        "MI_std": 0.0055,
+        "ep_nbody": 197.12,
+        "ep_collective": 6.52,
+        "ep_C": 22.29,
+        "ep_phase": 174.84,
+        "frac_C_pct": 10.58,
+        "D_C_mean": 0.000345,
+        "D_C_over_sigma2": 7.04,
+        "response_amp": 0.49701,
+        "eta_nbody": 0.000162,
+        "eta_collective": 0.004888
+      },
+      {
+        "sigma": 0.008,
+        "MI_bits": 0.05462,
+        "MI_std": 0.00505,
+        "ep_nbody": 150.92,
+        "ep_collective": 5.3,
+        "ep_C": 17.11,
+        "ep_phase": 133.81,
+        "frac_C_pct": 11.21,
+        "D_C_mean": 0.000358,
+        "D_C_over_sigma2": 5.59,
+        "response_amp": 2.139359,
+        "eta_nbody": 0.000362,
+        "eta_collective": 0.010299
+      },
+      {
+        "sigma": 0.009,
+        "MI_bits": 0.05948,
+        "MI_std": 0.01037,
+        "ep_nbody": 161.39,
+        "ep_collective": 17.21,
+        "ep_C": 52.63,
+        "ep_phase": 108.76,
+        "frac_C_pct": 32.34,
+        "D_C_mean": 0.001092,
+        "D_C_over_sigma2": 13.48,
+        "response_amp": 2.961173,
+        "eta_nbody": 0.000369,
+        "eta_collective": 0.003457
+      },
+      {
+        "sigma": 0.01,
+        "MI_bits": 0.04807,
+        "MI_std": 0.01023,
+        "ep_nbody": 149.08,
+        "ep_collective": 18.47,
+        "ep_C": 59.29,
+        "ep_phase": 89.79,
+        "frac_C_pct": 39.73,
+        "D_C_mean": 0.001646,
+        "D_C_over_sigma2": 16.46,
+        "response_amp": 3.610197,
+        "eta_nbody": 0.000322,
+        "eta_collective": 0.002602
+      },
+      {
+        "sigma": 0.011,
+        "MI_bits": 0.0471,
+        "MI_std": 0.01483,
+        "ep_nbody": 132.68,
+        "ep_collective": 18.48,
+        "ep_C": 58.08,
+        "ep_phase": 74.6,
+        "frac_C_pct": 43.74,
+        "D_C_mean": 0.001888,
+        "D_C_over_sigma2": 15.6,
+        "response_amp": 5.015083,
+        "eta_nbody": 0.000355,
+        "eta_collective": 0.002548
+      },
+      {
+        "sigma": 0.012,
+        "MI_bits": 0.04474,
+        "MI_std": 0.00909,
+        "ep_nbody": 123.84,
+        "ep_collective": 18.82,
+        "ep_C": 60.19,
+        "ep_phase": 63.65,
+        "frac_C_pct": 48.62,
+        "D_C_mean": 0.002388,
+        "D_C_over_sigma2": 16.58,
+        "response_amp": 4.168549,
+        "eta_nbody": 0.000361,
+        "eta_collective": 0.002377
+      },
+      {
+        "sigma": 0.013,
+        "MI_bits": 0.04919,
+        "MI_std": 0.00733,
+        "ep_nbody": 107.82,
+        "ep_collective": 17.57,
+        "ep_C": 53.91,
+        "ep_phase": 53.91,
+        "frac_C_pct": 49.89,
+        "D_C_mean": 0.00225,
+        "D_C_over_sigma2": 13.31,
+        "response_amp": 4.689255,
+        "eta_nbody": 0.000456,
+        "eta_collective": 0.002799
+      },
+      {
+        "sigma": 0.014,
+        "MI_bits": 0.05514,
+        "MI_std": 0.01382,
+        "ep_nbody": 98.14,
+        "ep_collective": 17.39,
+        "ep_C": 51.65,
+        "ep_phase": 46.49,
+        "frac_C_pct": 52.6,
+        "D_C_mean": 0.00237,
+        "D_C_over_sigma2": 12.09,
+        "response_amp": 5.755651,
+        "eta_nbody": 0.000562,
+        "eta_collective": 0.00317
+      },
+      {
+        "sigma": 0.015,
+        "MI_bits": 0.05083,
+        "MI_std": 0.01108,
+        "ep_nbody": 92.63,
+        "ep_collective": 17.32,
+        "ep_C": 51.59,
+        "ep_phase": 41.05,
+        "frac_C_pct": 55.69,
+        "D_C_mean": 0.002697,
+        "D_C_over_sigma2": 11.99,
+        "response_amp": 4.822895,
+        "eta_nbody": 0.000549,
+        "eta_collective": 0.002934
+      },
+      {
+        "sigma": 0.016,
+        "MI_bits": 0.06455,
+        "MI_std": 0.02433,
+        "ep_nbody": 84.14,
+        "ep_collective": 16.65,
+        "ep_C": 48.07,
+        "ep_phase": 36.07,
+        "frac_C_pct": 57.14,
+        "D_C_mean": 0.002766,
+        "D_C_over_sigma2": 10.81,
+        "response_amp": 5.589058,
+        "eta_nbody": 0.000767,
+        "eta_collective": 0.003878
+      },
+      {
+        "sigma": 0.018,
+        "MI_bits": 0.06838,
+        "MI_std": 0.01334,
+        "ep_nbody": 76.82,
+        "ep_collective": 16.65,
+        "ep_C": 47.84,
+        "ep_phase": 28.98,
+        "frac_C_pct": 62.29,
+        "D_C_mean": 0.003458,
+        "D_C_over_sigma2": 10.67,
+        "response_amp": 5.661155,
+        "eta_nbody": 0.00089,
+        "eta_collective": 0.004107
+      },
+      {
+        "sigma": 0.02,
+        "MI_bits": 0.05245,
+        "MI_std": 0.01118,
+        "ep_nbody": 66.06,
+        "ep_collective": 15.72,
+        "ep_C": 42.7,
+        "ep_phase": 23.36,
+        "frac_C_pct": 64.64,
+        "D_C_mean": 0.003716,
+        "D_C_over_sigma2": 9.29,
+        "response_amp": 5.773593,
+        "eta_nbody": 0.000794,
+        "eta_collective": 0.003337
+      },
+      {
+        "sigma": 0.022,
+        "MI_bits": 0.06794,
+        "MI_std": 0.02817,
+        "ep_nbody": 58.9,
+        "ep_collective": 14.86,
+        "ep_C": 39.42,
+        "ep_phase": 19.48,
+        "frac_C_pct": 66.91,
+        "D_C_mean": 0.004156,
+        "D_C_over_sigma2": 8.59,
+        "response_amp": 5.864124,
+        "eta_nbody": 0.001154,
+        "eta_collective": 0.004572
+      },
+      {
+        "sigma": 0.025,
+        "MI_bits": 0.06239,
+        "MI_std": 0.00363,
+        "ep_nbody": 48.73,
+        "ep_collective": 13.26,
+        "ep_C": 33.63,
+        "ep_phase": 15.1,
+        "frac_C_pct": 69.02,
+        "D_C_mean": 0.004715,
+        "D_C_over_sigma2": 7.54,
+        "response_amp": 5.116866,
+        "eta_nbody": 0.00128,
+        "eta_collective": 0.004705
+      }
+    ],
+    "sigma_MI_peak": 0.018,
+    "sigma_amp_peak": 0.022,
+    "sigma_EP_equi": 0.013040590405904058,
+    "sigma_eta_nbody": 0.025,
+    "sigma_eta_collective": 0.006,
+    "MI_peak": 0.06838,
+    "eta_nbody_peak": 0.00128,
+    "eta_collective_peak": 0.027312
+  },
+  "B": {
+    "data": [
+      {
+        "N": 4,
+        "steps": 60000,
+        "ep_nbody": 131.19,
+        "ep_collective": 18.29,
+        "ratio": 7.17,
+        "ratio_std": 0.24,
+        "D_C_mean": 0.001804,
+        "D_C_over_sigma2": 14.91,
+        "frac_C_pct": 43.58,
+        "ep_per_agent_nbody": 32.8,
+        "ep_per_agent_collective": 4.5735
+      },
+      {
+        "N": 8,
+        "steps": 60000,
+        "ep_nbody": 251.34,
+        "ep_collective": 18.66,
+        "ratio": 13.48,
+        "ratio_std": 0.43,
+        "D_C_mean": 0.00156,
+        "D_C_over_sigma2": 12.89,
+        "frac_C_pct": 41.09,
+        "ep_per_agent_nbody": 31.42,
+        "ep_per_agent_collective": 2.3322
+      },
+      {
+        "N": 16,
+        "steps": 60000,
+        "ep_nbody": 470.87,
+        "ep_collective": 19.07,
+        "ratio": 24.67,
+        "ratio_std": 0.38,
+        "D_C_mean": 0.001383,
+        "D_C_over_sigma2": 11.43,
+        "frac_C_pct": 40.28,
+        "ep_per_agent_nbody": 29.43,
+        "ep_per_agent_collective": 1.1921
+      },
+      {
+        "N": 32,
+        "steps": 40000,
+        "ep_nbody": 1005.58,
+        "ep_collective": 20.76,
+        "ratio": 48.38,
+        "ratio_std": 3.99,
+        "D_C_mean": 0.001893,
+        "D_C_over_sigma2": 15.65,
+        "frac_C_pct": 44.56,
+        "ep_per_agent_nbody": 31.42,
+        "ep_per_agent_collective": 0.6488
+      },
+      {
+        "N": 64,
+        "steps": 25000,
+        "ep_nbody": 2167.69,
+        "ep_collective": 21.25,
+        "ratio": 102.02,
+        "ratio_std": 5.94,
+        "D_C_mean": 0.00251,
+        "D_C_over_sigma2": 20.74,
+        "frac_C_pct": 46.77,
+        "ep_per_agent_nbody": 33.87,
+        "ep_per_agent_collective": 0.332
+      }
+    ],
+    "ratio_scaling_exponent": 0.9505060426188146,
+    "D_amp_scaling_exponent": 0.12321816665178995
+  },
+  "C": {
+    "A=0.01": {
+      "data": [
+        {
+          "sigma": 0.008,
+          "MI_bits": 0.06386,
+          "ep_nbody": 151.31,
+          "ep_collective": 5.52,
+          "eta_nbody": 0.000422,
+          "eta_collective": 0.011564
+        },
+        {
+          "sigma": 0.01,
+          "MI_bits": 0.06185,
+          "ep_nbody": 147.79,
+          "ep_collective": 18.5,
+          "eta_nbody": 0.000419,
+          "eta_collective": 0.003344
+        },
+        {
+          "sigma": 0.011,
+          "MI_bits": 0.05457,
+          "ep_nbody": 133.68,
+          "ep_collective": 18.72,
+          "eta_nbody": 0.000408,
+          "eta_collective": 0.002915
+        },
+        {
+          "sigma": 0.012,
+          "MI_bits": 0.06443,
+          "ep_nbody": 125.22,
+          "ep_collective": 19.03,
+          "eta_nbody": 0.000515,
+          "eta_collective": 0.003385
+        },
+        {
+          "sigma": 0.013,
+          "MI_bits": 0.05923,
+          "ep_nbody": 111.38,
+          "ep_collective": 18.27,
+          "eta_nbody": 0.000532,
+          "eta_collective": 0.003241
+        },
+        {
+          "sigma": 0.014,
+          "MI_bits": 0.08194,
+          "ep_nbody": 102.1,
+          "ep_collective": 18.08,
+          "eta_nbody": 0.000803,
+          "eta_collective": 0.004533
+        },
+        {
+          "sigma": 0.016,
+          "MI_bits": 0.05759,
+          "ep_nbody": 82.86,
+          "ep_collective": 16.46,
+          "eta_nbody": 0.000695,
+          "eta_collective": 0.003499
+        },
+        {
+          "sigma": 0.02,
+          "MI_bits": 0.0818,
+          "ep_nbody": 67.46,
+          "ep_collective": 16.14,
+          "eta_nbody": 0.001213,
+          "eta_collective": 0.005068
+        }
+      ],
+      "sigma_eta_nbody": 0.02,
+      "sigma_eta_collective": 0.008,
+      "sigma_MI_peak": 0.014,
+      "eta_nbody_peak": 0.001213,
+      "eta_collective_peak": 0.011564
+    },
+    "A=0.02": {
+      "data": [
+        {
+          "sigma": 0.008,
+          "MI_bits": 0.07543,
+          "ep_nbody": 151.31,
+          "ep_collective": 5.52,
+          "eta_nbody": 0.000499,
+          "eta_collective": 0.013659
+        },
+        {
+          "sigma": 0.01,
+          "MI_bits": 0.05198,
+          "ep_nbody": 147.79,
+          "ep_collective": 18.5,
+          "eta_nbody": 0.000352,
+          "eta_collective": 0.00281
+        },
+        {
+          "sigma": 0.011,
+          "MI_bits": 0.05232,
+          "ep_nbody": 133.68,
+          "ep_collective": 18.72,
+          "eta_nbody": 0.000391,
+          "eta_collective": 0.002795
+        },
+        {
+          "sigma": 0.012,
+          "MI_bits": 0.05809,
+          "ep_nbody": 125.22,
+          "ep_collective": 19.03,
+          "eta_nbody": 0.000464,
+          "eta_collective": 0.003052
+        },
+        {
+          "sigma": 0.013,
+          "MI_bits": 0.05931,
+          "ep_nbody": 111.38,
+          "ep_collective": 18.27,
+          "eta_nbody": 0.000532,
+          "eta_collective": 0.003246
+        },
+        {
+          "sigma": 0.014,
+          "MI_bits": 0.07006,
+          "ep_nbody": 102.1,
+          "ep_collective": 18.08,
+          "eta_nbody": 0.000686,
+          "eta_collective": 0.003876
+        },
+        {
+          "sigma": 0.016,
+          "MI_bits": 0.08589,
+          "ep_nbody": 82.86,
+          "ep_collective": 16.46,
+          "eta_nbody": 0.001037,
+          "eta_collective": 0.005218
+        },
+        {
+          "sigma": 0.02,
+          "MI_bits": 0.06102,
+          "ep_nbody": 67.46,
+          "ep_collective": 16.14,
+          "eta_nbody": 0.000904,
+          "eta_collective": 0.00378
+        }
+      ],
+      "sigma_eta_nbody": 0.016,
+      "sigma_eta_collective": 0.008,
+      "sigma_MI_peak": 0.016,
+      "eta_nbody_peak": 0.001037,
+      "eta_collective_peak": 0.013659
+    },
+    "A=0.04": {
+      "data": [
+        {
+          "sigma": 0.008,
+          "MI_bits": 0.05985,
+          "ep_nbody": 151.31,
+          "ep_collective": 5.52,
+          "eta_nbody": 0.000396,
+          "eta_collective": 0.010837
+        },
+        {
+          "sigma": 0.01,
+          "MI_bits": 0.05119,
+          "ep_nbody": 147.79,
+          "ep_collective": 18.5,
+          "eta_nbody": 0.000346,
+          "eta_collective": 0.002768
+        },
+        {
+          "sigma": 0.011,
+          "MI_bits": 0.04844,
+          "ep_nbody": 133.68,
+          "ep_collective": 18.72,
+          "eta_nbody": 0.000362,
+          "eta_collective": 0.002588
+        },
+        {
+          "sigma": 0.012,
+          "MI_bits": 0.05929,
+          "ep_nbody": 125.22,
+          "ep_collective": 19.03,
+          "eta_nbody": 0.000473,
+          "eta_collective": 0.003115
+        },
+        {
+          "sigma": 0.013,
+          "MI_bits": 0.0683,
+          "ep_nbody": 111.38,
+          "ep_collective": 18.27,
+          "eta_nbody": 0.000613,
+          "eta_collective": 0.003738
+        },
+        {
+          "sigma": 0.014,
+          "MI_bits": 0.06935,
+          "ep_nbody": 102.1,
+          "ep_collective": 18.08,
+          "eta_nbody": 0.000679,
+          "eta_collective": 0.003837
+        },
+        {
+          "sigma": 0.016,
+          "MI_bits": 0.07105,
+          "ep_nbody": 82.86,
+          "ep_collective": 16.46,
+          "eta_nbody": 0.000857,
+          "eta_collective": 0.004316
+        },
+        {
+          "sigma": 0.02,
+          "MI_bits": 0.09522,
+          "ep_nbody": 67.46,
+          "ep_collective": 16.14,
+          "eta_nbody": 0.001411,
+          "eta_collective": 0.005899
+        }
+      ],
+      "sigma_eta_nbody": 0.02,
+      "sigma_eta_collective": 0.008,
+      "sigma_MI_peak": 0.02,
+      "eta_nbody_peak": 0.001411,
+      "eta_collective_peak": 0.010837
+    },
+    "A=0.06": {
+      "data": [
+        {
+          "sigma": 0.008,
+          "MI_bits": 0.06877,
+          "ep_nbody": 151.31,
+          "ep_collective": 5.52,
+          "eta_nbody": 0.000454,
+          "eta_collective": 0.012452
+        },
+        {
+          "sigma": 0.01,
+          "MI_bits": 0.08177,
+          "ep_nbody": 147.79,
+          "ep_collective": 18.5,
+          "eta_nbody": 0.000553,
+          "eta_collective": 0.004421
+        },
+        {
+          "sigma": 0.011,
+          "MI_bits": 0.05555,
+          "ep_nbody": 133.68,
+          "ep_collective": 18.72,
+          "eta_nbody": 0.000416,
+          "eta_collective": 0.002967
+        },
+        {
+          "sigma": 0.012,
+          "MI_bits": 0.04675,
+          "ep_nbody": 125.22,
+          "ep_collective": 19.03,
+          "eta_nbody": 0.000373,
+          "eta_collective": 0.002456
+        },
+        {
+          "sigma": 0.013,
+          "MI_bits": 0.08621,
+          "ep_nbody": 111.38,
+          "ep_collective": 18.27,
+          "eta_nbody": 0.000774,
+          "eta_collective": 0.004718
+        },
+        {
+          "sigma": 0.014,
+          "MI_bits": 0.07879,
+          "ep_nbody": 102.1,
+          "ep_collective": 18.08,
+          "eta_nbody": 0.000772,
+          "eta_collective": 0.004359
+        },
+        {
+          "sigma": 0.016,
+          "MI_bits": 0.09124,
+          "ep_nbody": 82.86,
+          "ep_collective": 16.46,
+          "eta_nbody": 0.001101,
+          "eta_collective": 0.005543
+        },
+        {
+          "sigma": 0.02,
+          "MI_bits": 0.07337,
+          "ep_nbody": 67.46,
+          "ep_collective": 16.14,
+          "eta_nbody": 0.001088,
+          "eta_collective": 0.004546
+        }
+      ],
+      "sigma_eta_nbody": 0.016,
+      "sigma_eta_collective": 0.008,
+      "sigma_MI_peak": 0.016,
+      "eta_nbody_peak": 0.001101,
+      "eta_collective_peak": 0.012452
+    }
+  }
+}
