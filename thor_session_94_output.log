@@ -1,0 +1,71 @@
+========================================================================
+Thor Session #94: The Detection Cliff
+Started: 2026-04-17T09:06:04.203809
+========================================================================
+
+Fixed: σ=0.022, f_s=0.003, warmup=10000, dt=0.1
+Amplitudes: [0.04, 0.08, 0.12, 0.2]
+Base budgets (B, n_seeds, steps_total):
+   B=1  n= 16  steps= 50000  compute_units=    640000
+   B=2  n= 16  steps= 90000  compute_units=   1280000
+   B=4  n= 16  steps=170000  compute_units=   2560000
+   B=8  n= 16  steps=330000  compute_units=   5120000
+Seeds variant @ B=4: n=64, steps=50000  compute=   2560000
+
+Estimated total simulated steps: 107,520,000  (~44.8 min at 25 µs/step)
+
+── Amplitude A = 0.04 ──
+    base_B1          A=0.04  n= 16  T=   4000s  comp=    640000  z_I= -2.41  z_Q= +0.89  T²=   6.6  [39s]
+    base_B2          A=0.04  n= 16  T=   8000s  comp=   1280000  z_I= -1.80  z_Q= +2.18  T²=   8.0  [70s]
+    base_B4          A=0.04  n= 16  T=  16000s  comp=   2560000  z_I= -1.38  z_Q= +2.32  T²=   7.3  [133s]
+    base_B8          A=0.04  n= 16  T=  32000s  comp=   5120000  z_I= -1.80  z_Q= +3.10  T²=  12.9  [258s]
+    seeds_B4         A=0.04  n= 64  T=   4000s  comp=   2560000  z_I= -0.38  z_Q= +3.08  T²=   9.6  [156s]
+
+── Amplitude A = 0.08 ──
+    base_B1          A=0.08  n= 16  T=   4000s  comp=    640000  z_I= -0.23  z_Q= +0.66  T²=   0.5  [39s]
+    base_B2          A=0.08  n= 16  T=   8000s  comp=   1280000  z_I= +0.09  z_Q= +1.19  T²=   1.4  [71s]
+    base_B4          A=0.08  n= 16  T=  16000s  comp=   2560000  z_I= -1.14  z_Q= +2.60  T²=   8.1  [133s]
+    base_B8          A=0.08  n= 16  T=  32000s  comp=   5120000  z_I= -2.24  z_Q= +3.16  T²=  15.0  [260s]
+    seeds_B4         A=0.08  n= 64  T=   4000s  comp=   2560000  z_I= -2.11  z_Q= +2.18  T²=   9.2  [157s]
+
+── Amplitude A = 0.12 ──
+    base_B1          A=0.12  n= 16  T=   4000s  comp=    640000  z_I= -1.27  z_Q= +2.29  T²=   6.9  [39s]
+    base_B2          A=0.12  n= 16  T=   8000s  comp=   1280000  z_I= -2.18  z_Q= +2.65  T²=  11.8  [70s]
+    base_B4          A=0.12  n= 16  T=  16000s  comp=   2560000  z_I= -2.23  z_Q= +2.69  T²=  12.2  [133s]
+    base_B8          A=0.12  n= 16  T=  32000s  comp=   5120000  z_I= -2.19  z_Q= +4.76  T²=  27.5  [259s]
+    seeds_B4         A=0.12  n= 64  T=   4000s  comp=   2560000  z_I= -4.18  z_Q= +1.32  T²=  19.2  [157s]
+
+── Amplitude A = 0.2 ──
+    base_B1          A=0.20  n= 16  T=   4000s  comp=    640000  z_I= -0.79  z_Q= +0.78  T²=   1.2  [39s]
+    base_B2          A=0.20  n= 16  T=   8000s  comp=   1280000  z_I= -1.06  z_Q= +1.70  T²=   4.0  [70s]
+    base_B4          A=0.20  n= 16  T=  16000s  comp=   2560000  z_I= -2.13  z_Q= +2.78  T²=  12.2  [133s]
+    base_B8          A=0.20  n= 16  T=  32000s  comp=   5120000  z_I= -3.37  z_Q= +4.47  T²=  31.3  [259s]
+    seeds_B4         A=0.20  n= 64  T=   4000s  comp=   2560000  z_I= -2.15  z_Q= +3.91  T²=  19.9  [157s]
+
+========================================================================
+Scaling law fit: z_I = k · A · √B  (vec_z = T / A√B should be flat)
+========================================================================
+
+  k_vec = 12.04  (so |z_vec| ≈ 12.0 · A · √B)
+  R² of fit = -0.143
+  Predicted A_min(z=2) at B=1: 0.166
+  Predicted A_min(z=2) at B=8: 0.059
+
+========================================================================
+Long-T vs More-Seeds at matched compute (B=4, 2.56M units each)
+========================================================================
+  A=0.04  long-T (n=16, T=16000): z_I= -1.38  T²=  7.28
+         more-N (n=64, T= 4000): z_I= -0.38  T²=  9.62
+         Δ(more-long): z_I= +1.00  T²= +2.34
+  A=0.08  long-T (n=16, T=16000): z_I= -1.14  T²=  8.07
+         more-N (n=64, T= 4000): z_I= -2.11  T²=  9.20
+         Δ(more-long): z_I= -0.97  T²= +1.13
+  A=0.12  long-T (n=16, T=16000): z_I= -2.23  T²= 12.21
+         more-N (n=64, T= 4000): z_I= -4.18  T²= 19.21
+         Δ(more-long): z_I= -1.95  T²= +7.00
+  A=0.20  long-T (n=16, T=16000): z_I= -2.13  T²= 12.23
+         more-N (n=64, T= 4000): z_I= -2.15  T²= 19.90
+         Δ(more-long): z_I= -0.02  T²= +7.67
+
+Saved → thor_session_94_detection_cliff_results.json
+Total wall time: 2634s (43.9 min)
