@@ -1,0 +1,70 @@
+Thor Session #98: Phase-Drift Timescale τ_φ — Direct Measurement
+Started: 2026-04-18T09:08:24.862620
+
+
+>> long-chunk run: σ=0.022, A=0.3, n_seeds=8, total_steps=4010000, chunk_steps=40000
+   seed=98000  n_chunks=100   97.3s  |mean(z_raw)|=1.840e-02  |mean(z_st)|=5.184e+00  mean(N_sw)/chunk=553.2
+   seed=98001  n_chunks=100   97.3s  |mean(z_raw)|=1.872e-02  |mean(z_st)|=5.400e+00  mean(N_sw)/chunk=543.5
+   seed=98002  n_chunks=100   97.1s  |mean(z_raw)|=2.002e-02  |mean(z_st)|=5.163e+00  mean(N_sw)/chunk=543.6
+   seed=98003  n_chunks=100   97.4s  |mean(z_raw)|=1.909e-02  |mean(z_st)|=5.237e+00  mean(N_sw)/chunk=544.7
+   seed=98004  n_chunks=100   97.6s  |mean(z_raw)|=1.778e-02  |mean(z_st)|=5.016e+00  mean(N_sw)/chunk=540.9
+   seed=98005  n_chunks=100   97.8s  |mean(z_raw)|=1.827e-02  |mean(z_st)|=4.963e+00  mean(N_sw)/chunk=556.5
+   seed=98006  n_chunks=100   97.5s  |mean(z_raw)|=1.962e-02  |mean(z_st)|=5.293e+00  mean(N_sw)/chunk=536.5
+   seed=98007  n_chunks=100   97.6s  |mean(z_raw)|=1.946e-02  |mean(z_st)|=5.212e+00  mean(N_sw)/chunk=524.6
+   [total 779.4s for 8 seeds]
+
+========================================================================
+MAIN  σ=0.022, A=0.3, n_seeds=8, T_total=400000s, T_chunk=4000s
+========================================================================
+
+  z_raw:
+    |Φ(m)| decay: D_φ = -1.013e-07 /s, τ_φ = infs, R²=0.021, n_fit=60
+    arg Φ slope: Δψ = -8.025e-07 rad/s,  R²=0.434
+    mean |z|²: 9.578e-04
+    |Φ| first 10 lags: [1.000, 0.344, 0.336, 0.341, 0.334, 0.332, 0.344, 0.359, 0.342, 0.348]
+
+  z_st:
+    |Φ(m)| decay: D_φ = 4.012e-08 /s, τ_φ = 24924292s, R²=0.054, n_fit=60
+    arg Φ slope: Δψ = -2.305e-07 rad/s,  R²=0.648
+    mean |z|²: 3.808e+01
+    |Φ| first 10 lags: [1.000, 0.759, 0.772, 0.759, 0.752, 0.780, 0.751, 0.773, 0.763, 0.767]
+
+
+── σ-sweep step: σ=0.015 ──
+
+>> long-chunk run: σ=0.015, A=0.3, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=100000  n_chunks=50   48.8s  |mean(z_raw)|=1.331e-02  |mean(z_st)|=4.225e+00  mean(N_sw)/chunk=305.4
+   seed=100001  n_chunks=50   48.9s  |mean(z_raw)|=1.975e-02  |mean(z_st)|=4.915e+00  mean(N_sw)/chunk=307.7
+   seed=100002  n_chunks=50   48.8s  |mean(z_raw)|=2.014e-02  |mean(z_st)|=4.782e+00  mean(N_sw)/chunk=293.7
+   seed=100003  n_chunks=50   48.8s  |mean(z_raw)|=1.307e-02  |mean(z_st)|=3.895e+00  mean(N_sw)/chunk=322.4
+   [total 195.3s for 4 seeds]
+   σ=0.015  z_raw:  mean_angle=+120.1°  τ_φ=574512s R²=0.08  Δψ=3.95e-06
+   σ=0.015  z_st:  mean_angle=-126.9°  τ_φ=2270594s R²=0.15  Δψ=1.55e-06
+
+
+── σ-sweep step: σ=0.022 ──
+
+>> long-chunk run: σ=0.022, A=0.3, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=100700  n_chunks=50   48.8s  |mean(z_raw)|=1.536e-02  |mean(z_st)|=4.699e+00  mean(N_sw)/chunk=494.4
+   seed=100701  n_chunks=50   49.1s  |mean(z_raw)|=2.040e-02  |mean(z_st)|=5.155e+00  mean(N_sw)/chunk=513.6
+   seed=100702  n_chunks=50   49.0s  |mean(z_raw)|=1.867e-02  |mean(z_st)|=4.969e+00  mean(N_sw)/chunk=519.7
+   seed=100703  n_chunks=50   48.8s  |mean(z_raw)|=2.139e-02  |mean(z_st)|=5.463e+00  mean(N_sw)/chunk=533.1
+   [total 195.7s for 4 seeds]
+   σ=0.022  z_raw:  mean_angle=+123.8°  τ_φ=735723s R²=0.11  Δψ=1.01e-06
+   σ=0.022  z_st:  mean_angle=-127.1°  τ_φ=4169507s R²=0.08  Δψ=5.63e-07
+
+
+── σ-sweep step: σ=0.03 ──
+
+>> long-chunk run: σ=0.03, A=0.3, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=101500  n_chunks=50   48.8s  |mean(z_raw)|=1.827e-02  |mean(z_st)|=5.188e+00  mean(N_sw)/chunk=784.7
+   seed=101501  n_chunks=50   48.8s  |mean(z_raw)|=1.496e-02  |mean(z_st)|=4.710e+00  mean(N_sw)/chunk=786.8
+   seed=101502  n_chunks=50   48.8s  |mean(z_raw)|=1.356e-02  |mean(z_st)|=4.407e+00  mean(N_sw)/chunk=788.8
+   seed=101503  n_chunks=50   48.9s  |mean(z_raw)|=1.751e-02  |mean(z_st)|=5.028e+00  mean(N_sw)/chunk=791.1
+   [total 195.3s for 4 seeds]
+   σ=0.03  z_raw:  mean_angle=+133.1°  τ_φ=infs R²=0.00  Δψ=-2.28e-07
+   σ=0.03  z_st:  mean_angle=-121.3°  τ_φ=infs R²=0.01  Δψ=-1.42e-07
+
+
+Completed in 1366s
+Results saved → thor_session_98_phase_drift_results.json
