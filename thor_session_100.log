@@ -1,0 +1,98 @@
+Thor Session #100: Phase Drift in the Incoherent Regime
+Started: 2026-04-19T03:05:32.596148
+
+
+
+── incoherent σ-step: σ=0.04 ──
+
+>> long-chunk run: σ=0.04, A=0.3, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=104000  n_chunks=50   48.7s  |mean(z_raw)|=9.386e-03  |mean(z_st)|=4.002e+00  mean(N_sw)/chunk=1066.4
+   seed=104001  n_chunks=50   48.6s  |mean(z_raw)|=1.477e-02  |mean(z_st)|=4.967e+00  mean(N_sw)/chunk=1076.6
+   seed=104002  n_chunks=50   48.6s  |mean(z_raw)|=1.361e-02  |mean(z_st)|=4.533e+00  mean(N_sw)/chunk=1058.9
+   seed=104003  n_chunks=50   48.6s  |mean(z_raw)|=9.388e-03  |mean(z_st)|=4.301e+00  mean(N_sw)/chunk=1034.7
+   [total 194.6s for 4 seeds]
+   σ=0.04  z_raw:
+     mean_angle=+129.6°  R_seeds=0.979  τ_φ=2624759s R²=0.01  Δψ=9.15e-07 rad/s
+     |Φ| lags 0–9: [1.000, 0.375, 0.321, 0.358, 0.396, 0.314, 0.303, 0.315, 0.324, 0.290]
+     wander: τ_wph=2624759s  τ_wmag=infs
+   σ=0.04  z_st:
+     mean_angle=-119.8°  R_seeds=0.997  τ_φ=14662840s R²=0.03  Δψ=5.08e-07 rad/s
+     |Φ| lags 0–9: [1.000, 0.869, 0.861, 0.854, 0.865, 0.864, 0.868, 0.873, 0.892, 0.864]
+     wander: τ_wph=14662840s  τ_wmag=infs
+
+
+── incoherent σ-step: σ=0.06 ──
+
+>> long-chunk run: σ=0.06, A=0.3, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=106000  n_chunks=50   48.8s  |mean(z_raw)|=4.715e-03  |mean(z_st)|=3.738e+00  mean(N_sw)/chunk=1510.6
+   seed=106001  n_chunks=50   48.8s  |mean(z_raw)|=5.372e-03  |mean(z_st)|=4.077e+00  mean(N_sw)/chunk=1485.6
+   seed=106002  n_chunks=50   48.8s  |mean(z_raw)|=2.836e-03  |mean(z_st)|=3.686e+00  mean(N_sw)/chunk=1522.6
+   seed=106003  n_chunks=50   48.8s  |mean(z_raw)|=3.712e-03  |mean(z_st)|=3.968e+00  mean(N_sw)/chunk=1466.3
+   [total 195.1s for 4 seeds]
+   σ=0.06  z_raw:
+     mean_angle=+142.3°  R_seeds=0.971  τ_φ=infs R²=0.01  
+     |Φ| lags 0–9: [1.000, 0.036, 0.178, 0.057, 0.120, 0.068, 0.149, 0.091, 0.049, 0.186]
+     wander: τ_wph=infs  τ_wmag: n/a
+   σ=0.06  z_st:
+     mean_angle=-112.9°  R_seeds=0.999  τ_φ=infs R²=0.03  Δψ=2.93e-07 rad/s
+     |Φ| lags 0–9: [1.000, 0.895, 0.899, 0.901, 0.900, 0.899, 0.896, 0.892, 0.891, 0.902]
+     wander: τ_wph=infs  τ_wmag=1035493s
+
+
+── incoherent σ-step: σ=0.1 ──
+
+>> long-chunk run: σ=0.1, A=0.3, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=110000  n_chunks=50   48.8s  |mean(z_raw)|=7.792e-04  |mean(z_st)|=1.260e+00  mean(N_sw)/chunk=2875.4
+   seed=110001  n_chunks=50   48.8s  |mean(z_raw)|=5.978e-04  |mean(z_st)|=1.141e+00  mean(N_sw)/chunk=2860.8
+   seed=110002  n_chunks=50   48.7s  |mean(z_raw)|=2.267e-03  |mean(z_st)|=9.718e-01  mean(N_sw)/chunk=2859.1
+   seed=110003  n_chunks=50   48.7s  |mean(z_raw)|=4.060e-04  |mean(z_st)|=1.119e+00  mean(N_sw)/chunk=2870.3
+   [total 195.1s for 4 seeds]
+   σ=0.1  z_raw:
+     mean_angle=-102.7°  R_seeds=0.557  τ_φ=4904670s R²=0.00  
+     |Φ| lags 0–9: [1.000, 0.077, 0.061, 0.061, 0.131, 0.011, 0.056, 0.156, 0.037, 0.071]
+     wander: τ_wph=4904670s  τ_wmag: n/a
+   σ=0.1  z_st:
+     mean_angle= -96.3°  R_seeds=0.993  τ_φ=infs R²=0.04  Δψ=-3.76e-07 rad/s
+     |Φ| lags 0–9: [1.000, 0.342, 0.391, 0.347, 0.447, 0.375, 0.373, 0.335, 0.361, 0.350]
+     wander: τ_wph=infs  τ_wmag=268250s
+
+No τ_φ finite in sweep; main run at fallback σ=0.06
+
+>> long-chunk run: σ=0.06, A=0.3, n_seeds=8, total_steps=4010000, chunk_steps=40000
+   seed=106500  n_chunks=100   97.3s  |mean(z_raw)|=3.151e-03  |mean(z_st)|=3.948e+00  mean(N_sw)/chunk=1463.2
+   seed=106501  n_chunks=100   97.5s  |mean(z_raw)|=3.548e-03  |mean(z_st)|=3.772e+00  mean(N_sw)/chunk=1469.9
+   seed=106502  n_chunks=100   97.4s  |mean(z_raw)|=2.910e-03  |mean(z_st)|=3.457e+00  mean(N_sw)/chunk=1520.5
+   seed=106503  n_chunks=100   97.4s  |mean(z_raw)|=4.047e-03  |mean(z_st)|=3.658e+00  mean(N_sw)/chunk=1521.0
+   seed=106504  n_chunks=100   97.1s  |mean(z_raw)|=3.581e-03  |mean(z_st)|=3.804e+00  mean(N_sw)/chunk=1523.1
+   seed=106505  n_chunks=100   97.2s  |mean(z_raw)|=3.652e-03  |mean(z_st)|=3.723e+00  mean(N_sw)/chunk=1493.8
+   seed=106506  n_chunks=100   97.3s  |mean(z_raw)|=4.201e-03  |mean(z_st)|=3.879e+00  mean(N_sw)/chunk=1493.1
+   seed=106507  n_chunks=100   97.2s  |mean(z_raw)|=2.823e-03  |mean(z_st)|=3.532e+00  mean(N_sw)/chunk=1505.8
+   [total 778.4s for 8 seeds]
+
+========================================================================
+MAIN  σ=0.06, A=0.3, n_seeds=8, T_total=400000s, T_chunk=4000s
+========================================================================
+
+  z_raw:
+    |Φ(m)| decay: D_φ=3.715e-07 /s, τ_φ=2691484s, R²=0.056, n_fit=10
+    mean |z|²: 1.255e-04
+    |Φ| lags 0–14: [1.000, 0.095, 0.057, 0.060, 0.129, 0.089, 0.107, 0.087, 0.098, 0.084, 0.061, 0.049, 0.076, 0.055, 0.106]
+    τ_phase_wander: 2691484s R²=0.06
+    τ_mag_wander: n/a
+
+  z_st:
+    |Φ(m)| decay: D_φ=1.181e-08 /s, τ_φ=84661990s, R²=0.028, n_fit=60
+    arg Φ slope: Δψ=-2.470e-08 rad/s, R²=0.172
+    mean |z|²: 1.659e+01
+    |Φ| lags 0–14: [1.000, 0.906, 0.902, 0.902, 0.906, 0.912, 0.911, 0.906, 0.901, 0.908, 0.902, 0.902, 0.904, 0.903, 0.901]
+    τ_phase_wander: 84661990s R²=0.03
+    τ_mag_wander: n/a
+
+========================================================================
+τ_φ(σ) CURVE (combined S98 + S100)
+========================================================================
+(low-σ half loaded from S98; extract in analysis)
+
+
+Completed in 1363s
+Results saved → thor_session_100_incoherent_drift_results.json
