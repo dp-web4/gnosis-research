@@ -1,0 +1,70 @@
+S101 Part C: A=0.30 ω_spread sweep
+Started: 2026-04-19T09:33:14.569096
+
+
+-- ω_spread=0.0 --
+
+>> long-chunk run: σ=0.022, A=0.3, ω_spread=0.0, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=101800  n_chunks=50   48.6s  |mean(z_raw)|=2.157e-02  |mean(z_st)|=5.624e+00  mean(N_sw)/chunk=542.6
+   seed=101801  n_chunks=50   48.7s  |mean(z_raw)|=1.408e-02  |mean(z_st)|=4.256e+00  mean(N_sw)/chunk=538.0
+   seed=101802  n_chunks=50   48.7s  |mean(z_raw)|=1.999e-02  |mean(z_st)|=4.937e+00  mean(N_sw)/chunk=528.7
+   seed=101803  n_chunks=50   48.7s  |mean(z_raw)|=1.840e-02  |mean(z_st)|=4.997e+00  mean(N_sw)/chunk=549.0
+   [total 194.7s for 4 seeds]
+    z_raw |⟨z⟩|_seed=1.851e-02  |C_resid| lags 0..7 = [1.000 0.033 0.114 0.076 0.081 0.112 0.053 0.148]
+          τ=infs R²=0.07 n_fit=22
+     z_st |⟨z⟩|_seed=4.953e+00  |C_resid| lags 0..7 = [1.000 0.030 0.137 0.044 0.083 0.091 0.074 0.135]
+          τ=infs R²=0.04 n_fit=18
+
+-- ω_spread=0.005 --
+
+>> long-chunk run: σ=0.022, A=0.3, ω_spread=0.005, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=102300  n_chunks=50   49.0s  |mean(z_raw)|=1.874e-02  |mean(z_st)|=5.164e+00  mean(N_sw)/chunk=539.4
+   seed=102301  n_chunks=50   48.9s  |mean(z_raw)|=1.965e-02  |mean(z_st)|=5.394e+00  mean(N_sw)/chunk=530.2
+   seed=102302  n_chunks=50   48.8s  |mean(z_raw)|=1.747e-02  |mean(z_st)|=5.051e+00  mean(N_sw)/chunk=548.0
+   seed=102303  n_chunks=50   48.9s  |mean(z_raw)|=2.219e-02  |mean(z_st)|=5.611e+00  mean(N_sw)/chunk=530.5
+   [total 195.6s for 4 seeds]
+    z_raw |⟨z⟩|_seed=1.951e-02  |C_resid| lags 0..7 = [1.000 0.068 0.033 0.080 0.104 0.124 0.094 0.029]
+          τ=3498236s R²=0.00 n_fit=21
+     z_st |⟨z⟩|_seed=5.305e+00  |C_resid| lags 0..7 = [1.000 0.100 0.069 0.060 0.075 0.096 0.106 0.068]
+          τ=infs R²=0.06 n_fit=24
+
+-- ω_spread=0.02 --
+
+>> long-chunk run: σ=0.022, A=0.3, ω_spread=0.02, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=103800  n_chunks=50   48.9s  |mean(z_raw)|=1.893e-02  |mean(z_st)|=5.126e+00  mean(N_sw)/chunk=534.3
+   seed=103801  n_chunks=50   48.8s  |mean(z_raw)|=2.617e-02  |mean(z_st)|=5.901e+00  mean(N_sw)/chunk=529.3
+   seed=103802  n_chunks=50   48.8s  |mean(z_raw)|=2.060e-02  |mean(z_st)|=5.546e+00  mean(N_sw)/chunk=542.6
+   seed=103803  n_chunks=50   48.8s  |mean(z_raw)|=1.870e-02  |mean(z_st)|=5.306e+00  mean(N_sw)/chunk=539.8
+   [total 195.3s for 4 seeds]
+    z_raw |⟨z⟩|_seed=2.110e-02  |C_resid| lags 0..7 = [1.000 0.091 0.051 0.027 0.044 0.052 0.116 0.121]
+          τ=infs R²=0.22 n_fit=20
+     z_st |⟨z⟩|_seed=5.470e+00  |C_resid| lags 0..7 = [1.000 0.078 0.079 0.055 0.024 0.094 0.095 0.135]
+          τ=infs R²=0.25 n_fit=23
+
+-- ω_spread=0.08 --
+
+>> long-chunk run: σ=0.022, A=0.3, ω_spread=0.08, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=109800  n_chunks=50   48.9s  |mean(z_raw)|=1.776e-02  |mean(z_st)|=4.438e+00  mean(N_sw)/chunk=575.1
+   seed=109801  n_chunks=50   48.9s  |mean(z_raw)|=1.844e-02  |mean(z_st)|=4.599e+00  mean(N_sw)/chunk=484.3
+   seed=109802  n_chunks=50   49.0s  |mean(z_raw)|=1.980e-02  |mean(z_st)|=5.273e+00  mean(N_sw)/chunk=571.2
+   seed=109803  n_chunks=50   49.0s  |mean(z_raw)|=1.865e-02  |mean(z_st)|=5.178e+00  mean(N_sw)/chunk=536.4
+   [total 195.7s for 4 seeds]
+    z_raw |⟨z⟩|_seed=1.866e-02  |C_resid| lags 0..7 = [1.000 0.059 0.085 0.058 0.075 0.136 0.088 0.039]
+          τ=infs R²=0.22 n_fit=24
+     z_st |⟨z⟩|_seed=4.872e+00  |C_resid| lags 0..7 = [1.000 0.048 0.092 0.051 0.062 0.113 0.109 0.058]
+          τ=infs R²=0.19 n_fit=25
+
+========================================================================
+SCALING: τ_raw_residual vs ω_spread (A=0.30)
+========================================================================
+    ω_spread        1/ω        τ_raw     R²         τ_st  R²_st
+      0.0000        inf         infs   0.07         infs   0.04
+      0.0050      200.0     3498236s   0.00         infs   0.06
+      0.0200       50.0         infs   0.22         infs   0.25
+      0.0800       12.5         infs   0.22         infs   0.19
+
+  log-log fit τ_raw vs ω_spread (expected -1 for 1/Δω):
+    insufficient data
+
+Completed in 781s
+Saved → thor_session_101_part_c_results.json

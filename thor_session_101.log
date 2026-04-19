@@ -1,0 +1,129 @@
+Thor Session #101: Intrinsic vs Signal-Induced Wander
+Started: 2026-04-19T09:05:35.599029
+
+========================================================================
+PART A: A=0 null at σ=0.022, ω_spread=0.02, 8 seeds × 400,000s
+========================================================================
+
+>> long-chunk run: σ=0.022, A=0.0, ω_spread=0.02, n_seeds=8, total_steps=4010000, chunk_steps=40000
+   seed=101000  n_chunks=100   97.2s  |mean(z_raw)|=3.569e-04  |mean(z_st)|=6.075e-02  mean(N_sw)/chunk=605.0
+   seed=101001  n_chunks=100   96.7s  |mean(z_raw)|=2.373e-03  |mean(z_st)|=2.851e-01  mean(N_sw)/chunk=603.9
+   seed=101002  n_chunks=100   97.0s  |mean(z_raw)|=9.398e-04  |mean(z_st)|=1.880e-01  mean(N_sw)/chunk=619.2
+   seed=101003  n_chunks=100   96.9s  |mean(z_raw)|=1.937e-03  |mean(z_st)|=1.958e-01  mean(N_sw)/chunk=609.2
+   seed=101004  n_chunks=100   97.3s  |mean(z_raw)|=2.947e-03  |mean(z_st)|=3.219e-01  mean(N_sw)/chunk=612.8
+   seed=101005  n_chunks=100   97.0s  |mean(z_raw)|=2.104e-03  |mean(z_st)|=2.211e-01  mean(N_sw)/chunk=594.2
+   seed=101006  n_chunks=100   97.1s  |mean(z_raw)|=1.570e-03  |mean(z_st)|=1.307e-01  mean(N_sw)/chunk=616.8
+   seed=101007  n_chunks=100   97.3s  |mean(z_raw)|=2.153e-03  |mean(z_st)|=3.381e-01  mean(N_sw)/chunk=628.5
+   [total 776.6s for 8 seeds]
+
+-- Part A summary --
+  A=0.00 σ=0.022 ωsp=0.020  z_raw:
+    mean|z|=2.497e-02  |C_full| first 6 = [1.000, 0.063, 0.004, 0.016, 0.047, 0.021]
+    |Φ|     first 6 = [1.000, 0.040, 0.023, 0.025, 0.031, 0.046]
+    τ(C_full) = infs  R²=0.14  n_fit=18
+    τ(|Φ|)   = infs  R²=0.02  n_fit=13
+  A=0.00 σ=0.022 ωsp=0.020  z_st:
+    mean|z|=3.157e+00  |C_full| first 6 = [1.000, 0.032, 0.008, 0.018, 0.046, 0.009]
+    |Φ|     first 6 = [1.000, 0.036, 0.045, 0.032, 0.035, 0.028]
+    τ(C_full) = infs  R²=0.13  n_fit=16
+    τ(|Φ|)   = 1468881s  R²=0.04  n_fit=11
+
+========================================================================
+PART B: ω_spread sweep {0.0, 0.005, 0.02, 0.08}, A=0, 4 seeds × 200ks
+========================================================================
+
+-- ω_spread = 0.0 --
+
+>> long-chunk run: σ=0.022, A=0.0, ω_spread=0.0, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=101500  n_chunks=50   48.6s  |mean(z_raw)|=1.370e-03  |mean(z_st)|=1.448e-01  mean(N_sw)/chunk=608.9
+   seed=101501  n_chunks=50   48.6s  |mean(z_raw)|=1.666e-03  |mean(z_st)|=2.210e-01  mean(N_sw)/chunk=648.5
+   seed=101502  n_chunks=50   48.5s  |mean(z_raw)|=2.422e-03  |mean(z_st)|=4.734e-01  mean(N_sw)/chunk=615.0
+   seed=101503  n_chunks=50   48.5s  |mean(z_raw)|=2.118e-03  |mean(z_st)|=2.212e-01  mean(N_sw)/chunk=615.1
+   [total 194.1s for 4 seeds]
+  A=0.00 σ=0.022 ωsp=0.000  z_raw:
+    mean|z|=2.507e-02  |C_full| first 6 = [1.000, 0.008, 0.043, 0.134, 0.081, 0.079]
+    |Φ|     first 6 = [1.000, 0.026, 0.078, 0.056, 0.089, 0.057]
+    τ(C_full) = infs  R²=0.00  n_fit=20
+    τ(|Φ|)   = infs  R²=0.11  n_fit=19
+    τ(|z|-amp) = infs  R²=0.03  n_fit=14
+  A=0.00 σ=0.022 ωsp=0.000  z_st:
+    mean|z|=3.203e+00  |C_full| first 6 = [1.000, 0.052, 0.023, 0.134, 0.035, 0.100]
+    |Φ|     first 6 = [1.000, 0.050, 0.073, 0.079, 0.078, 0.109]
+    τ(C_full) = infs  R²=0.08  n_fit=21
+    τ(|Φ|)   = infs  R²=0.14  n_fit=24
+    τ(|z|-amp) = infs  R²=0.32  n_fit=12
+
+-- ω_spread = 0.005 --
+
+>> long-chunk run: σ=0.022, A=0.0, ω_spread=0.005, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=102000  n_chunks=50   48.6s  |mean(z_raw)|=1.340e-03  |mean(z_st)|=1.615e-01  mean(N_sw)/chunk=619.0
+   seed=102001  n_chunks=50   48.7s  |mean(z_raw)|=6.821e-04  |mean(z_st)|=9.417e-02  mean(N_sw)/chunk=620.5
+   seed=102002  n_chunks=50   48.7s  |mean(z_raw)|=1.652e-03  |mean(z_st)|=1.510e-01  mean(N_sw)/chunk=618.4
+   seed=102003  n_chunks=50   48.7s  |mean(z_raw)|=4.089e-03  |mean(z_st)|=4.688e-01  mean(N_sw)/chunk=617.9
+   [total 194.7s for 4 seeds]
+  A=0.00 σ=0.022 ωsp=0.005  z_raw:
+    mean|z|=2.431e-02  |C_full| first 6 = [1.000, 0.123, 0.036, 0.107, 0.102, 0.016]
+    |Φ|     first 6 = [1.000, 0.122, 0.010, 0.108, 0.098, 0.078]
+    τ(C_full) = infs  R²=0.02  n_fit=23
+    τ(|Φ|)   = infs  R²=0.09  n_fit=24
+    τ(|z|-amp) = infs  R²=0.01  n_fit=7
+  A=0.00 σ=0.022 ωsp=0.005  z_st:
+    mean|z|=3.034e+00  |C_full| first 6 = [1.000, 0.136, 0.035, 0.058, 0.062, 0.044]
+    |Φ|     first 6 = [1.000, 0.138, 0.030, 0.051, 0.079, 0.095]
+    τ(C_full) = 1127745s  R²=0.01  n_fit=22
+    τ(|Φ|)   = infs  R²=0.08  n_fit=22
+    τ(|z|-amp) = 535040s  R²=0.02  n_fit=24
+
+-- ω_spread = 0.02 --
+
+>> long-chunk run: σ=0.022, A=0.0, ω_spread=0.02, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=103500  n_chunks=50   48.7s  |mean(z_raw)|=1.883e-03  |mean(z_st)|=3.789e-01  mean(N_sw)/chunk=586.6
+   seed=103501  n_chunks=50   48.6s  |mean(z_raw)|=3.443e-03  |mean(z_st)|=4.631e-01  mean(N_sw)/chunk=605.8
+   seed=103502  n_chunks=50   48.6s  |mean(z_raw)|=2.414e-03  |mean(z_st)|=3.629e-01  mean(N_sw)/chunk=604.0
+   seed=103503  n_chunks=50   48.6s  |mean(z_raw)|=2.525e-03  |mean(z_st)|=2.586e-01  mean(N_sw)/chunk=632.9
+   [total 194.6s for 4 seeds]
+  A=0.00 σ=0.022 ωsp=0.020  z_raw:
+    mean|z|=2.509e-02  |C_full| first 6 = [1.000, 0.028, 0.055, 0.083, 0.019, 0.135]
+    |Φ|     first 6 = [1.000, 0.057, 0.111, 0.040, 0.034, 0.120]
+    τ(C_full) = infs  R²=0.08  n_fit=25
+    τ(|Φ|)   = infs  R²=0.07  n_fit=27
+    τ(|z|-amp) = 251463s  R²=0.65  n_fit=3
+  A=0.00 σ=0.022 ωsp=0.020  z_st:
+    mean|z|=3.158e+00  |C_full| first 6 = [1.000, 0.042, 0.064, 0.053, 0.016, 0.117]
+    |Φ|     first 6 = [1.000, 0.082, 0.087, 0.032, 0.039, 0.079]
+    τ(C_full) = infs  R²=0.17  n_fit=24
+    τ(|Φ|)   = infs  R²=0.20  n_fit=25
+    τ(|z|-amp) = 227696s  R²=0.25  n_fit=8
+
+-- ω_spread = 0.08 --
+
+>> long-chunk run: σ=0.022, A=0.0, ω_spread=0.08, n_seeds=4, total_steps=2010000, chunk_steps=40000
+   seed=109500  n_chunks=50   48.8s  |mean(z_raw)|=2.793e-03  |mean(z_st)|=2.896e-01  mean(N_sw)/chunk=556.8
+   seed=109501  n_chunks=50   48.7s  |mean(z_raw)|=1.056e-03  |mean(z_st)|=1.002e-01  mean(N_sw)/chunk=644.8
+   seed=109502  n_chunks=50   48.6s  |mean(z_raw)|=4.296e-03  |mean(z_st)|=5.917e-01  mean(N_sw)/chunk=529.6
+   seed=109503  n_chunks=50   48.5s  |mean(z_raw)|=4.391e-03  |mean(z_st)|=6.602e-01  mean(N_sw)/chunk=599.5
+   [total 194.5s for 4 seeds]
+  A=0.00 σ=0.022 ωsp=0.080  z_raw:
+    mean|z|=2.387e-02  |C_full| first 6 = [1.000, 0.044, 0.043, 0.091, 0.120, 0.026]
+    |Φ|     first 6 = [1.000, 0.075, 0.072, 0.132, 0.083, 0.055]
+    τ(C_full) = infs  R²=0.08  n_fit=22
+    τ(|Φ|)   = infs  R²=0.06  n_fit=24
+    τ(|z|-amp) = infs  R²=0.46  n_fit=4
+  A=0.00 σ=0.022 ωsp=0.080  z_st:
+    mean|z|=3.189e+00  |C_full| first 6 = [1.000, 0.049, 0.078, 0.082, 0.123, 0.058]
+    |Φ|     first 6 = [1.000, 0.072, 0.108, 0.119, 0.083, 0.093]
+    τ(C_full) = infs  R²=0.05  n_fit=23
+    τ(|Φ|)   = infs  R²=0.01  n_fit=21
+
+========================================================================
+SCALING CHECK: does τ_wander(raw) scale with 1/ω_spread?
+========================================================================
+  ω_spread  1/ω_spread   τ_Cfull_raw   τ_Phi_raw   τ_amp_raw
+    0.0000       inf           infs        infs        infs
+    0.0050    200.0           infs        infs        infs
+    0.0200     50.0           infs        infs     251463s
+    0.0800     12.5           infs        infs        infs
+
+
+Completed in 1555s (25.9 min)
+Results saved → thor_session_101_intrinsic_wander_results.json
