@@ -1,0 +1,87 @@
+S99 start: 2026-04-18T21:02:26.964338
+
+=== PART 1: post-process S98 per-seed data ===
+
+
+-- channel z_raw --
+  per-seed mean |z|: mean=0.0277 sd=0.0012  across-seed CV=4.385%
+  per-seed within CV of |z|: mean=50.105%  sd=1.865%
+  per-seed Δω (rad/s): mean=6.354e-06  std=1.736e-05  range=[-9.300e-06, 3.421e-05]
+  Δω·T_per at T_per=128000s: spread = 2.2220 rad (~127.31°)
+  R_across seed mean angles: 0.9991
+
+-- channel z_st --
+  per-seed mean |z|: mean=5.7356 sd=0.1622  across-seed CV=2.828%
+  per-seed within CV of |z|: mean=39.774%  sd=2.098%
+  per-seed Δω (rad/s): mean=2.856e-07  std=4.422e-07  range=[-4.126e-07, 7.720e-07]
+  Δω·T_per at T_per=128000s: spread = 0.0566 rad (~3.24°)
+  R_across seed mean angles: 0.9994
+
+=== PART 2: matched-compute sweep ===
+
+
+>> n_seeds=32  T_per_steps=40000  T_per_s=4000
+  sig rep 1/6  raw(I,Q)=(-0.4588,0.5350)  st(I,Q)=(-103.61,-150.94)  n_sw=17480  elapsed=39s
+  sig rep 2/6  raw(I,Q)=(-0.3147,0.6807)  st(I,Q)=(-118.49,-142.41)  n_sw=17411  elapsed=78s
+  sig rep 3/6  raw(I,Q)=(-0.1864,0.4961)  st(I,Q)=(-95.64,-107.11)  n_sw=16851  elapsed=117s
+  sig rep 4/6  raw(I,Q)=(-0.5319,0.4735)  st(I,Q)=(-95.09,-144.09)  n_sw=17612  elapsed=156s
+  sig rep 5/6  raw(I,Q)=(-0.4998,0.5044)  st(I,Q)=(-97.86,-151.93)  n_sw=17374  elapsed=194s
+  sig rep 6/6  raw(I,Q)=(-0.3105,0.3382)  st(I,Q)=(-83.25,-123.65)  n_sw=17017  elapsed=233s
+  null rep 1/6  raw(I,Q)=(-0.0718,0.0335)  st(I,Q)=(-9.40,3.64)  n_sw=18640  elapsed=39s
+  null rep 2/6  raw(I,Q)=(0.0136,0.1703)  st(I,Q)=(-17.73,-3.65)  n_sw=19379  elapsed=78s
+  null rep 3/6  raw(I,Q)=(0.0043,-0.0376)  st(I,Q)=(1.40,4.14)  n_sw=19554  elapsed=117s
+  null rep 4/6  raw(I,Q)=(-0.0772,-0.0194)  st(I,Q)=(3.18,-9.74)  n_sw=19150  elapsed=156s
+  null rep 5/6  raw(I,Q)=(-0.1518,0.1421)  st(I,Q)=(-14.74,-25.42)  n_sw=19109  elapsed=194s
+  null rep 6/6  raw(I,Q)=(0.1013,0.2381)  st(I,Q)=(-33.31,6.95)  n_sw=19063  elapsed=233s
+   RAW: null SD I=0.0885 Q=0.1118  |z|_sig=5.59±1.27  |z|_null=1.22
+   ST : null SD I=13.499 Q=12.135  |z|_sig=12.72±1.49  |z|_null=1.18
+
+>> n_seeds=8  T_per_steps=160000  T_per_s=16000
+  sig rep 1/6  raw(I,Q)=(-0.0843,0.1159)  st(I,Q)=(-93.31,-127.30)  n_sw=17512  elapsed=33s
+  sig rep 2/6  raw(I,Q)=(-0.0696,0.1096)  st(I,Q)=(-91.73,-119.06)  n_sw=17273  elapsed=66s
+  sig rep 3/6  raw(I,Q)=(-0.1077,0.1148)  st(I,Q)=(-94.61,-142.20)  n_sw=17154  elapsed=99s
+  sig rep 4/6  raw(I,Q)=(-0.0791,0.1220)  st(I,Q)=(-97.12,-135.30)  n_sw=16924  elapsed=132s
+  sig rep 5/6  raw(I,Q)=(-0.0835,0.1329)  st(I,Q)=(-103.05,-134.61)  n_sw=17635  elapsed=165s
+  sig rep 6/6  raw(I,Q)=(-0.0811,0.1301)  st(I,Q)=(-98.11,-136.83)  n_sw=17110  elapsed=198s
+  null rep 1/6  raw(I,Q)=(0.0096,-0.0105)  st(I,Q)=(-0.75,11.78)  n_sw=19214  elapsed=33s
+  null rep 2/6  raw(I,Q)=(0.0152,0.0249)  st(I,Q)=(-12.73,7.27)  n_sw=19682  elapsed=66s
+  null rep 3/6  raw(I,Q)=(-0.0201,-0.0087)  st(I,Q)=(5.34,-11.03)  n_sw=19859  elapsed=99s
+  null rep 4/6  raw(I,Q)=(0.0328,-0.0053)  st(I,Q)=(-2.13,20.35)  n_sw=19101  elapsed=132s
+  null rep 5/6  raw(I,Q)=(0.0210,0.0065)  st(I,Q)=(-0.09,8.50)  n_sw=19522  elapsed=165s
+  null rep 6/6  raw(I,Q)=(0.0063,0.0065)  st(I,Q)=(-6.97,3.88)  n_sw=19629  elapsed=198s
+   RAW: null SD I=0.0178 Q=0.0133  |z|_sig=10.39±0.69  |z|_null=1.17
+   ST : null SD I=6.231 Q=10.374  |z|_sig=20.14±0.88  |z|_null=1.14
+
+>> n_seeds=2  T_per_steps=640000  T_per_s=64000
+  sig rep 1/6  raw(I,Q)=(-0.0202,0.0343)  st(I,Q)=(-96.61,-130.92)  n_sw=17505  elapsed=32s
+  sig rep 2/6  raw(I,Q)=(-0.0329,0.0411)  st(I,Q)=(-111.05,-156.95)  n_sw=16561  elapsed=63s
+  sig rep 3/6  raw(I,Q)=(-0.0243,0.0393)  st(I,Q)=(-113.08,-143.64)  n_sw=16865  elapsed=95s
+  sig rep 4/6  raw(I,Q)=(-0.0190,0.0299)  st(I,Q)=(-97.61,-128.79)  n_sw=16908  elapsed=126s
+  sig rep 5/6  raw(I,Q)=(-0.0285,0.0413)  st(I,Q)=(-116.91,-154.48)  n_sw=16812  elapsed=158s
+  sig rep 6/6  raw(I,Q)=(-0.0098,0.0310)  st(I,Q)=(-96.11,-115.46)  n_sw=17847  elapsed=190s
+  null rep 1/6  raw(I,Q)=(0.0005,0.0042)  st(I,Q)=(-13.02,-0.69)  n_sw=19431  elapsed=32s
+  null rep 2/6  raw(I,Q)=(0.0084,-0.0027)  st(I,Q)=(7.35,20.58)  n_sw=19939  elapsed=63s
+  null rep 3/6  raw(I,Q)=(-0.0055,0.0011)  st(I,Q)=(-1.58,-15.95)  n_sw=18983  elapsed=95s
+  null rep 4/6  raw(I,Q)=(-0.0055,-0.0080)  st(I,Q)=(18.08,-9.87)  n_sw=20236  elapsed=127s
+  null rep 5/6  raw(I,Q)=(0.0112,-0.0011)  st(I,Q)=(-4.33,22.32)  n_sw=19312  elapsed=158s
+  null rep 6/6  raw(I,Q)=(0.0042,0.0103)  st(I,Q)=(-21.65,9.17)  n_sw=19257  elapsed=190s
+   RAW: null SD I=0.0070 Q=0.0062  |z|_sig=6.74±1.24  |z|_null=1.24
+   ST : null SD I=14.157 Q=15.807  |z|_sig=11.58±1.19  |z|_null=1.26
+
+>> n_seeds=1  T_per_steps=1280000  T_per_s=128000
+  sig rep 1/6  raw(I,Q)=(-0.0067,0.0159)  st(I,Q)=(-100.36,-112.77)  n_sw=16409  elapsed=31s
+  sig rep 2/6  raw(I,Q)=(-0.0075,0.0138)  st(I,Q)=(-92.69,-117.99)  n_sw=16626  elapsed=63s
+  sig rep 3/6  raw(I,Q)=(-0.0102,0.0216)  st(I,Q)=(-129.20,-126.62)  n_sw=16484  elapsed=94s
+  sig rep 4/6  raw(I,Q)=(-0.0024,0.0202)  st(I,Q)=(-116.42,-105.29)  n_sw=16922  elapsed=125s
+  sig rep 5/6  raw(I,Q)=(-0.0092,0.0136)  st(I,Q)=(-82.85,-121.24)  n_sw=16863  elapsed=157s
+  sig rep 6/6  raw(I,Q)=(-0.0107,0.0125)  st(I,Q)=(-79.73,-133.03)  n_sw=16672  elapsed=188s
+  null rep 1/6  raw(I,Q)=(-0.0016,0.0013)  st(I,Q)=(-3.75,-2.67)  n_sw=18663  elapsed=31s
+  null rep 2/6  raw(I,Q)=(-0.0041,0.0035)  st(I,Q)=(-9.02,-18.90)  n_sw=19686  elapsed=63s
+  null rep 3/6  raw(I,Q)=(0.0015,-0.0048)  st(I,Q)=(13.29,8.73)  n_sw=20468  elapsed=94s
+  null rep 4/6  raw(I,Q)=(-0.0024,-0.0034)  st(I,Q)=(14.52,-4.46)  n_sw=19230  elapsed=125s
+  null rep 5/6  raw(I,Q)=(0.0009,-0.0007)  st(I,Q)=(1.27,0.42)  n_sw=19902  elapsed=157s
+  null rep 6/6  raw(I,Q)=(0.0009,0.0023)  st(I,Q)=(-10.22,3.43)  n_sw=18559  elapsed=188s
+   RAW: null SD I=0.0023 Q=0.0033  |z|_sig=6.07±0.94  |z|_null=1.21
+   ST : null SD I=10.796 Q=9.405  |z|_sig=15.68±1.14  |z|_null=1.14
+
+Wrote /home/dp/gnosis-research/thor_session_99_seed_heterogeneity_results.json
