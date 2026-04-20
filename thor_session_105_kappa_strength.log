@@ -1,0 +1,79 @@
+Thor Session #105: κ-strength enhancement of R_coh (S104-P1)
+Started: 2026-04-20T15:04:48.136924
+Common: A=0.3  σ=0.022  f_s=0.003
+Per cell: 8 seeds × 50 chunks × 40000 steps
+
+>> κ=0.150  ω_spread=0.1200  ratio=0.80  n_seeds=8  n_chunks=50  steps=2010000  seed_base=105015
+   seed=105015   49.8s   |<z_raw>|=3.703e-02   |<z_st>|=6.532   <R_kura>=0.565 ± 0.360   N_sw/chunk=524
+   seed=105016   49.9s   |<z_raw>|=1.562e-02   |<z_st>|=4.617   <R_kura>=0.528 ± 0.353   N_sw/chunk=515
+   seed=105017   49.9s   |<z_raw>|=3.690e-02   |<z_st>|=8.479   <R_kura>=0.627 ± 0.388   N_sw/chunk=420
+   seed=105018   49.9s   |<z_raw>|=2.028e-02   |<z_st>|=5.162   <R_kura>=0.527 ± 0.390   N_sw/chunk=573
+   seed=105019   49.9s   |<z_raw>|=1.680e-02   |<z_st>|=5.179   <R_kura>=0.578 ± 0.330   N_sw/chunk=437
+   seed=105020   49.8s   |<z_raw>|=1.991e-02   |<z_st>|=5.340   <R_kura>=0.553 ± 0.382   N_sw/chunk=544
+   seed=105021   49.9s   |<z_raw>|=1.935e-02   |<z_st>|=5.443   <R_kura>=0.548 ± 0.342   N_sw/chunk=495
+   seed=105022   49.8s   |<z_raw>|=2.309e-02   |<z_st>|=5.732   <R_kura>=0.510 ± 0.374   N_sw/chunk=581
+   total 399s
+   ⇒ r08_k015: RAW R_coh=0.435 ± 0.115   ST R_coh=0.722 ± 0.065   R_angle RAW/ST = 0.970 / 0.995   <R_kura>=0.554 ± 0.034
+
+>> κ=0.300  ω_spread=0.2400  ratio=0.80  n_seeds=8  n_chunks=50  steps=2010000  seed_base=105030
+   seed=105030   49.9s   |<z_raw>|=3.343e-02   |<z_st>|=7.168   <R_kura>=0.577 ± 0.345   N_sw/chunk=509
+   seed=105031   49.8s   |<z_raw>|=3.144e-02   |<z_st>|=6.419   <R_kura>=0.611 ± 0.320   N_sw/chunk=420
+   seed=105032   49.8s   |<z_raw>|=2.080e-02   |<z_st>|=5.470   <R_kura>=0.468 ± 0.429   N_sw/chunk=624
+   seed=105033   49.8s   |<z_raw>|=1.979e-02   |<z_st>|=5.388   <R_kura>=0.489 ± 0.394   N_sw/chunk=609
+   seed=105034   49.8s   |<z_raw>|=1.765e-02   |<z_st>|=5.037   <R_kura>=0.515 ± 0.413   N_sw/chunk=672
+   seed=105035   49.9s   |<z_raw>|=4.413e-02   |<z_st>|=8.295   <R_kura>=0.674 ± 0.372   N_sw/chunk=379
+   seed=105036   49.9s   |<z_raw>|=2.336e-02   |<z_st>|=5.013   <R_kura>=0.570 ± 0.324   N_sw/chunk=489
+   seed=105037   49.9s   |<z_raw>|=2.928e-02   |<z_st>|=6.818   <R_kura>=0.640 ± 0.390   N_sw/chunk=395
+   total 399s
+   ⇒ r08_k030: RAW R_coh=0.559 ± 0.110   ST R_coh=0.790 ± 0.040   R_angle RAW/ST = 0.988 / 0.995   <R_kura>=0.568 ± 0.068
+
+>> κ=0.500  ω_spread=0.4000  ratio=0.80  n_seeds=8  n_chunks=50  steps=2010000  seed_base=105050
+   seed=105050   49.9s   |<z_raw>|=2.408e-02   |<z_st>|=5.831   <R_kura>=0.517 ± 0.366   N_sw/chunk=605
+   seed=105051   49.8s   |<z_raw>|=2.509e-02   |<z_st>|=5.820   <R_kura>=0.593 ± 0.307   N_sw/chunk=501
+   seed=105052   49.8s   |<z_raw>|=3.485e-02   |<z_st>|=7.322   <R_kura>=0.524 ± 0.389   N_sw/chunk=538
+   seed=105053   49.7s   |<z_raw>|=8.009e-02   |<z_st>|=11.108   <R_kura>=0.731 ± 0.314   N_sw/chunk=332
+   seed=105054   49.7s   |<z_raw>|=9.303e-02   |<z_st>|=12.976   <R_kura>=0.769 ± 0.285   N_sw/chunk=324
+   seed=105055   49.8s   |<z_raw>|=4.249e-02   |<z_st>|=7.148   <R_kura>=0.659 ± 0.371   N_sw/chunk=460
+   seed=105056   49.8s   |<z_raw>|=2.543e-02   |<z_st>|=5.934   <R_kura>=0.508 ± 0.360   N_sw/chunk=536
+   seed=105057   49.8s   |<z_raw>|=1.975e-02   |<z_st>|=5.786   <R_kura>=0.533 ± 0.386   N_sw/chunk=593
+   total 398s
+   ⇒ r08_k050: RAW R_coh=0.694 ± 0.112   ST R_coh=0.834 ± 0.049   R_angle RAW/ST = 0.980 / 0.978   <R_kura>=0.604 ± 0.097
+
+>> κ=0.050  ω_spread=0.0100  ratio=0.20  n_seeds=8  n_chunks=50  steps=2010000  seed_base=105205
+   seed=105205   50.0s   |<z_raw>|=1.961e-02   |<z_st>|=5.448   <R_kura>=0.557 ± 0.353   N_sw/chunk=515
+   seed=105206   49.8s   |<z_raw>|=1.724e-02   |<z_st>|=5.023   <R_kura>=0.540 ± 0.354   N_sw/chunk=523
+   seed=105207   49.9s   |<z_raw>|=1.675e-02   |<z_st>|=5.029   <R_kura>=0.548 ± 0.350   N_sw/chunk=512
+   seed=105208   49.9s   |<z_raw>|=1.381e-02   |<z_st>|=4.604   <R_kura>=0.550 ± 0.356   N_sw/chunk=497
+   seed=105209   49.8s   |<z_raw>|=1.888e-02   |<z_st>|=5.357   <R_kura>=0.543 ± 0.354   N_sw/chunk=480
+   seed=105210   49.8s   |<z_raw>|=1.912e-02   |<z_st>|=5.311   <R_kura>=0.546 ± 0.357   N_sw/chunk=503
+   seed=105211   49.8s   |<z_raw>|=1.693e-02   |<z_st>|=4.958   <R_kura>=0.547 ± 0.353   N_sw/chunk=508
+   seed=105212   49.9s   |<z_raw>|=1.572e-02   |<z_st>|=4.622   <R_kura>=0.547 ± 0.355   N_sw/chunk=513
+   total 399s
+   ⇒ r02_k005: RAW R_coh=0.346 ± 0.038   ST R_coh=0.703 ± 0.042   R_angle RAW/ST = 0.994 / 0.998   <R_kura>=0.547 ± 0.005
+
+>> κ=0.300  ω_spread=0.0600  ratio=0.20  n_seeds=8  n_chunks=50  steps=2010000  seed_base=105230
+   seed=105230   49.9s   |<z_raw>|=2.247e-02   |<z_st>|=6.041   <R_kura>=0.536 ± 0.435   N_sw/chunk=533
+   seed=105231   49.8s   |<z_raw>|=2.566e-02   |<z_st>|=6.256   <R_kura>=0.525 ± 0.428   N_sw/chunk=597
+   seed=105232   49.8s   |<z_raw>|=1.884e-02   |<z_st>|=5.072   <R_kura>=0.506 ± 0.438   N_sw/chunk=611
+   seed=105233   49.9s   |<z_raw>|=2.707e-02   |<z_st>|=6.407   <R_kura>=0.538 ± 0.425   N_sw/chunk=561
+   seed=105234   50.0s   |<z_raw>|=1.924e-02   |<z_st>|=5.435   <R_kura>=0.526 ± 0.421   N_sw/chunk=547
+   seed=105235   50.0s   |<z_raw>|=2.011e-02   |<z_st>|=5.449   <R_kura>=0.510 ± 0.432   N_sw/chunk=594
+   seed=105236   49.8s   |<z_raw>|=2.693e-02   |<z_st>|=6.354   <R_kura>=0.532 ± 0.440   N_sw/chunk=506
+   seed=105237   49.9s   |<z_raw>|=2.251e-02   |<z_st>|=5.748   <R_kura>=0.523 ± 0.439   N_sw/chunk=579
+   total 399s
+   ⇒ r02_k030: RAW R_coh=0.495 ± 0.053   ST R_coh=0.779 ± 0.025   R_angle RAW/ST = 0.988 / 0.996   <R_kura>=0.524 ± 0.011
+
+>> κ=0.500  ω_spread=0.1000  ratio=0.20  n_seeds=8  n_chunks=50  steps=2010000  seed_base=105250
+   seed=105250   49.8s   |<z_raw>|=3.632e-02   |<z_st>|=7.857   <R_kura>=0.571 ± 0.434   N_sw/chunk=551
+   seed=105251   50.0s   |<z_raw>|=3.279e-02   |<z_st>|=7.235   <R_kura>=0.564 ± 0.439   N_sw/chunk=517
+   seed=105252   49.8s   |<z_raw>|=3.053e-02   |<z_st>|=6.990   <R_kura>=0.568 ± 0.442   N_sw/chunk=454
+   seed=105253   50.0s   |<z_raw>|=3.289e-02   |<z_st>|=7.099   <R_kura>=0.558 ± 0.434   N_sw/chunk=545
+   seed=105254   49.9s   |<z_raw>|=3.281e-02   |<z_st>|=7.449   <R_kura>=0.543 ± 0.436   N_sw/chunk=562
+   seed=105255   49.9s   |<z_raw>|=2.732e-02   |<z_st>|=6.404   <R_kura>=0.546 ± 0.446   N_sw/chunk=520
+   seed=105256   49.8s   |<z_raw>|=2.583e-02   |<z_st>|=6.352   <R_kura>=0.523 ± 0.431   N_sw/chunk=560
+   seed=105257   49.8s   |<z_raw>|=2.657e-02   |<z_st>|=6.535   <R_kura>=0.553 ± 0.451   N_sw/chunk=509
+   total 399s
+   ⇒ r02_k050: RAW R_coh=0.560 ± 0.073   ST R_coh=0.795 ± 0.037   R_angle RAW/ST = 0.995 / 0.998   <R_kura>=0.553 ± 0.015
+
+Completed in 2393s (39.9 min)
+Results → thor_session_105_kappa_strength_results.json
