@@ -1,0 +1,48 @@
+Thor Session #103: ω_spread Sweep (fast variant — ω=0.04, 0.08)
+Started: 2026-04-20T03:05:21.736907
+
+
+>> ω_spread=0.04  A=0.3  σ=0.022  n_seeds=8  n_chunks=100  total_steps=4010000  seed_base=100100
+   seed=100100   97.2s   |<z_raw>|=2.0181e-02   |<z_st>|=5.309   N_sw/chunk=524.7
+   seed=100101   97.1s   |<z_raw>|=1.7778e-02   |<z_st>|=5.052   N_sw/chunk=522.7
+   seed=100102   96.8s   |<z_raw>|=1.8160e-02   |<z_st>|=4.913   N_sw/chunk=534.7
+   seed=100103   97.1s   |<z_raw>|=2.1141e-02   |<z_st>|=5.394   N_sw/chunk=528.9
+   seed=100104   97.5s   |<z_raw>|=1.8761e-02   |<z_st>|=4.700   N_sw/chunk=540.1
+   seed=100105   97.6s   |<z_raw>|=1.9351e-02   |<z_st>|=5.101   N_sw/chunk=540.2
+   seed=100106   97.2s   |<z_raw>|=1.7603e-02   |<z_st>|=5.096   N_sw/chunk=531.8
+   seed=100107   97.4s   |<z_raw>|=1.9199e-02   |<z_st>|=5.240   N_sw/chunk=527.4
+   ω_spread=0.04 total 778s
+
+  ω_spread=0.04
+    RAW |<z>|=1.9022e-02 ± 1.1372e-03  σ_n=2.3791e-02
+    ST  |<z>|=5.100 ± 0.208    σ_n=3.256
+    RAW ACF [m=1,5,10,20,30,40,60,80]: 0.337 0.329 0.246 0.206 0.204 0.111 0.042 0.253
+    ST  ACF [m=1,5,10,20,30,40,60,80]: 0.749 0.748 0.739 0.673 0.581 0.527 0.578 0.671
+    RAW dcos: p_∞=0.611 B=0.536 τ=4000ks ω=0.0165 T_osc=1526ks   RMSE=0.0383
+    RAW exp:  p_∞=0.103 τ=80ks   RMSE=0.0400
+    ST  dcos: p_∞=0.623 B=0.134 τ=470ks ω=0.0703 T_osc=358ks   RMSE=0.0100
+    ST  pure_plateau: 0.620  RMSE=0.0714
+
+>> ω_spread=0.08  A=0.3  σ=0.022  n_seeds=8  n_chunks=100  total_steps=4010000  seed_base=100200
+   seed=100200   97.4s   |<z_raw>|=1.1182e-02   |<z_st>|=4.075   N_sw/chunk=423.0
+   seed=100201   97.4s   |<z_raw>|=1.3270e-02   |<z_st>|=4.163   N_sw/chunk=585.8
+   seed=100202   97.4s   |<z_raw>|=1.6252e-02   |<z_st>|=4.629   N_sw/chunk=550.9
+   seed=100203   97.3s   |<z_raw>|=1.5717e-02   |<z_st>|=4.754   N_sw/chunk=476.8
+   seed=100204   97.6s   |<z_raw>|=1.6878e-02   |<z_st>|=4.377   N_sw/chunk=543.1
+   seed=100205   97.6s   |<z_raw>|=1.9825e-02   |<z_st>|=5.104   N_sw/chunk=499.6
+   seed=100206   97.5s   |<z_raw>|=1.8269e-02   |<z_st>|=4.972   N_sw/chunk=492.2
+   seed=100207   97.2s   |<z_raw>|=1.1386e-02   |<z_st>|=3.864   N_sw/chunk=533.7
+   ω_spread=0.08 total 780s
+
+  ω_spread=0.08
+    RAW |<z>|=1.5347e-02 ± 2.9420e-03  σ_n=2.5304e-02
+    ST  |<z>|=4.492 ± 0.416    σ_n=3.545
+    RAW ACF [m=1,5,10,20,30,40,60,80]: 0.238 0.245 0.169 0.117 0.042 0.048 0.120 0.134
+    ST  ACF [m=1,5,10,20,30,40,60,80]: 0.647 0.620 0.539 0.339 0.174 0.163 0.256 0.452
+    RAW dcos: p_∞=0.087 B=0.163 τ=135ks ω=0.0940 T_osc=267ks   RMSE=0.0264
+    RAW exp:  p_∞=0.074 τ=37ks   RMSE=0.0402
+    ST  dcos: p_∞=0.332 B=0.361 τ=252ks ω=0.0658 T_osc=382ks   RMSE=0.0151
+    ST  pure_plateau: 0.315  RMSE=0.1458
+
+Completed in 1560s (26.0 min)
+Results → thor_session_103_sweep_fast_results.json
