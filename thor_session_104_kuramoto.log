@@ -1,0 +1,91 @@
+Thor Session #104: Kuramoto desync test for R_coh cliff
+Started: 2026-04-20T09:05:10.903257
+Common: A=0.3  σ=0.022  signal_freq=0.003
+Per cell: 8 seeds × 50 chunks × 40000 steps
+
+>> κ=0.10  ω_spread=0.0050  ratio=0.05  n_seeds=8  n_chunks=50  steps=2010000  seed_base=104010
+   seed=104010   48.8s   |<z_raw>|=2.0138e-02   |<z_st>|=5.461   N_sw/chunk=554
+   seed=104011   48.7s   |<z_raw>|=1.9810e-02   |<z_st>|=5.195   N_sw/chunk=533
+   seed=104012   48.7s   |<z_raw>|=1.6855e-02   |<z_st>|=5.209   N_sw/chunk=556
+   seed=104013   48.7s   |<z_raw>|=1.6417e-02   |<z_st>|=5.085   N_sw/chunk=535
+   seed=104014   48.9s   |<z_raw>|=1.8616e-02   |<z_st>|=5.172   N_sw/chunk=534
+   seed=104015   48.8s   |<z_raw>|=2.2264e-02   |<z_st>|=5.759   N_sw/chunk=533
+   seed=104016   48.9s   |<z_raw>|=1.8589e-02   |<z_st>|=4.998   N_sw/chunk=549
+   seed=104017   48.8s   |<z_raw>|=1.6794e-02   |<z_st>|=4.956   N_sw/chunk=554
+   total 390s
+   ⇒ sA_w0005: RAW R_coh=0.379 ± 0.053   ST R_coh=0.712 ± 0.028   R_angle RAW/ST = 0.992 / 0.998
+
+>> κ=0.10  ω_spread=0.0600  ratio=0.60  n_seeds=8  n_chunks=50  steps=2010000  seed_base=104060
+   seed=104060   48.7s   |<z_raw>|=1.7604e-02   |<z_st>|=4.791   N_sw/chunk=516
+   seed=104061   48.7s   |<z_raw>|=1.4077e-02   |<z_st>|=4.318   N_sw/chunk=589
+   seed=104062   48.7s   |<z_raw>|=1.6828e-02   |<z_st>|=4.731   N_sw/chunk=506
+   seed=104063   48.7s   |<z_raw>|=2.3340e-02   |<z_st>|=5.607   N_sw/chunk=537
+   seed=104064   48.9s   |<z_raw>|=1.5454e-02   |<z_st>|=4.610   N_sw/chunk=548
+   seed=104065   48.8s   |<z_raw>|=1.8973e-02   |<z_st>|=5.279   N_sw/chunk=546
+   seed=104066   48.8s   |<z_raw>|=2.3959e-02   |<z_st>|=5.559   N_sw/chunk=544
+   seed=104067   48.7s   |<z_raw>|=1.6205e-02   |<z_st>|=4.521   N_sw/chunk=607
+   total 390s
+   ⇒ sA_w060: RAW R_coh=0.393 ± 0.096   ST R_coh=0.710 ± 0.050   R_angle RAW/ST = 0.990 / 0.997
+
+>> κ=0.10  ω_spread=0.1000  ratio=1.00  n_seeds=8  n_chunks=50  steps=2010000  seed_base=104100
+   seed=104100   48.8s   |<z_raw>|=1.8457e-02   |<z_st>|=5.066   N_sw/chunk=493
+   seed=104101   48.8s   |<z_raw>|=2.0084e-02   |<z_st>|=4.791   N_sw/chunk=534
+   seed=104102   48.8s   |<z_raw>|=8.9384e-03   |<z_st>|=2.457   N_sw/chunk=489
+   seed=104103   48.8s   |<z_raw>|=1.6581e-02   |<z_st>|=3.865   N_sw/chunk=564
+   seed=104104   48.9s   |<z_raw>|=2.0023e-02   |<z_st>|=4.963   N_sw/chunk=543
+   seed=104105   49.1s   |<z_raw>|=1.7075e-02   |<z_st>|=4.895   N_sw/chunk=570
+   seed=104106   48.8s   |<z_raw>|=7.2744e-03   |<z_st>|=2.729   N_sw/chunk=411
+   seed=104107   49.0s   |<z_raw>|=1.3890e-02   |<z_st>|=3.683   N_sw/chunk=615
+   total 391s
+   ⇒ sA_w100: RAW R_coh=0.299 ± 0.131   ST R_coh=0.565 ± 0.146   R_angle RAW/ST = 0.853 / 0.962
+
+>> κ=0.10  ω_spread=0.1300  ratio=1.30  n_seeds=8  n_chunks=50  steps=2010000  seed_base=104130
+   seed=104130   48.9s   |<z_raw>|=1.6125e-02   |<z_st>|=4.645   N_sw/chunk=500
+   seed=104131   48.9s   |<z_raw>|=1.8847e-02   |<z_st>|=3.672   N_sw/chunk=455
+   seed=104132   48.8s   |<z_raw>|=2.1287e-02   |<z_st>|=5.483   N_sw/chunk=522
+   seed=104133   48.9s   |<z_raw>|=1.3830e-02   |<z_st>|=3.179   N_sw/chunk=453
+   seed=104134   48.8s   |<z_raw>|=4.1419e-02   |<z_st>|=8.457   N_sw/chunk=419
+   seed=104135   48.8s   |<z_raw>|=9.6848e-03   |<z_st>|=3.102   N_sw/chunk=483
+   seed=104136   48.9s   |<z_raw>|=2.3763e-02   |<z_st>|=4.801   N_sw/chunk=369
+   seed=104137   48.9s   |<z_raw>|=1.9020e-02   |<z_st>|=4.763   N_sw/chunk=467
+   total 391s
+   ⇒ sA_w130: RAW R_coh=0.351 ± 0.132   ST R_coh=0.605 ± 0.121   R_angle RAW/ST = 0.970 / 0.990
+
+>> κ=0.05  ω_spread=0.0400  ratio=0.80  n_seeds=8  n_chunks=50  steps=2010000  seed_base=104205
+   seed=104205   48.8s   |<z_raw>|=1.8626e-02   |<z_st>|=4.361   N_sw/chunk=494
+   seed=104206   48.8s   |<z_raw>|=1.1810e-02   |<z_st>|=3.061   N_sw/chunk=520
+   seed=104207   48.9s   |<z_raw>|=1.5042e-02   |<z_st>|=4.392   N_sw/chunk=477
+   seed=104208   48.8s   |<z_raw>|=1.7612e-02   |<z_st>|=3.816   N_sw/chunk=495
+   seed=104209   48.9s   |<z_raw>|=1.5263e-02   |<z_st>|=4.643   N_sw/chunk=501
+   seed=104210   48.9s   |<z_raw>|=1.5917e-02   |<z_st>|=3.706   N_sw/chunk=511
+   seed=104211   48.9s   |<z_raw>|=1.4828e-02   |<z_st>|=4.405   N_sw/chunk=490
+   seed=104212   48.8s   |<z_raw>|=1.7512e-02   |<z_st>|=5.210   N_sw/chunk=526
+   total 391s
+   ⇒ sB_k005_w040: RAW R_coh=0.289 ± 0.068   ST R_coh=0.580 ± 0.068   R_angle RAW/ST = 0.988 / 0.996
+
+>> κ=0.20  ω_spread=0.0400  ratio=0.20  n_seeds=8  n_chunks=50  steps=2010000  seed_base=104220
+   seed=104220   48.8s   |<z_raw>|=2.4136e-02   |<z_st>|=5.911   N_sw/chunk=566
+   seed=104221   48.9s   |<z_raw>|=2.2448e-02   |<z_st>|=5.725   N_sw/chunk=557
+   seed=104222   48.8s   |<z_raw>|=2.0930e-02   |<z_st>|=5.387   N_sw/chunk=560
+   seed=104223   48.7s   |<z_raw>|=1.8594e-02   |<z_st>|=5.114   N_sw/chunk=586
+   seed=104224   48.8s   |<z_raw>|=1.9416e-02   |<z_st>|=5.368   N_sw/chunk=579
+   seed=104225   48.8s   |<z_raw>|=1.6088e-02   |<z_st>|=5.018   N_sw/chunk=525
+   seed=104226   48.6s   |<z_raw>|=1.8687e-02   |<z_st>|=5.112   N_sw/chunk=556
+   seed=104227   48.7s   |<z_raw>|=2.4705e-02   |<z_st>|=5.902   N_sw/chunk=563
+   total 390s
+   ⇒ sB_k020_w040: RAW R_coh=0.423 ± 0.084   ST R_coh=0.733 ± 0.044   R_angle RAW/ST = 0.998 / 1.000
+
+>> κ=0.20  ω_spread=0.1600  ratio=0.80  n_seeds=8  n_chunks=50  steps=2010000  seed_base=104216
+   seed=104216   48.7s   |<z_raw>|=1.8313e-02   |<z_st>|=5.437   N_sw/chunk=571
+   seed=104217   48.7s   |<z_raw>|=2.6267e-02   |<z_st>|=6.455   N_sw/chunk=545
+   seed=104218   48.6s   |<z_raw>|=2.5131e-02   |<z_st>|=5.695   N_sw/chunk=566
+   seed=104219   48.8s   |<z_raw>|=1.6593e-02   |<z_st>|=4.605   N_sw/chunk=557
+   seed=104220   48.8s   |<z_raw>|=2.4133e-02   |<z_st>|=6.142   N_sw/chunk=504
+   seed=104221   48.9s   |<z_raw>|=3.1880e-02   |<z_st>|=7.136   N_sw/chunk=485
+   seed=104222   49.0s   |<z_raw>|=2.5587e-02   |<z_st>|=6.039   N_sw/chunk=527
+   seed=104223   48.8s   |<z_raw>|=1.7695e-02   |<z_st>|=5.102   N_sw/chunk=579
+   total 390s
+   ⇒ sB_k020_w160: RAW R_coh=0.515 ± 0.097   ST R_coh=0.769 ± 0.047   R_angle RAW/ST = 0.989 / 0.997
+
+Completed in 2734s (45.6 min)
+Results → thor_session_104_kuramoto_results.json
