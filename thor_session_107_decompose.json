@@ -1,0 +1,70 @@
+{
+  "rows": [
+    {
+      "source": "S106",
+      "label": "kp030_kC000",
+      "kappa_phase": 0.3,
+      "kappa_C": 0.0,
+      "mean_N_sw": 828.7,
+      "mean_mu_st_abs": 2.630192430471558,
+      "rho_sig_st_mean": 0.008794408897097053,
+      "rho_sig_st_std": 0.0036599940042276167,
+      "R_coh_st": 0.46905957560735595,
+      "R_coh_raw": 0.09130981295006249
+    },
+    {
+      "source": "S106",
+      "label": "kp030_kC005",
+      "kappa_phase": 0.3,
+      "kappa_C": 0.05,
+      "mean_N_sw": 737.195,
+      "mean_mu_st_abs": 4.065487193705387,
+      "rho_sig_st_mean": 0.024000407274773487,
+      "rho_sig_st_std": 0.010860161846235642,
+      "R_coh_st": 0.6531165548789472,
+      "R_coh_raw": 0.2500044871335154
+    },
+    {
+      "source": "S105",
+      "label": "r08_k030",
+      "kappa_phase": 0.3,
+      "kappa_C": 0.15,
+      "mean_N_sw": 512.2825,
+      "mean_mu_st_abs": 6.200928328802462,
+      "rho_sig_st_mean": 0.08533587404535234,
+      "rho_sig_st_std": 0.045974164938305515,
+      "R_coh_st": 0.7897213347707883,
+      "R_coh_raw": 0.5588947872029928
+    },
+    {
+      "source": "S106",
+      "label": "kp030_kC030",
+      "kappa_phase": 0.3,
+      "kappa_C": 0.3,
+      "mean_N_sw": 268.7925,
+      "mean_mu_st_abs": 6.779393923559155,
+      "rho_sig_st_mean": 0.1815517665993274,
+      "rho_sig_st_std": 0.08365928218036486,
+      "R_coh_st": 0.7953121112855934,
+      "R_coh_raw": 0.61009178585882
+    },
+    {
+      "source": "S106",
+      "label": "kp030_kC050",
+      "kappa_phase": 0.3,
+      "kappa_C": 0.5,
+      "mean_N_sw": 156.40499999999997,
+      "mean_mu_st_abs": 3.299676342272403,
+      "rho_sig_st_mean": 0.08196620637728193,
+      "rho_sig_st_std": 0.05596612650577116,
+      "R_coh_st": 0.520097038867845,
+      "R_coh_raw": 0.268939244322942
+    }
+  ],
+  "peak_to_collapse": {
+    "rate_ratio": 0.581880074778872,
+    "rho_ratio": 0.4514756750242803,
+    "R_coh_st_ratio": 0.6539533743892405,
+    "verdict": "BOTH: rate halved AND per-event signal density changed by 0.45\u00d7. Cannot attribute collapse to a single channel."
+  }
+}
