@@ -1,0 +1,80 @@
+Thor Session #109: Phase-Ensemble Spread Mechanism (S108-P3/P6)
+Started: 2026-04-22T03:06:25.526691
+Common: A=0.3  σ=0.022  f_s=0.003
+Per cell: 8 seeds × 30 chunks × 40000 steps
+Phase decimate: every 100 steps (12000 samples/seed post-warmup)
+
+>> κ_p=0.300  κ_C=0.000  ω_spread=0.0600  n_seeds=8  n_chunks=30  steps=1210000  seed_base=9030002
+   seed=  9030002   30.0s   |<z_raw>|=2.939e-03   |<z_st>|=2.949   σ_φ= 72.1°  R_kura=0.511  Nsw=942
+   seed=  9030003   30.1s   |<z_raw>|=4.803e-03   |<z_st>|=3.145   σ_φ= 68.9°  R_kura=0.529  Nsw=962
+   seed=  9030004   30.2s   |<z_raw>|=2.447e-03   |<z_st>|=2.705   σ_φ= 71.9°  R_kura=0.515  Nsw=915
+   seed=  9030005   30.4s   |<z_raw>|=3.914e-03   |<z_st>|=2.908   σ_φ= 70.8°  R_kura=0.521  Nsw=933
+   seed=  9030006   30.4s   |<z_raw>|=2.278e-03   |<z_st>|=2.315   σ_φ= 72.3°  R_kura=0.509  Nsw=915
+   seed=  9030007   30.4s   |<z_raw>|=2.367e-03   |<z_st>|=2.732   σ_φ= 71.5°  R_kura=0.514  Nsw=930
+   seed=  9030008   30.5s   |<z_raw>|=2.241e-03   |<z_st>|=1.819   σ_φ= 75.6°  R_kura=0.500  Nsw=912
+   seed=  9030009   30.5s   |<z_raw>|=7.321e-03   |<z_st>|=3.746   σ_φ= 68.0°  R_kura=0.530  Nsw=880
+   total 242s
+   ⇒ kp030_kC000_r02: RAW R=0.063±0.057  ST R=0.536±0.094  σ_φ=71.4°  R_inst=0.516  ρ_sig_st=0.0088  Nsw=924
+
+>> κ_p=0.300  κ_C=0.300  ω_spread=0.0600  n_seeds=8  n_chunks=30  steps=1210000  seed_base=9030302
+   seed=  9030302   30.2s   |<z_raw>|=1.103e-02   |<z_st>|=3.696   σ_φ= 80.0°  R_kura=0.445  Nsw=267
+   seed=  9030303   30.3s   |<z_raw>|=1.425e-02   |<z_st>|=3.658   σ_φ= 84.3°  R_kura=0.421  Nsw=341
+   seed=  9030304   30.4s   |<z_raw>|=2.305e-02   |<z_st>|=4.795   σ_φ= 79.1°  R_kura=0.452  Nsw=315
+   seed=  9030305   30.3s   |<z_raw>|=1.484e-02   |<z_st>|=3.740   σ_φ= 80.1°  R_kura=0.449  Nsw=324
+   seed=  9030306   30.4s   |<z_raw>|=2.633e-02   |<z_st>|=5.501   σ_φ= 80.8°  R_kura=0.445  Nsw=323
+   seed=  9030307   30.3s   |<z_raw>|=1.558e-02   |<z_st>|=4.523   σ_φ= 76.9°  R_kura=0.459  Nsw=250
+   seed=  9030308   30.2s   |<z_raw>|=1.229e-02   |<z_st>|=3.737   σ_φ= 84.1°  R_kura=0.429  Nsw=285
+   seed=  9030309   30.3s   |<z_raw>|=2.350e-02   |<z_st>|=5.158   σ_φ= 80.4°  R_kura=0.445  Nsw=289
+   total 242s
+   ⇒ kp030_kC030_r02: RAW R=0.294±0.118  ST R=0.635±0.071  σ_φ=80.7°  R_inst=0.443  ρ_sig_st=0.0654  Nsw=299
+
+>> κ_p=0.300  κ_C=0.000  ω_spread=0.2400  n_seeds=8  n_chunks=30  steps=1210000  seed_base=9030008
+   seed=  9030008   30.3s   |<z_raw>|=1.078e-03   |<z_st>|=2.165   σ_φ= 71.0°  R_kura=0.506  Nsw=847
+   seed=  9030009   30.2s   |<z_raw>|=4.539e-03   |<z_st>|=2.270   σ_φ= 62.7°  R_kura=0.564  Nsw=765
+   seed=  9030010   30.2s   |<z_raw>|=5.642e-03   |<z_st>|=2.456   σ_φ= 56.6°  R_kura=0.620  Nsw=754
+   seed=  9030011   30.3s   |<z_raw>|=2.776e-03   |<z_st>|=2.169   σ_φ= 67.6°  R_kura=0.533  Nsw=854
+   seed=  9030012   30.3s   |<z_raw>|=4.607e-03   |<z_st>|=2.825   σ_φ= 68.6°  R_kura=0.526  Nsw=878
+   seed=  9030013   30.4s   |<z_raw>|=7.354e-03   |<z_st>|=3.254   σ_φ= 61.4°  R_kura=0.569  Nsw=852
+   seed=  9030014   30.2s   |<z_raw>|=1.225e-02   |<z_st>|=3.666   σ_φ= 59.3°  R_kura=0.594  Nsw=769
+   seed=  9030015   30.2s   |<z_raw>|=1.442e-02   |<z_st>|=3.706   σ_φ= 68.4°  R_kura=0.555  Nsw=858
+   total 242s
+   ⇒ kp030_kC000_r08: RAW R=0.123±0.114  ST R=0.453±0.104  σ_φ=64.5°  R_inst=0.558  ρ_sig_st=0.0101  Nsw=822
+
+>> κ_p=0.300  κ_C=0.300  ω_spread=0.2400  n_seeds=8  n_chunks=30  steps=1210000  seed_base=9030308
+   seed=  9030308   30.2s   |<z_raw>|=3.222e-02   |<z_st>|=6.237   σ_φ= 62.8°  R_kura=0.570  Nsw=268
+   seed=  9030309   30.3s   |<z_raw>|=2.119e-02   |<z_st>|=4.771   σ_φ= 63.5°  R_kura=0.555  Nsw=260
+   seed=  9030310   30.1s   |<z_raw>|=4.135e-02   |<z_st>|=6.615   σ_φ= 54.3°  R_kura=0.632  Nsw=219
+   seed=  9030311   30.2s   |<z_raw>|=2.372e-02   |<z_st>|=4.875   σ_φ= 80.1°  R_kura=0.434  Nsw=298
+   seed=  9030312   30.2s   |<z_raw>|=2.074e-02   |<z_st>|=5.826   σ_φ= 58.5°  R_kura=0.595  Nsw=212
+   seed=  9030313   30.2s   |<z_raw>|=5.822e-02   |<z_st>|=9.030   σ_φ= 56.4°  R_kura=0.621  Nsw=302
+   seed=  9030314   30.2s   |<z_raw>|=1.921e-02   |<z_st>|=4.219   σ_φ= 82.9°  R_kura=0.424  Nsw=371
+   seed=  9030315   30.3s   |<z_raw>|=4.502e-02   |<z_st>|=7.716   σ_φ= 54.2°  R_kura=0.632  Nsw=302
+   total 242s
+   ⇒ kp030_kC030_r08: RAW R=0.542±0.191  ST R=0.759±0.093  σ_φ=64.1°  R_inst=0.558  ρ_sig_st=0.1484  Nsw=279
+
+>> κ_p=0.500  κ_C=0.000  ω_spread=0.4000  n_seeds=8  n_chunks=30  steps=1210000  seed_base=9050008
+   seed=  9050008   30.4s   |<z_raw>|=2.329e-03   |<z_st>|=0.919   σ_φ= 65.0°  R_kura=0.544  Nsw=812
+   seed=  9050009   30.4s   |<z_raw>|=2.534e-03   |<z_st>|=2.441   σ_φ= 71.7°  R_kura=0.500  Nsw=868
+   seed=  9050010   30.4s   |<z_raw>|=2.935e-03   |<z_st>|=1.584   σ_φ= 67.3°  R_kura=0.537  Nsw=866
+   seed=  9050011   30.3s   |<z_raw>|=1.881e-02   |<z_st>|=5.605   σ_φ= 64.7°  R_kura=0.563  Nsw=898
+   seed=  9050012   30.4s   |<z_raw>|=1.591e-02   |<z_st>|=3.815   σ_φ= 56.5°  R_kura=0.625  Nsw=649
+   seed=  9050013   30.4s   |<z_raw>|=8.668e-03   |<z_st>|=0.219   σ_φ= 50.6°  R_kura=0.669  Nsw=603
+   seed=  9050014   30.4s   |<z_raw>|=5.421e-03   |<z_st>|=2.589   σ_φ= 65.2°  R_kura=0.535  Nsw=774
+   seed=  9050015   30.3s   |<z_raw>|=4.895e-03   |<z_st>|=2.864   σ_φ= 77.8°  R_kura=0.481  Nsw=919
+   total 243s
+   ⇒ kp050_kC000_r08: RAW R=0.158±0.134  ST R=0.426±0.243  σ_φ=64.8°  R_inst=0.557  ρ_sig_st=0.0107  Nsw=799
+
+>> κ_p=0.500  κ_C=0.300  ω_spread=0.4000  n_seeds=8  n_chunks=30  steps=1210000  seed_base=9050308
+   seed=  9050308   30.2s   |<z_raw>|=5.317e-02   |<z_st>|=8.451   σ_φ= 53.4°  R_kura=0.641  Nsw=275
+   seed=  9050309   30.3s   |<z_raw>|=4.006e-02   |<z_st>|=6.867   σ_φ= 62.4°  R_kura=0.580  Nsw=279
+   seed=  9050310   30.3s   |<z_raw>|=2.117e-02   |<z_st>|=2.385   σ_φ= 29.0°  R_kura=0.843  Nsw=92
+   seed=  9050311   30.1s   |<z_raw>|=6.463e-02   |<z_st>|=9.035   σ_φ= 45.7°  R_kura=0.715  Nsw=228
+   seed=  9050312   30.1s   |<z_raw>|=6.861e-02   |<z_st>|=9.229   σ_φ= 54.3°  R_kura=0.680  Nsw=289
+   seed=  9050313   30.1s   |<z_raw>|=6.004e-02   |<z_st>|=8.155   σ_φ= 57.0°  R_kura=0.630  Nsw=303
+   seed=  9050314   30.1s   |<z_raw>|=2.478e-02   |<z_st>|=4.913   σ_φ= 89.1°  R_kura=0.394  Nsw=358
+   seed=  9050315   30.2s   |<z_raw>|=6.634e-02   |<z_st>|=8.750   σ_φ= 55.7°  R_kura=0.647  Nsw=292
+   total 241s
+   ⇒ kp050_kC030_r08: RAW R=0.724±0.133  ST R=0.807±0.108  σ_φ=55.8°  R_inst=0.641  ρ_sig_st=0.2116  Nsw=264
+
+Completed in 1453s (24.2 min)
+Results → thor_session_109_phase_spread_results.json
