@@ -1,0 +1,112 @@
+Thor Session #111: Dose-Response Sweep at the Ridge
+Started: 2026-04-22T15:06:28.173790
+Common: σ=0.022  f_s=0.003  chunk=40000 steps  T_chunk=4000.0s  warmup=10000  decimate=10
+Per cell: 10 seeds × 30 chunks
+
+>> A0.00: κ_p=0.300  κ_C=0.300  ω_spread=0.2400  A=0.0000  n_seeds=10  n_chunks=30  steps=1210000  seed_base=11100800
+   seed= 11100800  30.6s   |<z_st>|=0.463  R_kura=0.496  lock_frac=0.144  mod_lock=0.0026  mod_kura=0.0022  mod_cosφ=0.0015  Nsw=13901
+   seed= 11100801  30.6s   |<z_st>|=0.519  R_kura=0.281  lock_frac=0.131  mod_lock=0.0057  mod_kura=0.0066  mod_cosφ=0.0027  Nsw=9088
+   seed= 11100802  30.6s   |<z_st>|=0.461  R_kura=0.349  lock_frac=0.151  mod_lock=0.0017  mod_kura=0.0033  mod_cosφ=0.0026  Nsw=12583
+   seed= 11100803  30.6s   |<z_st>|=1.037  R_kura=0.432  lock_frac=0.187  mod_lock=0.0075  mod_kura=0.0076  mod_cosφ=0.0146  Nsw=13037
+   seed= 11100804  30.7s   |<z_st>|=0.252  R_kura=0.387  lock_frac=0.132  mod_lock=0.0028  mod_kura=0.0037  mod_cosφ=0.0020  Nsw=13336
+   seed= 11100805  30.9s   |<z_st>|=0.742  R_kura=0.395  lock_frac=0.118  mod_lock=0.0065  mod_kura=0.0069  mod_cosφ=0.0056  Nsw=10851
+   seed= 11100806  30.9s   |<z_st>|=0.058  R_kura=0.244  lock_frac=0.088  mod_lock=0.0008  mod_kura=0.0018  mod_cosφ=0.0016  Nsw=12395
+   seed= 11100807  30.4s   |<z_st>|=0.320  R_kura=0.535  lock_frac=0.377  mod_lock=0.0047  mod_kura=0.0037  mod_cosφ=0.0046  Nsw=11252
+   seed= 11100808  30.5s   |<z_st>|=0.714  R_kura=0.356  lock_frac=0.129  mod_lock=0.0055  mod_kura=0.0072  mod_cosφ=0.0050  Nsw=13402
+   seed= 11100809  30.5s   |<z_st>|=0.592  R_kura=0.454  lock_frac=0.078  mod_lock=0.0018  mod_kura=0.0050  mod_cosφ=0.0071  Nsw=15585
+   total 306s
+
+   ⇒ A0.00: R_kura=0.393  lock_frac=0.153  mod_lock=0.0040±0.0022  mod_kura=0.00479  mod_cosφ=0.0047  R_ang(lock)=0.198  ρ_sig=0.0008±0.0007  ST_R=0.043  <Nsw>=12543  fp_ratio=0.993±0.023
+
+>> A0.05: κ_p=0.300  κ_C=0.300  ω_spread=0.2400  A=0.0500  n_seeds=10  n_chunks=30  steps=1210000  seed_base=11105800
+   seed= 11105800  30.7s   |<z_st>|=1.665  R_kura=0.220  lock_frac=0.089  mod_lock=0.0067  mod_kura=0.0111  mod_cosφ=0.0129  Nsw=10904
+   seed= 11105801  30.5s   |<z_st>|=2.026  R_kura=0.393  lock_frac=0.135  mod_lock=0.0092  mod_kura=0.0081  mod_cosφ=0.0071  Nsw=13440
+   seed= 11105802  30.5s   |<z_st>|=5.642  R_kura=0.476  lock_frac=0.055  mod_lock=0.0062  mod_kura=0.0250  mod_cosφ=0.0259  Nsw=12800
+   seed= 11105803  30.4s   |<z_st>|=1.221  R_kura=0.374  lock_frac=0.118  mod_lock=0.0085  mod_kura=0.0067  mod_cosφ=0.0103  Nsw=10704
+   seed= 11105804  30.5s   |<z_st>|=2.699  R_kura=0.313  lock_frac=0.170  mod_lock=0.0203  mod_kura=0.0216  mod_cosφ=0.0086  Nsw=8622
+   seed= 11105805  30.5s   |<z_st>|=4.531  R_kura=0.472  lock_frac=0.194  mod_lock=0.0230  mod_kura=0.0357  mod_cosφ=0.0088  Nsw=11369
+   seed= 11105806  30.5s   |<z_st>|=3.968  R_kura=0.437  lock_frac=0.214  mod_lock=0.0295  mod_kura=0.0262  mod_cosφ=0.0201  Nsw=10804
+   seed= 11105807  30.5s   |<z_st>|=2.574  R_kura=0.566  lock_frac=0.416  mod_lock=0.0189  mod_kura=0.0162  mod_cosφ=0.0051  Nsw=7587
+   seed= 11105808  30.5s   |<z_st>|=1.672  R_kura=0.340  lock_frac=0.133  mod_lock=0.0070  mod_kura=0.0070  mod_cosφ=0.0108  Nsw=9370
+   seed= 11105809  30.5s   |<z_st>|=3.331  R_kura=0.403  lock_frac=0.196  mod_lock=0.0203  mod_kura=0.0186  mod_cosφ=0.0114  Nsw=9757
+   total 305s
+
+   ⇒ A0.05: R_kura=0.400  lock_frac=0.172  mod_lock=0.0150±0.0079  mod_kura=0.01761  mod_cosφ=0.0121  R_ang(lock)=0.763  ρ_sig=0.0288±0.0220  ST_R=0.442  <Nsw>=10536  fp_ratio=0.998±0.007
+
+>> A0.10: κ_p=0.300  κ_C=0.300  ω_spread=0.2400  A=0.1000  n_seeds=10  n_chunks=30  steps=1210000  seed_base=11110800
+   seed= 11110800  30.6s   |<z_st>|=1.663  R_kura=0.281  lock_frac=0.163  mod_lock=0.0322  mod_kura=0.0302  mod_cosφ=0.0212  Nsw=7972
+   seed= 11110801  30.7s   |<z_st>|=2.978  R_kura=0.494  lock_frac=0.335  mod_lock=0.0296  mod_kura=0.0236  mod_cosφ=0.0227  Nsw=5906
+   seed= 11110802  30.9s   |<z_st>|=2.362  R_kura=0.285  lock_frac=0.203  mod_lock=0.0219  mod_kura=0.0180  mod_cosφ=0.0047  Nsw=6197
+   seed= 11110803  30.5s   |<z_st>|=1.883  R_kura=0.315  lock_frac=0.152  mod_lock=0.0400  mod_kura=0.0321  mod_cosφ=0.0115  Nsw=12554
+   seed= 11110804  30.5s   |<z_st>|=4.730  R_kura=0.668  lock_frac=0.514  mod_lock=0.0394  mod_kura=0.0327  mod_cosφ=0.0141  Nsw=6186
+   seed= 11110805  30.5s   |<z_st>|=7.613  R_kura=0.514  lock_frac=0.312  mod_lock=0.0645  mod_kura=0.0528  mod_cosφ=0.0226  Nsw=8804
+   seed= 11110806  30.6s   |<z_st>|=7.229  R_kura=0.432  lock_frac=0.082  mod_lock=0.0180  mod_kura=0.0426  mod_cosφ=0.0376  Nsw=9735
+   seed= 11110807  30.6s   |<z_st>|=4.818  R_kura=0.437  lock_frac=0.193  mod_lock=0.0195  mod_kura=0.0159  mod_cosφ=0.0199  Nsw=11901
+   seed= 11110808  30.5s   |<z_st>|=1.825  R_kura=0.352  lock_frac=0.192  mod_lock=0.0545  mod_kura=0.0464  mod_cosφ=0.0177  Nsw=11947
+   seed= 11110809  30.6s   |<z_st>|=6.936  R_kura=0.356  lock_frac=0.083  mod_lock=0.0229  mod_kura=0.0443  mod_cosφ=0.0472  Nsw=11180
+   total 306s
+
+   ⇒ A0.10: R_kura=0.413  lock_frac=0.223  mod_lock=0.0343±0.0147  mod_kura=0.03385  mod_cosφ=0.0219  R_ang(lock)=0.706  ρ_sig=0.0754±0.0656  ST_R=0.556  <Nsw>=9238  fp_ratio=1.002±0.005
+
+>> A0.20: κ_p=0.300  κ_C=0.300  ω_spread=0.2400  A=0.2000  n_seeds=10  n_chunks=30  steps=1210000  seed_base=11120800
+   seed= 11120800  30.9s   |<z_st>|=5.456  R_kura=0.484  lock_frac=0.255  mod_lock=0.0839  mod_kura=0.0573  mod_cosφ=0.0456  Nsw=7626
+   seed= 11120801  30.5s   |<z_st>|=5.671  R_kura=0.493  lock_frac=0.411  mod_lock=0.0857  mod_kura=0.0711  mod_cosφ=0.0780  Nsw=6130
+   seed= 11120802  30.6s   |<z_st>|=5.536  R_kura=0.438  lock_frac=0.240  mod_lock=0.0764  mod_kura=0.0534  mod_cosφ=0.0120  Nsw=9734
+   seed= 11120803  30.6s   |<z_st>|=8.062  R_kura=0.560  lock_frac=0.383  mod_lock=0.0872  mod_kura=0.0623  mod_cosφ=0.0106  Nsw=7117
+   seed= 11120804  30.5s   |<z_st>|=3.014  R_kura=0.403  lock_frac=0.189  mod_lock=0.0729  mod_kura=0.0554  mod_cosφ=0.0152  Nsw=8038
+   seed= 11120805  30.6s   |<z_st>|=6.611  R_kura=0.555  lock_frac=0.064  mod_lock=0.0137  mod_kura=0.0237  mod_cosφ=0.0760  Nsw=7073
+   seed= 11120806  30.7s   |<z_st>|=7.095  R_kura=0.474  lock_frac=0.161  mod_lock=0.0305  mod_kura=0.0469  mod_cosφ=0.0190  Nsw=8270
+   seed= 11120807  30.7s   |<z_st>|=5.700  R_kura=0.660  lock_frac=0.497  mod_lock=0.0712  mod_kura=0.0522  mod_cosφ=0.1324  Nsw=5923
+   seed= 11120808  30.5s   |<z_st>|=5.663  R_kura=0.549  lock_frac=0.395  mod_lock=0.0862  mod_kura=0.0622  mod_cosφ=0.0464  Nsw=6160
+   seed= 11120809  30.4s   |<z_st>|=7.196  R_kura=0.460  lock_frac=0.238  mod_lock=0.0613  mod_kura=0.0479  mod_cosφ=0.0239  Nsw=9032
+   total 306s
+
+   ⇒ A0.20: R_kura=0.508  lock_frac=0.283  mod_lock=0.0669±0.0240  mod_kura=0.05323  mod_cosφ=0.0459  R_ang(lock)=0.827  ρ_sig=0.1538±0.0600  ST_R=0.753  <Nsw>=7510  fp_ratio=1.000±0.002
+
+>> A0.30: κ_p=0.300  κ_C=0.300  ω_spread=0.2400  A=0.3000  n_seeds=10  n_chunks=30  steps=1210000  seed_base=11130800
+   seed= 11130800  30.5s   |<z_st>|=6.253  R_kura=0.441  lock_frac=0.271  mod_lock=0.1383  mod_kura=0.1125  mod_cosφ=0.0433  Nsw=10407
+   seed= 11130801  30.5s   |<z_st>|=0.963  R_kura=0.910  lock_frac=0.899  mod_lock=0.0324  mod_kura=0.0264  mod_cosφ=0.0245  Nsw=1551
+   seed= 11130802  30.7s   |<z_st>|=4.430  R_kura=0.414  lock_frac=0.279  mod_lock=0.1467  mod_kura=0.1326  mod_cosφ=0.0242  Nsw=9402
+   seed= 11130803  30.7s   |<z_st>|=5.137  R_kura=0.484  lock_frac=0.367  mod_lock=0.1456  mod_kura=0.1327  mod_cosφ=0.0314  Nsw=9730
+   seed= 11130804  30.6s   |<z_st>|=7.489  R_kura=0.564  lock_frac=0.301  mod_lock=0.1262  mod_kura=0.0928  mod_cosφ=0.0418  Nsw=9817
+   seed= 11130805  30.4s   |<z_st>|=8.068  R_kura=0.653  lock_frac=0.552  mod_lock=0.1264  mod_kura=0.0983  mod_cosφ=0.1225  Nsw=6425
+   seed= 11130806  30.5s   |<z_st>|=4.334  R_kura=0.441  lock_frac=0.319  mod_lock=0.1627  mod_kura=0.1484  mod_cosφ=0.0311  Nsw=11453
+   seed= 11130807  30.5s   |<z_st>|=8.463  R_kura=0.600  lock_frac=0.433  mod_lock=0.1336  mod_kura=0.0984  mod_cosφ=0.0565  Nsw=7811
+   seed= 11130808  30.5s   |<z_st>|=6.996  R_kura=0.488  lock_frac=0.288  mod_lock=0.1482  mod_kura=0.1096  mod_cosφ=0.0324  Nsw=10453
+   seed= 11130809  30.5s   |<z_st>|=7.027  R_kura=0.496  lock_frac=0.336  mod_lock=0.1307  mod_kura=0.1061  mod_cosφ=0.0301  Nsw=8598
+   total 305s
+
+   ⇒ A0.30: R_kura=0.549  lock_frac=0.404  mod_lock=0.1291±0.0340  mod_kura=0.10577  mod_cosφ=0.0438  R_ang(lock)=0.997  ρ_sig=0.1387±0.0897  ST_R=0.726  <Nsw>=8565  fp_ratio=1.001±0.004
+
+>> A0.40: κ_p=0.300  κ_C=0.300  ω_spread=0.2400  A=0.4000  n_seeds=10  n_chunks=30  steps=1210000  seed_base=11140800
+   seed= 11140800  30.5s   |<z_st>|=6.649  R_kura=0.594  lock_frac=0.445  mod_lock=0.1588  mod_kura=0.1210  mod_cosφ=0.0716  Nsw=7115
+   seed= 11140801  31.1s   |<z_st>|=5.368  R_kura=0.528  lock_frac=0.358  mod_lock=0.2108  mod_kura=0.1723  mod_cosφ=0.0315  Nsw=8553
+   seed= 11140802  30.6s   |<z_st>|=4.225  R_kura=0.562  lock_frac=0.369  mod_lock=0.1822  mod_kura=0.1393  mod_cosφ=0.0525  Nsw=6738
+   seed= 11140803  30.6s   |<z_st>|=7.832  R_kura=0.587  lock_frac=0.365  mod_lock=0.1861  mod_kura=0.1293  mod_cosφ=0.0246  Nsw=9810
+   seed= 11140804  30.6s   |<z_st>|=6.393  R_kura=0.553  lock_frac=0.449  mod_lock=0.1945  mod_kura=0.1712  mod_cosφ=0.1169  Nsw=7040
+   seed= 11140805  30.6s   |<z_st>|=5.449  R_kura=0.567  lock_frac=0.421  mod_lock=0.1572  mod_kura=0.1318  mod_cosφ=0.0651  Nsw=8560
+   seed= 11140806  30.6s   |<z_st>|=6.918  R_kura=0.530  lock_frac=0.362  mod_lock=0.2100  mod_kura=0.1666  mod_cosφ=0.0172  Nsw=9713
+   seed= 11140807  30.6s   |<z_st>|=4.580  R_kura=0.576  lock_frac=0.300  mod_lock=0.1309  mod_kura=0.1277  mod_cosφ=0.0348  Nsw=7019
+   seed= 11140808  30.5s   |<z_st>|=5.639  R_kura=0.557  lock_frac=0.308  mod_lock=0.0924  mod_kura=0.1340  mod_cosφ=0.0560  Nsw=8339
+   seed= 11140809  30.5s   |<z_st>|=4.463  R_kura=0.612  lock_frac=0.166  mod_lock=0.0321  mod_kura=0.1067  mod_cosφ=0.0521  Nsw=6480
+   total 306s
+
+   ⇒ A0.40: R_kura=0.567  lock_frac=0.354  mod_lock=0.1555±0.0539  mod_kura=0.13998  mod_cosφ=0.0522  R_ang(lock)=0.992  ρ_sig=0.1277±0.0401  ST_R=0.698  <Nsw>=7937  fp_ratio=1.001±0.002
+
+>> A0.50: κ_p=0.300  κ_C=0.300  ω_spread=0.2400  A=0.5000  n_seeds=10  n_chunks=30  steps=1210000  seed_base=11150800
+   seed= 11150800  30.8s   |<z_st>|=5.953  R_kura=0.539  lock_frac=0.455  mod_lock=0.2549  mod_kura=0.2243  mod_cosφ=0.0532  Nsw=7388
+   seed= 11150801  30.5s   |<z_st>|=4.756  R_kura=0.534  lock_frac=0.410  mod_lock=0.2473  mod_kura=0.1957  mod_cosφ=0.0237  Nsw=8465
+   seed= 11150802  30.8s   |<z_st>|=10.066  R_kura=0.653  lock_frac=0.569  mod_lock=0.2143  mod_kura=0.1650  mod_cosφ=0.1537  Nsw=6897
+   seed= 11150803  30.5s   |<z_st>|=8.346  R_kura=0.622  lock_frac=0.502  mod_lock=0.2278  mod_kura=0.1663  mod_cosφ=0.0467  Nsw=6465
+   seed= 11150804  30.5s   |<z_st>|=6.603  R_kura=0.537  lock_frac=0.080  mod_lock=0.0157  mod_kura=0.1637  mod_cosφ=0.0634  Nsw=9446
+   seed= 11150805  30.5s   |<z_st>|=7.985  R_kura=0.535  lock_frac=0.031  mod_lock=0.0035  mod_kura=0.1646  mod_cosφ=0.0541  Nsw=7513
+   seed= 11150806  30.6s   |<z_st>|=6.841  R_kura=0.582  lock_frac=0.057  mod_lock=0.0200  mod_kura=0.1430  mod_cosφ=0.0139  Nsw=9166
+   seed= 11150807  30.4s   |<z_st>|=6.218  R_kura=0.581  lock_frac=0.432  mod_lock=0.2533  mod_kura=0.1784  mod_cosφ=0.0246  Nsw=8545
+   seed= 11150808  30.5s   |<z_st>|=7.452  R_kura=0.646  lock_frac=0.549  mod_lock=0.2081  mod_kura=0.1522  mod_cosφ=0.1415  Nsw=6766
+   seed= 11150809  30.5s   |<z_st>|=6.261  R_kura=0.505  lock_frac=0.402  mod_lock=0.2671  mod_kura=0.2364  mod_cosφ=0.0155  Nsw=10072
+   total 306s
+
+   ⇒ A0.50: R_kura=0.573  lock_frac=0.349  mod_lock=0.1712±0.1050  mod_kura=0.17896  mod_cosφ=0.0590  R_ang(lock)=0.658  ρ_sig=0.2033±0.1062  ST_R=0.784  <Nsw>=8072  fp_ratio=1.001±0.003
+
+Completed in 2140s (35.7 min)
+Results → thor_session_111_dose_response_results.json

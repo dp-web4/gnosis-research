@@ -1,0 +1,115 @@
+====================================================================================
+ S111 Dose-Response Summary
+====================================================================================
+    A  mod_lock   mod_kura   mod_cosφ   R_kura   lock%    ρ_sig    ST_R   RAW_R   <Nsw>
+ 0.00    0.0040    0.00479    0.00474    0.393   0.153   0.0008   0.043   0.038   12543
+ 0.05    0.0150    0.01761    0.01210    0.400   0.172   0.0288   0.442   0.353   10536
+ 0.10    0.0343    0.03385    0.02193    0.413   0.223   0.0754   0.556   0.453    9238
+ 0.20    0.0669    0.05323    0.04591    0.508   0.283   0.1538   0.753   0.624    7510
+ 0.30    0.1291    0.10577    0.04378    0.549   0.404   0.1387   0.726   0.569    8565
+ 0.40    0.1555    0.13998    0.05222    0.567   0.354   0.1277   0.698   0.494    7937
+ 0.50    0.1712    0.17896    0.05901    0.573   0.349   0.2033   0.784   0.564    8072
+
+====================================================================================
+ P1, P2: mod_amp_at_fs_lock(A) — linearity and saturation
+====================================================================================
+ Null (A=0) baseline mod_amp_at_fs_lock: 0.0040 (intrinsic noise floor)
+ Cross-seed R_angle at null: 0.198  (low ⇒ random per-seed phase)
+ Low-A linear fit (A ≤ 0.20, n=4): slope=0.3221/A  intercept=0.0018  r²=0.9939
+  A=0.30: pred=0.0985  actual=0.1291  deficit=-31.1%
+  A=0.40: pred=0.1307  actual=0.1555  deficit=-19.0%
+  A=0.50: pred=0.1629  actual=0.1712  deficit=-5.1%
+
+====================================================================================
+ P3: ρ_sig(A) power-law in low-A
+====================================================================================
+ Full A>0 log-log fit (n=6):  exponent=0.740  prefactor=0.3420
+ Low-A (A ≤ 0.20) log-log fit (n=3): exponent=1.208  prefactor=1.1202
+   ↳ matched-filter prediction: exponent ≈ 2.0 (ρ_sig ∝ A²)
+
+  A    | meas ρ_sig | A² fit (slope at A=0.10) | residual frac
+  0.05 |    0.0288  |    0.0189              | +52.8%
+  0.10 |    0.0754  |    0.0754              | +0.0%
+  0.20 |    0.1538  |    0.3016              | -49.0%
+  0.30 |    0.1387  |    0.6786              | -79.6%
+  0.40 |    0.1277  |    1.2064              | -89.4%
+  0.50 |    0.2033  |    1.8850              | -89.2%
+
+====================================================================================
+ P4: ρ_sig = γ · R_inst² ?  (S109 within-ridge γ ≈ 0.4)
+====================================================================================
+ Note: 'R_inst' here is taken as ⟨R_kura⟩ — time-average. The S109
+ claim was on the per-seed mean, here we use cell-mean.
+  A=0.00  R_kura=0.393  R²=0.1543  ρ_sig=0.0008  γ=0.0052
+  A=0.05  R_kura=0.400  R²=0.1596  ρ_sig=0.0288  γ=0.1805
+  A=0.10  R_kura=0.413  R²=0.1708  ρ_sig=0.0754  γ=0.4415
+  A=0.20  R_kura=0.508  R²=0.2579  ρ_sig=0.1538  γ=0.5962
+  A=0.30  R_kura=0.549  R²=0.3013  ρ_sig=0.1387  γ=0.4603
+  A=0.40  R_kura=0.567  R²=0.3210  ρ_sig=0.1277  γ=0.3977
+  A=0.50  R_kura=0.573  R²=0.3286  ρ_sig=0.2033  γ=0.6186
+
+ γ across A>0 cells: mean=0.449  std=0.145  CV=32.2%
+
+====================================================================================
+ P5: first-principles |z_st| identity check across A
+====================================================================================
+ (This is the sum-form identity, not the binned approximation;
+  ratio should be ≈ 1.0 modulo float precision.)
+  A=0.00  fp_ratio = 0.99349
+  A=0.05  fp_ratio = 0.99810
+  A=0.10  fp_ratio = 1.00221
+  A=0.20  fp_ratio = 1.00016
+  A=0.30  fp_ratio = 1.00056
+  A=0.40  fp_ratio = 1.00059
+  A=0.50  fp_ratio = 1.00117
+
+====================================================================================
+ P6: detection floor — z_det = √(N_chunks · ρ_sig / σ_n_st²)
+====================================================================================
+ Per-cell ST z_det (over 30 chunks, σ_n calibration):
+  A=0.00: ST R_coh=0.043  σ_n_st=2.93  |⟨z_st⟩|=0.516  z_det=1.16
+  A=0.05: ST R_coh=0.442  σ_n_st=3.03  |⟨z_st⟩|=2.933  z_det=4.88
+  A=0.10: ST R_coh=0.556  σ_n_st=3.15  |⟨z_st⟩|=4.204  z_det=6.13
+  A=0.20: ST R_coh=0.753  σ_n_st=3.28  |⟨z_st⟩|=6.000  z_det=9.58
+  A=0.30: ST R_coh=0.726  σ_n_st=3.17  |⟨z_st⟩|=5.916  z_det=8.91
+  A=0.40: ST R_coh=0.698  σ_n_st=3.65  |⟨z_st⟩|=5.752  z_det=8.32
+  A=0.50: ST R_coh=0.784  σ_n_st=3.59  |⟨z_st⟩|=7.048  z_det=10.43
+  → first A with z_det ≥ 5: A=0.10 (z_det=6.1)
+
+====================================================================================
+ P7: lock_frac_global vs R_kura_mean vs A
+====================================================================================
+  A=0.00  R_kura_mean=0.393  lock_frac_global=0.153  P(L|att)=0.503  P(L|rep)=0.010
+  A=0.05  R_kura_mean=0.400  lock_frac_global=0.172  P(L|att)=0.555  P(L|rep)=0.010
+  A=0.10  R_kura_mean=0.413  lock_frac_global=0.223  P(L|att)=0.610  P(L|rep)=0.012
+  A=0.20  R_kura_mean=0.508  lock_frac_global=0.283  P(L|att)=0.648  P(L|rep)=0.009
+  A=0.30  R_kura_mean=0.549  lock_frac_global=0.404  P(L|att)=0.760  P(L|rep)=0.020
+  A=0.40  R_kura_mean=0.567  lock_frac_global=0.354  P(L|att)=0.684  P(L|rep)=0.011
+  A=0.50  R_kura_mean=0.573  lock_frac_global=0.349  P(L|att)=0.643  P(L|rep)=0.008
+
+====================================================================================
+ Bonus: mod_lock vs mod_kura (lock-indicator vs continuous R_kura)
+====================================================================================
+ The ratio (mod_lock / mod_kura) reveals whether the lock-indicator
+ overpicks or underpicks the modulation captured by R_kura(t).
+  A=0.00  mod_lock=0.0040  mod_kura=0.00479  ratio=0.83
+  A=0.05  mod_lock=0.0150  mod_kura=0.01761  ratio=0.85
+  A=0.10  mod_lock=0.0343  mod_kura=0.03385  ratio=1.01
+  A=0.20  mod_lock=0.0669  mod_kura=0.05323  ratio=1.26
+  A=0.30  mod_lock=0.1291  mod_kura=0.10577  ratio=1.22
+  A=0.40  mod_lock=0.1555  mod_kura=0.13998  ratio=1.11
+  A=0.50  mod_lock=0.1712  mod_kura=0.17896  ratio=0.96
+
+====================================================================================
+ Cross-seed R_angle (signal-detection coherence across seeds)
+====================================================================================
+    A  R_ang_lock  R_ang_kura  R_ang_cosφ
+ 0.00       0.198       0.133       0.368
+ 0.05       0.763       0.807       0.614
+ 0.10       0.706       0.815       0.237
+ 0.20       0.827       0.960       0.495
+ 0.30       0.997       0.995       0.133
+ 0.40       0.992       0.996       0.664
+ 0.50       0.658       0.998       0.618
+
+Analysis saved → thor_session_111_analysis.json
