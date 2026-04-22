@@ -1,0 +1,70 @@
+Thor Session #110: Signal-Phase-Resolved Lock Dynamics (S109-P3)
+Started: 2026-04-22T09:06:33.700164
+Common: σ=0.022  f_s=0.003  chunk=40000 steps  T_chunk=4000.0s  warmup=10000  decimate=10
+Per cell: 16 seeds × 30 chunks
+
+>> ridge: κ_p=0.300  κ_C=0.300  ω_spread=0.2400  A=0.300  n_seeds=16  n_chunks=30  steps=1210000  seed_base=110018
+   seed=   110018  30.4s   |<z_st>|=7.823  R_kura=0.619  P(L|att)=0.840  P(L|rep)=0.013  ratio=67.07  mod=0.1078  Nsw_total=7466
+   seed=   110019  30.3s   |<z_st>|=7.337  R_kura=0.594  P(L|att)=0.860  P(L|rep)=0.020  ratio=42.71  mod=0.1187  Nsw_total=7015
+   seed=   110020  30.3s   |<z_st>|=7.020  R_kura=0.580  P(L|att)=0.367  P(L|rep)=0.002  ratio=160.28  mod=0.0365  Nsw_total=10052
+   seed=   110021  30.3s   |<z_st>|=5.906  R_kura=0.530  P(L|att)=0.780  P(L|rep)=0.032  ratio=24.60  mod=0.1440  Nsw_total=7757
+   seed=   110022  30.2s   |<z_st>|=7.800  R_kura=0.528  P(L|att)=0.708  P(L|rep)=0.020  ratio=35.84  mod=0.1467  Nsw_total=10696
+   seed=   110023  30.6s   |<z_st>|=6.479  R_kura=0.569  P(L|att)=0.850  P(L|rep)=0.025  ratio=33.43  mod=0.1206  Nsw_total=7640
+   seed=   110024  30.6s   |<z_st>|=5.387  R_kura=0.440  P(L|att)=0.651  P(L|rep)=0.034  ratio=18.92  mod=0.1490  Nsw_total=11364
+   seed=   110025  30.3s   |<z_st>|=7.341  R_kura=0.583  P(L|att)=0.610  P(L|rep)=0.006  ratio=110.90  mod=0.1263  Nsw_total=8781
+   seed=   110026  30.2s   |<z_st>|=5.125  R_kura=0.459  P(L|att)=0.716  P(L|rep)=0.023  ratio=30.65  mod=0.1492  Nsw_total=8785
+   seed=   110027  30.3s   |<z_st>|=7.060  R_kura=0.536  P(L|att)=0.721  P(L|rep)=0.019  ratio=38.84  mod=0.1488  Nsw_total=10376
+   seed=   110028  30.3s   |<z_st>|=5.256  R_kura=0.568  P(L|att)=0.736  P(L|rep)=0.006  ratio=116.77  mod=0.1364  Nsw_total=8167
+   seed=   110029  30.2s   |<z_st>|=5.008  R_kura=0.464  P(L|att)=0.737  P(L|rep)=0.028  ratio=26.51  mod=0.1555  Nsw_total=9499
+   seed=   110030  30.3s   |<z_st>|=5.690  R_kura=0.470  P(L|att)=0.698  P(L|rep)=0.010  ratio=72.55  mod=0.1296  Nsw_total=8917
+   seed=   110031  30.3s   |<z_st>|=5.127  R_kura=0.554  P(L|att)=0.812  P(L|rep)=0.034  ratio=24.22  mod=0.1618  Nsw_total=8232
+   seed=   110032  30.3s   |<z_st>|=6.185  R_kura=0.610  P(L|att)=0.076  P(L|rep)=0.001  ratio=58.73  mod=0.0087  Nsw_total=7671
+   seed=   110033  30.3s   |<z_st>|=4.638  R_kura=0.500  P(L|att)=0.732  P(L|rep)=0.015  ratio=48.82  mod=0.1424  Nsw_total=8864
+   total 485s
+
+   ⇒ ridge: P(L|att)=0.681±0.193  P(L|rep)=0.018±0.011  ratio=56.93±38.97  mod_amp_fs=0.1239±0.0411  R_angle_mod=0.903  ρ_sig=0.1372  ST_R=0.759
+
+>> nokC: κ_p=0.300  κ_C=0.000  ω_spread=0.2400  A=0.300  n_seeds=16  n_chunks=30  steps=1210000  seed_base=110028
+   seed=   110028  30.3s   |<z_st>|=2.631  R_kura=0.546  P(L|att)=0.777  P(L|rep)=0.005  ratio=163.29  mod=0.2379  Nsw_total=25897
+   seed=   110029  30.2s   |<z_st>|=2.317  R_kura=0.534  P(L|att)=0.830  P(L|rep)=0.027  ratio=30.75  mod=0.2670  Nsw_total=25766
+   seed=   110030  30.3s   |<z_st>|=2.392  R_kura=0.507  P(L|att)=0.778  P(L|rep)=0.008  ratio=97.96  mod=0.2398  Nsw_total=25429
+   seed=   110031  30.3s   |<z_st>|=3.515  R_kura=0.548  P(L|att)=0.854  P(L|rep)=0.025  ratio=33.62  mod=0.2635  Nsw_total=25372
+   seed=   110032  30.3s   |<z_st>|=1.708  R_kura=0.553  P(L|att)=0.068  P(L|rep)=0.001  ratio=50.35  mod=0.0131  Nsw_total=22022
+   seed=   110033  30.3s   |<z_st>|=3.630  R_kura=0.551  P(L|att)=0.819  P(L|rep)=0.012  ratio=66.24  mod=0.2534  Nsw_total=24758
+   seed=   110034  30.4s   |<z_st>|=1.837  R_kura=0.464  P(L|att)=0.592  P(L|rep)=0.005  ratio=114.58  mod=0.1835  Nsw_total=28526
+   seed=   110035  30.8s   |<z_st>|=1.814  R_kura=0.512  P(L|att)=0.105  P(L|rep)=0.001  ratio=92.77  mod=0.0162  Nsw_total=27443
+   seed=   110036  30.6s   |<z_st>|=0.966  R_kura=0.490  P(L|att)=0.065  P(L|rep)=0.001  ratio=78.37  mod=0.0125  Nsw_total=26388
+   seed=   110037  30.4s   |<z_st>|=3.743  R_kura=0.584  P(L|att)=0.878  P(L|rep)=0.012  ratio=74.72  mod=0.2541  Nsw_total=25246
+   seed=   110038  30.4s   |<z_st>|=2.335  R_kura=0.506  P(L|att)=0.804  P(L|rep)=0.035  ratio=22.96  mod=0.2640  Nsw_total=25889
+   seed=   110039  30.4s   |<z_st>|=2.251  R_kura=0.523  P(L|att)=0.798  P(L|rep)=0.010  ratio=82.28  mod=0.2521  Nsw_total=25690
+   seed=   110040  30.4s   |<z_st>|=2.361  R_kura=0.554  P(L|att)=0.314  P(L|rep)=0.004  ratio=89.64  mod=0.0843  Nsw_total=23201
+   seed=   110041  30.4s   |<z_st>|=3.146  R_kura=0.563  P(L|att)=0.812  P(L|rep)=0.014  ratio=59.43  mod=0.2563  Nsw_total=23735
+   seed=   110042  30.3s   |<z_st>|=4.394  R_kura=0.603  P(L|att)=0.421  P(L|rep)=0.003  ratio=127.31  mod=0.1040  Nsw_total=19331
+   seed=   110043  30.3s   |<z_st>|=1.661  R_kura=0.536  P(L|att)=0.799  P(L|rep)=0.012  ratio=66.82  mod=0.2539  Nsw_total=25021
+   total 486s
+
+   ⇒ nokC: P(L|att)=0.607±0.296  P(L|rep)=0.011±0.010  ratio=78.19±35.73  mod_amp_fs=0.1847±0.0979  R_angle_mod=0.946  ρ_sig=0.0091  ST_R=0.445
+
+>> null: κ_p=0.300  κ_C=0.300  ω_spread=0.2400  A=0.000  n_seeds=16  n_chunks=30  steps=1210000  seed_base=110038
+   seed=   110038  30.3s   |<z_st>|=0.447  R_kura=0.328  P(L|att)=0.486  P(L|rep)=0.035  ratio=13.76  mod=0.0049  Nsw_total=12149
+   seed=   110039  30.7s   |<z_st>|=0.499  R_kura=0.311  P(L|att)=0.459  P(L|rep)=0.007  ratio=63.53  mod=0.0025  Nsw_total=11226
+   seed=   110040  30.7s   |<z_st>|=0.379  R_kura=0.560  P(L|att)=0.484  P(L|rep)=0.003  ratio=184.75  mod=0.0032  Nsw_total=15884
+   seed=   110041  30.4s   |<z_st>|=0.206  R_kura=0.370  P(L|att)=0.532  P(L|rep)=0.009  ratio=61.26  mod=0.0025  Nsw_total=10769
+   seed=   110042  30.4s   |<z_st>|=0.471  R_kura=0.426  P(L|att)=0.483  P(L|rep)=0.001  ratio=451.49  mod=0.0031  Nsw_total=7989
+   seed=   110043  30.5s   |<z_st>|=0.721  R_kura=0.364  P(L|att)=0.448  P(L|rep)=0.011  ratio=41.46  mod=0.0036  Nsw_total=12964
+   seed=   110044  30.5s   |<z_st>|=0.538  R_kura=0.455  P(L|att)=0.708  P(L|rep)=0.011  ratio=63.34  mod=0.0052  Nsw_total=12210
+   seed=   110045  30.3s   |<z_st>|=0.914  R_kura=0.578  P(L|att)=0.882  P(L|rep)=0.015  ratio=59.41  mod=0.0135  Nsw_total=8569
+   seed=   110046  30.4s   |<z_st>|=0.720  R_kura=0.592  P(L|att)=0.491  P(L|rep)=0.003  ratio=185.23  mod=0.0035  Nsw_total=11507
+   seed=   110047  30.5s   |<z_st>|=0.893  R_kura=0.328  P(L|att)=0.173  P(L|rep)=0.001  ratio=197.40  mod=0.0033  Nsw_total=13277
+   seed=   110048  30.4s   |<z_st>|=0.633  R_kura=0.279  P(L|att)=0.650  P(L|rep)=0.009  ratio=76.24  mod=0.0080  Nsw_total=9835
+   seed=   110049  30.3s   |<z_st>|=0.209  R_kura=0.738  P(L|att)=0.906  P(L|rep)=0.010  ratio=90.55  mod=0.0034  Nsw_total=6914
+   seed=   110050  30.3s   |<z_st>|=0.290  R_kura=0.350  P(L|att)=0.573  P(L|rep)=0.034  ratio=16.78  mod=0.0028  Nsw_total=11407
+   seed=   110051  30.3s   |<z_st>|=0.686  R_kura=0.522  P(L|att)=0.706  P(L|rep)=0.008  ratio=93.42  mod=0.0085  Nsw_total=11047
+   seed=   110052  30.6s   |<z_st>|=0.905  R_kura=0.393  P(L|att)=0.606  P(L|rep)=0.003  ratio=229.76  mod=0.0086  Nsw_total=11578
+   seed=   110053  30.4s   |<z_st>|=0.582  R_kura=0.408  P(L|att)=0.507  P(L|rep)=0.004  ratio=113.40  mod=0.0053  Nsw_total=12409
+   total 487s
+
+   ⇒ null: P(L|att)=0.568±0.172  P(L|rep)=0.010±0.010  ratio=121.36±106.51  mod_amp_fs=0.0051±0.0029  R_angle_mod=0.088  ρ_sig=0.0010  ST_R=0.038
+
+Completed in 1458s (24.3 min)
+Results → thor_session_110_signal_locked_results.json
