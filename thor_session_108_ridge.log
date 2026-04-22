@@ -1,0 +1,57 @@
+Thor Session #108: Ridge Universality at Ratio 0.2 (S107-P3)
+Started: 2026-04-21T21:05:32.625828
+Common: A=0.3  σ=0.022  f_s=0.003
+Per cell: 8 seeds × 50 chunks × 40000 steps
+Slice: κ_p=0.30, ω=0.06 (ratio 0.2), κ_C ∈ {0.00, 0.05, 0.30, 0.50}
+Recycled from S105: r02_k030 (κ_C=0.15) — not re-run.
+
+>> κ_p=0.300  κ_C=0.000  ω_spread=0.0600  n_seeds=8  n_chunks=50  steps=2010000  seed_base=108030000
+   seed=108030000   49.8s   |<z_raw>|=1.151e-03   |<z_st>|=2.458   <R_kura>=0.522 ± 0.444   N_sw/chunk=928
+   seed=108030001   50.1s   |<z_raw>|=2.609e-03   |<z_st>|=2.570   <R_kura>=0.526 ± 0.430   N_sw/chunk=911
+   seed=108030002   50.0s   |<z_raw>|=4.332e-03   |<z_st>|=2.998   <R_kura>=0.522 ± 0.440   N_sw/chunk=948
+   seed=108030003   49.9s   |<z_raw>|=6.131e-03   |<z_st>|=3.552   <R_kura>=0.525 ± 0.447   N_sw/chunk=956
+   seed=108030004   50.0s   |<z_raw>|=1.576e-03   |<z_st>|=2.611   <R_kura>=0.523 ± 0.434   N_sw/chunk=922
+   seed=108030005   50.1s   |<z_raw>|=1.562e-03   |<z_st>|=2.679   <R_kura>=0.519 ± 0.432   N_sw/chunk=917
+   seed=108030006   50.0s   |<z_raw>|=1.379e-03   |<z_st>|=2.371   <R_kura>=0.513 ± 0.438   N_sw/chunk=938
+   seed=108030007   50.3s   |<z_raw>|=1.946e-03   |<z_st>|=2.708   <R_kura>=0.523 ± 0.432   N_sw/chunk=907
+   total 400s
+   ⇒ kp030_kC000_r02: RAW R_coh=0.031 ± 0.033   ST R_coh=0.494 ± 0.057   R_angle RAW/ST = 0.786 / 0.997   <R_kura>=0.522 ± 0.004
+
+>> κ_p=0.300  κ_C=0.050  ω_spread=0.0600  n_seeds=8  n_chunks=50  steps=2010000  seed_base=108030005
+   seed=108030005   49.8s   |<z_raw>|=9.268e-03   |<z_st>|=4.227   <R_kura>=0.531 ± 0.430   N_sw/chunk=815
+   seed=108030006   49.8s   |<z_raw>|=9.132e-03   |<z_st>|=4.481   <R_kura>=0.521 ± 0.436   N_sw/chunk=826
+   seed=108030007   49.9s   |<z_raw>|=9.103e-03   |<z_st>|=4.102   <R_kura>=0.529 ± 0.430   N_sw/chunk=805
+   seed=108030008   49.8s   |<z_raw>|=1.088e-02   |<z_st>|=4.605   <R_kura>=0.540 ± 0.427   N_sw/chunk=802
+   seed=108030009   49.8s   |<z_raw>|=1.289e-02   |<z_st>|=4.772   <R_kura>=0.540 ± 0.431   N_sw/chunk=773
+   seed=108030010   49.8s   |<z_raw>|=8.515e-03   |<z_st>|=3.998   <R_kura>=0.522 ± 0.432   N_sw/chunk=802
+   seed=108030011   49.7s   |<z_raw>|=9.211e-03   |<z_st>|=4.173   <R_kura>=0.550 ± 0.416   N_sw/chunk=775
+   seed=108030012   49.8s   |<z_raw>|=4.944e-03   |<z_st>|=3.301   <R_kura>=0.518 ± 0.440   N_sw/chunk=806
+   total 398s
+   ⇒ kp030_kC005_r02: RAW R_coh=0.226 ± 0.065   ST R_coh=0.694 ± 0.037   R_angle RAW/ST = 0.976 / 0.998   <R_kura>=0.531 ± 0.011
+
+>> κ_p=0.300  κ_C=0.300  ω_spread=0.0600  n_seeds=8  n_chunks=50  steps=2010000  seed_base=108030030
+   seed=108030030   49.8s   |<z_raw>|=1.464e-02   |<z_st>|=3.708   <R_kura>=0.427 ± 0.428   N_sw/chunk=306
+   seed=108030031   50.0s   |<z_raw>|=2.484e-02   |<z_st>|=5.101   <R_kura>=0.467 ± 0.413   N_sw/chunk=311
+   seed=108030032   49.8s   |<z_raw>|=1.398e-02   |<z_st>|=3.709   <R_kura>=0.428 ± 0.426   N_sw/chunk=303
+   seed=108030033   49.8s   |<z_raw>|=1.941e-02   |<z_st>|=4.582   <R_kura>=0.422 ± 0.413   N_sw/chunk=274
+   seed=108030034   50.0s   |<z_raw>|=2.227e-02   |<z_st>|=4.654   <R_kura>=0.508 ± 0.402   N_sw/chunk=321
+   seed=108030035   49.8s   |<z_raw>|=2.257e-02   |<z_st>|=5.161   <R_kura>=0.453 ± 0.401   N_sw/chunk=268
+   seed=108030036   49.8s   |<z_raw>|=1.931e-02   |<z_st>|=4.535   <R_kura>=0.446 ± 0.418   N_sw/chunk=295
+   seed=108030037   49.8s   |<z_raw>|=1.441e-02   |<z_st>|=3.937   <R_kura>=0.427 ± 0.409   N_sw/chunk=290
+   total 399s
+   ⇒ kp030_kC030_r02: RAW R_coh=0.324 ± 0.078   ST R_coh=0.641 ± 0.047   R_angle RAW/ST = 0.992 / 0.998   <R_kura>=0.447 ± 0.027
+
+>> κ_p=0.300  κ_C=0.500  ω_spread=0.0600  n_seeds=8  n_chunks=50  steps=2010000  seed_base=108030050
+   seed=108030050   49.8s   |<z_raw>|=7.787e-03   |<z_st>|=1.726   <R_kura>=0.336 ± 0.370   N_sw/chunk=127
+   seed=108030051   49.9s   |<z_raw>|=5.304e-03   |<z_st>|=1.579   <R_kura>=0.294 ± 0.373   N_sw/chunk=112
+   seed=108030052   50.1s   |<z_raw>|=9.897e-03   |<z_st>|=1.692   <R_kura>=0.308 ± 0.370   N_sw/chunk=134
+   seed=108030053   50.2s   |<z_raw>|=7.600e-03   |<z_st>|=1.508   <R_kura>=0.295 ± 0.374   N_sw/chunk=120
+   seed=108030054   50.1s   |<z_raw>|=9.035e-03   |<z_st>|=1.010   <R_kura>=0.279 ± 0.356   N_sw/chunk=110
+   seed=108030055   50.0s   |<z_raw>|=6.672e-03   |<z_st>|=1.769   <R_kura>=0.311 ± 0.366   N_sw/chunk=119
+   seed=108030056   50.1s   |<z_raw>|=1.004e-02   |<z_st>|=0.775   <R_kura>=0.280 ± 0.363   N_sw/chunk=108
+   seed=108030057   49.9s   |<z_raw>|=6.864e-03   |<z_st>|=0.589   <R_kura>=0.268 ± 0.357   N_sw/chunk=114
+   total 400s
+   ⇒ kp030_kC050_r02: RAW R_coh=0.098 ± 0.037   ST R_coh=0.202 ± 0.096   R_angle RAW/ST = 0.928 / 0.974   <R_kura>=0.296 ± 0.020
+
+Completed in 1597s (26.6 min)
+Results → thor_session_108_ridge_ratio_02_results.json
