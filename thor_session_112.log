@@ -1,0 +1,157 @@
+Thor Session #112: The Within-Seed Kuramoto Cliff (S111-P3)
+Started: 2026-04-22T21:09:02.925626
+Common: σ=0.022  f_s=0.003  chunk=40000 steps  T_chunk=4000.0s  warmup=10000  decimate=10
+Per cell: 10 seeds × 25 chunks
+
+>> A050_om030: κ_p=0.300  κ_C=0.300  ω_std=0.0300  ω=[0.0598, 0.0866, 0.1134, 0.1402]  A=0.5000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112003000
+   seed=112003000  25.6s   |<z_st>|=6.654  R_kura=0.519  lock_frac=0.442  mod_lock=0.2688  Nsw=7073
+   seed=112003001  25.6s   |<z_st>|=6.397  R_kura=0.511  lock_frac=0.431  mod_lock=0.2689  Nsw=7123
+   seed=112003002  25.6s   |<z_st>|=6.143  R_kura=0.517  lock_frac=0.441  mod_lock=0.2724  Nsw=6783
+   seed=112003003  25.7s   |<z_st>|=5.314  R_kura=0.518  lock_frac=0.444  mod_lock=0.2734  Nsw=7316
+   seed=112003004  25.7s   |<z_st>|=6.452  R_kura=0.521  lock_frac=0.442  mod_lock=0.2685  Nsw=6896
+   seed=112003005  25.8s   |<z_st>|=5.842  R_kura=0.525  lock_frac=0.448  mod_lock=0.2703  Nsw=7393
+   seed=112003006  25.7s   |<z_st>|=5.921  R_kura=0.513  lock_frac=0.436  mod_lock=0.2690  Nsw=6442
+   seed=112003007  25.5s   |<z_st>|=6.189  R_kura=0.519  lock_frac=0.443  mod_lock=0.2721  Nsw=6967
+   seed=112003008  25.6s   |<z_st>|=6.884  R_kura=0.532  lock_frac=0.454  mod_lock=0.2720  Nsw=6846
+   seed=112003009  25.7s   |<z_st>|=6.791  R_kura=0.530  lock_frac=0.453  mod_lock=0.2706  Nsw=7151
+   total 256s
+
+   ⇒ A050_om030: fail=0/10  R_kura=0.521  lock_frac=0.443  mod_lock=0.2706±0.0017  [succ: 0.2706±0.0017]  ρ_sig=0.1410  ST_R=0.771  <Nsw>=6999
+
+>> A050_om070: κ_p=0.300  κ_C=0.300  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.5000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112007000
+   seed=112007000  25.6s   |<z_st>|=6.504  R_kura=0.544  lock_frac=0.444  mod_lock=0.2642  Nsw=7026
+   seed=112007001  25.6s   |<z_st>|=6.853  R_kura=0.548  lock_frac=0.451  mod_lock=0.2673  Nsw=7124
+   seed=112007002  25.5s   |<z_st>|=6.183  R_kura=0.536  lock_frac=0.435  mod_lock=0.2645  Nsw=6798
+   seed=112007003  25.5s   |<z_st>|=7.724  R_kura=0.555  lock_frac=0.455  mod_lock=0.2640  Nsw=7166
+   seed=112007004  25.5s   |<z_st>|=7.133  R_kura=0.554  lock_frac=0.456  mod_lock=0.2640  Nsw=6926
+   seed=112007005  25.6s   |<z_st>|=6.016  R_kura=0.539  lock_frac=0.439  mod_lock=0.2654  Nsw=7133
+   seed=112007006  25.6s   |<z_st>|=6.379  R_kura=0.540  lock_frac=0.440  mod_lock=0.2635  Nsw=6958
+   seed=112007007  25.6s   |<z_st>|=7.320  R_kura=0.548  lock_frac=0.450  mod_lock=0.2674  Nsw=6950
+   seed=112007008  25.6s   |<z_st>|=7.147  R_kura=0.540  lock_frac=0.443  mod_lock=0.2659  Nsw=6791
+   seed=112007009  25.6s   |<z_st>|=6.065  R_kura=0.534  lock_frac=0.433  mod_lock=0.2633  Nsw=6124
+   total 256s
+
+   ⇒ A050_om070: fail=0/10  R_kura=0.544  lock_frac=0.445  mod_lock=0.2650±0.0014  [succ: 0.2650±0.0014]  ρ_sig=0.1652  ST_R=0.790  <Nsw>=6900
+
+>> A050_om110: κ_p=0.300  κ_C=0.300  ω_std=0.1100  ω=[-0.0476, 0.0508, 0.1492, 0.2476]  A=0.5000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112011000
+   seed=112011000  25.6s   |<z_st>|=6.028  R_kura=0.563  lock_frac=0.444  mod_lock=0.2548  Nsw=6335
+   seed=112011001  25.8s   |<z_st>|=5.899  R_kura=0.569  lock_frac=0.454  mod_lock=0.2590  Nsw=6390
+   seed=112011002  25.7s   |<z_st>|=7.253  R_kura=0.572  lock_frac=0.453  mod_lock=0.2529  Nsw=6273
+   seed=112011003  25.6s   |<z_st>|=6.722  R_kura=0.573  lock_frac=0.457  mod_lock=0.2549  Nsw=6544
+   seed=112011004  25.6s   |<z_st>|=6.562  R_kura=0.569  lock_frac=0.452  mod_lock=0.2588  Nsw=6658
+   seed=112011005  25.5s   |<z_st>|=7.193  R_kura=0.575  lock_frac=0.459  mod_lock=0.2565  Nsw=6651
+   seed=112011006  25.6s   |<z_st>|=6.030  R_kura=0.564  lock_frac=0.448  mod_lock=0.2585  Nsw=7002
+   seed=112011007  25.5s   |<z_st>|=6.455  R_kura=0.570  lock_frac=0.452  mod_lock=0.2555  Nsw=6896
+   seed=112011008  25.8s   |<z_st>|=7.038  R_kura=0.568  lock_frac=0.450  mod_lock=0.2510  Nsw=6764
+   seed=112011009  25.8s   |<z_st>|=6.185  R_kura=0.563  lock_frac=0.443  mod_lock=0.2517  Nsw=6448
+   total 256s
+
+   ⇒ A050_om110: fail=0/10  R_kura=0.569  lock_frac=0.451  mod_lock=0.2554±0.0027  [succ: 0.2554±0.0027]  ρ_sig=0.1630  ST_R=0.777  <Nsw>=6596
+
+>> A050_om150: κ_p=0.300  κ_C=0.300  ω_std=0.1500  ω=[-0.1012, 0.0329, 0.1671, 0.3012]  A=0.5000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112015000
+   seed=112015000  25.6s   |<z_st>|=3.755  R_kura=0.557  lock_frac=0.254  mod_lock=0.1492  Nsw=7446
+   seed=112015001  25.6s   |<z_st>|=3.996  R_kura=0.558  lock_frac=0.251  mod_lock=0.1472  Nsw=7309
+   seed=112015002  25.6s   |<z_st>|=2.900  R_kura=0.558  lock_frac=0.250  mod_lock=0.1468  Nsw=7728
+   seed=112015003  25.6s   |<z_st>|=4.309  R_kura=0.559  lock_frac=0.253  mod_lock=0.1450  Nsw=6938
+   seed=112015004  25.6s   |<z_st>|=3.981  R_kura=0.562  lock_frac=0.257  mod_lock=0.1481  Nsw=7330
+   seed=112015005  25.7s   |<z_st>|=3.027  R_kura=0.555  lock_frac=0.251  mod_lock=0.1487  Nsw=7550
+   seed=112015006  25.9s   |<z_st>|=4.828  R_kura=0.560  lock_frac=0.253  mod_lock=0.1452  Nsw=7739
+   seed=112015007  25.6s   |<z_st>|=4.869  R_kura=0.564  lock_frac=0.252  mod_lock=0.1418  Nsw=7510
+   seed=112015008  25.6s   |<z_st>|=3.604  R_kura=0.558  lock_frac=0.252  mod_lock=0.1473  Nsw=6916
+   seed=112015009  25.6s   |<z_st>|=3.428  R_kura=0.553  lock_frac=0.246  mod_lock=0.1427  Nsw=6612
+   total 256s
+
+   ⇒ A050_om150: fail=0/10  R_kura=0.558  lock_frac=0.252  mod_lock=0.1462±0.0023  [succ: 0.1462±0.0023]  ρ_sig=0.0526  ST_R=0.549  <Nsw>=7308
+
+>> A050_om190: κ_p=0.300  κ_C=0.300  ω_std=0.1900  ω=[-0.1549, 0.015, 0.185, 0.3549]  A=0.5000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112019000
+   seed=112019000  25.7s   |<z_st>|=4.807  R_kura=0.519  lock_frac=0.026  mod_lock=0.0129  Nsw=6277
+   seed=112019001  25.6s   |<z_st>|=4.429  R_kura=0.521  lock_frac=0.026  mod_lock=0.0125  Nsw=6544
+   seed=112019002  25.7s   |<z_st>|=4.701  R_kura=0.521  lock_frac=0.026  mod_lock=0.0126  Nsw=6804
+   seed=112019003  25.6s   |<z_st>|=3.938  R_kura=0.517  lock_frac=0.026  mod_lock=0.0128  Nsw=6806
+   seed=112019004  25.6s   |<z_st>|=4.801  R_kura=0.521  lock_frac=0.025  mod_lock=0.0126  Nsw=6559
+   seed=112019005  25.6s   |<z_st>|=3.994  R_kura=0.519  lock_frac=0.026  mod_lock=0.0127  Nsw=7001
+   seed=112019006  25.6s   |<z_st>|=3.825  R_kura=0.517  lock_frac=0.026  mod_lock=0.0129  Nsw=6490
+   seed=112019007  25.6s   |<z_st>|=4.028  R_kura=0.518  lock_frac=0.027  mod_lock=0.0133  Nsw=6659
+   seed=112019008  25.5s   |<z_st>|=4.660  R_kura=0.518  lock_frac=0.027  mod_lock=0.0133  Nsw=6905
+   seed=112019009  25.6s   |<z_st>|=3.608  R_kura=0.517  lock_frac=0.025  mod_lock=0.0131  Nsw=6936
+   total 256s
+
+   ⇒ A050_om190: fail=10/10  R_kura=0.519  lock_frac=0.026  mod_lock=0.0129±0.0003  [succ: 0.0000±0.0000]  ρ_sig=0.0693  ST_R=0.545  <Nsw>=6698
+
+>> A050_om230: κ_p=0.300  κ_C=0.300  ω_std=0.2300  ω=[-0.2086, -0.0029, 0.2029, 0.4086]  A=0.5000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112023000
+   seed=112023000  25.6s   |<z_st>|=3.756  R_kura=0.460  lock_frac=0.033  mod_lock=0.0119  Nsw=5867
+   seed=112023001  25.9s   |<z_st>|=3.520  R_kura=0.460  lock_frac=0.031  mod_lock=0.0116  Nsw=5818
+   seed=112023002  25.7s   |<z_st>|=4.605  R_kura=0.459  lock_frac=0.031  mod_lock=0.0122  Nsw=5941
+   seed=112023003  25.6s   |<z_st>|=3.780  R_kura=0.459  lock_frac=0.032  mod_lock=0.0113  Nsw=5212
+   seed=112023004  25.5s   |<z_st>|=3.994  R_kura=0.459  lock_frac=0.031  mod_lock=0.0112  Nsw=5552
+   seed=112023005  25.6s   |<z_st>|=3.220  R_kura=0.460  lock_frac=0.032  mod_lock=0.0113  Nsw=5865
+   seed=112023006  25.6s   |<z_st>|=4.094  R_kura=0.460  lock_frac=0.033  mod_lock=0.0112  Nsw=5802
+   seed=112023007  25.6s   |<z_st>|=4.200  R_kura=0.460  lock_frac=0.033  mod_lock=0.0110  Nsw=5976
+   seed=112023008  25.6s   |<z_st>|=4.148  R_kura=0.459  lock_frac=0.032  mod_lock=0.0121  Nsw=5751
+   seed=112023009  25.6s   |<z_st>|=4.346  R_kura=0.462  lock_frac=0.033  mod_lock=0.0126  Nsw=6139
+   total 256s
+
+   ⇒ A050_om230: fail=10/10  R_kura=0.460  lock_frac=0.032  mod_lock=0.0116±0.0005  [succ: 0.0000±0.0000]  ρ_sig=0.0685  ST_R=0.552  <Nsw>=5792
+
+>> om190_A020: κ_p=0.300  κ_C=0.300  ω_std=0.1900  ω=[-0.1549, 0.015, 0.185, 0.3549]  A=0.2000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112102000
+   seed=112102000  25.8s   |<z_st>|=4.829  R_kura=0.505  lock_frac=0.027  mod_lock=0.0035  Nsw=6937
+   seed=112102001  25.6s   |<z_st>|=5.027  R_kura=0.515  lock_frac=0.029  mod_lock=0.0051  Nsw=7091
+   seed=112102002  25.8s   |<z_st>|=5.377  R_kura=0.511  lock_frac=0.027  mod_lock=0.0028  Nsw=7459
+   seed=112102003  25.6s   |<z_st>|=4.571  R_kura=0.515  lock_frac=0.027  mod_lock=0.0046  Nsw=7307
+   seed=112102004  25.6s   |<z_st>|=4.890  R_kura=0.507  lock_frac=0.028  mod_lock=0.0046  Nsw=6935
+   seed=112102005  25.6s   |<z_st>|=5.128  R_kura=0.502  lock_frac=0.029  mod_lock=0.0040  Nsw=6984
+   seed=112102006  25.6s   |<z_st>|=6.016  R_kura=0.514  lock_frac=0.027  mod_lock=0.0034  Nsw=7205
+   seed=112102007  25.6s   |<z_st>|=4.576  R_kura=0.513  lock_frac=0.028  mod_lock=0.0037  Nsw=6900
+   seed=112102008  25.7s   |<z_st>|=4.540  R_kura=0.506  lock_frac=0.027  mod_lock=0.0054  Nsw=7156
+   seed=112102009  25.6s   |<z_st>|=4.685  R_kura=0.518  lock_frac=0.026  mod_lock=0.0031  Nsw=7184
+   total 257s
+
+   ⇒ om190_A020: fail=10/10  R_kura=0.511  lock_frac=0.028  mod_lock=0.0040±0.0008  [succ: 0.0000±0.0000]  ρ_sig=0.0872  ST_R=0.661  <Nsw>=7116
+
+>> om190_A030: κ_p=0.300  κ_C=0.300  ω_std=0.1900  ω=[-0.1549, 0.015, 0.185, 0.3549]  A=0.3000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112103000
+   seed=112103000  25.6s   |<z_st>|=4.066  R_kura=0.518  lock_frac=0.028  mod_lock=0.0075  Nsw=6777
+   seed=112103001  25.6s   |<z_st>|=4.564  R_kura=0.523  lock_frac=0.030  mod_lock=0.0055  Nsw=6902
+   seed=112103002  25.6s   |<z_st>|=4.728  R_kura=0.520  lock_frac=0.029  mod_lock=0.0064  Nsw=7230
+   seed=112103003  25.6s   |<z_st>|=4.631  R_kura=0.524  lock_frac=0.029  mod_lock=0.0066  Nsw=7090
+   seed=112103004  25.6s   |<z_st>|=4.739  R_kura=0.522  lock_frac=0.026  mod_lock=0.0056  Nsw=6695
+   seed=112103005  25.6s   |<z_st>|=4.592  R_kura=0.518  lock_frac=0.028  mod_lock=0.0069  Nsw=6702
+   seed=112103006  25.6s   |<z_st>|=5.216  R_kura=0.526  lock_frac=0.028  mod_lock=0.0059  Nsw=7018
+   seed=112103007  25.6s   |<z_st>|=5.122  R_kura=0.524  lock_frac=0.030  mod_lock=0.0058  Nsw=6883
+   seed=112103008  25.9s   |<z_st>|=4.831  R_kura=0.528  lock_frac=0.030  mod_lock=0.0071  Nsw=6983
+   seed=112103009  25.9s   |<z_st>|=5.153  R_kura=0.527  lock_frac=0.027  mod_lock=0.0059  Nsw=6855
+   total 257s
+
+   ⇒ om190_A030: fail=10/10  R_kura=0.523  lock_frac=0.029  mod_lock=0.0063±0.0006  [succ: 0.0000±0.0000]  ρ_sig=0.0824  ST_R=0.628  <Nsw>=6914
+
+>> om190_A040: κ_p=0.300  κ_C=0.300  ω_std=0.1900  ω=[-0.1549, 0.015, 0.185, 0.3549]  A=0.4000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112104000
+   seed=112104000  25.9s   |<z_st>|=5.067  R_kura=0.526  lock_frac=0.028  mod_lock=0.0113  Nsw=6888
+   seed=112104001  25.6s   |<z_st>|=5.288  R_kura=0.522  lock_frac=0.028  mod_lock=0.0118  Nsw=6599
+   seed=112104002  25.6s   |<z_st>|=4.685  R_kura=0.527  lock_frac=0.030  mod_lock=0.0115  Nsw=6455
+   seed=112104003  25.6s   |<z_st>|=4.351  R_kura=0.519  lock_frac=0.030  mod_lock=0.0118  Nsw=6563
+   seed=112104004  25.6s   |<z_st>|=4.224  R_kura=0.522  lock_frac=0.030  mod_lock=0.0113  Nsw=6532
+   seed=112104005  25.7s   |<z_st>|=4.540  R_kura=0.516  lock_frac=0.028  mod_lock=0.0108  Nsw=6577
+   seed=112104006  26.0s   |<z_st>|=4.951  R_kura=0.528  lock_frac=0.031  mod_lock=0.0125  Nsw=6510
+   seed=112104007  25.7s   |<z_st>|=3.643  R_kura=0.522  lock_frac=0.028  mod_lock=0.0112  Nsw=6855
+   seed=112104008  25.6s   |<z_st>|=4.070  R_kura=0.516  lock_frac=0.028  mod_lock=0.0113  Nsw=6159
+   seed=112104009  25.6s   |<z_st>|=4.250  R_kura=0.524  lock_frac=0.030  mod_lock=0.0110  Nsw=7004
+   total 257s
+
+   ⇒ om190_A040: fail=10/10  R_kura=0.522  lock_frac=0.029  mod_lock=0.0114±0.0005  [succ: 0.0000±0.0000]  ρ_sig=0.0777  ST_R=0.621  <Nsw>=6614
+
+>> om190_A060: κ_p=0.300  κ_C=0.300  ω_std=0.1900  ω=[-0.1549, 0.015, 0.185, 0.3549]  A=0.6000  n_seeds=10  n_chunks=25  steps=1010000  seed_base=112106000
+   seed=112106000  25.6s   |<z_st>|=4.844  R_kura=0.518  lock_frac=0.023  mod_lock=0.0126  Nsw=6730
+   seed=112106001  25.6s   |<z_st>|=4.655  R_kura=0.517  lock_frac=0.022  mod_lock=0.0133  Nsw=6703
+   seed=112106002  25.8s   |<z_st>|=4.871  R_kura=0.517  lock_frac=0.022  mod_lock=0.0128  Nsw=6830
+   seed=112106003  25.7s   |<z_st>|=5.183  R_kura=0.517  lock_frac=0.023  mod_lock=0.0119  Nsw=6515
+   seed=112106004  25.7s   |<z_st>|=3.956  R_kura=0.517  lock_frac=0.022  mod_lock=0.0111  Nsw=6978
+   seed=112106005  25.7s   |<z_st>|=3.595  R_kura=0.513  lock_frac=0.022  mod_lock=0.0127  Nsw=6781
+   seed=112106006  25.7s   |<z_st>|=4.525  R_kura=0.519  lock_frac=0.023  mod_lock=0.0127  Nsw=6591
+   seed=112106007  25.7s   |<z_st>|=4.493  R_kura=0.521  lock_frac=0.021  mod_lock=0.0120  Nsw=6598
+   seed=112106008  25.7s   |<z_st>|=4.475  R_kura=0.519  lock_frac=0.023  mod_lock=0.0121  Nsw=6982
+   seed=112106009  25.7s   |<z_st>|=4.377  R_kura=0.513  lock_frac=0.022  mod_lock=0.0121  Nsw=6738
+   total 257s
+
+   ⇒ om190_A060: fail=10/10  R_kura=0.517  lock_frac=0.022  mod_lock=0.0123±0.0006  [succ: 0.0000±0.0000]  ρ_sig=0.0759  ST_R=0.579  <Nsw>=6745
+
+Completed in 2564s (42.7 min)
+Results → thor_session_112_omega_cliff_results.json
