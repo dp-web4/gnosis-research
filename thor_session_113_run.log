@@ -1,0 +1,207 @@
+Thor Session #113: A=0.40 Dip — Switch-Class Decomposition
+Started: 2026-04-29T09:57:50.179932
+Common: σ=0.022  f_s=0.003  chunk=40000 steps  T_chunk=4000.0s  warmup=10000  decimate=10
+Per cell: 16 seeds × 25 chunks  ω_std=0.07  (below cliff, S112's mild-heterogeneity sweet spot)
+
+>> A010: κ_p=0.300  κ_C=0.300  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.1000  n_seeds=16  n_chunks=25  steps=1010000  seed_base=113010000
+   seed=113010000  25.4s   |<z_st>|=3.383  arg=-120.1°  R_k=0.312  lock@sw=0.24  att@sw=0.43  Nsw=7715  |μ_class|: aL=146.9 aN=124.1 rL= 84.4 rN=111.7
+   seed=113010001  25.5s   |<z_st>|=4.361  arg=-120.5°  R_k=0.331  lock@sw=0.27  att@sw=0.44  Nsw=8230  |μ_class|: aL=154.8 aN=122.9 rL=107.6 rN=140.8
+   seed=113010002  25.6s   |<z_st>|=3.866  arg=-125.7°  R_k=0.327  lock@sw=0.28  att@sw=0.44  Nsw=7589  |μ_class|: aL=159.4 aN=122.5 rL= 95.3 rN=133.8
+   seed=113010003  25.4s   |<z_st>|=3.870  arg=-103.6°  R_k=0.321  lock@sw=0.27  att@sw=0.42  Nsw=7957  |μ_class|: aL=131.4 aN=129.4 rL=109.7 rN=136.3
+   seed=113010004  25.4s   |<z_st>|=3.137  arg=-126.9°  R_k=0.324  lock@sw=0.25  att@sw=0.44  Nsw=7859  |μ_class|: aL=145.5 aN=120.9 rL= 76.2 rN=114.2
+   seed=113010005  25.4s   |<z_st>|=3.833  arg=-114.6°  R_k=0.318  lock@sw=0.26  att@sw=0.42  Nsw=7424  |μ_class|: aL=141.7 aN=112.7 rL= 84.1 rN=113.2
+   seed=113010006  25.4s   |<z_st>|=3.637  arg=-112.2°  R_k=0.322  lock@sw=0.28  att@sw=0.46  Nsw=7490  |μ_class|: aL=148.3 aN=123.9 rL= 87.6 rN=114.7
+   seed=113010007  25.5s   |<z_st>|=3.631  arg=-130.9°  R_k=0.323  lock@sw=0.26  att@sw=0.43  Nsw=8116  |μ_class|: aL=164.5 aN=130.9 rL=101.3 rN=144.5
+   seed=113010008  25.4s   |<z_st>|=4.033  arg=-122.0°  R_k=0.333  lock@sw=0.26  att@sw=0.43  Nsw=8519  |μ_class|: aL=166.8 aN=138.7 rL=102.1 rN=142.1
+   seed=113010009  25.4s   |<z_st>|=3.338  arg=-117.0°  R_k=0.331  lock@sw=0.27  att@sw=0.43  Nsw=7823  |μ_class|: aL=153.9 aN=128.1 rL= 93.3 rN=116.3
+   seed=113010010  25.4s   |<z_st>|=2.987  arg=-113.3°  R_k=0.334  lock@sw=0.27  att@sw=0.46  Nsw=8232  |μ_class|: aL=141.9 aN=139.2 rL= 97.1 rN=127.2
+   seed=113010011  25.4s   |<z_st>|=3.016  arg=-129.2°  R_k=0.328  lock@sw=0.27  att@sw=0.46  Nsw=7868  |μ_class|: aL=168.1 aN=139.9 rL= 74.7 rN=106.5
+   seed=113010012  25.5s   |<z_st>|=2.840  arg=-128.1°  R_k=0.314  lock@sw=0.29  att@sw=0.48  Nsw=7252  |μ_class|: aL=151.9 aN=122.9 rL= 99.7 rN=124.8
+   seed=113010013  25.5s   |<z_st>|=3.427  arg=-118.3°  R_k=0.317  lock@sw=0.27  att@sw=0.42  Nsw=7791  |μ_class|: aL=150.3 aN=129.4 rL=105.6 rN=136.6
+   seed=113010014  25.4s   |<z_st>|=2.895  arg=-119.4°  R_k=0.327  lock@sw=0.27  att@sw=0.43  Nsw=8322  |μ_class|: aL=162.1 aN=141.5 rL= 87.5 rN=121.7
+   seed=113010015  25.6s   |<z_st>|=3.710  arg=-118.1°  R_k=0.328  lock@sw=0.29  att@sw=0.45  Nsw=8068  |μ_class|: aL=148.4 aN=131.7 rL= 97.1 rN=130.8
+   total 407s
+
+   ⇒ A010: A=0.10  R_kura=0.324  lock@sw=0.269  |μ_st|=3.50  arg=-120.0°  ρ_sig=0.0393  <Nsw>=7891
+      class |μ| mean: aL=152.2 aN=128.7 rL= 93.9 rN=126.0
+      class ⟨arg⟩: aL=-156.8° aN=  -4.9° rL=  -8.7° rN=+175.3°
+      class fraction: aL=0.209 aN=0.230 rL=0.060 rN=0.501
+      cross_total/|z|² = -7.796  sum_class²/|z|² = 8.796
+
+>> A020: κ_p=0.300  κ_C=0.300  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.2000  n_seeds=16  n_chunks=25  steps=1010000  seed_base=113020000
+   seed=113020000  25.5s   |<z_st>|=5.700  arg=-117.0°  R_k=0.393  lock@sw=0.36  att@sw=0.45  Nsw=6786  |μ_class|: aL= 85.7 aN= 53.2 rL= 46.6 rN= 99.4
+   seed=113020001  25.4s   |<z_st>|=5.159  arg=-111.4°  R_k=0.393  lock@sw=0.38  att@sw=0.49  Nsw=7182  |μ_class|: aL=105.0 aN= 57.6 rL= 41.6 rN= 79.1
+   seed=113020002  25.4s   |<z_st>|=5.798  arg=-116.9°  R_k=0.393  lock@sw=0.35  att@sw=0.44  Nsw=7150  |μ_class|: aL=105.2 aN= 57.7 rL= 39.4 rN= 90.4
+   seed=113020003  25.5s   |<z_st>|=4.720  arg=-116.3°  R_k=0.393  lock@sw=0.38  att@sw=0.51  Nsw=7142  |μ_class|: aL=100.3 aN= 52.7 rL= 38.4 rN= 81.8
+   seed=113020004  25.5s   |<z_st>|=5.037  arg=-107.8°  R_k=0.396  lock@sw=0.35  att@sw=0.46  Nsw=7460  |μ_class|: aL= 97.9 aN= 62.7 rL= 41.8 rN= 78.6
+   seed=113020005  25.5s   |<z_st>|=4.580  arg=-119.6°  R_k=0.405  lock@sw=0.37  att@sw=0.46  Nsw=7417  |μ_class|: aL= 95.6 aN= 46.1 rL= 39.9 rN= 81.6
+   seed=113020006  25.4s   |<z_st>|=5.661  arg=-113.6°  R_k=0.398  lock@sw=0.36  att@sw=0.47  Nsw=7464  |μ_class|: aL= 98.3 aN= 58.4 rL= 51.3 rN= 87.9
+   seed=113020007  25.5s   |<z_st>|=4.740  arg=-114.4°  R_k=0.398  lock@sw=0.36  att@sw=0.46  Nsw=7187  |μ_class|: aL= 92.1 aN= 72.6 rL= 35.6 rN= 80.7
+   seed=113020008  25.5s   |<z_st>|=5.549  arg=-114.5°  R_k=0.407  lock@sw=0.36  att@sw=0.49  Nsw=7736  |μ_class|: aL= 98.7 aN= 58.6 rL= 37.7 rN= 92.9
+   seed=113020009  25.4s   |<z_st>|=4.822  arg=-113.5°  R_k=0.400  lock@sw=0.38  att@sw=0.48  Nsw=6981  |μ_class|: aL= 98.6 aN= 65.8 rL= 34.5 rN= 84.6
+   seed=113020010  25.4s   |<z_st>|=5.868  arg=-110.3°  R_k=0.415  lock@sw=0.40  att@sw=0.48  Nsw=7285  |μ_class|: aL= 96.7 aN= 53.4 rL= 53.7 rN=101.6
+   seed=113020011  25.3s   |<z_st>|=4.413  arg=-117.8°  R_k=0.404  lock@sw=0.37  att@sw=0.47  Nsw=7849  |μ_class|: aL= 90.5 aN= 54.1 rL= 30.9 rN= 81.1
+   seed=113020012  25.4s   |<z_st>|=4.872  arg=-111.1°  R_k=0.388  lock@sw=0.34  att@sw=0.47  Nsw=7133  |μ_class|: aL= 96.3 aN= 61.5 rL= 39.5 rN= 83.9
+   seed=113020013  25.3s   |<z_st>|=4.991  arg=-118.4°  R_k=0.410  lock@sw=0.38  att@sw=0.48  Nsw=7828  |μ_class|: aL= 94.7 aN= 64.8 rL= 42.2 rN= 94.2
+   seed=113020014  25.4s   |<z_st>|=5.571  arg=-111.9°  R_k=0.432  lock@sw=0.39  att@sw=0.48  Nsw=8139  |μ_class|: aL=103.7 aN= 74.0 rL= 45.8 rN= 94.6
+   seed=113020015  25.4s   |<z_st>|=4.589  arg=-112.5°  R_k=0.400  lock@sw=0.37  att@sw=0.49  Nsw=7202  |μ_class|: aL= 88.2 aN= 58.1 rL= 39.9 rN= 84.9
+   total 407s
+
+   ⇒ A020: A=0.20  R_kura=0.401  lock@sw=0.370  |μ_st|=5.13  arg=-114.2°  ρ_sig=0.0902  <Nsw>=7371
+      class |μ| mean: aL= 96.7 aN= 59.5 rL= 41.2 rN= 87.3
+      class ⟨arg⟩: aL=-130.7° aN= -12.7° rL= -19.2° rN=-169.1°
+      class fraction: aL=0.331 aN=0.144 rL=0.040 rN=0.486
+      cross_total/|z|² = -0.373  sum_class²/|z|² = 1.373
+
+>> A025: κ_p=0.300  κ_C=0.300  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.2500  n_seeds=16  n_chunks=25  steps=1010000  seed_base=113025000
+   seed=113025000  25.4s   |<z_st>|=5.912  arg=-115.2°  R_k=0.458  lock@sw=0.41  att@sw=0.49  Nsw=7289  |μ_class|: aL= 82.8 aN= 37.5 rL= 33.9 rN= 79.2
+   seed=113025001  25.4s   |<z_st>|=4.810  arg=-120.3°  R_k=0.454  lock@sw=0.48  att@sw=0.55  Nsw=7372  |μ_class|: aL= 72.1 aN= 35.3 rL= 38.2 rN= 88.3
+   seed=113025002  25.6s   |<z_st>|=4.138  arg=-116.5°  R_k=0.445  lock@sw=0.43  att@sw=0.53  Nsw=7112  |μ_class|: aL= 70.2 aN= 43.8 rL= 23.6 rN= 74.7
+   seed=113025003  25.3s   |<z_st>|=5.895  arg=-105.5°  R_k=0.473  lock@sw=0.49  att@sw=0.57  Nsw=7153  |μ_class|: aL= 71.1 aN= 48.0 rL= 32.6 rN= 78.1
+   seed=113025004  25.4s   |<z_st>|=5.070  arg=-113.1°  R_k=0.455  lock@sw=0.45  att@sw=0.52  Nsw=7756  |μ_class|: aL= 98.8 aN= 42.6 rL= 24.9 rN= 76.7
+   seed=113025005  25.4s   |<z_st>|=4.787  arg=-119.7°  R_k=0.453  lock@sw=0.46  att@sw=0.54  Nsw=7098  |μ_class|: aL= 94.8 aN= 47.5 rL= 32.7 rN= 81.4
+   seed=113025006  25.4s   |<z_st>|=6.554  arg=-102.6°  R_k=0.466  lock@sw=0.43  att@sw=0.51  Nsw=7124  |μ_class|: aL= 66.7 aN= 45.9 rL= 32.3 rN= 91.6
+   seed=113025007  25.4s   |<z_st>|=5.766  arg=-111.8°  R_k=0.465  lock@sw=0.43  att@sw=0.51  Nsw=7408  |μ_class|: aL= 69.4 aN= 46.3 rL= 21.5 rN= 79.9
+   seed=113025008  25.3s   |<z_st>|=5.624  arg=-107.8°  R_k=0.442  lock@sw=0.41  att@sw=0.50  Nsw=7189  |μ_class|: aL= 88.1 aN= 44.6 rL= 24.4 rN= 75.8
+   seed=113025009  25.4s   |<z_st>|=5.975  arg=-108.8°  R_k=0.486  lock@sw=0.45  att@sw=0.53  Nsw=7629  |μ_class|: aL= 83.3 aN= 41.0 rL= 33.7 rN= 97.5
+   seed=113025010  25.4s   |<z_st>|=6.281  arg=-114.1°  R_k=0.460  lock@sw=0.41  att@sw=0.51  Nsw=7469  |μ_class|: aL=110.6 aN= 42.1 rL= 22.0 rN= 85.9
+   seed=113025011  25.4s   |<z_st>|=6.023  arg=-115.6°  R_k=0.476  lock@sw=0.46  att@sw=0.55  Nsw=7572  |μ_class|: aL= 97.1 aN= 33.5 rL= 25.5 rN= 81.3
+   seed=113025012  25.4s   |<z_st>|=5.335  arg=-118.6°  R_k=0.463  lock@sw=0.46  att@sw=0.54  Nsw=7030  |μ_class|: aL= 85.2 aN= 34.8 rL= 38.1 rN= 78.9
+   seed=113025013  25.4s   |<z_st>|=4.643  arg=-116.7°  R_k=0.456  lock@sw=0.45  att@sw=0.51  Nsw=7527  |μ_class|: aL= 72.9 aN= 33.7 rL= 32.6 rN= 79.8
+   seed=113025014  25.4s   |<z_st>|=5.427  arg=-112.3°  R_k=0.449  lock@sw=0.44  att@sw=0.54  Nsw=6643  |μ_class|: aL= 76.2 aN= 37.3 rL= 42.8 rN= 83.2
+   seed=113025015  25.4s   |<z_st>|=6.002  arg=-117.6°  R_k=0.451  lock@sw=0.41  att@sw=0.50  Nsw=7090  |μ_class|: aL= 89.9 aN= 32.5 rL= 36.4 rN= 90.4
+   total 406s
+
+   ⇒ A025: A=0.25  R_kura=0.460  lock@sw=0.442  |μ_st|=5.52  arg=-113.5°  ρ_sig=0.1060  <Nsw>=7279
+      class |μ| mean: aL= 83.1 aN= 40.4 rL= 30.9 rN= 82.7
+      class ⟨arg⟩: aL=-118.6° aN= -16.4° rL= -31.8° rN=-162.1°
+      class fraction: aL=0.408 aN=0.117 rL=0.033 rN=0.441
+      cross_total/|z|² = +0.098  sum_class²/|z|² = 0.902
+
+>> A030: κ_p=0.300  κ_C=0.300  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.3000  n_seeds=16  n_chunks=25  steps=1010000  seed_base=113030000
+   seed=113030000  25.6s   |<z_st>|=6.460  arg=-108.6°  R_k=0.504  lock@sw=0.45  att@sw=0.52  Nsw=6836  |μ_class|: aL= 75.1 aN= 21.0 rL= 21.3 rN= 92.0
+   seed=113030001  25.4s   |<z_st>|=7.206  arg=-122.3°  R_k=0.517  lock@sw=0.51  att@sw=0.58  Nsw=7641  |μ_class|: aL=110.5 aN= 37.3 rL= 35.1 rN=102.0
+   seed=113030002  25.4s   |<z_st>|=5.067  arg=-115.4°  R_k=0.482  lock@sw=0.49  att@sw=0.56  Nsw=6718  |μ_class|: aL= 71.3 aN= 33.5 rL= 22.7 rN= 70.7
+   seed=113030003  25.4s   |<z_st>|=6.607  arg=-112.5°  R_k=0.506  lock@sw=0.48  att@sw=0.55  Nsw=7303  |μ_class|: aL= 73.4 aN= 21.6 rL= 30.7 rN=100.9
+   seed=113030004  25.4s   |<z_st>|=5.770  arg=-110.4°  R_k=0.494  lock@sw=0.48  att@sw=0.56  Nsw=7130  |μ_class|: aL= 62.5 aN= 32.5 rL= 33.2 rN= 85.5
+   seed=113030005  25.4s   |<z_st>|=6.118  arg=-107.8°  R_k=0.508  lock@sw=0.48  att@sw=0.58  Nsw=7112  |μ_class|: aL= 78.6 aN= 29.7 rL= 15.0 rN= 85.0
+   seed=113030006  25.4s   |<z_st>|=6.267  arg=-113.3°  R_k=0.507  lock@sw=0.48  att@sw=0.54  Nsw=7421  |μ_class|: aL= 85.8 aN= 35.5 rL= 19.5 rN= 88.1
+   seed=113030007  25.4s   |<z_st>|=6.382  arg=-112.2°  R_k=0.524  lock@sw=0.49  att@sw=0.53  Nsw=7796  |μ_class|: aL= 68.2 aN= 21.3 rL= 28.8 rN= 95.6
+   seed=113030008  25.5s   |<z_st>|=4.845  arg=-117.8°  R_k=0.494  lock@sw=0.50  att@sw=0.57  Nsw=6877  |μ_class|: aL= 77.3 aN= 19.5 rL= 13.3 rN= 64.2
+   seed=113030009  25.4s   |<z_st>|=6.882  arg=-114.2°  R_k=0.515  lock@sw=0.48  att@sw=0.54  Nsw=7318  |μ_class|: aL= 89.5 aN= 28.7 rL= 27.9 rN= 79.1
+   seed=113030010  25.4s   |<z_st>|=4.528  arg=-108.7°  R_k=0.489  lock@sw=0.51  att@sw=0.57  Nsw=7087  |μ_class|: aL= 46.9 aN= 22.1 rL= 30.8 rN= 79.7
+   seed=113030011  25.5s   |<z_st>|=6.024  arg=-113.8°  R_k=0.507  lock@sw=0.49  att@sw=0.56  Nsw=7396  |μ_class|: aL= 80.2 aN= 25.2 rL= 23.9 rN= 83.7
+   seed=113030012  25.5s   |<z_st>|=5.527  arg=-114.3°  R_k=0.498  lock@sw=0.50  att@sw=0.57  Nsw=6864  |μ_class|: aL= 74.3 aN= 20.8 rL= 24.9 rN= 80.9
+   seed=113030013  25.5s   |<z_st>|=6.252  arg=-114.3°  R_k=0.509  lock@sw=0.51  att@sw=0.59  Nsw=6916  |μ_class|: aL= 87.1 aN= 25.7 rL= 25.9 rN= 81.8
+   seed=113030014  25.4s   |<z_st>|=6.102  arg=-116.3°  R_k=0.496  lock@sw=0.47  att@sw=0.54  Nsw=7369  |μ_class|: aL= 86.0 aN= 33.5 rL= 22.1 rN= 78.9
+   seed=113030015  25.4s   |<z_st>|=5.791  arg=-109.1°  R_k=0.491  lock@sw=0.48  att@sw=0.55  Nsw=7038  |μ_class|: aL= 52.4 aN= 27.7 rL= 20.7 rN= 91.2
+   total 407s
+
+   ⇒ A030: A=0.30  R_kura=0.503  lock@sw=0.488  |μ_st|=5.99  arg=-113.2°  ρ_sig=0.1262  <Nsw>=7176
+      class |μ| mean: aL= 76.2 aN= 27.2 rL= 24.7 rN= 85.0
+      class ⟨arg⟩: aL=-108.4° aN= -24.8° rL= -42.6° rN=-153.6°
+      class fraction: aL=0.457 aN=0.100 rL=0.031 rN=0.412
+      cross_total/|z|² = +0.344  sum_class²/|z|² = 0.656
+
+>> A035: κ_p=0.300  κ_C=0.300  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.3500  n_seeds=16  n_chunks=25  steps=1010000  seed_base=113035000
+   seed=113035000  25.6s   |<z_st>|=6.115  arg=-117.3°  R_k=0.512  lock@sw=0.51  att@sw=0.58  Nsw=7637  |μ_class|: aL= 63.4 aN= 15.5 rL= 21.7 rN= 90.2
+   seed=113035001  25.3s   |<z_st>|=5.866  arg=-116.8°  R_k=0.515  lock@sw=0.52  att@sw=0.58  Nsw=6998  |μ_class|: aL= 66.0 aN= 20.6 rL= 17.3 rN= 87.8
+   seed=113035002  25.5s   |<z_st>|=6.021  arg=-115.7°  R_k=0.510  lock@sw=0.52  att@sw=0.59  Nsw=6950  |μ_class|: aL= 81.8 aN= 30.1 rL= 13.0 rN= 78.4
+   seed=113035003  25.4s   |<z_st>|=6.145  arg=-119.7°  R_k=0.504  lock@sw=0.51  att@sw=0.58  Nsw=6593  |μ_class|: aL= 80.7 aN= 19.9 rL= 18.8 rN= 82.2
+   seed=113035004  25.4s   |<z_st>|=7.230  arg=-118.0°  R_k=0.523  lock@sw=0.51  att@sw=0.57  Nsw=7196  |μ_class|: aL= 81.6 aN= 29.1 rL= 15.8 rN= 88.2
+   seed=113035005  25.4s   |<z_st>|=5.568  arg=-111.1°  R_k=0.521  lock@sw=0.53  att@sw=0.60  Nsw=7273  |μ_class|: aL= 73.1 aN= 16.5 rL= 18.2 rN= 81.5
+   seed=113035006  25.5s   |<z_st>|=6.960  arg=-112.8°  R_k=0.508  lock@sw=0.49  att@sw=0.55  Nsw=7011  |μ_class|: aL= 73.0 aN= 30.8 rL= 28.9 rN= 81.8
+   seed=113035007  25.5s   |<z_st>|=7.566  arg=-112.4°  R_k=0.535  lock@sw=0.55  att@sw=0.60  Nsw=7197  |μ_class|: aL=118.1 aN= 16.1 rL= 19.5 rN= 77.6
+   seed=113035008  25.4s   |<z_st>|=5.954  arg=-108.7°  R_k=0.515  lock@sw=0.52  att@sw=0.58  Nsw=6938  |μ_class|: aL= 83.6 aN= 20.5 rL= 17.6 rN= 80.9
+   seed=113035009  25.4s   |<z_st>|=6.214  arg=-112.4°  R_k=0.522  lock@sw=0.52  att@sw=0.60  Nsw=7481  |μ_class|: aL= 76.8 aN= 29.9 rL= 20.9 rN= 74.0
+   seed=113035010  25.4s   |<z_st>|=5.753  arg=-117.0°  R_k=0.511  lock@sw=0.52  att@sw=0.57  Nsw=6858  |μ_class|: aL= 81.3 aN= 18.2 rL= 25.1 rN= 76.9
+   seed=113035011  25.4s   |<z_st>|=6.760  arg=-112.2°  R_k=0.506  lock@sw=0.50  att@sw=0.56  Nsw=6922  |μ_class|: aL= 93.3 aN= 17.9 rL= 18.5 rN= 86.2
+   seed=113035012  25.4s   |<z_st>|=6.144  arg=-118.3°  R_k=0.507  lock@sw=0.49  att@sw=0.54  Nsw=7088  |μ_class|: aL= 82.4 aN= 15.7 rL= 11.5 rN= 92.5
+   seed=113035013  25.4s   |<z_st>|=5.651  arg=-115.1°  R_k=0.507  lock@sw=0.55  att@sw=0.61  Nsw=6910  |μ_class|: aL= 42.3 aN= 27.1 rL= 27.7 rN= 84.2
+   seed=113035014  25.4s   |<z_st>|=6.277  arg=-109.1°  R_k=0.524  lock@sw=0.53  att@sw=0.60  Nsw=7140  |μ_class|: aL= 85.9 aN= 16.7 rL= 14.2 rN= 92.5
+   seed=113035015  25.4s   |<z_st>|=6.748  arg=-119.0°  R_k=0.521  lock@sw=0.49  att@sw=0.56  Nsw=7673  |μ_class|: aL= 80.5 aN= 33.0 rL= 19.5 rN= 89.2
+   total 407s
+
+   ⇒ A035: A=0.35  R_kura=0.515  lock@sw=0.517  |μ_st|=6.31  arg=-114.7°  ρ_sig=0.1410  <Nsw>=7117
+      class |μ| mean: aL= 79.0 aN= 22.3 rL= 19.3 rN= 84.0
+      class ⟨arg⟩: aL=-105.9° aN= -39.5° rL= -39.9° rN=-151.6°
+      class fraction: aL=0.489 aN=0.090 rL=0.028 rN=0.392
+      cross_total/|z|² = +0.417  sum_class²/|z|² = 0.583
+
+>> A040: κ_p=0.300  κ_C=0.300  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.4000  n_seeds=16  n_chunks=25  steps=1010000  seed_base=113040000
+   seed=113040000  25.6s   |<z_st>|=5.931  arg=-111.6°  R_k=0.523  lock@sw=0.57  att@sw=0.61  Nsw=6324  |μ_class|: aL= 54.1 aN= 17.9 rL= 21.5 rN= 88.3
+   seed=113040001  25.4s   |<z_st>|=5.997  arg=-112.7°  R_k=0.533  lock@sw=0.57  att@sw=0.62  Nsw=7194  |μ_class|: aL= 71.7 aN= 21.1 rL= 25.0 rN= 74.4
+   seed=113040002  25.4s   |<z_st>|=5.513  arg=-119.9°  R_k=0.522  lock@sw=0.54  att@sw=0.61  Nsw=6641  |μ_class|: aL= 81.8 aN= 21.7 rL= 21.6 rN= 72.2
+   seed=113040003  25.4s   |<z_st>|=6.146  arg=-105.3°  R_k=0.534  lock@sw=0.53  att@sw=0.60  Nsw=6956  |μ_class|: aL= 87.0 aN= 14.8 rL= 12.9 rN= 89.0
+   seed=113040004  25.4s   |<z_st>|=5.580  arg=-112.3°  R_k=0.524  lock@sw=0.57  att@sw=0.62  Nsw=6929  |μ_class|: aL= 64.5 aN= 16.0 rL= 17.2 rN= 69.0
+   seed=113040005  25.4s   |<z_st>|=5.817  arg=-114.7°  R_k=0.534  lock@sw=0.55  att@sw=0.60  Nsw=7348  |μ_class|: aL= 70.7 aN=  9.0 rL=  8.8 rN= 88.9
+   seed=113040006  25.4s   |<z_st>|=6.858  arg=-110.8°  R_k=0.529  lock@sw=0.54  att@sw=0.59  Nsw=6936  |μ_class|: aL= 89.9 aN= 18.7 rL= 13.4 rN= 88.4
+   seed=113040007  25.4s   |<z_st>|=6.437  arg=-113.1°  R_k=0.522  lock@sw=0.55  att@sw=0.61  Nsw=6729  |μ_class|: aL= 81.0 aN= 20.9 rL=  9.5 rN= 86.1
+   seed=113040008  25.5s   |<z_st>|=5.268  arg=-105.3°  R_k=0.523  lock@sw=0.56  att@sw=0.61  Nsw=6796  |μ_class|: aL= 54.5 aN= 19.7 rL= 15.5 rN= 67.9
+   seed=113040009  25.4s   |<z_st>|=6.079  arg=-109.7°  R_k=0.529  lock@sw=0.57  att@sw=0.61  Nsw=6510  |μ_class|: aL= 82.5 aN= 10.8 rL=  9.2 rN= 85.5
+   seed=113040010  25.4s   |<z_st>|=6.843  arg=-119.0°  R_k=0.525  lock@sw=0.54  att@sw=0.59  Nsw=6852  |μ_class|: aL= 95.7 aN= 16.6 rL=  7.7 rN= 90.3
+   seed=113040011  25.4s   |<z_st>|=6.121  arg=-107.6°  R_k=0.531  lock@sw=0.53  att@sw=0.58  Nsw=7275  |μ_class|: aL= 89.9 aN= 14.8 rL= 18.0 rN= 67.9
+   seed=113040012  25.4s   |<z_st>|=5.808  arg=-110.8°  R_k=0.529  lock@sw=0.56  att@sw=0.60  Nsw=6717  |μ_class|: aL= 50.6 aN= 13.1 rL= 29.9 rN= 86.1
+   seed=113040013  25.4s   |<z_st>|=6.742  arg=-117.7°  R_k=0.525  lock@sw=0.52  att@sw=0.58  Nsw=6912  |μ_class|: aL= 90.9 aN= 21.9 rL= 12.4 rN= 85.2
+   seed=113040014  25.4s   |<z_st>|=6.366  arg=-118.0°  R_k=0.530  lock@sw=0.55  att@sw=0.61  Nsw=6977  |μ_class|: aL= 77.7 aN= 13.8 rL=  9.9 rN= 95.2
+   seed=113040015  25.4s   |<z_st>|=6.322  arg=-106.1°  R_k=0.515  lock@sw=0.53  att@sw=0.58  Nsw=6469  |μ_class|: aL= 78.7 aN= 14.6 rL= 10.6 rN= 85.1
+   total 407s
+
+   ⇒ A040: A=0.40  R_kura=0.527  lock@sw=0.549  |μ_st|=6.11  arg=-112.2°  ρ_sig=0.1374  <Nsw>=6848
+      class |μ| mean: aL= 76.3 aN= 16.6 rL= 15.2 rN= 82.5
+      class ⟨arg⟩: aL= -97.7° aN= -42.8° rL= -36.8° rN=-147.2°
+      class fraction: aL=0.525 aN=0.077 rL=0.025 rN=0.373
+      cross_total/|z|² = +0.430  sum_class²/|z|² = 0.570
+
+>> A045: κ_p=0.300  κ_C=0.300  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.4500  n_seeds=16  n_chunks=25  steps=1010000  seed_base=113045000
+   seed=113045000  25.5s   |<z_st>|=5.443  arg=-110.0°  R_k=0.522  lock@sw=0.54  att@sw=0.58  Nsw=6624  |μ_class|: aL= 71.6 aN= 16.8 rL= 14.2 rN= 81.5
+   seed=113045001  25.4s   |<z_st>|=6.205  arg=-109.5°  R_k=0.536  lock@sw=0.55  att@sw=0.61  Nsw=6840  |μ_class|: aL= 65.7 aN= 11.1 rL= 13.5 rN= 93.0
+   seed=113045002  25.5s   |<z_st>|=6.605  arg=-110.7°  R_k=0.531  lock@sw=0.57  att@sw=0.62  Nsw=6596  |μ_class|: aL= 70.5 aN= 22.3 rL= 14.2 rN= 81.0
+   seed=113045003  25.4s   |<z_st>|=5.750  arg=-108.1°  R_k=0.542  lock@sw=0.60  att@sw=0.64  Nsw=6734  |μ_class|: aL= 78.0 aN= 12.8 rL=  8.6 rN= 73.8
+   seed=113045004  25.4s   |<z_st>|=7.164  arg=-110.1°  R_k=0.550  lock@sw=0.53  att@sw=0.59  Nsw=7556  |μ_class|: aL= 86.2 aN= 18.8 rL= 11.7 rN= 99.9
+   seed=113045005  25.4s   |<z_st>|=5.858  arg=-105.4°  R_k=0.538  lock@sw=0.58  att@sw=0.64  Nsw=7003  |μ_class|: aL= 62.8 aN= 10.5 rL=  7.0 rN= 89.2
+   seed=113045006  25.4s   |<z_st>|=6.193  arg=-111.1°  R_k=0.541  lock@sw=0.58  att@sw=0.62  Nsw=6990  |μ_class|: aL= 64.4 aN= 17.9 rL= 26.8 rN= 74.1
+   seed=113045007  25.4s   |<z_st>|=5.873  arg=-115.4°  R_k=0.530  lock@sw=0.54  att@sw=0.60  Nsw=6873  |μ_class|: aL= 68.5 aN= 11.5 rL= 17.4 rN= 86.1
+   seed=113045008  25.4s   |<z_st>|=6.778  arg=-113.8°  R_k=0.537  lock@sw=0.53  att@sw=0.59  Nsw=7299  |μ_class|: aL= 90.2 aN= 16.8 rL= 12.7 rN= 83.5
+   seed=113045009  25.4s   |<z_st>|=6.450  arg=-110.6°  R_k=0.533  lock@sw=0.57  att@sw=0.62  Nsw=6721  |μ_class|: aL= 64.1 aN= 24.0 rL= 16.6 rN= 82.2
+   seed=113045010  25.5s   |<z_st>|=7.304  arg=-108.2°  R_k=0.548  lock@sw=0.57  att@sw=0.62  Nsw=7061  |μ_class|: aL= 78.5 aN= 15.0 rL= 18.1 rN= 93.4
+   seed=113045011  25.4s   |<z_st>|=6.168  arg=-110.2°  R_k=0.546  lock@sw=0.60  att@sw=0.65  Nsw=7018  |μ_class|: aL= 66.8 aN= 16.5 rL= 10.3 rN= 92.3
+   seed=113045012  25.5s   |<z_st>|=6.623  arg=-116.4°  R_k=0.538  lock@sw=0.56  att@sw=0.61  Nsw=6750  |μ_class|: aL=112.8 aN= 15.7 rL= 10.7 rN= 78.4
+   seed=113045013  25.4s   |<z_st>|=5.487  arg=-111.5°  R_k=0.527  lock@sw=0.56  att@sw=0.61  Nsw=6866  |μ_class|: aL= 50.3 aN= 19.9 rL= 25.3 rN= 71.9
+   seed=113045014  25.4s   |<z_st>|=6.699  arg=-110.2°  R_k=0.539  lock@sw=0.55  att@sw=0.60  Nsw=7026  |μ_class|: aL= 77.2 aN= 17.5 rL= 17.5 rN= 82.1
+   seed=113045015  25.5s   |<z_st>|=7.206  arg=-111.3°  R_k=0.536  lock@sw=0.53  att@sw=0.58  Nsw=7185  |μ_class|: aL= 94.6 aN=  6.2 rL= 14.2 rN= 92.2
+   total 407s
+
+   ⇒ A045: A=0.45  R_kura=0.537  lock@sw=0.561  |μ_st|=6.36  arg=-110.8°  ρ_sig=0.1465  <Nsw>=6946
+      class |μ| mean: aL= 75.1 aN= 15.8 rL= 14.9 rN= 84.7
+      class ⟨arg⟩: aL= -96.2° aN= -46.9° rL= -41.3° rN=-140.4°
+      class fraction: aL=0.538 aN=0.073 rL=0.023 rN=0.367
+      cross_total/|z|² = +0.464  sum_class²/|z|² = 0.536
+
+>> A050: κ_p=0.300  κ_C=0.300  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.5000  n_seeds=16  n_chunks=25  steps=1010000  seed_base=113050000
+   seed=113050000  25.6s   |<z_st>|=6.978  arg=-106.5°  R_k=0.545  lock@sw=0.60  att@sw=0.64  Nsw=6570  |μ_class|: aL= 85.0 aN= 15.2 rL=  7.5 rN= 92.7
+   seed=113050001  25.4s   |<z_st>|=6.228  arg=-118.3°  R_k=0.538  lock@sw=0.60  att@sw=0.64  Nsw=6510  |μ_class|: aL= 69.4 aN= 11.7 rL=  8.5 rN= 86.8
+   seed=113050002  25.4s   |<z_st>|=6.831  arg=-108.0°  R_k=0.546  lock@sw=0.61  att@sw=0.65  Nsw=6449  |μ_class|: aL= 84.7 aN= 11.6 rL= 16.3 rN= 80.5
+   seed=113050003  25.4s   |<z_st>|=7.472  arg=-112.4°  R_k=0.542  lock@sw=0.54  att@sw=0.60  Nsw=7075  |μ_class|: aL= 77.8 aN= 29.9 rL= 14.6 rN= 85.7
+   seed=113050004  25.4s   |<z_st>|=7.116  arg=-110.4°  R_k=0.541  lock@sw=0.62  att@sw=0.67  Nsw=6546  |μ_class|: aL= 77.9 aN= 17.6 rL= 11.9 rN= 85.8
+   seed=113050005  25.4s   |<z_st>|=5.265  arg=-110.9°  R_k=0.537  lock@sw=0.60  att@sw=0.65  Nsw=6978  |μ_class|: aL= 46.0 aN= 12.9 rL= 12.6 rN= 79.7
+   seed=113050006  25.3s   |<z_st>|=7.716  arg=-109.8°  R_k=0.554  lock@sw=0.63  att@sw=0.68  Nsw=6498  |μ_class|: aL= 86.3 aN= 21.4 rL=  6.3 rN= 97.3
+   seed=113050007  25.4s   |<z_st>|=7.152  arg=-111.3°  R_k=0.548  lock@sw=0.55  att@sw=0.60  Nsw=7174  |μ_class|: aL= 80.0 aN= 25.4 rL= 18.8 rN= 77.5
+   seed=113050008  25.4s   |<z_st>|=6.582  arg=-107.9°  R_k=0.536  lock@sw=0.57  att@sw=0.62  Nsw=6467  |μ_class|: aL= 89.4 aN=  9.3 rL=  9.7 rN= 84.8
+   seed=113050009  25.4s   |<z_st>|=6.011  arg=-112.4°  R_k=0.538  lock@sw=0.60  att@sw=0.65  Nsw=6622  |μ_class|: aL= 68.6 aN= 10.8 rL= 13.2 rN= 76.9
+   seed=113050010  25.4s   |<z_st>|=6.210  arg=-113.3°  R_k=0.540  lock@sw=0.60  att@sw=0.65  Nsw=6795  |μ_class|: aL= 66.3 aN=  7.5 rL=  8.6 rN=100.1
+   seed=113050011  25.4s   |<z_st>|=6.934  arg=-113.6°  R_k=0.542  lock@sw=0.58  att@sw=0.63  Nsw=6508  |μ_class|: aL= 69.5 aN= 17.4 rL= 15.2 rN= 90.7
+   seed=113050012  25.4s   |<z_st>|=5.627  arg=-114.2°  R_k=0.536  lock@sw=0.59  att@sw=0.62  Nsw=6765  |μ_class|: aL= 54.9 aN=  9.7 rL= 18.2 rN= 80.6
+   seed=113050013  25.4s   |<z_st>|=5.592  arg=-107.5°  R_k=0.541  lock@sw=0.59  att@sw=0.64  Nsw=7258  |μ_class|: aL= 56.2 aN= 18.0 rL=  8.9 rN= 77.4
+   seed=113050014  25.5s   |<z_st>|=6.861  arg=-104.0°  R_k=0.538  lock@sw=0.56  att@sw=0.61  Nsw=6891  |μ_class|: aL= 78.2 aN= 10.8 rL=  5.9 rN= 93.4
+   seed=113050015  25.4s   |<z_st>|=6.129  arg=-110.6°  R_k=0.543  lock@sw=0.59  att@sw=0.64  Nsw=7039  |μ_class|: aL= 48.5 aN= 16.8 rL= 17.6 rN= 88.8
+   total 406s
+
+   ⇒ A050: A=0.50  R_kura=0.541  lock@sw=0.590  |μ_st|=6.54  arg=-110.7°  ρ_sig=0.1607  <Nsw>=6759
+      class |μ| mean: aL= 71.2 aN= 15.4 rL= 12.1 rN= 86.2
+      class ⟨arg⟩: aL= -95.9° aN= -61.9° rL= -50.7° rN=-136.2°
+      class fraction: aL=0.572 aN=0.063 rL=0.018 rN=0.347
+      cross_total/|z|² = +0.510  sum_class²/|z|² = 0.490
+
+Completed in 3254s (54.2 min)
+Results → thor_session_113_dip_decomp_results.json
