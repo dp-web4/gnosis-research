@@ -1,0 +1,319 @@
+Thor Session #116: Past-Ridge κ_C — Signal Rescue and aL_arg Beyond −96°
+Started: 2026-06-04T22:19:13.196878
+Common: σ=0.022  f_s=0.003  chunk=40000 steps  T_chunk=4000.0s  warmup=10000  decimate=10
+Per cell: 16 seeds × 25 chunks  κ_p=0.30, ω_std=0.07 fixed; sweep (κ_C, A)
+
+>> kc050_A030: κ_p=0.300  κ_C=0.500  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.3000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=121030000  25.6s   |<z_st>|=1.260  arg= -81.2°  R_k=0.369  lock@sw=0.65  Nsw=3200  |μ| aL= 17.7 aN= 14.9 rL= 11.5 rN= 31.8
+   seed=121030001  25.6s   |<z_st>|=2.956  arg= -97.4°  R_k=0.396  lock@sw=0.60  Nsw=3771  |μ| aL= 30.6 aN= 18.3 rL= 17.1 rN= 48.6
+   seed=121030002  25.6s   |<z_st>|=1.921  arg=-105.5°  R_k=0.359  lock@sw=0.60  Nsw=3128  |μ| aL= 24.9 aN=  6.9 rL= 11.3 rN= 37.7
+   seed=121030003  25.6s   |<z_st>|=2.405  arg= -88.5°  R_k=0.383  lock@sw=0.64  Nsw=3481  |μ| aL= 19.0 aN= 15.0 rL= 11.7 rN= 47.2
+   seed=121030004  25.6s   |<z_st>|=1.966  arg= -95.6°  R_k=0.375  lock@sw=0.64  Nsw=3278  |μ| aL= 35.5 aN= 22.2 rL= 11.6 rN= 32.0
+   seed=121030005  25.6s   |<z_st>|=1.843  arg= -91.1°  R_k=0.372  lock@sw=0.63  Nsw=3394  |μ| aL= 13.5 aN= 21.2 rL= 16.8 rN= 34.1
+   seed=121030006  25.6s   |<z_st>|=2.838  arg= -99.0°  R_k=0.393  lock@sw=0.57  Nsw=3610  |μ| aL= 34.8 aN= 17.7 rL= 15.0 rN= 39.2
+   seed=121030007  25.6s   |<z_st>|=2.060  arg= -95.3°  R_k=0.379  lock@sw=0.62  Nsw=3438  |μ| aL= 19.1 aN= 11.3 rL= 13.1 rN= 43.8
+   seed=121030008  25.6s   |<z_st>|=2.725  arg=-115.0°  R_k=0.382  lock@sw=0.64  Nsw=3363  |μ| aL= 34.2 aN= 14.5 rL= 12.7 rN= 50.2
+   seed=121030009  25.7s   |<z_st>|=2.061  arg=-100.0°  R_k=0.371  lock@sw=0.62  Nsw=3313  |μ| aL= 21.9 aN= 19.8 rL= 12.1 rN= 29.9
+   seed=121030010  25.8s   |<z_st>|=2.325  arg=-102.2°  R_k=0.380  lock@sw=0.61  Nsw=3584  |μ| aL= 23.3 aN= 13.4 rL= 12.7 rN= 46.3
+   seed=121030011  25.8s   |<z_st>|=1.961  arg= -87.0°  R_k=0.375  lock@sw=0.63  Nsw=3234  |μ| aL= 23.7 aN=  9.8 rL=  8.6 rN= 38.1
+   seed=121030012  25.9s   |<z_st>|=1.961  arg= -84.9°  R_k=0.380  lock@sw=0.63  Nsw=3342  |μ| aL= 23.4 aN= 15.1 rL=  9.2 rN= 31.4
+   seed=121030013  25.8s   |<z_st>|=2.387  arg=-116.6°  R_k=0.382  lock@sw=0.61  Nsw=3420  |μ| aL= 33.3 aN= 11.5 rL= 18.5 rN= 42.0
+   seed=121030014  25.9s   |<z_st>|=2.772  arg= -95.0°  R_k=0.391  lock@sw=0.61  Nsw=3480  |μ| aL= 39.2 aN= 17.4 rL= 11.6 rN= 39.9
+   seed=121030015  25.9s   |<z_st>|=2.972  arg= -92.1°  R_k=0.406  lock@sw=0.61  Nsw=3928  |μ| aL= 30.5 aN= 21.5 rL= 16.8 rN= 44.0
+   total 411s
+
+   ⇒ kc050_A030: κ_C=0.50  A=0.30  R_kura=0.381  lock_frac=0.239  lock@sw=0.620  |μ_st|=2.28  arg= -96.6°  ρ_sig=0.0387  <Nsw>=3435
+      class |μ| mean: aL= 26.5 aN= 15.7 rL= 13.1 rN= 39.8
+      class ⟨arg⟩: aL= -66.5° aN= -47.3° rL= -22.2° rN=-156.7°
+      class fraction: aL=0.584 aN=0.077 rL=0.035 rN=0.304
+
+>> kc050_A040: κ_p=0.300  κ_C=0.500  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.4000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=121040000  25.8s   |<z_st>|=2.957  arg= -93.9°  R_k=0.445  lock@sw=0.65  Nsw=3765  |μ| aL= 38.8 aN=  4.9 rL= 10.4 rN= 54.6
+   seed=121040001  25.6s   |<z_st>|=2.911  arg= -87.7°  R_k=0.450  lock@sw=0.71  Nsw=3949  |μ| aL= 41.9 aN= 14.1 rL=  6.1 rN= 35.7
+   seed=121040002  25.6s   |<z_st>|=2.707  arg= -87.7°  R_k=0.450  lock@sw=0.70  Nsw=3867  |μ| aL= 34.4 aN=  2.9 rL=  6.0 rN= 45.4
+   seed=121040003  25.6s   |<z_st>|=3.020  arg=-100.4°  R_k=0.450  lock@sw=0.69  Nsw=3913  |μ| aL= 38.0 aN= 16.8 rL= 17.3 rN= 32.7
+   seed=121040004  29.3s   |<z_st>|=2.428  arg= -83.2°  R_k=0.440  lock@sw=0.74  Nsw=3384  |μ| aL= 38.7 aN= 11.1 rL= 12.8 rN= 48.5
+   seed=121040005  26.1s   |<z_st>|=2.699  arg=-100.7°  R_k=0.450  lock@sw=0.68  Nsw=4021  |μ| aL= 28.6 aN= 14.1 rL= 13.6 rN= 48.3
+   seed=121040006  25.9s   |<z_st>|=2.667  arg= -86.2°  R_k=0.447  lock@sw=0.72  Nsw=3753  |μ| aL= 43.9 aN=  5.9 rL=  5.5 rN= 47.2
+   seed=121040007  25.6s   |<z_st>|=2.412  arg= -97.2°  R_k=0.446  lock@sw=0.70  Nsw=3816  |μ| aL= 20.2 aN=  7.3 rL=  8.3 rN= 54.4
+   seed=121040008  25.6s   |<z_st>|=2.254  arg=-100.1°  R_k=0.434  lock@sw=0.73  Nsw=3516  |μ| aL= 24.1 aN=  3.6 rL=  9.4 rN= 41.2
+   seed=121040009  25.6s   |<z_st>|=2.839  arg= -85.1°  R_k=0.453  lock@sw=0.67  Nsw=4079  |μ| aL= 34.1 aN= 15.3 rL=  8.1 rN= 39.3
+   seed=121040010  25.6s   |<z_st>|=2.380  arg= -89.2°  R_k=0.454  lock@sw=0.72  Nsw=4020  |μ| aL= 39.6 aN=  5.9 rL=  9.0 rN= 41.5
+   seed=121040011  25.6s   |<z_st>|=3.361  arg= -95.2°  R_k=0.459  lock@sw=0.68  Nsw=4168  |μ| aL= 44.5 aN=  8.4 rL=  8.2 rN= 65.0
+   seed=121040012  25.6s   |<z_st>|=2.407  arg= -99.3°  R_k=0.439  lock@sw=0.71  Nsw=3510  |μ| aL= 28.5 aN=  5.4 rL=  7.4 rN= 48.0
+   seed=121040013  25.6s   |<z_st>|=2.995  arg=-100.7°  R_k=0.450  lock@sw=0.70  Nsw=3858  |μ| aL= 44.8 aN= 10.7 rL=  8.7 rN= 51.3
+   seed=121040014  25.6s   |<z_st>|=2.555  arg= -81.1°  R_k=0.448  lock@sw=0.72  Nsw=3681  |μ| aL= 44.7 aN= 12.8 rL=  9.9 rN= 37.5
+   seed=121040015  25.6s   |<z_st>|=2.264  arg= -92.9°  R_k=0.450  lock@sw=0.71  Nsw=3766  |μ| aL= 28.2 aN= 13.3 rL=  8.7 rN= 42.3
+   total 414s
+
+   ⇒ kc050_A040: κ_C=0.50  A=0.40  R_kura=0.448  lock_frac=0.312  lock@sw=0.702  |μ_st|=2.68  arg= -92.5°  ρ_sig=0.0474  <Nsw>=3817
+      class |μ| mean: aL= 35.8 aN=  9.5 rL=  9.3 rN= 45.8
+      class ⟨arg⟩: aL= -58.2° aN= -25.3° rL=  -9.9° rN=-138.5°
+      class fraction: aL=0.669 aN=0.055 rL=0.033 rN=0.244
+
+>> kc050_A050: κ_p=0.300  κ_C=0.500  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.5000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=121050000  25.6s   |<z_st>|=3.182  arg= -94.2°  R_k=0.504  lock@sw=0.78  Nsw=4222  |μ| aL= 34.0 aN=  4.2 rL= 16.1 rN= 46.3
+   seed=121050001  25.6s   |<z_st>|=2.638  arg= -97.9°  R_k=0.485  lock@sw=0.76  Nsw=4073  |μ| aL= 28.1 aN=  4.8 rL= 12.6 rN= 49.0
+   seed=121050002  25.6s   |<z_st>|=3.604  arg= -89.2°  R_k=0.501  lock@sw=0.77  Nsw=4228  |μ| aL= 54.1 aN=  6.9 rL=  6.3 rN= 37.7
+   seed=121050003  25.6s   |<z_st>|=2.783  arg= -84.9°  R_k=0.493  lock@sw=0.77  Nsw=4031  |μ| aL= 38.6 aN=  5.9 rL=  5.3 rN= 41.1
+   seed=121050004  25.6s   |<z_st>|=3.007  arg= -99.3°  R_k=0.499  lock@sw=0.77  Nsw=4524  |μ| aL= 32.6 aN=  8.6 rL=  4.6 rN= 49.0
+   seed=121050005  25.6s   |<z_st>|=3.839  arg= -84.6°  R_k=0.499  lock@sw=0.75  Nsw=3986  |μ| aL= 46.3 aN=  7.4 rL=  6.3 rN= 48.5
+   seed=121050006  25.7s   |<z_st>|=3.096  arg= -98.4°  R_k=0.502  lock@sw=0.75  Nsw=4432  |μ| aL= 44.9 aN=  5.7 rL=  6.4 rN= 51.8
+   seed=121050007  25.8s   |<z_st>|=3.733  arg= -93.5°  R_k=0.508  lock@sw=0.74  Nsw=4335  |μ| aL= 46.6 aN= 12.9 rL=  5.6 rN= 47.5
+   seed=121050008  25.9s   |<z_st>|=3.040  arg= -98.1°  R_k=0.484  lock@sw=0.73  Nsw=3726  |μ| aL= 54.6 aN= 11.4 rL=  5.8 rN= 35.0
+   seed=121050009  25.8s   |<z_st>|=3.680  arg= -90.6°  R_k=0.496  lock@sw=0.72  Nsw=4115  |μ| aL= 51.2 aN= 11.9 rL= 10.3 rN= 50.7
+   seed=121050010  25.9s   |<z_st>|=3.066  arg= -90.5°  R_k=0.483  lock@sw=0.77  Nsw=3688  |μ| aL= 40.5 aN=  7.9 rL=  3.0 rN= 47.5
+   seed=121050011  25.9s   |<z_st>|=3.306  arg= -99.1°  R_k=0.497  lock@sw=0.75  Nsw=4407  |μ| aL= 42.5 aN= 14.4 rL=  4.8 rN= 47.6
+   seed=121050012  25.7s   |<z_st>|=3.283  arg= -87.9°  R_k=0.490  lock@sw=0.74  Nsw=3940  |μ| aL= 36.5 aN= 12.1 rL=  7.6 rN= 46.3
+   seed=121050013  25.7s   |<z_st>|=2.860  arg=-101.4°  R_k=0.492  lock@sw=0.75  Nsw=4105  |μ| aL= 38.4 aN=  4.0 rL=  6.2 rN= 45.2
+   seed=121050014  25.6s   |<z_st>|=2.520  arg=-106.0°  R_k=0.491  lock@sw=0.77  Nsw=3891  |μ| aL= 27.4 aN=  2.5 rL=  7.7 rN= 50.7
+   seed=121050015  25.6s   |<z_st>|=3.422  arg=-103.3°  R_k=0.491  lock@sw=0.72  Nsw=4328  |μ| aL= 37.7 aN= 13.3 rL=  4.6 rN= 52.1
+   total 411s
+
+   ⇒ kc050_A050: κ_C=0.50  A=0.50  R_kura=0.495  lock_frac=0.388  lock@sw=0.753  |μ_st|=3.19  arg= -94.9°  ρ_sig=0.0626  <Nsw>=4127
+      class |μ| mean: aL= 40.9 aN=  8.4 rL=  7.1 rN= 46.6
+      class ⟨arg⟩: aL= -62.0° aN= -62.5° rL= -22.6° rN=-134.8°
+      class fraction: aL=0.729 aN=0.044 rL=0.024 rN=0.203
+
+>> kc050_A060: κ_p=0.300  κ_C=0.500  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.6000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=121060000  25.9s   |<z_st>|=3.550  arg=-105.9°  R_k=0.514  lock@sw=0.81  Nsw=3944  |μ| aL= 33.7 aN= 11.1 rL=  5.3 rN= 50.0
+   seed=121060001  25.6s   |<z_st>|=2.891  arg=-105.4°  R_k=0.514  lock@sw=0.77  Nsw=4354  |μ| aL= 30.7 aN= 10.5 rL=  5.4 rN= 44.3
+   seed=121060002  25.8s   |<z_st>|=3.444  arg= -99.4°  R_k=0.512  lock@sw=0.82  Nsw=4150  |μ| aL= 33.9 aN=  8.5 rL= 12.1 rN= 47.0
+   seed=121060003  25.6s   |<z_st>|=3.154  arg=-110.7°  R_k=0.511  lock@sw=0.76  Nsw=4393  |μ| aL= 35.6 aN= 12.4 rL=  4.0 rN= 42.4
+   seed=121060004  25.6s   |<z_st>|=2.279  arg= -98.1°  R_k=0.509  lock@sw=0.82  Nsw=4194  |μ| aL= 19.0 aN= 10.1 rL=  2.5 rN= 41.0
+   seed=121060005  25.6s   |<z_st>|=4.319  arg=-108.9°  R_k=0.520  lock@sw=0.80  Nsw=4280  |μ| aL= 52.9 aN=  9.3 rL=  4.5 rN= 56.9
+   seed=121060006  25.6s   |<z_st>|=5.125  arg=-103.5°  R_k=0.524  lock@sw=0.76  Nsw=4349  |μ| aL= 42.6 aN=  8.9 rL=  3.5 rN= 79.4
+   seed=121060007  25.6s   |<z_st>|=3.344  arg=-103.1°  R_k=0.509  lock@sw=0.79  Nsw=4118  |μ| aL= 38.4 aN=  6.1 rL= 10.7 rN= 40.9
+   seed=121060008  25.6s   |<z_st>|=3.560  arg=-101.2°  R_k=0.518  lock@sw=0.80  Nsw=4038  |μ| aL= 32.3 aN=  4.6 rL=  8.5 rN= 54.3
+   seed=121060009  25.6s   |<z_st>|=4.349  arg=-101.9°  R_k=0.520  lock@sw=0.77  Nsw=4526  |μ| aL= 57.3 aN=  3.2 rL=  7.8 rN= 51.6
+   seed=121060010  25.6s   |<z_st>|=3.241  arg= -99.5°  R_k=0.511  lock@sw=0.77  Nsw=4066  |μ| aL= 40.4 aN= 10.5 rL=  4.0 rN= 46.8
+   seed=121060011  25.7s   |<z_st>|=3.317  arg=-100.7°  R_k=0.509  lock@sw=0.80  Nsw=4105  |μ| aL= 44.5 aN=  8.5 rL=  4.8 rN= 43.7
+   seed=121060012  25.6s   |<z_st>|=3.538  arg= -96.8°  R_k=0.519  lock@sw=0.78  Nsw=4245  |μ| aL= 37.4 aN=  8.2 rL=  4.1 rN= 55.9
+   seed=121060013  25.6s   |<z_st>|=3.777  arg= -97.9°  R_k=0.507  lock@sw=0.79  Nsw=3899  |μ| aL= 37.1 aN=  3.1 rL=  3.3 rN= 62.8
+   seed=121060014  25.6s   |<z_st>|=3.245  arg=-104.7°  R_k=0.513  lock@sw=0.78  Nsw=4330  |μ| aL= 35.0 aN=  7.1 rL=  9.3 rN= 39.0
+   seed=121060015  25.6s   |<z_st>|=3.104  arg=-101.8°  R_k=0.511  lock@sw=0.78  Nsw=4371  |μ| aL= 29.8 aN=  1.2 rL=  7.4 rN= 51.5
+   total 410s
+
+   ⇒ kc050_A060: κ_C=0.50  A=0.60  R_kura=0.514  lock_frac=0.419  lock@sw=0.788  |μ_st|=3.51  arg=-102.5°  ρ_sig=0.0756  <Nsw>=4210
+      class |μ| mean: aL= 37.5 aN=  7.7 rL=  6.1 rN= 50.5
+      class ⟨arg⟩: aL= -76.8° aN= -68.2° rL= -32.6° rN=-130.5°
+      class fraction: aL=0.771 aN=0.035 rL=0.017 rN=0.177
+
+>> kc060_A030: κ_p=0.300  κ_C=0.600  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.3000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=122030000  25.7s   |<z_st>|=1.588  arg= -95.9°  R_k=0.366  lock@sw=0.66  Nsw=3052  |μ| aL= 26.0 aN= 13.8 rL= 12.5 rN= 34.8
+   seed=122030001  25.6s   |<z_st>|=1.422  arg= -77.3°  R_k=0.347  lock@sw=0.68  Nsw=2692  |μ| aL= 18.7 aN=  5.8 rL= 10.3 rN= 26.2
+   seed=122030002  25.6s   |<z_st>|=1.284  arg= -64.8°  R_k=0.340  lock@sw=0.67  Nsw=2670  |μ| aL= 23.9 aN=  8.1 rL=  6.2 rN= 25.9
+   seed=122030003  25.6s   |<z_st>|=2.475  arg= -77.2°  R_k=0.364  lock@sw=0.67  Nsw=3074  |μ| aL= 26.5 aN=  7.4 rL= 10.6 rN= 45.8
+   seed=122030004  25.7s   |<z_st>|=1.298  arg=-107.0°  R_k=0.346  lock@sw=0.64  Nsw=2730  |μ| aL= 17.0 aN=  6.7 rL= 11.3 rN= 39.6
+   seed=122030005  25.8s   |<z_st>|=1.288  arg= -89.0°  R_k=0.349  lock@sw=0.66  Nsw=2672  |μ| aL= 18.0 aN=  6.7 rL= 12.3 rN= 28.1
+   seed=122030006  25.8s   |<z_st>|=2.153  arg= -90.6°  R_k=0.352  lock@sw=0.65  Nsw=2720  |μ| aL= 28.4 aN= 11.5 rL=  9.6 rN= 36.8
+   seed=122030007  25.9s   |<z_st>|=1.374  arg= -86.3°  R_k=0.343  lock@sw=0.67  Nsw=2770  |μ| aL= 16.0 aN=  5.0 rL= 12.3 rN= 33.5
+   seed=122030008  25.7s   |<z_st>|=1.430  arg= -67.2°  R_k=0.342  lock@sw=0.64  Nsw=2812  |μ| aL= 18.4 aN=  9.3 rL= 10.4 rN= 30.4
+   seed=122030009  25.9s   |<z_st>|=1.942  arg= -73.4°  R_k=0.349  lock@sw=0.64  Nsw=2670  |μ| aL= 30.7 aN=  7.2 rL=  8.9 rN= 37.8
+   seed=122030010  25.9s   |<z_st>|=1.297  arg= -50.1°  R_k=0.340  lock@sw=0.66  Nsw=2651  |μ| aL= 34.8 aN=  9.7 rL=  8.8 rN= 27.5
+   seed=122030011  25.9s   |<z_st>|=1.886  arg= -84.2°  R_k=0.343  lock@sw=0.66  Nsw=2742  |μ| aL= 16.9 aN=  8.6 rL= 11.5 rN= 41.4
+   seed=122030012  25.7s   |<z_st>|=0.704  arg= -24.7°  R_k=0.333  lock@sw=0.71  Nsw=2578  |μ| aL= 23.1 aN=  7.4 rL=  8.8 rN= 24.0
+   seed=122030013  25.6s   |<z_st>|=1.216  arg= -84.0°  R_k=0.348  lock@sw=0.64  Nsw=2708  |μ| aL= 14.2 aN=  9.6 rL= 16.1 rN= 31.7
+   seed=122030014  25.6s   |<z_st>|=2.007  arg= -48.2°  R_k=0.353  lock@sw=0.66  Nsw=2841  |μ| aL= 26.1 aN= 14.7 rL= 11.2 rN= 22.8
+   seed=122030015  25.6s   |<z_st>|=0.799  arg= -11.1°  R_k=0.335  lock@sw=0.67  Nsw=2588  |μ| aL= 25.5 aN= 10.8 rL=  6.1 rN= 18.1
+   total 412s
+
+   ⇒ kc060_A030: κ_C=0.60  A=0.30  R_kura=0.347  lock_frac=0.204  lock@sw=0.660  |μ_st|=1.51  arg= -71.5°  ρ_sig=0.0223  <Nsw>=2748
+      class |μ| mean: aL= 22.8 aN=  8.9 rL= 10.4 rN= 31.5
+      class ⟨arg⟩: aL= -25.1° aN= -36.2° rL=  -9.6° rN=-144.7°
+      class fraction: aL=0.624 aN=0.067 rL=0.036 rN=0.273
+
+>> kc060_A040: κ_p=0.300  κ_C=0.600  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.4000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=122040000  25.9s   |<z_st>|=2.298  arg= -89.9°  R_k=0.425  lock@sw=0.73  Nsw=3199  |μ| aL= 38.3 aN=  5.6 rL=  3.7 rN= 38.5
+   seed=122040001  25.6s   |<z_st>|=2.306  arg= -65.4°  R_k=0.433  lock@sw=0.73  Nsw=3370  |μ| aL= 56.6 aN=  7.6 rL= 10.3 rN= 28.3
+   seed=122040002  25.7s   |<z_st>|=1.946  arg= -83.6°  R_k=0.412  lock@sw=0.74  Nsw=3082  |μ| aL= 28.2 aN=  4.5 rL=  6.9 rN= 42.4
+   seed=122040003  25.6s   |<z_st>|=1.500  arg= -97.6°  R_k=0.420  lock@sw=0.73  Nsw=3206  |μ| aL= 22.2 aN=  5.7 rL=  6.4 rN= 36.2
+   seed=122040004  25.6s   |<z_st>|=2.159  arg= -74.9°  R_k=0.428  lock@sw=0.73  Nsw=3344  |μ| aL= 31.6 aN=  5.9 rL=  6.5 rN= 37.2
+   seed=122040005  25.6s   |<z_st>|=1.934  arg= -88.4°  R_k=0.427  lock@sw=0.72  Nsw=3358  |μ| aL= 29.2 aN=  3.9 rL=  7.6 rN= 34.0
+   seed=122040006  25.6s   |<z_st>|=1.962  arg= -70.5°  R_k=0.418  lock@sw=0.71  Nsw=3125  |μ| aL= 22.1 aN=  4.9 rL=  7.9 rN= 40.4
+   seed=122040007  25.6s   |<z_st>|=0.993  arg= -72.7°  R_k=0.419  lock@sw=0.75  Nsw=3218  |μ| aL= 24.5 aN=  2.5 rL= 10.4 rN= 32.1
+   seed=122040008  25.6s   |<z_st>|=0.741  arg= -32.1°  R_k=0.410  lock@sw=0.76  Nsw=3100  |μ| aL= 35.2 aN= 14.0 rL=  7.0 rN= 29.2
+   seed=122040009  25.6s   |<z_st>|=2.620  arg= -87.0°  R_k=0.434  lock@sw=0.71  Nsw=3473  |μ| aL= 35.6 aN=  8.1 rL= 11.2 rN= 46.8
+   seed=122040010  25.6s   |<z_st>|=1.887  arg= -79.2°  R_k=0.421  lock@sw=0.75  Nsw=3074  |μ| aL= 34.6 aN=  2.9 rL=  7.0 rN= 25.2
+   seed=122040011  25.6s   |<z_st>|=1.062  arg= -56.8°  R_k=0.421  lock@sw=0.77  Nsw=3249  |μ| aL= 32.0 aN=  5.4 rL= 10.7 rN= 23.2
+   seed=122040012  25.6s   |<z_st>|=2.058  arg= -73.4°  R_k=0.417  lock@sw=0.75  Nsw=2802  |μ| aL= 27.6 aN=  7.4 rL=  8.3 rN= 29.6
+   seed=122040013  25.6s   |<z_st>|=1.319  arg= -65.9°  R_k=0.412  lock@sw=0.75  Nsw=3151  |μ| aL= 28.5 aN=  5.8 rL=  8.2 rN= 36.7
+   seed=122040014  26.0s   |<z_st>|=0.943  arg= -36.8°  R_k=0.411  lock@sw=0.76  Nsw=2950  |μ| aL= 32.2 aN=  2.3 rL= 15.7 rN= 23.9
+   seed=122040015  36.2s   |<z_st>|=2.484  arg= -84.2°  R_k=0.435  lock@sw=0.74  Nsw=3328  |μ| aL= 27.9 aN= 14.5 rL=  6.7 rN= 38.4
+   total 421s
+
+   ⇒ kc060_A040: κ_C=0.60  A=0.40  R_kura=0.421  lock_frac=0.282  lock@sw=0.740  |μ_st|=1.76  arg= -72.7°  ρ_sig=0.0267  <Nsw>=3189
+      class |μ| mean: aL= 31.6 aN=  6.3 rL=  8.4 rN= 33.9
+      class ⟨arg⟩: aL= -36.2° aN= -30.5° rL= +18.6° rN=-136.7°
+      class fraction: aL=0.707 aN=0.044 rL=0.032 rN=0.217
+
+>> kc060_A050: κ_p=0.300  κ_C=0.600  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.5000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=122050000  27.3s   |<z_st>|=2.335  arg= -78.0°  R_k=0.476  lock@sw=0.78  Nsw=3624  |μ| aL= 44.2 aN=  3.3 rL=  5.6 rN= 38.1
+   seed=122050001  27.6s   |<z_st>|=1.667  arg= -80.0°  R_k=0.466  lock@sw=0.78  Nsw=3343  |μ| aL= 27.8 aN= 13.8 rL=  5.6 rN= 24.3
+   seed=122050002  28.4s   |<z_st>|=2.547  arg= -93.2°  R_k=0.483  lock@sw=0.77  Nsw=3392  |μ| aL= 38.1 aN= 13.3 rL=  5.2 rN= 35.6
+   seed=122050003  28.0s   |<z_st>|=2.224  arg= -82.7°  R_k=0.482  lock@sw=0.76  Nsw=3694  |μ| aL= 39.3 aN=  5.5 rL=  5.2 rN= 41.0
+   seed=122050004  29.1s   |<z_st>|=2.373  arg= -80.1°  R_k=0.475  lock@sw=0.78  Nsw=3462  |μ| aL= 38.3 aN=  7.4 rL=  4.5 rN= 37.3
+   seed=122050005  28.0s   |<z_st>|=1.819  arg= -82.8°  R_k=0.465  lock@sw=0.78  Nsw=3211  |μ| aL= 23.9 aN=  9.0 rL=  8.3 rN= 25.2
+   seed=122050006  27.4s   |<z_st>|=2.142  arg= -88.9°  R_k=0.475  lock@sw=0.80  Nsw=3306  |μ| aL= 42.9 aN=  3.1 rL=  5.8 rN= 31.5
+   seed=122050007  28.4s   |<z_st>|=2.160  arg= -66.3°  R_k=0.475  lock@sw=0.76  Nsw=3556  |μ| aL= 37.0 aN= 13.1 rL=  8.8 rN= 31.7
+   seed=122050008  28.2s   |<z_st>|=1.966  arg= -72.3°  R_k=0.476  lock@sw=0.79  Nsw=3560  |μ| aL= 28.4 aN= 10.7 rL=  3.7 rN= 33.0
+   seed=122050009  27.5s   |<z_st>|=1.962  arg= -81.3°  R_k=0.474  lock@sw=0.77  Nsw=3406  |μ| aL= 26.2 aN=  3.7 rL=  8.0 rN= 35.5
+   seed=122050010  27.3s   |<z_st>|=2.542  arg= -87.7°  R_k=0.476  lock@sw=0.79  Nsw=3510  |μ| aL= 32.5 aN=  4.0 rL=  8.0 rN= 39.1
+   seed=122050011  27.1s   |<z_st>|=1.841  arg= -77.1°  R_k=0.480  lock@sw=0.78  Nsw=3774  |μ| aL= 30.2 aN=  3.4 rL=  6.2 rN= 40.9
+   seed=122050012  27.3s   |<z_st>|=1.791  arg= -66.1°  R_k=0.464  lock@sw=0.79  Nsw=3204  |μ| aL= 31.2 aN=  7.9 rL=  6.9 rN= 24.3
+   seed=122050013  27.0s   |<z_st>|=1.058  arg= -60.4°  R_k=0.468  lock@sw=0.79  Nsw=3398  |μ| aL= 23.2 aN=  3.7 rL=  4.2 rN= 21.5
+   seed=122050014  27.0s   |<z_st>|=2.407  arg= -73.8°  R_k=0.476  lock@sw=0.77  Nsw=3355  |μ| aL= 34.0 aN= 14.0 rL=  6.3 rN= 32.6
+   seed=122050015  27.5s   |<z_st>|=2.630  arg= -94.0°  R_k=0.476  lock@sw=0.76  Nsw=3420  |μ| aL= 36.9 aN=  4.7 rL=  3.5 rN= 40.6
+   total 443s
+
+   ⇒ kc060_A050: κ_C=0.60  A=0.50  R_kura=0.474  lock_frac=0.366  lock@sw=0.778  |μ_st|=2.09  arg= -79.1°  ρ_sig=0.0328  <Nsw>=3451
+      class |μ| mean: aL= 33.4 aN=  7.5 rL=  6.0 rN= 33.3
+      class ⟨arg⟩: aL= -36.0° aN= -66.7° rL= -10.1° rN=-134.3°
+      class fraction: aL=0.756 aN=0.038 rL=0.022 rN=0.184
+
+>> kc060_A060: κ_p=0.300  κ_C=0.600  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.6000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=122060000  28.1s   |<z_st>|=2.880  arg= -89.0°  R_k=0.500  lock@sw=0.82  Nsw=3490  |μ| aL= 40.1 aN= 10.2 rL=  2.2 rN= 35.5
+   seed=122060001  27.8s   |<z_st>|=3.455  arg= -98.1°  R_k=0.505  lock@sw=0.80  Nsw=3900  |μ| aL= 50.3 aN=  3.3 rL=  3.2 rN= 37.4
+   seed=122060002  27.1s   |<z_st>|=3.059  arg= -83.8°  R_k=0.500  lock@sw=0.82  Nsw=3817  |μ| aL= 33.8 aN=  2.6 rL=  8.0 rN= 45.2
+   seed=122060003  28.7s   |<z_st>|=2.437  arg= -88.4°  R_k=0.495  lock@sw=0.83  Nsw=3536  |μ| aL= 35.3 aN=  4.8 rL=  5.6 rN= 40.3
+   seed=122060004  33.8s   |<z_st>|=3.576  arg= -85.4°  R_k=0.505  lock@sw=0.81  Nsw=3756  |μ| aL= 48.4 aN= 12.1 rL=  5.2 rN= 31.7
+   seed=122060005  46.8s   |<z_st>|=3.357  arg= -93.6°  R_k=0.505  lock@sw=0.85  Nsw=3681  |μ| aL= 58.1 aN=  2.0 rL=  4.3 rN= 36.4
+   seed=122060006  45.8s   |<z_st>|=2.095  arg= -74.9°  R_k=0.494  lock@sw=0.82  Nsw=3234  |μ| aL= 28.9 aN=  1.2 rL=  5.4 rN= 37.8
+   seed=122060007  44.0s   |<z_st>|=3.464  arg= -92.7°  R_k=0.506  lock@sw=0.80  Nsw=3674  |μ| aL= 55.1 aN=  4.2 rL=  3.5 rN= 44.5
+   seed=122060008  43.6s   |<z_st>|=2.410  arg= -88.4°  R_k=0.501  lock@sw=0.85  Nsw=3560  |μ| aL= 35.4 aN=  2.3 rL=  3.2 rN= 34.3
+   seed=122060009  38.1s   |<z_st>|=2.877  arg= -88.2°  R_k=0.504  lock@sw=0.83  Nsw=3799  |μ| aL= 39.9 aN=  2.2 rL=  3.0 rN= 38.0
+   seed=122060010  47.4s   |<z_st>|=1.445  arg= -83.8°  R_k=0.488  lock@sw=0.84  Nsw=3537  |μ| aL= 21.3 aN=  7.9 rL=  4.1 rN= 32.5
+   seed=122060011  33.0s   |<z_st>|=2.552  arg= -84.0°  R_k=0.503  lock@sw=0.81  Nsw=3738  |μ| aL= 38.2 aN=  1.7 rL=  6.7 rN= 30.3
+   seed=122060012  35.3s   |<z_st>|=3.581  arg= -94.0°  R_k=0.504  lock@sw=0.81  Nsw=3575  |μ| aL= 50.8 aN=  3.1 rL=  2.9 rN= 46.6
+   seed=122060013  68.4s   |<z_st>|=2.650  arg=-101.9°  R_k=0.494  lock@sw=0.81  Nsw=3698  |μ| aL= 21.8 aN= 11.4 rL=  3.2 rN= 41.7
+   seed=122060014  40.7s   |<z_st>|=2.400  arg= -95.7°  R_k=0.501  lock@sw=0.83  Nsw=3563  |μ| aL= 22.7 aN=  9.3 rL=  2.2 rN= 37.9
+   seed=122060015  38.3s   |<z_st>|=1.821  arg= -98.1°  R_k=0.492  lock@sw=0.82  Nsw=3587  |μ| aL= 16.8 aN=  8.8 rL=  4.3 rN= 32.2
+   total 627s
+
+   ⇒ kc060_A060: κ_C=0.60  A=0.60  R_kura=0.500  lock_frac=0.404  lock@sw=0.823  |μ_st|=2.75  arg= -90.0°  ρ_sig=0.0544  <Nsw>=3634
+      class |μ| mean: aL= 37.3 aN=  5.5 rL=  4.2 rN= 37.6
+      class ⟨arg⟩: aL= -58.2° aN= -59.2° rL=  -9.8° rN=-123.9°
+      class fraction: aL=0.805 aN=0.026 rL=0.017 rN=0.152
+
+>> kc070_A030: κ_p=0.300  κ_C=0.700  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.3000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=123030000  55.0s   |<z_st>|=1.186  arg= -25.6°  R_k=0.338  lock@sw=0.66  Nsw=2931  |μ| aL= 28.4 aN= 15.4 rL=  9.9 rN= 14.7
+   seed=123030001  52.3s   |<z_st>|=0.687  arg= -38.7°  R_k=0.323  lock@sw=0.67  Nsw=2440  |μ| aL= 18.3 aN=  5.5 rL=  7.7 rN= 19.0
+   seed=123030002  59.3s   |<z_st>|=1.018  arg= -69.6°  R_k=0.326  lock@sw=0.67  Nsw=2334  |μ| aL= 21.0 aN=  7.4 rL=  9.8 rN= 29.9
+   seed=123030003  34.6s   |<z_st>|=0.976  arg= -38.9°  R_k=0.322  lock@sw=0.68  Nsw=2480  |μ| aL= 21.5 aN=  9.7 rL=  9.5 rN= 18.9
+   seed=123030004  45.6s   |<z_st>|=0.927  arg= -53.3°  R_k=0.321  lock@sw=0.64  Nsw=2520  |μ| aL= 19.3 aN= 11.4 rL= 11.9 rN= 28.0
+   seed=123030005  54.8s   |<z_st>|=0.854  arg= -22.2°  R_k=0.311  lock@sw=0.72  Nsw=2050  |μ| aL= 23.1 aN=  6.7 rL=  7.5 rN= 15.2
+   seed=123030006  54.7s   |<z_st>|=0.670  arg= -15.9°  R_k=0.308  lock@sw=0.71  Nsw=2030  |μ| aL= 24.7 aN=  2.2 rL=  8.8 rN= 17.8
+   seed=123030007  39.8s   |<z_st>|=0.775  arg= -56.3°  R_k=0.317  lock@sw=0.66  Nsw=2223  |μ| aL= 21.8 aN= 13.8 rL=  6.0 rN= 20.1
+   seed=123030008  49.6s   |<z_st>|=0.458  arg= -69.4°  R_k=0.316  lock@sw=0.67  Nsw=2188  |μ| aL=  9.3 aN=  7.6 rL=  7.4 rN= 15.2
+   seed=123030009  43.8s   |<z_st>|=1.696  arg= -82.7°  R_k=0.333  lock@sw=0.65  Nsw=2520  |μ| aL= 16.6 aN=  6.1 rL=  9.5 rN= 29.6
+   seed=123030010  46.5s   |<z_st>|=0.878  arg= -51.7°  R_k=0.325  lock@sw=0.69  Nsw=2368  |μ| aL= 26.7 aN=  5.4 rL=  5.8 rN= 29.2
+   seed=123030011  37.8s   |<z_st>|=0.840  arg= -40.1°  R_k=0.322  lock@sw=0.67  Nsw=2468  |μ| aL= 21.7 aN=  4.4 rL=  5.3 rN= 22.3
+   seed=123030012  44.7s   |<z_st>|=0.511  arg=  +8.1°  R_k=0.309  lock@sw=0.73  Nsw=2182  |μ| aL= 20.8 aN=  7.2 rL=  6.0 rN= 20.5
+   seed=123030013  46.9s   |<z_st>|=1.136  arg= -55.2°  R_k=0.336  lock@sw=0.66  Nsw=2408  |μ| aL= 19.0 aN= 10.9 rL= 12.7 rN= 17.2
+   seed=123030014  47.9s   |<z_st>|=1.365  arg= -58.6°  R_k=0.329  lock@sw=0.65  Nsw=2538  |μ| aL= 20.7 aN= 14.3 rL=  9.3 rN= 24.9
+   seed=123030015  40.6s   |<z_st>|=1.082  arg= -40.4°  R_k=0.317  lock@sw=0.65  Nsw=2262  |μ| aL= 21.9 aN=  6.2 rL=  6.1 rN= 13.7
+   total 754s
+
+   ⇒ kc070_A030: κ_C=0.70  A=0.30  R_kura=0.322  lock_frac=0.179  lock@sw=0.675  |μ_st|=0.94  arg= -44.7°  ρ_sig=0.0101  <Nsw>=2371
+      class |μ| mean: aL= 20.9 aN=  8.4 rL=  8.3 rN= 21.0
+      class ⟨arg⟩: aL=  +2.8° aN= -41.9° rL= -11.8° rN=-150.2°
+      class fraction: aL=0.641 aN=0.063 rL=0.033 rN=0.263
+
+>> kc070_A040: κ_p=0.300  κ_C=0.700  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.4000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=123040000  36.7s   |<z_st>|=0.793  arg= -24.0°  R_k=0.385  lock@sw=0.79  Nsw=2562  |μ| aL= 24.2 aN=  3.6 rL=  9.1 rN= 12.5
+   seed=123040001  42.8s   |<z_st>|=0.787  arg= -33.5°  R_k=0.390  lock@sw=0.73  Nsw=2760  |μ| aL= 21.7 aN=  7.4 rL=  5.6 rN= 15.6
+   seed=123040002  43.3s   |<z_st>|=0.966  arg= -34.6°  R_k=0.393  lock@sw=0.80  Nsw=2664  |μ| aL= 26.4 aN=  6.7 rL=  5.2 rN= 13.6
+   seed=123040003  45.7s   |<z_st>|=1.300  arg= -61.6°  R_k=0.398  lock@sw=0.74  Nsw=2724  |μ| aL= 30.6 aN=  2.1 rL= 10.8 rN= 28.7
+   seed=123040004  46.8s   |<z_st>|=1.271  arg= -48.1°  R_k=0.400  lock@sw=0.76  Nsw=2646  |μ| aL= 29.9 aN=  7.9 rL=  6.8 rN= 30.4
+   seed=123040005  53.7s   |<z_st>|=1.254  arg= -46.6°  R_k=0.405  lock@sw=0.78  Nsw=2774  |μ| aL= 29.2 aN=  3.9 rL=  8.4 rN= 21.6
+   seed=123040006  48.1s   |<z_st>|=1.380  arg= -51.6°  R_k=0.402  lock@sw=0.75  Nsw=2930  |μ| aL= 30.8 aN= 11.3 rL=  7.2 rN= 23.5
+   seed=123040007  44.1s   |<z_st>|=2.116  arg= -54.8°  R_k=0.414  lock@sw=0.70  Nsw=3144  |μ| aL= 40.1 aN= 10.1 rL= 10.3 rN= 28.1
+   seed=123040008  46.6s   |<z_st>|=1.586  arg= -58.3°  R_k=0.396  lock@sw=0.74  Nsw=2604  |μ| aL= 31.3 aN=  5.2 rL=  5.8 rN= 37.6
+   seed=123040009  46.8s   |<z_st>|=0.963  arg= -56.0°  R_k=0.402  lock@sw=0.77  Nsw=2954  |μ| aL= 21.3 aN=  4.8 rL= 10.4 rN= 25.3
+   seed=123040010  47.3s   |<z_st>|=1.690  arg= -60.8°  R_k=0.401  lock@sw=0.79  Nsw=2726  |μ| aL= 24.0 aN=  6.1 rL=  9.3 rN= 35.8
+   seed=123040011  46.9s   |<z_st>|=1.142  arg= -67.9°  R_k=0.390  lock@sw=0.74  Nsw=2456  |μ| aL= 25.1 aN=  3.2 rL=  6.3 rN= 27.8
+   seed=123040012  45.3s   |<z_st>|=1.065  arg=  -9.7°  R_k=0.393  lock@sw=0.77  Nsw=2771  |μ| aL= 28.2 aN=  2.3 rL= 12.3 rN= 25.1
+   seed=123040013  46.5s   |<z_st>|=1.777  arg= -64.0°  R_k=0.399  lock@sw=0.76  Nsw=2877  |μ| aL= 29.2 aN=  4.6 rL=  8.7 rN= 33.9
+   seed=123040014  52.1s   |<z_st>|=1.215  arg= -60.7°  R_k=0.401  lock@sw=0.77  Nsw=2799  |μ| aL= 32.2 aN=  3.4 rL=  9.5 rN= 25.5
+   seed=123040015  48.6s   |<z_st>|=1.209  arg= -62.2°  R_k=0.396  lock@sw=0.73  Nsw=2504  |μ| aL= 25.0 aN=  6.0 rL=  7.7 rN= 19.6
+   total 741s
+
+   ⇒ kc070_A040: κ_C=0.70  A=0.40  R_kura=0.398  lock_frac=0.256  lock@sw=0.756  |μ_st|=1.28  arg= -49.9°  ρ_sig=0.0159  <Nsw>=2743
+      class |μ| mean: aL= 28.1 aN=  5.5 rL=  8.3 rN= 25.3
+      class ⟨arg⟩: aL=  -8.4° aN= -49.4° rL= +20.7° rN=-133.0°
+      class fraction: aL=0.724 aN=0.040 rL=0.031 rN=0.204
+
+>> kc070_A050: κ_p=0.300  κ_C=0.700  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.5000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=123050000  43.0s   |<z_st>|=1.454  arg= -59.2°  R_k=0.456  lock@sw=0.78  Nsw=3142  |μ| aL= 26.3 aN=  3.1 rL=  4.2 rN= 22.1
+   seed=123050001  42.8s   |<z_st>|=2.438  arg= -76.2°  R_k=0.475  lock@sw=0.81  Nsw=3490  |μ| aL= 35.4 aN=  5.6 rL=  6.3 rN= 32.9
+   seed=123050002  29.2s   |<z_st>|=1.618  arg= -53.0°  R_k=0.464  lock@sw=0.81  Nsw=3258  |μ| aL= 36.7 aN=  3.3 rL=  8.9 rN= 25.5
+   seed=123050003  27.1s   |<z_st>|=1.645  arg= -61.7°  R_k=0.460  lock@sw=0.81  Nsw=3226  |μ| aL= 30.2 aN=  6.1 rL=  5.9 rN= 21.0
+   seed=123050004  26.0s   |<z_st>|=1.866  arg= -62.3°  R_k=0.468  lock@sw=0.78  Nsw=3389  |μ| aL= 28.7 aN=  5.8 rL=  7.3 rN= 23.3
+   seed=123050005  26.1s   |<z_st>|=1.982  arg= -77.2°  R_k=0.467  lock@sw=0.81  Nsw=3220  |μ| aL= 39.5 aN=  3.0 rL=  5.3 rN= 31.0
+   seed=123050006  26.1s   |<z_st>|=1.343  arg= -43.6°  R_k=0.456  lock@sw=0.83  Nsw=2952  |μ| aL= 36.7 aN=  6.1 rL=  5.5 rN= 14.6
+   seed=123050007  26.3s   |<z_st>|=2.154  arg= -77.7°  R_k=0.463  lock@sw=0.79  Nsw=2988  |μ| aL= 29.6 aN=  8.2 rL=  4.9 rN= 29.9
+   seed=123050008  26.0s   |<z_st>|=2.178  arg= -72.9°  R_k=0.465  lock@sw=0.76  Nsw=3230  |μ| aL= 28.1 aN= 11.1 rL= 11.9 rN= 34.6
+   seed=123050009  26.2s   |<z_st>|=2.471  arg= -75.9°  R_k=0.465  lock@sw=0.79  Nsw=2988  |μ| aL= 30.2 aN=  7.5 rL= 11.6 rN= 30.4
+   seed=123050010  26.2s   |<z_st>|=1.766  arg= -68.2°  R_k=0.457  lock@sw=0.80  Nsw=2880  |μ| aL= 31.6 aN=  2.4 rL=  4.5 rN= 28.6
+   seed=123050011  26.2s   |<z_st>|=1.596  arg= -46.3°  R_k=0.462  lock@sw=0.80  Nsw=3386  |μ| aL= 33.3 aN=  3.1 rL=  6.5 rN= 25.7
+   seed=123050012  26.0s   |<z_st>|=1.804  arg= -81.5°  R_k=0.462  lock@sw=0.77  Nsw=3159  |μ| aL= 27.2 aN=  2.1 rL=  8.1 rN= 31.8
+   seed=123050013  25.9s   |<z_st>|=1.650  arg= -60.4°  R_k=0.464  lock@sw=0.79  Nsw=3399  |μ| aL= 38.3 aN=  2.4 rL= 10.0 rN= 32.3
+   seed=123050014  25.9s   |<z_st>|=2.035  arg= -64.6°  R_k=0.464  lock@sw=0.78  Nsw=3381  |μ| aL= 33.6 aN=  2.5 rL=  6.6 rN= 28.3
+   seed=123050015  25.9s   |<z_st>|=1.990  arg= -71.7°  R_k=0.470  lock@sw=0.79  Nsw=3486  |μ| aL= 28.0 aN=  8.1 rL=  6.5 rN= 35.4
+   total 455s
+
+   ⇒ kc070_A050: κ_C=0.70  A=0.50  R_kura=0.464  lock_frac=0.354  lock@sw=0.794  |μ_st|=1.87  arg= -65.8°  ρ_sig=0.0281  <Nsw>=3223
+      class |μ| mean: aL= 32.1 aN=  5.0 rL=  7.1 rN= 28.0
+      class ⟨arg⟩: aL= -25.1° aN= -58.9° rL= -23.8° rN=-127.6°
+      class fraction: aL=0.770 aN=0.031 rL=0.024 rN=0.174
+
+>> kc070_A060: κ_p=0.300  κ_C=0.700  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.6000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=123060000  26.2s   |<z_st>|=3.188  arg= -80.7°  R_k=0.502  lock@sw=0.83  Nsw=3563  |μ| aL= 30.0 aN=  6.1 rL=  7.0 rN= 46.3
+   seed=123060001  25.9s   |<z_st>|=1.605  arg= -64.7°  R_k=0.485  lock@sw=0.84  Nsw=3457  |μ| aL= 26.2 aN=  7.9 rL=  2.5 rN= 30.1
+   seed=123060002  26.0s   |<z_st>|=1.842  arg= -87.4°  R_k=0.490  lock@sw=0.84  Nsw=3482  |μ| aL= 26.5 aN=  1.6 rL=  4.6 rN= 27.1
+   seed=123060003  25.9s   |<z_st>|=1.564  arg= -73.2°  R_k=0.488  lock@sw=0.82  Nsw=3613  |μ| aL= 27.6 aN=  3.1 rL=  3.2 rN= 36.8
+   seed=123060004  25.9s   |<z_st>|=3.602  arg= -87.0°  R_k=0.504  lock@sw=0.81  Nsw=3512  |μ| aL= 58.1 aN=  6.2 rL=  3.8 rN= 36.7
+   seed=123060005  25.9s   |<z_st>|=2.044  arg= -81.4°  R_k=0.491  lock@sw=0.80  Nsw=3524  |μ| aL= 22.7 aN=  4.0 rL=  5.8 rN= 48.3
+   seed=123060006  25.9s   |<z_st>|=1.363  arg= -87.7°  R_k=0.488  lock@sw=0.84  Nsw=3552  |μ| aL= 19.3 aN=  5.2 rL=  2.3 rN= 39.3
+   seed=123060007  25.9s   |<z_st>|=2.544  arg= -69.8°  R_k=0.499  lock@sw=0.84  Nsw=3812  |μ| aL= 40.5 aN=  5.1 rL=  4.2 rN= 33.7
+   seed=123060008  25.9s   |<z_st>|=2.969  arg= -91.4°  R_k=0.491  lock@sw=0.82  Nsw=3376  |μ| aL= 46.9 aN=  5.1 rL=  5.3 rN= 29.7
+   seed=123060009  25.9s   |<z_st>|=1.457  arg= -76.6°  R_k=0.484  lock@sw=0.83  Nsw=3405  |μ| aL= 22.5 aN=  0.3 rL=  3.8 rN= 33.8
+   seed=123060010  25.9s   |<z_st>|=2.478  arg= -80.9°  R_k=0.499  lock@sw=0.83  Nsw=3599  |μ| aL= 31.9 aN=  6.0 rL=  5.1 rN= 39.9
+   seed=123060011  25.9s   |<z_st>|=1.901  arg= -87.5°  R_k=0.491  lock@sw=0.84  Nsw=3355  |μ| aL= 29.5 aN=  3.2 rL=  8.2 rN= 34.3
+   seed=123060012  25.9s   |<z_st>|=1.314  arg= -75.2°  R_k=0.488  lock@sw=0.81  Nsw=3482  |μ| aL= 23.7 aN=  5.2 rL=  4.6 rN= 26.2
+   seed=123060013  25.9s   |<z_st>|=2.296  arg= -87.8°  R_k=0.494  lock@sw=0.80  Nsw=3415  |μ| aL= 27.0 aN=  2.1 rL=  7.9 rN= 47.0
+   seed=123060014  25.9s   |<z_st>|=1.957  arg= -79.6°  R_k=0.496  lock@sw=0.84  Nsw=3651  |μ| aL= 32.6 aN=  2.4 rL=  5.4 rN= 30.5
+   seed=123060015  25.9s   |<z_st>|=2.386  arg= -73.1°  R_k=0.498  lock@sw=0.84  Nsw=3684  |μ| aL= 35.8 aN=  3.8 rL=  2.3 rN= 35.7
+   total 415s
+
+   ⇒ kc070_A060: κ_C=0.70  A=0.60  R_kura=0.493  lock_frac=0.396  lock@sw=0.827  |μ_st|=2.16  arg= -80.3°  ρ_sig=0.0359  <Nsw>=3530
+      class |μ| mean: aL= 31.3 aN=  4.2 rL=  4.7 rN= 36.0
+      class ⟨arg⟩: aL= -36.9° aN= -64.2° rL= +25.4° rN=-119.2°
+      class fraction: aL=0.810 aN=0.024 rL=0.017 rN=0.149
+
+>> kc040_A060: κ_p=0.300  κ_C=0.400  ω_std=0.0700  ω=[0.0061, 0.0687, 0.1313, 0.1939]  A=0.6000  n_seeds=16  n_chunks=25  steps=1010000
+   seed=120060000  25.9s   |<z_st>|=4.623  arg=-109.9°  R_k=0.527  lock@sw=0.71  Nsw=5048  |μ| aL= 52.7 aN=  6.0 rL=  3.9 rN= 71.0
+   seed=120060001  25.9s   |<z_st>|=4.475  arg=-115.9°  R_k=0.530  lock@sw=0.71  Nsw=5108  |μ| aL= 29.9 aN= 13.7 rL=  3.2 rN= 78.3
+   seed=120060002  26.0s   |<z_st>|=4.687  arg=-108.7°  R_k=0.528  lock@sw=0.71  Nsw=5045  |μ| aL= 46.2 aN= 12.3 rL=  4.6 rN= 71.8
+   seed=120060003  25.9s   |<z_st>|=5.004  arg=-111.6°  R_k=0.530  lock@sw=0.70  Nsw=5118  |μ| aL= 43.9 aN=  8.9 rL=  9.6 rN= 73.0
+   seed=120060004  25.9s   |<z_st>|=5.423  arg=-114.5°  R_k=0.526  lock@sw=0.72  Nsw=4799  |μ| aL= 57.2 aN=  3.4 rL=  4.0 rN= 83.6
+   seed=120060005  26.1s   |<z_st>|=4.321  arg=-101.1°  R_k=0.532  lock@sw=0.75  Nsw=5064  |μ| aL= 47.9 aN= 12.7 rL=  4.5 rN= 52.1
+   seed=120060006  26.0s   |<z_st>|=5.860  arg=-108.5°  R_k=0.542  lock@sw=0.74  Nsw=5299  |μ| aL= 61.9 aN= 14.5 rL=  8.2 rN= 73.9
+   seed=120060007  26.2s   |<z_st>|=6.502  arg=-110.8°  R_k=0.531  lock@sw=0.71  Nsw=4803  |μ| aL= 73.0 aN= 15.5 rL=  4.5 rN= 85.0
+   seed=120060008  26.0s   |<z_st>|=5.334  arg=-112.8°  R_k=0.536  lock@sw=0.73  Nsw=5167  |μ| aL= 57.2 aN=  4.4 rL=  7.4 rN= 73.4
+   seed=120060009  26.2s   |<z_st>|=4.622  arg=-109.7°  R_k=0.516  lock@sw=0.71  Nsw=4517  |μ| aL= 59.8 aN= 11.7 rL=  3.3 rN= 51.1
+   seed=120060010  26.2s   |<z_st>|=5.161  arg=-116.8°  R_k=0.534  lock@sw=0.70  Nsw=5174  |μ| aL= 57.7 aN= 10.9 rL= 11.2 rN= 68.2
+   seed=120060011  26.2s   |<z_st>|=5.126  arg=-109.4°  R_k=0.527  lock@sw=0.72  Nsw=4693  |μ| aL= 45.4 aN=  8.9 rL=  2.3 rN= 79.3
+   seed=120060012  26.0s   |<z_st>|=4.307  arg=-107.3°  R_k=0.530  lock@sw=0.71  Nsw=5274  |μ| aL= 38.7 aN=  9.6 rL=  3.7 rN= 68.0
+   seed=120060013  25.9s   |<z_st>|=3.472  arg=-108.1°  R_k=0.519  lock@sw=0.76  Nsw=4806  |μ| aL= 36.6 aN=  7.6 rL=  4.3 rN= 61.3
+   seed=120060014  25.9s   |<z_st>|=5.905  arg=-112.7°  R_k=0.541  lock@sw=0.73  Nsw=5242  |μ| aL= 78.4 aN=  4.7 rL=  9.3 rN= 71.6
+   seed=120060015  25.9s   |<z_st>|=5.524  arg=-107.3°  R_k=0.537  lock@sw=0.72  Nsw=5077  |μ| aL= 71.5 aN=  3.6 rL= 11.5 rN= 63.5
+   total 416s
+
+   ⇒ kc040_A060: κ_C=0.40  A=0.60  R_kura=0.530  lock_frac=0.438  lock@sw=0.721  |μ_st|=5.02  arg=-110.3°  ρ_sig=0.1284  <Nsw>=5015
+      class |μ| mean: aL= 53.6 aN=  9.3 rL=  6.0 rN= 70.3
+      class ⟨arg⟩: aL= -95.6° aN= -57.2° rL= -26.8° rN=-129.9°
+      class fraction: aL=0.703 aN=0.043 rL=0.018 rN=0.236
+
+Completed in 6332s (105.5 min)
+Results → thor_session_116_past_ridge_results.json
