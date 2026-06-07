@@ -1,0 +1,406 @@
+Thor Session #117: Coherent vs Incoherent Class Combining
+Started: 2026-06-07T09:05:41.330942
+Common: σ=0.022  f_s=0.003  chunk=40000  warmup=10000  32 seeds × 25 chunks  κ_p=0.30 ω_std=0.07
+
+>> kc030_A000: κ_p=0.300  κ_C=0.300  ω_std=0.0700  A=0.0000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=120900000
+   seed=120900000  25.9s   Nsw= 8088  R_k=0.297  T_coh=   808.6  T_incoh=  4609.8  ratio= 5.70  chk=2.3e-14
+   seed=120900001  25.8s   Nsw= 8637  R_k=0.302  T_coh=   336.1  T_incoh=  6110.1  ratio=18.18  chk=1.4e-14
+   seed=120900002  26.0s   Nsw= 8484  R_k=0.296  T_coh=    11.9  T_incoh=   834.9  ratio=70.02  chk=1.4e-14
+   seed=120900003  26.0s   Nsw= 8362  R_k=0.301  T_coh=   526.1  T_incoh=  4353.3  ratio= 8.27  chk=2.1e-14
+   seed=120900004  25.9s   Nsw= 8745  R_k=0.302  T_coh=   517.9  T_incoh=  6665.9  ratio=12.87  chk=1.1e-14
+   seed=120900005  25.9s   Nsw= 7548  R_k=0.281  T_coh=   230.3  T_incoh=   664.7  ratio= 2.89  chk=1.0e-14
+   seed=120900006  25.7s   Nsw= 8412  R_k=0.300  T_coh=    72.4  T_incoh=  3114.1  ratio=43.01  chk=1.9e-14
+   seed=120900007  25.8s   Nsw= 8908  R_k=0.303  T_coh=    79.1  T_incoh=   495.0  ratio= 6.26  chk=1.1e-14
+   seed=120900008  25.8s   Nsw= 8930  R_k=0.308  T_coh=   292.4  T_incoh=  9566.3  ratio=32.71  chk=3.1e-14
+   seed=120900009  25.8s   Nsw= 8310  R_k=0.299  T_coh=   589.0  T_incoh=  6636.7  ratio=11.27  chk=3.6e-14
+   seed=120900010  25.8s   Nsw= 8276  R_k=0.292  T_coh=   145.7  T_incoh=  2259.0  ratio=15.51  chk=2.1e-14
+   seed=120900011  25.8s   Nsw= 8598  R_k=0.303  T_coh=   128.0  T_incoh=  5102.8  ratio=39.87  chk=3.4e-14
+   seed=120900012  25.8s   Nsw= 8367  R_k=0.299  T_coh=    93.5  T_incoh=   984.2  ratio=10.52  chk=2.5e-14
+   seed=120900013  25.8s   Nsw= 7940  R_k=0.288  T_coh=   536.2  T_incoh=  8953.5  ratio=16.70  chk=1.7e-14
+   seed=120900014  25.7s   Nsw= 8512  R_k=0.302  T_coh=   331.7  T_incoh=  6034.1  ratio=18.19  chk=1.3e-14
+   seed=120900015  25.8s   Nsw= 8483  R_k=0.292  T_coh=   440.9  T_incoh=  9230.9  ratio=20.93  chk=2.9e-14
+   seed=120900016  25.8s   Nsw= 8643  R_k=0.299  T_coh=  1009.1  T_incoh= 15166.8  ratio=15.03  chk=3.2e-14
+   seed=120900017  25.8s   Nsw= 7880  R_k=0.292  T_coh=   794.3  T_incoh=  3369.8  ratio= 4.24  chk=2.1e-14
+   seed=120900018  25.7s   Nsw= 9001  R_k=0.307  T_coh=   744.6  T_incoh=  7060.9  ratio= 9.48  chk=2.5e-14
+   seed=120900019  26.0s   Nsw= 9446  R_k=0.308  T_coh=   202.4  T_incoh=  8617.7  ratio=42.58  chk=1.8e-14
+   seed=120900020  26.0s   Nsw= 7793  R_k=0.296  T_coh=   761.4  T_incoh=  6116.9  ratio= 8.03  chk=2.3e-14
+   seed=120900021  26.0s   Nsw= 9140  R_k=0.310  T_coh=  1055.0  T_incoh=  3436.7  ratio= 3.26  chk=1.5e-14
+   seed=120900022  26.0s   Nsw= 8211  R_k=0.296  T_coh=    97.8  T_incoh=  6608.9  ratio=67.57  chk=1.5e-14
+   seed=120900023  25.7s   Nsw= 8853  R_k=0.302  T_coh=   533.4  T_incoh=  5723.4  ratio=10.73  chk=2.9e-14
+   seed=120900024  25.8s   Nsw= 7998  R_k=0.284  T_coh=   404.4  T_incoh=  9740.9  ratio=24.09  chk=4.8e-14
+   seed=120900025  25.8s   Nsw= 8013  R_k=0.297  T_coh=   313.8  T_incoh=  1585.0  ratio= 5.05  chk=3.3e-14
+   seed=120900026  25.8s   Nsw= 8043  R_k=0.292  T_coh=   184.4  T_incoh=  5404.7  ratio=29.31  chk=1.3e-14
+   seed=120900027  25.8s   Nsw= 8525  R_k=0.306  T_coh=   308.7  T_incoh=  1595.9  ratio= 5.17  chk=1.3e-14
+   seed=120900028  25.8s   Nsw= 8461  R_k=0.296  T_coh=   153.8  T_incoh=  2231.9  ratio=14.51  chk=2.4e-14
+   seed=120900029  25.8s   Nsw= 8704  R_k=0.299  T_coh=   103.5  T_incoh=   296.6  ratio= 2.87  chk=2.6e-14
+   seed=120900030  25.8s   Nsw= 8968  R_k=0.313  T_coh=   434.6  T_incoh=  6529.6  ratio=15.02  chk=2.2e-14
+   seed=120900031  25.8s   Nsw= 8250  R_k=0.303  T_coh=   382.0  T_incoh=  6902.7  ratio=18.07  chk=1.7e-14
+   total 826s
+
+   ⇒ kc030_A000: κ_C=0.30 A=0.00  R_kura=0.299  ρ_sig=0.0019  wedge=158°  <Nsw>=8454
+      T_coh=394.5±277.2  T_incoh=5187.6±3340.2
+      class |μ|: aL= 30.1 aN= 26.6 rL= 10.2 rN= 49.3  frac aL=0.17 rN=0.44
+   [checkpoint] 1/10 cells written → thor_session_117_class_detector_results.json
+
+>> kc030_A040: κ_p=0.300  κ_C=0.300  ω_std=0.0700  A=0.4000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=120040000
+   seed=120040000  25.9s   Nsw= 6978  R_k=0.525  T_coh= 22589.8  T_incoh= 16999.1  ratio= 0.75  chk=4.2e-14
+   seed=120040001  25.7s   Nsw= 7417  R_k=0.540  T_coh= 21515.1  T_incoh= 13314.4  ratio= 0.62  chk=2.0e-14
+   seed=120040002  25.7s   Nsw= 7148  R_k=0.523  T_coh= 20480.1  T_incoh= 10992.9  ratio= 0.54  chk=2.2e-14
+   seed=120040003  25.8s   Nsw= 6702  R_k=0.528  T_coh= 25223.0  T_incoh= 13630.4  ratio= 0.54  chk=3.2e-14
+   seed=120040004  26.0s   Nsw= 6944  R_k=0.539  T_coh= 33181.5  T_incoh= 17496.9  ratio= 0.53  chk=2.8e-14
+   seed=120040005  26.0s   Nsw= 6640  R_k=0.527  T_coh= 24381.0  T_incoh= 13839.4  ratio= 0.57  chk=1.4e-14
+   seed=120040006  25.8s   Nsw= 6812  R_k=0.533  T_coh= 32853.1  T_incoh= 16076.3  ratio= 0.49  chk=2.9e-14
+   seed=120040007  25.9s   Nsw= 7008  R_k=0.543  T_coh= 29658.9  T_incoh= 17422.0  ratio= 0.59  chk=2.1e-14
+   seed=120040008  25.7s   Nsw= 6485  R_k=0.524  T_coh= 19976.7  T_incoh= 11358.4  ratio= 0.57  chk=1.6e-14
+   seed=120040009  25.8s   Nsw= 6704  R_k=0.521  T_coh= 21207.4  T_incoh= 11793.9  ratio= 0.56  chk=2.0e-14
+   seed=120040010  25.8s   Nsw= 6834  R_k=0.520  T_coh= 21399.8  T_incoh= 11207.8  ratio= 0.52  chk=2.0e-14
+   seed=120040011  25.8s   Nsw= 6575  R_k=0.517  T_coh= 28917.6  T_incoh= 15206.1  ratio= 0.53  chk=1.8e-14
+   seed=120040012  25.8s   Nsw= 6746  R_k=0.537  T_coh= 24691.9  T_incoh= 11893.5  ratio= 0.48  chk=3.2e-14
+   seed=120040013  25.8s   Nsw= 7069  R_k=0.528  T_coh= 22700.0  T_incoh= 12158.2  ratio= 0.54  chk=1.4e-14
+   seed=120040014  25.7s   Nsw= 7099  R_k=0.532  T_coh= 23733.2  T_incoh= 13793.3  ratio= 0.58  chk=2.6e-14
+   seed=120040015  25.7s   Nsw= 7211  R_k=0.531  T_coh= 22725.7  T_incoh= 12307.2  ratio= 0.54  chk=1.6e-14
+   seed=120040016  25.8s   Nsw= 7309  R_k=0.525  T_coh= 22039.2  T_incoh= 10805.3  ratio= 0.49  chk=1.6e-14
+   seed=120040017  25.8s   Nsw= 6566  R_k=0.522  T_coh= 24305.4  T_incoh= 14267.2  ratio= 0.59  chk=2.8e-14
+   seed=120040018  25.8s   Nsw= 7105  R_k=0.531  T_coh= 26864.3  T_incoh= 14794.7  ratio= 0.55  chk=7.1e-15
+   seed=120040019  25.8s   Nsw= 7023  R_k=0.528  T_coh= 25655.0  T_incoh= 13551.7  ratio= 0.53  chk=2.4e-14
+   seed=120040020  25.7s   Nsw= 6793  R_k=0.524  T_coh= 23962.1  T_incoh= 18024.6  ratio= 0.75  chk=1.6e-14
+   seed=120040021  26.0s   Nsw= 6590  R_k=0.526  T_coh= 21560.3  T_incoh= 11730.4  ratio= 0.54  chk=2.0e-14
+   seed=120040022  26.0s   Nsw= 7248  R_k=0.536  T_coh= 31242.0  T_incoh= 15797.9  ratio= 0.51  chk=1.8e-14
+   seed=120040023  25.8s   Nsw= 6969  R_k=0.528  T_coh= 25686.3  T_incoh= 15990.0  ratio= 0.62  chk=2.1e-14
+   seed=120040024  25.9s   Nsw= 7078  R_k=0.529  T_coh= 23158.3  T_incoh= 11565.3  ratio= 0.50  chk=2.9e-14
+   seed=120040025  25.7s   Nsw= 7067  R_k=0.531  T_coh= 18227.0  T_incoh= 10349.6  ratio= 0.57  chk=2.1e-14
+   seed=120040026  25.8s   Nsw= 6631  R_k=0.517  T_coh= 22589.0  T_incoh= 11714.8  ratio= 0.52  chk=2.7e-14
+   seed=120040027  25.7s   Nsw= 7090  R_k=0.538  T_coh= 27799.1  T_incoh= 15984.1  ratio= 0.57  chk=1.6e-14
+   seed=120040028  25.7s   Nsw= 6727  R_k=0.526  T_coh= 22383.0  T_incoh= 12158.3  ratio= 0.54  chk=2.1e-14
+   seed=120040029  25.8s   Nsw= 6887  R_k=0.531  T_coh= 28665.6  T_incoh= 15003.8  ratio= 0.52  chk=1.6e-14
+   seed=120040030  25.8s   Nsw= 6706  R_k=0.525  T_coh= 26427.8  T_incoh= 14700.8  ratio= 0.56  chk=8.0e-15
+   seed=120040031  25.8s   Nsw= 6314  R_k=0.522  T_coh= 23368.9  T_incoh= 13565.8  ratio= 0.58  chk=2.6e-14
+   total 826s
+
+   ⇒ kc030_A040: κ_C=0.30 A=0.40  R_kura=0.528  ρ_sig=0.1432  wedge=47°  <Nsw>=6890
+      T_coh=24661.5±3618.3  T_incoh=13734.2±2162.4
+      class |μ|: aL= 78.9 aN= 16.6 rL= 16.1 rN= 82.2  frac aL=0.52 rN=0.37
+   [checkpoint] 2/10 cells written → thor_session_117_class_detector_results.json
+
+>> kc040_A000: κ_p=0.300  κ_C=0.400  ω_std=0.0700  A=0.0000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=121900000
+   seed=121900000  25.8s   Nsw= 4942  R_k=0.253  T_coh=   141.3  T_incoh=  7694.4  ratio=54.46  chk=1.0e-14
+   seed=121900001  25.8s   Nsw= 4259  R_k=0.241  T_coh=    28.8  T_incoh=   937.5  ratio=32.56  chk=1.2e-14
+   seed=121900002  25.8s   Nsw= 4754  R_k=0.246  T_coh=   766.1  T_incoh=  4550.9  ratio= 5.94  chk=1.4e-14
+   seed=121900003  25.8s   Nsw= 4206  R_k=0.236  T_coh=   130.3  T_incoh=   942.6  ratio= 7.24  chk=1.9e-14
+   seed=121900004  25.8s   Nsw= 5074  R_k=0.258  T_coh=   199.7  T_incoh=   989.7  ratio= 4.96  chk=1.0e-14
+   seed=121900005  25.8s   Nsw= 4304  R_k=0.235  T_coh=   316.1  T_incoh=  1656.5  ratio= 5.24  chk=7.3e-15
+   seed=121900006  25.8s   Nsw= 4268  R_k=0.239  T_coh=     0.0  T_incoh=   282.9  ratio=74581.37  chk=7.3e-15
+   seed=121900007  25.8s   Nsw= 4340  R_k=0.238  T_coh=   371.5  T_incoh=  2919.8  ratio= 7.86  chk=2.2e-14
+   seed=121900008  25.8s   Nsw= 4418  R_k=0.242  T_coh=   107.7  T_incoh=  1005.3  ratio= 9.34  chk=1.3e-14
+   seed=121900009  25.8s   Nsw= 4448  R_k=0.240  T_coh=   307.1  T_incoh=  2909.9  ratio= 9.47  chk=7.1e-15
+   seed=121900010  25.8s   Nsw= 4511  R_k=0.237  T_coh=    17.7  T_incoh=   757.5  ratio=42.72  chk=2.2e-14
+   seed=121900011  25.9s   Nsw= 4380  R_k=0.238  T_coh=    29.7  T_incoh=   706.3  ratio=23.78  chk=1.1e-14
+   seed=121900012  25.8s   Nsw= 4017  R_k=0.239  T_coh=    38.3  T_incoh=   529.1  ratio=13.81  chk=1.2e-14
+   seed=121900013  26.0s   Nsw= 4122  R_k=0.234  T_coh=     7.5  T_incoh=  1489.6  ratio=197.30  chk=2.4e-14
+   seed=121900014  26.0s   Nsw= 4200  R_k=0.236  T_coh=   248.3  T_incoh=  2384.8  ratio= 9.61  chk=2.3e-14
+   seed=121900015  26.0s   Nsw= 4630  R_k=0.241  T_coh=   170.8  T_incoh=  3252.2  ratio=19.05  chk=1.0e-14
+   seed=121900016  25.9s   Nsw= 4256  R_k=0.240  T_coh=    93.0  T_incoh=  1296.0  ratio=13.93  chk=2.8e-14
+   seed=121900017  25.8s   Nsw= 4452  R_k=0.242  T_coh=   190.7  T_incoh=  3181.7  ratio=16.69  chk=1.0e-14
+   seed=121900018  25.9s   Nsw= 4658  R_k=0.232  T_coh=    16.6  T_incoh=  1065.4  ratio=64.02  chk=9.2e-15
+   seed=121900019  25.8s   Nsw= 4799  R_k=0.249  T_coh=   244.7  T_incoh=  2481.8  ratio=10.14  chk=8.9e-15
+   seed=121900020  25.8s   Nsw= 4572  R_k=0.247  T_coh=   273.3  T_incoh=  4849.0  ratio=17.74  chk=1.5e-14
+   seed=121900021  25.8s   Nsw= 4279  R_k=0.232  T_coh=   960.8  T_incoh=  5010.6  ratio= 5.22  chk=1.5e-14
+   seed=121900022  25.8s   Nsw= 4474  R_k=0.239  T_coh=    74.1  T_incoh=  1854.0  ratio=25.02  chk=4.4e-15
+   seed=121900023  26.0s   Nsw= 4652  R_k=0.245  T_coh=   437.7  T_incoh=  4036.3  ratio= 9.22  chk=1.4e-14
+   seed=121900024  26.1s   Nsw= 4764  R_k=0.249  T_coh=   152.8  T_incoh=  1157.2  ratio= 7.57  chk=1.1e-14
+   seed=121900025  25.9s   Nsw= 3968  R_k=0.227  T_coh=    82.8  T_incoh=  3131.1  ratio=37.81  chk=1.4e-14
+   seed=121900026  25.9s   Nsw= 4213  R_k=0.235  T_coh=   103.5  T_incoh=  1522.9  ratio=14.71  chk=2.5e-14
+   seed=121900027  25.9s   Nsw= 4120  R_k=0.231  T_coh=    37.4  T_incoh=  1078.8  ratio=28.86  chk=1.4e-14
+   seed=121900028  25.8s   Nsw= 4782  R_k=0.247  T_coh=   296.9  T_incoh=  3301.3  ratio=11.12  chk=1.2e-14
+   seed=121900029  26.1s   Nsw= 4532  R_k=0.251  T_coh=   382.7  T_incoh=  4033.1  ratio=10.54  chk=1.3e-14
+   seed=121900030  26.2s   Nsw= 4388  R_k=0.238  T_coh=    93.5  T_incoh=   633.9  ratio= 6.78  chk=1.3e-14
+   seed=121900031  25.9s   Nsw= 4796  R_k=0.241  T_coh=   663.4  T_incoh=  5047.7  ratio= 7.61  chk=3.8e-14
+   total 828s
+
+   ⇒ kc040_A000: κ_C=0.40 A=0.00  R_kura=0.241  ρ_sig=0.0019  wedge=6°  <Nsw>=4456
+      T_coh=218.3±223.8  T_incoh=2396.6±1719.8
+      class |μ|: aL= 22.2 aN= 18.1 rL=  8.1 rN= 32.2  frac aL=0.20 rN=0.43
+   [checkpoint] 3/10 cells written → thor_session_117_class_detector_results.json
+
+>> kc040_A040: κ_p=0.300  κ_C=0.400  ω_std=0.0700  A=0.4000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=121040000
+   seed=121040000  25.8s   Nsw= 4959  R_k=0.493  T_coh= 12755.1  T_incoh=  7977.7  ratio= 0.63  chk=7.1e-15
+   seed=121040001  25.8s   Nsw= 4915  R_k=0.477  T_coh=  9114.6  T_incoh=  5646.4  ratio= 0.62  chk=1.4e-14
+   seed=121040002  25.8s   Nsw= 4763  R_k=0.482  T_coh=  9329.0  T_incoh=  6449.9  ratio= 0.69  chk=7.3e-15
+   seed=121040003  25.8s   Nsw= 4702  R_k=0.479  T_coh= 14854.7  T_incoh=  7432.3  ratio= 0.50  chk=1.8e-14
+   seed=121040004  26.1s   Nsw= 4755  R_k=0.479  T_coh=  9872.1  T_incoh=  6612.8  ratio= 0.67  chk=4.4e-15
+   seed=121040005  26.0s   Nsw= 5213  R_k=0.484  T_coh=  8279.5  T_incoh=  4650.2  ratio= 0.56  chk=1.1e-14
+   seed=121040006  25.9s   Nsw= 4722  R_k=0.471  T_coh=  5340.1  T_incoh=  4297.8  ratio= 0.80  chk=1.1e-14
+   seed=121040007  25.9s   Nsw= 5168  R_k=0.488  T_coh=  9136.2  T_incoh=  5158.9  ratio= 0.56  chk=1.6e-14
+   seed=121040008  25.8s   Nsw= 4864  R_k=0.483  T_coh= 11928.6  T_incoh=  7886.7  ratio= 0.66  chk=1.5e-14
+   seed=121040009  25.8s   Nsw= 5003  R_k=0.499  T_coh= 13841.3  T_incoh=  8806.5  ratio= 0.64  chk=1.6e-14
+   seed=121040010  25.8s   Nsw= 4878  R_k=0.487  T_coh= 11183.8  T_incoh=  6252.7  ratio= 0.56  chk=9.4e-15
+   seed=121040011  25.8s   Nsw= 5076  R_k=0.498  T_coh= 17722.4  T_incoh= 11597.5  ratio= 0.65  chk=1.6e-14
+   seed=121040012  25.8s   Nsw= 4744  R_k=0.488  T_coh= 14358.7  T_incoh=  8778.7  ratio= 0.61  chk=7.1e-15
+   seed=121040013  25.8s   Nsw= 4522  R_k=0.474  T_coh= 13315.0  T_incoh=  9792.1  ratio= 0.74  chk=2.3e-14
+   seed=121040014  25.8s   Nsw= 4811  R_k=0.483  T_coh= 15419.1  T_incoh=  6944.0  ratio= 0.45  chk=1.1e-14
+   seed=121040015  25.8s   Nsw= 4722  R_k=0.482  T_coh= 12328.6  T_incoh=  8630.3  ratio= 0.70  chk=3.6e-15
+   seed=121040016  25.8s   Nsw= 5352  R_k=0.493  T_coh= 10950.7  T_incoh=  7169.4  ratio= 0.65  chk=3.0e-14
+   seed=121040017  25.9s   Nsw= 4873  R_k=0.486  T_coh=  9982.1  T_incoh=  5482.7  ratio= 0.55  chk=7.9e-15
+   seed=121040018  25.8s   Nsw= 4941  R_k=0.480  T_coh= 16265.2  T_incoh= 10349.3  ratio= 0.64  chk=1.2e-14
+   seed=121040019  25.8s   Nsw= 4760  R_k=0.481  T_coh= 10461.4  T_incoh=  6403.9  ratio= 0.61  chk=1.5e-14
+   seed=121040020  25.8s   Nsw= 4878  R_k=0.478  T_coh= 11288.7  T_incoh=  7451.9  ratio= 0.66  chk=7.9e-15
+   seed=121040021  26.0s   Nsw= 5043  R_k=0.493  T_coh= 18181.9  T_incoh= 11486.0  ratio= 0.63  chk=1.4e-14
+   seed=121040022  26.2s   Nsw= 4812  R_k=0.475  T_coh=  6804.4  T_incoh=  6454.4  ratio= 0.95  chk=1.4e-14
+   seed=121040023  26.0s   Nsw= 4987  R_k=0.483  T_coh= 13529.2  T_incoh=  9366.4  ratio= 0.69  chk=1.6e-14
+   seed=121040024  25.9s   Nsw= 4909  R_k=0.484  T_coh= 12702.8  T_incoh=  9310.5  ratio= 0.73  chk=1.1e-14
+   seed=121040025  25.9s   Nsw= 5115  R_k=0.486  T_coh=  6961.3  T_incoh=  4424.4  ratio= 0.64  chk=1.7e-14
+   seed=121040026  25.8s   Nsw= 4544  R_k=0.486  T_coh= 12154.7  T_incoh=  7080.7  ratio= 0.58  chk=1.5e-14
+   seed=121040027  25.8s   Nsw= 5006  R_k=0.495  T_coh= 13709.8  T_incoh=  8671.3  ratio= 0.63  chk=1.4e-14
+   seed=121040028  25.8s   Nsw= 4984  R_k=0.487  T_coh=  9339.9  T_incoh=  6531.1  ratio= 0.70  chk=2.0e-14
+   seed=121040029  25.8s   Nsw= 5003  R_k=0.497  T_coh= 11357.0  T_incoh=  5333.9  ratio= 0.47  chk=1.0e-14
+   seed=121040030  25.8s   Nsw= 4948  R_k=0.487  T_coh= 12513.3  T_incoh=  9259.9  ratio= 0.74  chk=1.5e-14
+   seed=121040031  25.8s   Nsw= 4636  R_k=0.484  T_coh= 11834.4  T_incoh=  7126.6  ratio= 0.60  chk=1.4e-14
+   total 827s
+
+   ⇒ kc040_A040: κ_C=0.40 A=0.40  R_kura=0.485  ρ_sig=0.0963  wedge=62°  <Nsw>=4894
+      T_coh=11775.5±2956.9  T_incoh=7463.0±1897.1
+      class |μ|: aL= 55.3 aN= 12.3 rL= 11.4 rN= 62.3  frac aL=0.61 rN=0.29
+   [checkpoint] 4/10 cells written → thor_session_117_class_detector_results.json
+
+>> kc050_A000: κ_p=0.300  κ_C=0.500  ω_std=0.0700  A=0.0000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=122900000
+   seed=122900000  25.8s   Nsw= 2720  R_k=0.211  T_coh=   112.3  T_incoh=   518.5  ratio= 4.62  chk=7.6e-15
+   seed=122900001  25.8s   Nsw= 2786  R_k=0.207  T_coh=   219.0  T_incoh=  1783.3  ratio= 8.14  chk=1.5e-14
+   seed=122900002  25.9s   Nsw= 2140  R_k=0.198  T_coh=    24.7  T_incoh=   378.6  ratio=15.34  chk=8.8e-15
+   seed=122900003  25.8s   Nsw= 2354  R_k=0.201  T_coh=    63.6  T_incoh=   619.6  ratio= 9.75  chk=8.9e-15
+   seed=122900004  25.8s   Nsw= 2434  R_k=0.199  T_coh=   179.6  T_incoh=  1812.5  ratio=10.09  chk=8.7e-15
+   seed=122900005  25.8s   Nsw= 2236  R_k=0.198  T_coh=    67.7  T_incoh=   343.7  ratio= 5.08  chk=7.2e-15
+   seed=122900006  25.8s   Nsw= 1872  R_k=0.192  T_coh=   182.6  T_incoh=   872.6  ratio= 4.78  chk=5.4e-15
+   seed=122900007  25.8s   Nsw= 2476  R_k=0.205  T_coh=   148.7  T_incoh=   684.5  ratio= 4.60  chk=8.9e-15
+   seed=122900008  25.8s   Nsw= 2241  R_k=0.204  T_coh=    74.1  T_incoh=   892.7  ratio=12.04  chk=4.4e-15
+   seed=122900009  25.8s   Nsw= 2053  R_k=0.199  T_coh=    19.6  T_incoh=   336.2  ratio=17.15  chk=2.8e-15
+   seed=122900010  25.9s   Nsw= 2120  R_k=0.193  T_coh=    86.5  T_incoh=   381.1  ratio= 4.41  chk=5.3e-15
+   seed=122900011  25.8s   Nsw= 2090  R_k=0.197  T_coh=    57.7  T_incoh=   947.9  ratio=16.44  chk=1.1e-14
+   seed=122900012  25.8s   Nsw= 2104  R_k=0.197  T_coh=    82.7  T_incoh=  1196.6  ratio=14.47  chk=1.1e-14
+   seed=122900013  26.0s   Nsw= 2250  R_k=0.195  T_coh=   331.3  T_incoh=  2822.7  ratio= 8.52  chk=7.1e-15
+   seed=122900014  25.9s   Nsw= 1796  R_k=0.188  T_coh=    25.8  T_incoh=   381.1  ratio=14.78  chk=5.0e-15
+   seed=122900015  25.9s   Nsw= 2418  R_k=0.205  T_coh=   122.4  T_incoh=   729.0  ratio= 5.96  chk=7.3e-15
+   seed=122900016  25.9s   Nsw= 2651  R_k=0.210  T_coh=   171.2  T_incoh=  2360.3  ratio=13.78  chk=1.0e-14
+   seed=122900017  25.8s   Nsw= 2680  R_k=0.207  T_coh=    56.6  T_incoh=   774.1  ratio=13.68  chk=1.1e-14
+   seed=122900018  26.0s   Nsw= 2046  R_k=0.198  T_coh=   193.7  T_incoh=  2497.9  ratio=12.89  chk=1.6e-14
+   seed=122900019  26.1s   Nsw= 1820  R_k=0.185  T_coh=    91.7  T_incoh=   676.8  ratio= 7.38  chk=6.8e-15
+   seed=122900020  25.9s   Nsw= 2472  R_k=0.207  T_coh=    72.2  T_incoh=   624.5  ratio= 8.65  chk=5.3e-15
+   seed=122900021  25.9s   Nsw= 2510  R_k=0.209  T_coh=    95.6  T_incoh=   411.2  ratio= 4.30  chk=4.0e-15
+   seed=122900022  25.8s   Nsw= 2185  R_k=0.200  T_coh=   108.6  T_incoh=  2298.2  ratio=21.16  chk=5.0e-15
+   seed=122900023  25.8s   Nsw= 2334  R_k=0.198  T_coh=    56.4  T_incoh=   631.6  ratio=11.19  chk=1.5e-14
+   seed=122900024  25.8s   Nsw= 2224  R_k=0.194  T_coh=   159.1  T_incoh=  1827.6  ratio=11.49  chk=1.8e-14
+   seed=122900025  25.8s   Nsw= 2488  R_k=0.204  T_coh=    32.9  T_incoh=   868.8  ratio=26.44  chk=7.2e-15
+   seed=122900026  25.8s   Nsw= 2327  R_k=0.198  T_coh=    95.2  T_incoh=   895.5  ratio= 9.40  chk=1.1e-14
+   seed=122900027  25.8s   Nsw= 2722  R_k=0.205  T_coh=    12.6  T_incoh=   593.2  ratio=47.26  chk=4.4e-15
+   seed=122900028  26.0s   Nsw= 2235  R_k=0.198  T_coh=    96.7  T_incoh=  1438.3  ratio=14.87  chk=7.6e-15
+   seed=122900029  26.0s   Nsw= 2540  R_k=0.205  T_coh=    30.2  T_incoh=   710.4  ratio=23.52  chk=8.2e-15
+   seed=122900030  25.9s   Nsw= 2200  R_k=0.197  T_coh=    42.7  T_incoh=   271.3  ratio= 6.35  chk=9.9e-15
+   seed=122900031  25.9s   Nsw= 2650  R_k=0.208  T_coh=    78.4  T_incoh=   928.3  ratio=11.84  chk=3.6e-15
+   total 828s
+
+   ⇒ kc050_A000: κ_C=0.50 A=0.00  R_kura=0.200  ρ_sig=0.0017  wedge=159°  <Nsw>=2318
+      T_coh=99.8±68.4  T_incoh=1015.9±695.5
+      class |μ|: aL= 15.4 aN= 10.3 rL=  6.4 rN= 21.6  frac aL=0.21 rN=0.43
+   [checkpoint] 5/10 cells written → thor_session_117_class_detector_results.json
+
+>> kc050_A040: κ_p=0.300  κ_C=0.500  ω_std=0.0700  A=0.4000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=122040000
+   seed=122040000  25.8s   Nsw= 3729  R_k=0.449  T_coh=  6435.4  T_incoh=  3855.8  ratio= 0.60  chk=1.5e-14
+   seed=122040001  25.8s   Nsw= 3721  R_k=0.437  T_coh=  1741.4  T_incoh=  2992.6  ratio= 1.72  chk=1.5e-14
+   seed=122040002  25.8s   Nsw= 3781  R_k=0.449  T_coh=  3907.1  T_incoh=  3669.6  ratio= 0.94  chk=2.0e-14
+   seed=122040003  25.7s   Nsw= 3781  R_k=0.445  T_coh=  3469.1  T_incoh=  4002.6  ratio= 1.15  chk=2.2e-14
+   seed=122040004  25.8s   Nsw= 3776  R_k=0.452  T_coh=  7274.8  T_incoh=  4161.7  ratio= 0.57  chk=7.9e-15
+   seed=122040005  25.7s   Nsw= 3720  R_k=0.460  T_coh=  9118.0  T_incoh=  6267.9  ratio= 0.69  chk=1.0e-14
+   seed=122040006  25.7s   Nsw= 3631  R_k=0.436  T_coh=  2126.8  T_incoh=  2028.4  ratio= 0.95  chk=7.1e-15
+   seed=122040007  25.8s   Nsw= 3463  R_k=0.431  T_coh=  5066.7  T_incoh=  3843.5  ratio= 0.76  chk=1.3e-14
+   seed=122040008  25.8s   Nsw= 4000  R_k=0.449  T_coh=  4459.7  T_incoh=  3753.5  ratio= 0.84  chk=2.1e-14
+   seed=122040009  25.8s   Nsw= 4365  R_k=0.462  T_coh=  6048.1  T_incoh=  4240.2  ratio= 0.70  chk=8.0e-15
+   seed=122040010  25.8s   Nsw= 3482  R_k=0.439  T_coh=  3442.4  T_incoh=  2415.7  ratio= 0.70  chk=2.5e-14
+   seed=122040011  25.8s   Nsw= 4022  R_k=0.446  T_coh=  4792.2  T_incoh=  4331.6  ratio= 0.90  chk=2.6e-14
+   seed=122040012  25.7s   Nsw= 3756  R_k=0.453  T_coh=  7463.5  T_incoh=  4361.0  ratio= 0.58  chk=1.0e-14
+   seed=122040013  25.9s   Nsw= 3919  R_k=0.438  T_coh=  2902.0  T_incoh=  3333.7  ratio= 1.15  chk=7.9e-15
+   seed=122040014  26.0s   Nsw= 3672  R_k=0.441  T_coh=  2672.1  T_incoh=  2472.8  ratio= 0.93  chk=7.1e-15
+   seed=122040015  26.1s   Nsw= 4003  R_k=0.451  T_coh=  4738.3  T_incoh=  3275.7  ratio= 0.69  chk=1.3e-14
+   seed=122040016  26.1s   Nsw= 3804  R_k=0.445  T_coh=  1498.1  T_incoh=  2434.6  ratio= 1.63  chk=1.6e-14
+   seed=122040017  25.9s   Nsw= 3714  R_k=0.437  T_coh=  1550.7  T_incoh=  2086.9  ratio= 1.35  chk=1.5e-14
+   seed=122040018  25.7s   Nsw= 3979  R_k=0.461  T_coh=  6041.1  T_incoh=  5183.0  ratio= 0.86  chk=1.1e-14
+   seed=122040019  25.8s   Nsw= 3480  R_k=0.442  T_coh=  4597.6  T_incoh=  3780.7  ratio= 0.82  chk=1.1e-14
+   seed=122040020  25.8s   Nsw= 4132  R_k=0.461  T_coh=  4184.3  T_incoh=  3419.2  ratio= 0.82  chk=1.4e-14
+   seed=122040021  25.8s   Nsw= 3590  R_k=0.442  T_coh=  4905.4  T_incoh=  4211.9  ratio= 0.86  chk=1.6e-14
+   seed=122040022  25.8s   Nsw= 3699  R_k=0.436  T_coh=  1902.8  T_incoh=  2480.8  ratio= 1.30  chk=7.1e-15
+   seed=122040023  26.0s   Nsw= 3841  R_k=0.450  T_coh=  4778.4  T_incoh=  5762.7  ratio= 1.21  chk=7.9e-15
+   seed=122040024  26.0s   Nsw= 4036  R_k=0.454  T_coh=  3977.6  T_incoh=  3279.5  ratio= 0.82  chk=1.1e-14
+   seed=122040025  25.9s   Nsw= 3967  R_k=0.446  T_coh=  1664.8  T_incoh=  2637.4  ratio= 1.58  chk=7.9e-15
+   seed=122040026  25.8s   Nsw= 3888  R_k=0.446  T_coh=  3181.9  T_incoh=  3254.6  ratio= 1.02  chk=7.1e-15
+   seed=122040027  25.8s   Nsw= 3557  R_k=0.439  T_coh=  2651.7  T_incoh=  2687.4  ratio= 1.01  chk=7.1e-15
+   seed=122040028  25.8s   Nsw= 3703  R_k=0.444  T_coh=  3964.9  T_incoh=  2661.2  ratio= 0.67  chk=1.1e-14
+   seed=122040029  25.8s   Nsw= 3864  R_k=0.443  T_coh=  5176.5  T_incoh=  3970.3  ratio= 0.77  chk=1.3e-14
+   seed=122040030  25.8s   Nsw= 4031  R_k=0.465  T_coh=  5891.0  T_incoh=  4108.3  ratio= 0.70  chk=2.3e-14
+   seed=122040031  25.8s   Nsw= 3852  R_k=0.448  T_coh=  2422.5  T_incoh=  2535.5  ratio= 1.05  chk=1.8e-14
+   total 826s
+
+   ⇒ kc050_A040: κ_C=0.50 A=0.40  R_kura=0.447  ρ_sig=0.0440  wedge=84°  <Nsw>=3811
+      T_coh=4189.0±1859.3  T_incoh=3546.9±996.6
+      class |μ|: aL= 35.1 aN=  8.3 rL=  9.3 rN= 44.7  frac aL=0.67 rN=0.25
+   [checkpoint] 6/10 cells written → thor_session_117_class_detector_results.json
+
+>> kc060_A000: κ_p=0.300  κ_C=0.600  ω_std=0.0700  A=0.0000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=123900000
+   seed=123900000  25.8s   Nsw= 1496  R_k=0.181  T_coh=     8.3  T_incoh=   758.8  ratio=91.91  chk=5.0e-15
+   seed=123900001  26.0s   Nsw= 1634  R_k=0.185  T_coh=   208.0  T_incoh=   605.4  ratio= 2.91  chk=6.4e-15
+   seed=123900002  25.9s   Nsw= 1160  R_k=0.171  T_coh=    18.1  T_incoh=   248.0  ratio=13.71  chk=3.2e-15
+   seed=123900003  26.0s   Nsw= 1616  R_k=0.185  T_coh=    23.1  T_incoh=   252.3  ratio=10.91  chk=3.8e-15
+   seed=123900004  25.9s   Nsw= 1314  R_k=0.180  T_coh=   360.8  T_incoh=  2931.1  ratio= 8.12  chk=7.3e-15
+   seed=123900005  25.8s   Nsw= 1412  R_k=0.181  T_coh=    58.6  T_incoh=   904.6  ratio=15.43  chk=4.0e-15
+   seed=123900006  25.8s   Nsw= 1298  R_k=0.179  T_coh=    12.0  T_incoh=   206.3  ratio=17.25  chk=3.8e-15
+   seed=123900007  25.8s   Nsw= 1320  R_k=0.176  T_coh=    80.4  T_incoh=   508.1  ratio= 6.32  chk=8.0e-15
+   seed=123900008  25.8s   Nsw= 1104  R_k=0.175  T_coh=   192.6  T_incoh=  1250.4  ratio= 6.49  chk=7.4e-15
+   seed=123900009  25.8s   Nsw= 1558  R_k=0.189  T_coh=   111.2  T_incoh=   756.6  ratio= 6.80  chk=5.6e-15
+   seed=123900010  25.8s   Nsw= 1236  R_k=0.175  T_coh=    18.7  T_incoh=   266.4  ratio=14.27  chk=6.9e-15
+   seed=123900011  25.9s   Nsw= 1325  R_k=0.181  T_coh=   104.7  T_incoh=  1307.7  ratio=12.49  chk=7.3e-15
+   seed=123900012  25.8s   Nsw= 1206  R_k=0.176  T_coh=    50.0  T_incoh=   899.1  ratio=17.98  chk=5.9e-15
+   seed=123900013  25.8s   Nsw= 1478  R_k=0.184  T_coh=   205.3  T_incoh=   882.2  ratio= 4.30  chk=4.0e-15
+   seed=123900014  25.8s   Nsw= 1200  R_k=0.174  T_coh=    23.1  T_incoh=   540.4  ratio=23.44  chk=3.6e-15
+   seed=123900015  25.8s   Nsw= 1249  R_k=0.178  T_coh=    68.0  T_incoh=   285.0  ratio= 4.19  chk=8.3e-15
+   seed=123900016  25.8s   Nsw= 1504  R_k=0.178  T_coh=    56.5  T_incoh=   248.6  ratio= 4.40  chk=5.5e-15
+   seed=123900017  25.8s   Nsw= 1166  R_k=0.177  T_coh=    49.6  T_incoh=   710.9  ratio=14.33  chk=3.6e-15
+   seed=123900018  26.2s   Nsw= 1308  R_k=0.180  T_coh=    25.0  T_incoh=   170.5  ratio= 6.82  chk=4.5e-15
+   seed=123900019  26.0s   Nsw= 1502  R_k=0.185  T_coh=    57.0  T_incoh=   556.2  ratio= 9.76  chk=5.0e-15
+   seed=123900020  25.9s   Nsw= 1168  R_k=0.176  T_coh=    86.9  T_incoh=   475.0  ratio= 5.46  chk=1.3e-14
+   seed=123900021  26.0s   Nsw= 1556  R_k=0.180  T_coh=    41.3  T_incoh=   504.5  ratio=12.21  chk=8.9e-15
+   seed=123900022  25.8s   Nsw= 1064  R_k=0.175  T_coh=    32.5  T_incoh=   277.2  ratio= 8.52  chk=5.6e-15
+   seed=123900023  25.8s   Nsw= 1980  R_k=0.193  T_coh=    12.5  T_incoh=   683.0  ratio=54.43  chk=5.0e-15
+   seed=123900024  25.8s   Nsw= 1144  R_k=0.175  T_coh=   117.3  T_incoh=   699.3  ratio= 5.96  chk=7.3e-15
+   seed=123900025  25.8s   Nsw= 1364  R_k=0.180  T_coh=    66.8  T_incoh=   774.8  ratio=11.60  chk=6.0e-15
+   seed=123900026  25.8s   Nsw= 1479  R_k=0.183  T_coh=    22.8  T_incoh=   281.1  ratio=12.33  chk=5.4e-15
+   seed=123900027  25.9s   Nsw= 1304  R_k=0.177  T_coh=    19.1  T_incoh=   277.0  ratio=14.51  chk=5.6e-15
+   seed=123900028  26.1s   Nsw= 1554  R_k=0.185  T_coh=   216.2  T_incoh=  1358.5  ratio= 6.28  chk=7.9e-15
+   seed=123900029  25.9s   Nsw= 1426  R_k=0.182  T_coh=     8.5  T_incoh=   167.2  ratio=19.65  chk=2.8e-15
+   seed=123900030  25.9s   Nsw= 1080  R_k=0.173  T_coh=    16.7  T_incoh=   652.0  ratio=39.02  chk=7.3e-15
+   seed=123900031  25.8s   Nsw= 1214  R_k=0.177  T_coh=    17.2  T_incoh=   434.5  ratio=25.31  chk=4.8e-15
+   total 828s
+
+   ⇒ kc060_A000: κ_C=0.60 A=0.00  R_kura=0.180  ρ_sig=0.0022  wedge=124°  <Nsw>=1357
+      T_coh=74.6±79.7  T_incoh=652.3±521.5
+      class |μ|: aL= 11.9 aN=  9.9 rL=  5.2 rN= 16.2  frac aL=0.23 rN=0.43
+   [checkpoint] 7/10 cells written → thor_session_117_class_detector_results.json
+
+>> kc060_A040: κ_p=0.300  κ_C=0.600  ω_std=0.0700  A=0.4000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=123040000
+   seed=123040000  25.8s   Nsw= 3060  R_k=0.415  T_coh=   979.5  T_incoh=  1299.9  ratio= 1.33  chk=8.9e-15
+   seed=123040001  25.8s   Nsw= 2972  R_k=0.410  T_coh=   786.5  T_incoh=  1593.4  ratio= 2.03  chk=7.9e-15
+   seed=123040002  25.9s   Nsw= 3268  R_k=0.421  T_coh=  1907.6  T_incoh=  1817.4  ratio= 0.95  chk=1.0e-14
+   seed=123040003  25.8s   Nsw= 3198  R_k=0.419  T_coh=  1153.4  T_incoh=  2007.2  ratio= 1.74  chk=3.6e-15
+   seed=123040004  25.9s   Nsw= 3312  R_k=0.423  T_coh=  2875.7  T_incoh=  2374.3  ratio= 0.83  chk=8.9e-15
+   seed=123040005  25.9s   Nsw= 3124  R_k=0.421  T_coh=  2305.8  T_incoh=  2043.9  ratio= 0.89  chk=1.5e-14
+   seed=123040006  25.8s   Nsw= 3010  R_k=0.406  T_coh=  1082.5  T_incoh=  1354.7  ratio= 1.25  chk=8.4e-15
+   seed=123040007  25.9s   Nsw= 3334  R_k=0.425  T_coh=  3245.5  T_incoh=  3218.4  ratio= 0.99  chk=7.9e-15
+   seed=123040008  25.8s   Nsw= 3046  R_k=0.424  T_coh=  3157.4  T_incoh=  3375.8  ratio= 1.07  chk=4.9e-15
+   seed=123040009  25.8s   Nsw= 3264  R_k=0.422  T_coh=  2348.8  T_incoh=  2407.1  ratio= 1.02  chk=7.1e-15
+   seed=123040010  25.8s   Nsw= 3226  R_k=0.419  T_coh=  2098.8  T_incoh=  1556.4  ratio= 0.74  chk=7.9e-15
+   seed=123040011  25.8s   Nsw= 2962  R_k=0.407  T_coh=  1003.9  T_incoh=  1472.1  ratio= 1.47  chk=1.8e-14
+   seed=123040012  25.7s   Nsw= 3105  R_k=0.416  T_coh=  1494.5  T_incoh=  1797.8  ratio= 1.20  chk=9.6e-15
+   seed=123040013  26.1s   Nsw= 3247  R_k=0.422  T_coh=  3822.4  T_incoh=  3910.0  ratio= 1.02  chk=1.5e-14
+   seed=123040014  26.3s   Nsw= 3175  R_k=0.420  T_coh=  2296.8  T_incoh=  2643.6  ratio= 1.15  chk=1.3e-14
+   seed=123040015  26.2s   Nsw= 3014  R_k=0.420  T_coh=  2867.0  T_incoh=  2691.7  ratio= 0.94  chk=2.9e-14
+   seed=123040016  26.1s   Nsw= 3131  R_k=0.403  T_coh=   519.0  T_incoh=  1192.8  ratio= 2.30  chk=4.6e-15
+   seed=123040017  25.9s   Nsw= 3074  R_k=0.418  T_coh=  1370.9  T_incoh=  2051.2  ratio= 1.50  chk=7.1e-15
+   seed=123040018  25.8s   Nsw= 3298  R_k=0.427  T_coh=  2285.8  T_incoh=  2322.0  ratio= 1.02  chk=1.5e-14
+   seed=123040019  25.9s   Nsw= 3235  R_k=0.417  T_coh=  1638.9  T_incoh=  1688.5  ratio= 1.03  chk=1.0e-14
+   seed=123040020  25.8s   Nsw= 3012  R_k=0.423  T_coh=  2537.1  T_incoh=  2226.7  ratio= 0.88  chk=7.9e-15
+   seed=123040021  25.8s   Nsw= 2805  R_k=0.409  T_coh=  1924.3  T_incoh=  2263.3  ratio= 1.18  chk=7.9e-15
+   seed=123040022  25.8s   Nsw= 3466  R_k=0.426  T_coh=  1154.1  T_incoh=  1369.7  ratio= 1.19  chk=1.8e-14
+   seed=123040023  26.0s   Nsw= 3144  R_k=0.410  T_coh=  1351.3  T_incoh=  2582.8  ratio= 1.91  chk=8.7e-15
+   seed=123040024  25.8s   Nsw= 3012  R_k=0.415  T_coh=  2631.9  T_incoh=  2279.5  ratio= 0.87  chk=7.1e-15
+   seed=123040025  26.0s   Nsw= 2627  R_k=0.396  T_coh=   941.3  T_incoh=  1437.3  ratio= 1.53  chk=5.3e-15
+   seed=123040026  25.8s   Nsw= 2818  R_k=0.406  T_coh=   523.8  T_incoh=  1299.5  ratio= 2.48  chk=4.0e-15
+   seed=123040027  25.7s   Nsw= 3381  R_k=0.423  T_coh=  3288.8  T_incoh=  2784.7  ratio= 0.85  chk=8.9e-15
+   seed=123040028  25.7s   Nsw= 3346  R_k=0.422  T_coh=  1499.6  T_incoh=  1603.1  ratio= 1.07  chk=1.2e-14
+   seed=123040029  25.7s   Nsw= 3210  R_k=0.419  T_coh=  2385.5  T_incoh=  3273.2  ratio= 1.37  chk=7.1e-15
+   seed=123040030  25.7s   Nsw= 3002  R_k=0.418  T_coh=  2802.2  T_incoh=  2993.8  ratio= 1.07  chk=1.3e-14
+   seed=123040031  25.8s   Nsw= 3127  R_k=0.421  T_coh=  1463.0  T_incoh=  1884.2  ratio= 1.29  chk=1.3e-14
+   total 827s
+
+   ⇒ kc060_A040: κ_C=0.60 A=0.40  R_kura=0.417  ρ_sig=0.0246  wedge=109°  <Nsw>=3125
+      T_coh=1929.5±868.5  T_incoh=2150.5±687.3
+      class |μ|: aL= 28.8 aN=  6.4 rL=  8.4 rN= 33.1  frac aL=0.71 rN=0.22
+   [checkpoint] 8/10 cells written → thor_session_117_class_detector_results.json
+
+>> kc070_A000: κ_p=0.300  κ_C=0.700  ω_std=0.0700  A=0.0000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=124900000
+   seed=124900000  25.7s   Nsw=  798  R_k=0.165  T_coh=    32.4  T_incoh=   329.3  ratio=10.16  chk=3.4e-15
+   seed=124900001  25.8s   Nsw=  730  R_k=0.164  T_coh=    28.1  T_incoh=   160.4  ratio= 5.71  chk=2.8e-15
+   seed=124900002  25.8s   Nsw=  564  R_k=0.161  T_coh=     4.4  T_incoh=    87.8  ratio=19.93  chk=3.5e-15
+   seed=124900003  25.7s   Nsw=  748  R_k=0.163  T_coh=    24.8  T_incoh=   266.5  ratio=10.76  chk=3.0e-15
+   seed=124900004  25.7s   Nsw=  836  R_k=0.166  T_coh=     8.8  T_incoh=   206.1  ratio=23.31  chk=4.0e-15
+   seed=124900005  25.8s   Nsw= 1084  R_k=0.172  T_coh=   108.6  T_incoh=   694.3  ratio= 6.39  chk=6.0e-15
+   seed=124900006  25.7s   Nsw= 1118  R_k=0.173  T_coh=    11.0  T_incoh=   193.4  ratio=17.65  chk=4.5e-15
+   seed=124900007  25.8s   Nsw=  906  R_k=0.167  T_coh=    45.8  T_incoh=    73.9  ratio= 1.61  chk=4.5e-15
+   seed=124900008  25.7s   Nsw=  752  R_k=0.163  T_coh=    29.5  T_incoh=   262.1  ratio= 8.88  chk=3.6e-15
+   seed=124900009  25.7s   Nsw=  948  R_k=0.167  T_coh=    13.6  T_incoh=   432.4  ratio=31.82  chk=5.6e-15
+   seed=124900010  25.7s   Nsw= 1322  R_k=0.176  T_coh=   140.7  T_incoh=  1062.5  ratio= 7.55  chk=3.6e-15
+   seed=124900011  25.7s   Nsw=  704  R_k=0.164  T_coh=    21.7  T_incoh=   237.8  ratio=10.96  chk=4.8e-15
+   seed=124900012  25.7s   Nsw=  896  R_k=0.169  T_coh=    24.0  T_incoh=   617.2  ratio=25.74  chk=2.8e-15
+   seed=124900013  25.9s   Nsw= 1028  R_k=0.173  T_coh=    40.2  T_incoh=   377.5  ratio= 9.39  chk=2.7e-15
+   seed=124900014  25.9s   Nsw=  736  R_k=0.167  T_coh=   139.2  T_incoh=  1772.6  ratio=12.74  chk=1.4e-14
+   seed=124900015  25.8s   Nsw=  996  R_k=0.166  T_coh=    72.5  T_incoh=   215.9  ratio= 2.98  chk=7.4e-15
+   seed=124900016  25.7s   Nsw= 1074  R_k=0.172  T_coh=    58.4  T_incoh=   545.4  ratio= 9.33  chk=6.0e-15
+   seed=124900017  25.7s   Nsw=  788  R_k=0.163  T_coh=    49.3  T_incoh=   259.2  ratio= 5.26  chk=4.0e-15
+   seed=124900018  25.7s   Nsw=  772  R_k=0.164  T_coh=    27.0  T_incoh=   370.0  ratio=13.68  chk=3.6e-15
+   seed=124900019  25.7s   Nsw= 1268  R_k=0.172  T_coh=    53.6  T_incoh=   593.9  ratio=11.08  chk=7.1e-15
+   seed=124900020  25.7s   Nsw=  946  R_k=0.170  T_coh=    12.2  T_incoh=   846.4  ratio=69.50  chk=2.2e-15
+   seed=124900021  25.7s   Nsw= 1218  R_k=0.178  T_coh=   222.4  T_incoh=  3430.4  ratio=15.42  chk=7.1e-15
+   seed=124900022  26.1s   Nsw= 1218  R_k=0.176  T_coh=    58.0  T_incoh=   486.1  ratio= 8.38  chk=7.2e-15
+   seed=124900023  25.9s   Nsw= 1120  R_k=0.173  T_coh=     8.0  T_incoh=   383.2  ratio=47.60  chk=4.0e-15
+   seed=124900024  25.9s   Nsw=  916  R_k=0.170  T_coh=    80.5  T_incoh=   830.4  ratio=10.31  chk=5.4e-15
+   seed=124900025  26.0s   Nsw=  856  R_k=0.168  T_coh=     1.8  T_incoh=   230.1  ratio=128.70  chk=5.6e-15
+   seed=124900026  25.8s   Nsw=  840  R_k=0.165  T_coh=     5.7  T_incoh=    93.2  ratio=16.30  chk=3.9e-15
+   seed=124900027  25.9s   Nsw=  916  R_k=0.170  T_coh=   127.0  T_incoh=   885.7  ratio= 6.97  chk=4.0e-15
+   seed=124900028  26.2s   Nsw= 1262  R_k=0.178  T_coh=     4.3  T_incoh=    99.7  ratio=22.95  chk=5.0e-15
+   seed=124900029  25.9s   Nsw=  738  R_k=0.167  T_coh=    37.9  T_incoh=   755.4  ratio=19.94  chk=2.5e-15
+   seed=124900030  26.0s   Nsw=  646  R_k=0.161  T_coh=     9.5  T_incoh=    54.1  ratio= 5.70  chk=2.7e-15
+   seed=124900031  25.8s   Nsw=  732  R_k=0.163  T_coh=    48.5  T_incoh=   511.4  ratio=10.55  chk=5.0e-15
+   total 826s
+
+   ⇒ kc070_A000: κ_C=0.70 A=0.00  R_kura=0.168  ρ_sig=0.0020  wedge=173°  <Nsw>=921
+      T_coh=48.4±49.6  T_incoh=542.6±627.8
+      class |μ|: aL= 10.2 aN=  8.2 rL=  4.1 rN= 14.4  frac aL=0.22 rN=0.43
+   [checkpoint] 9/10 cells written → thor_session_117_class_detector_results.json
+
+>> kc070_A040: κ_p=0.300  κ_C=0.700  ω_std=0.0700  A=0.4000  n_seeds=32  n_chunks=25  steps=1010000  seed_base=124040000
+   seed=124040000  25.8s   Nsw= 2542  R_k=0.390  T_coh=  1019.9  T_incoh=  1253.6  ratio= 1.23  chk=1.4e-14
+   seed=124040001  25.9s   Nsw= 2635  R_k=0.392  T_coh=   394.1  T_incoh=  2462.0  ratio= 6.25  chk=1.0e-14
+   seed=124040002  25.9s   Nsw= 2708  R_k=0.399  T_coh=  1850.2  T_incoh=  2613.6  ratio= 1.41  chk=7.1e-15
+   seed=124040003  25.9s   Nsw= 2849  R_k=0.403  T_coh=   979.6  T_incoh=  1526.5  ratio= 1.56  chk=2.3e-14
+   seed=124040004  25.8s   Nsw= 2880  R_k=0.399  T_coh=  1339.4  T_incoh=  2246.1  ratio= 1.68  chk=1.0e-14
+   seed=124040005  25.8s   Nsw= 3104  R_k=0.408  T_coh=  1104.4  T_incoh=  1600.6  ratio= 1.45  chk=3.6e-15
+   seed=124040006  25.8s   Nsw= 2954  R_k=0.408  T_coh=  1110.4  T_incoh=  1888.7  ratio= 1.70  chk=7.9e-15
+   seed=124040007  25.9s   Nsw= 2906  R_k=0.403  T_coh=  1096.7  T_incoh=  1805.5  ratio= 1.65  chk=1.1e-14
+   seed=124040008  25.8s   Nsw= 2700  R_k=0.395  T_coh=  1838.9  T_incoh=  2627.2  ratio= 1.43  chk=1.0e-14
+   seed=124040009  25.8s   Nsw= 2861  R_k=0.409  T_coh=  1783.6  T_incoh=  2264.0  ratio= 1.27  chk=1.8e-14
+   seed=124040010  25.7s   Nsw= 2540  R_k=0.389  T_coh=   396.7  T_incoh=  1175.7  ratio= 2.96  chk=7.2e-15
+   seed=124040011  25.8s   Nsw= 3023  R_k=0.401  T_coh=  1792.2  T_incoh=  2013.2  ratio= 1.12  chk=1.1e-14
+   seed=124040012  25.8s   Nsw= 2352  R_k=0.387  T_coh=  1210.4  T_incoh=  2057.8  ratio= 1.70  chk=1.5e-14
+   seed=124040013  26.1s   Nsw= 3142  R_k=0.410  T_coh=  1427.3  T_incoh=  1830.3  ratio= 1.28  chk=2.3e-14
+   seed=124040014  26.1s   Nsw= 2678  R_k=0.401  T_coh=   759.7  T_incoh=  1624.4  ratio= 2.14  chk=1.9e-14
+   seed=124040015  25.9s   Nsw= 3028  R_k=0.410  T_coh=  1596.6  T_incoh=  2167.5  ratio= 1.36  chk=9.9e-16
+   seed=124040016  25.8s   Nsw= 2747  R_k=0.400  T_coh=   285.8  T_incoh=  1299.3  ratio= 4.55  chk=5.7e-15
+   seed=124040017  25.8s   Nsw= 2674  R_k=0.408  T_coh=  1588.5  T_incoh=  1326.8  ratio= 0.84  chk=2.3e-14
+   seed=124040018  25.7s   Nsw= 2748  R_k=0.401  T_coh=  1547.9  T_incoh=  1468.5  ratio= 0.95  chk=1.6e-14
+   seed=124040019  25.8s   Nsw= 2802  R_k=0.397  T_coh=   454.5  T_incoh=  1664.1  ratio= 3.66  chk=2.8e-14
+   seed=124040020  25.8s   Nsw= 3037  R_k=0.404  T_coh=  1679.6  T_incoh=  1646.3  ratio= 0.98  chk=1.2e-14
+   seed=124040021  25.9s   Nsw= 3459  R_k=0.420  T_coh=  1852.0  T_incoh=  2055.1  ratio= 1.11  chk=1.1e-14
+   seed=124040022  26.1s   Nsw= 2712  R_k=0.399  T_coh=  1401.9  T_incoh=  1730.0  ratio= 1.23  chk=1.5e-14
+   seed=124040023  26.0s   Nsw= 2662  R_k=0.408  T_coh=   713.7  T_incoh=  1084.3  ratio= 1.52  chk=1.1e-14
+   seed=124040024  26.1s   Nsw= 3074  R_k=0.409  T_coh=  1877.2  T_incoh=  2196.4  ratio= 1.17  chk=5.0e-15
+   seed=124040025  26.0s   Nsw= 2848  R_k=0.397  T_coh=   596.5  T_incoh=  1691.5  ratio= 2.84  chk=1.4e-14
+   seed=124040026  25.9s   Nsw= 2736  R_k=0.411  T_coh=  1705.0  T_incoh=  1685.6  ratio= 0.99  chk=1.0e-14
+   seed=124040027  25.8s   Nsw= 2838  R_k=0.398  T_coh=   660.2  T_incoh=  1123.4  ratio= 1.70  chk=1.6e-14
+   seed=124040028  25.8s   Nsw= 3176  R_k=0.417  T_coh=  2365.3  T_incoh=  2259.8  ratio= 0.96  chk=5.0e-15
+   seed=124040029  25.8s   Nsw= 2599  R_k=0.397  T_coh=   763.2  T_incoh=  1489.1  ratio= 1.95  chk=5.3e-15
+   seed=124040030  25.8s   Nsw= 2528  R_k=0.393  T_coh=   812.0  T_incoh=  1866.1  ratio= 2.30  chk=6.4e-15
+   seed=124040031  25.8s   Nsw= 3138  R_k=0.419  T_coh=  2268.9  T_incoh=  2340.6  ratio= 1.03  chk=1.1e-14
+   total 827s
+
+   ⇒ kc070_A040: κ_C=0.70 A=0.40  R_kura=0.403  ρ_sig=0.0175  wedge=121°  <Nsw>=2834
+      T_coh=1258.5±560.3  T_incoh=1815.1±423.3
+      class |μ|: aL= 30.3 aN=  5.9 rL=  7.3 rN= 27.2  frac aL=0.72 rN=0.21
+   [checkpoint] 10/10 cells written → thor_session_117_class_detector_results.json
+
+Completed in 8271s (137.8 min)
+Results → thor_session_117_class_detector_results.json
