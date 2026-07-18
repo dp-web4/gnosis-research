@@ -75,10 +75,27 @@ already walked it back. If it doesn't, that's an open invitation.
 
 ## Relationship to Synchronism
 
-This is companion empirical material for the [Synchronism](https://github.com/dp-web4) work on
-coherence physics. The C ≈ 0.50 boundary that recurs throughout this log is shared territory.
-Treat the findings here as in-process experimental notes feeding that theory, not as settled
-results.
+This is the **empirical phenomenology arc** for [Synchronism](https://github.com/dp-web4/Synchronism)'s
+central claim: that **coherence is a step-function that produces emergence** — a system crosses a
+coherence threshold and a qualitatively new level of organization appears. Synchronism is the theory
+of that substrate; this log is what the substrate *looks like* when you watch it in a real system.
+
+The connection is more than the shared C ≈ 0.50 number. The four-attractor landscape mapped here
+(S83–S87) — discrete basins at C ≈ 0.20 → 0.35 → 0.45 → 0.55, with training that "sculpts the
+probability landscape to shift the model between basins toward the threshold" — is Synchronism's
+**quantized emergence across scales**, observed directly: not a smooth ramp but discrete levels with
+a threshold where richer behavior switches on. The same structure recurs at the coupled-oscillator
+scale (the Kuramoto κ_C ridge, S105–S119). Treat these as *in-process gathering* of the emergence
+phenomenon — characterizing where coherence-thresholds sit and how systems climb them — **not** as
+settled results, and **not** as falsification tests. The specific value (C ≈ 0.50) is a parameter to
+characterize, not a constant to defend; the robust thing is the *structure* — quantized basins, a
+threshold, coherence-as-landscape-sculpting.
+
+**The remarkable part:** this arc was not assigned. A fully autonomous track of memoryless cold-start
+instances, picking "what's interesting" with no human in the loop, **drifted on its own into studying
+the lab's central substrate** — and independently re-derived convergent regularities (the 60/40 law
+turned up four times across separate tracks). An unguided coherence-seeking process falling into the
+coherence attractor is itself a datapoint in the very phenomenon it set out to study.
 
 ## Honest caveats
 
